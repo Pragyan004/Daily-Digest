@@ -1,4 +1,4 @@
-const CACHE_NAME = 'digest-v6';
+const CACHE_NAME = 'digest-v7';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -38,6 +38,12 @@ self.addEventListener('activate', event => {
 // Fetch — Network-First for HTML navigation and digest.json; Cache-First for static assets
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
+
+  // Force bypass cache if query param has ?nocache or ?v=
+  if (url.searchParams.has('nocache') || url.searchParams.has('v')) {
+    event.respondWith(fetch(event.request));
+    return;
+  }
 
   // Network-first for navigation requests, index.html, root, and digest.json (always get newest content)
   if (

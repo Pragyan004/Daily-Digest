@@ -535,10 +535,11 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
         <div class="setting-desc">Enables direct natural language reasoning ("which firewalls were breached?", "all healthcare attacks").</div>
       </div>
       <div class="key-input-wrap">
-        <input type="password" id="geminiApiKeyInput" class="key-input" placeholder="AIzaSy... (saved locally)" onchange="saveGeminiKey()">
+        <input type="password" id="geminiApiKeyInput" class="key-input" placeholder="AIzaSy... or AQ... (saved locally)">
         <button class="btn-save-key" onclick="saveGeminiKey()">Save</button>
+        <button class="btn-save-key" style="background:#3B82F6;color:#fff" id="btnTestGemini" onclick="testGeminiKey()">Test Key</button>
       </div>
-      <div id="geminiKeyNotice" style="font-size:11px;color:var(--accent)"></div>
+      <div id="geminiKeyNotice" style="font-size:12px;margin-top:6px;line-height:1.4"></div>
     </div>
 
     <!-- Notification Toggle -->
@@ -1471,15 +1472,72 @@ function closeSettings(){
 }
 
 function saveGeminiKey(){
-  const val = document.getElementById('geminiApiKeyInput').value.trim();
+  const val = (document.getElementById('geminiApiKeyInput').value || '').trim();
   if(val){
     localStorage.setItem('gemini_api_key', val);
-    document.getElementById('geminiKeyNotice').textContent = '✓ Gemini API Key active and ready for AI search!';
-    showToast('✨ Gemini API Key saved!');
+    showToast('✨ Key saved! Testing connection…');
+    testGeminiKey();
   } else {
     localStorage.removeItem('gemini_api_key');
     document.getElementById('geminiKeyNotice').textContent = '';
     showToast('Gemini key removed');
+  }
+}
+
+async function testGeminiKey(){
+  const input = document.getElementById('geminiApiKeyInput');
+  const key = (input.value || localStorage.getItem('gemini_api_key') || '').trim();
+  const notice = document.getElementById('geminiKeyNotice');
+  const btn = document.getElementById('btnTestGemini');
+
+  if(!key){
+    notice.innerHTML = '<span style="color:#FF4757">❌ Please enter an API key first.</span>';
+    return;
+  }
+
+  if(btn) btn.textContent = 'Testing…';
+  notice.innerHTML = '<span style="color:var(--text-dim)">⏳ Connecting directly to Google Generative Language API…</span>';
+
+  try{
+    const cleanKey = encodeURIComponent(key);
+    const url = `https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`;
+    const res = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': key
+      }
+    });
+
+    const text = await res.text();
+    let data;
+    try { data = JSON.parse(text); } catch(e){ data = { raw: text }; }
+
+    if(res.ok && data && data.models){
+      const modelNames = data.models
+        .filter(m => (m.supportedGenerationMethods||[]).includes('generateContent'))
+        .map(m => m.name.replace('models/', ''))
+        .slice(0, 3)
+        .join(', ');
+      notice.innerHTML = `<div style="color:var(--accent);background:rgba(0,220,130,0.1);padding:8px 10px;border-radius:8px;margin-top:6px">
+        <strong>✅ Connected to Google Gemini!</strong><br>
+        <span style="font-size:11px">Models available: ${esc(modelNames || 'gemini-1.5-flash')}</span>
+      </div>`;
+      localStorage.setItem('gemini_api_key', key);
+    } else {
+      const errMsg = data.error?.message || text || `HTTP ${res.status}`;
+      notice.innerHTML = `<div style="color:#FF6B81;background:rgba(255,71,87,0.12);padding:10px 12px;border-radius:8px;margin-top:6px;line-height:1.4">
+        <strong>❌ Google Error (HTTP ${res.status}):</strong><br>
+        <span style="font-family:'JetBrains Mono',monospace;font-size:11.5px;word-break:break-all">${esc(errMsg)}</span>
+      </div>`;
+    }
+  }catch(err){
+    notice.innerHTML = `<div style="color:#FF6B81;background:rgba(255,71,87,0.12);padding:10px 12px;border-radius:8px;margin-top:6px">
+      <strong>❌ Connection Failed:</strong><br>
+      <span style="font-size:11px">${esc(err.message)}</span>
+    </div>`;
+  }finally{
+    if(btn) btn.textContent = 'Test Key';
   }
 }
 
@@ -1583,7 +1641,7 @@ setInterval(() => {
    Service Worker Registration & Update Check
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js?v=6').then(reg => {
+  navigator.serviceWorker.register('sw.js?v=7').then(reg => {
     // Check for updates to purge older cached versions immediately
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));
