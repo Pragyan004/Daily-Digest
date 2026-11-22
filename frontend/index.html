@@ -716,13 +716,15 @@ function handleSearchInput(val){
 let cachedGeminiModel = null;
 
 async function resolveGeminiModel(apiKey){
-  if(cachedGeminiModel) return cachedGeminiModel;
+  if(cachedGeminiModel) return { model: cachedGeminiModel, error: null };
 
-  const isAQ = apiKey.startsWith('AQ.');
+  const cleanKey = encodeURIComponent(apiKey);
   const listUrls = [
-    isAQ ? 'https://generativelanguage.googleapis.com/v1beta/models' : `https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey)}`,
-    isAQ ? 'https://generativelanguage.googleapis.com/v1/models' : `https://generativelanguage.googleapis.com/v1/models?key=${encodeURIComponent(apiKey)}`
+    `https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`,
+    `https://generativelanguage.googleapis.com/v1/models?key=${cleanKey}`
   ];
+
+  let lastListError = null;
 
   for(const url of listUrls){
     try{
@@ -733,8 +735,8 @@ async function resolveGeminiModel(apiKey){
           'x-goog-api-key': apiKey
         }
       });
-      if(res.ok){
-        const data = await res.json();
+      const data = await res.json().catch(() => null);
+      if(res.ok && data && data.models){
         const models = data.models || [];
         console.group('%c🤖 Gemini Available Models for your Key:', 'color: #3B82F6; font-weight: bold;');
         console.table(models.map(m => ({
@@ -755,14 +757,18 @@ async function resolveGeminiModel(apiKey){
 
           cachedGeminiModel = best.name.replace(/^models\//, '');
           console.log('%c✓ Auto-selected Gemini Model:', 'color: #00DC82; font-weight: bold;', cachedGeminiModel);
-          return cachedGeminiModel;
+          return { model: cachedGeminiModel, error: null };
         }
+      } else if(data && data.error){
+        console.warn('ListModels API error:', data.error);
+        lastListError = data.error.message || `Status ${res.status}`;
       }
     }catch(e){
       console.warn('Could not auto-discover models via ListModels:', e);
+      lastListError = e.message;
     }
   }
-  return null;
+  return { model: null, error: lastListError };
 }
 
 async function triggerGeminiSearch(){
@@ -812,10 +818,21 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
 
     // 1. Auto-discover active models supported by user's key via ModelService.ListModels
     let modelsToTry = [];
-    const discovered = await resolveGeminiModel(apiKey);
+    const { model: discovered, error: listError } = await resolveGeminiModel(apiKey);
+
     if(discovered){
       modelsToTry.push(discovered);
+    } else if(listError){
+      // Give the user the real root cause directly from Google
+      if(listError.includes('API has not been used') || listError.includes('disabled')){
+        throw new Error('Generative Language API is disabled in your Google Cloud project. Enable it in Google Cloud Console or create a free key at aistudio.google.com/apikey');
+      } else if(listError.includes('API key not valid') || listError.includes('unregistered')){
+        throw new Error('Gemini key not recognized. Please generate a new key at aistudio.google.com/apikey');
+      } else {
+        throw new Error(`Google API: ${listError}`);
+      }
     }
+
     // Fallback candidates
     ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-1.5-flash-latest', 'gemini-1.5-pro'].forEach(m => {
       if(!modelsToTry.includes(m)) modelsToTry.push(m);
@@ -825,14 +842,11 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     let lastStatus = 0;
     let lastErrorMsg = '';
 
-    const isAQ = apiKey.startsWith('AQ.');
-
     for(const model of modelsToTry){
       const apiVersions = ['v1beta', 'v1'];
       for(const apiVer of apiVersions){
-        const endpoint = isAQ
-          ? `https://generativelanguage.googleapis.com/${apiVer}/models/${model}:generateContent`
-          : `https://generativelanguage.googleapis.com/${apiVer}/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+        // Always supply ?key= in the URL and x-goog-api-key in headers for universal compatibility
+        const endpoint = `https://generativelanguage.googleapis.com/${apiVer}/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
 
         const headers = {
           'Content-Type': 'application/json',
@@ -1567,7 +1581,7 @@ setInterval(() => {
    Service Worker Registration & Update Check
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js?v=3').then(reg => {
+  navigator.serviceWorker.register('sw.js?v=5').then(reg => {
     // Check for updates to purge older cached versions immediately
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));
