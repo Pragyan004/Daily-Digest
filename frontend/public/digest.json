@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:46:04Z",
+  "generated_at": "2026-11-22T21:50:32Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -563,6 +563,24 @@
       "saved": false
     },
     {
+      "id": "de5ae5896e8b57a2e7620742322e8c5a3eb42de6044baf1a1ab8e003f3754297",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Stalled exit from cancelled Adani deal exposes Kenya to high claims",
+      "hook": "Stalled exit from cancelled Adani deal exposes Kenya to high claims",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.standardmedia.co.ke/business/article/2001562819/stalled-exit-from-cancelled-adani-deal-exposes-kenya-to-high-claims",
+      "published_at": "2026-11-22 21:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "9aa4cff0d0bd81809586545370da029d5298019bdac3cfa0213d6e9ae60ccd57",
       "category": "Business",
       "source": "Currents API",
@@ -761,24 +779,6 @@
       "saved": false
     },
     {
-      "id": "ae03157c0934a2ed38615ba8c32c2de5ff27b8929dfdaa3b57ef3374278e6b96",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "A ragtime benediction",
-      "hook": "A ragtime benediction",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/4741961_web1_NEEMAB1.jpg?w=1600",
-      "full_article_url": "https://www.winnipegfreepress.com/arts-and-life/entertainment/music/2026/11/22/a-ragtime-benediction",
-      "published_at": "2026-11-22 20:34:28 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
       "id": "6c887c5672cb3f82a6fa2ce2800784b6c97d41b32b6b370ff5bc5f321f668183",
       "category": "World",
       "source": "Currents API",
@@ -919,6 +919,42 @@
       "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226185.jpg",
       "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/16-year-old-to-be-charged-after-allegedly-punching-a-policeman-in-singapore039s-bedok",
       "published_at": "2026-11-22 21:19:44 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "1a78ca2ad5d0d363f8b2e064fb2235533aaf6a4bf83cc706fd03f48309e62daa",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Niyo: Lions have reason to celebrate with playoff berth in sight",
+      "hook": "Niyo: Lions have reason to celebrate with playoff berth in sight",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.detroitnews.com/story/sports/columnists/john-niyo/2026/11/22/niyo-lions-celebrate-playoff-berth-in-site/92913131007/",
+      "published_at": "2026-11-22 21:19:06 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "2f6503c52ad4e462737fefe72231700fba02abe6d16f15a9b04105668a5b66f4",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Lions outlast Buccaneers 31-21 in first game without Aidan Hutchinson",
+      "hook": "Lions outlast Buccaneers 31-21 in first game without Aidan Hutchinson",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/11/22/PDTN/92914696007-lions-tb-002.jpg?crop=3829,2155,x0,y992&width=3200&height=1801&format=pjpg&auto=webp",
+      "full_article_url": "https://www.detroitnews.com/story/sports/nfl/lions/2026/11/22/lions-outlast-buccaneers-31-21-in-first-game-without-aidan-hutchinson/92913758007/",
+      "published_at": "2026-11-22 21:07:02 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1101,46 +1137,10 @@
       "published_at": "2026-11-22 20:01:19 +0000",
       "cve_ids": [],
       "saved": false
-    },
-    {
-      "id": "64c23660d31f7a443e7f50423056b6b4fa7f68d19a40d0d04a43361417456cc8",
-      "category": "World",
-      "source": "Currents API",
-      "title": "US wants Russia to be sure that NATO is not seeking confrontation — Kushner",
-      "hook": "US wants Russia to be sure that NATO is not seeking confrontation — Kushner",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/world/2223081",
-      "published_at": "2026-11-22 19:52:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "ca321b8965818d1b9ef01cc6bc91d06a6a4f86dbb0523c6e175ca547b7815d7d",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Australia news LIVE: UN climate talks collapse, fail to reach agreement; Burke slams Hanson’s plan to cut humanitarian refugee intake",
-      "hook": "Australia news LIVE: UN climate talks collapse, fail to reach agreement; Burke slams Hanson’s plan to cut humanitarian refugee intake",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.ffx.io/images/$zoom_0.2677%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/58a462894a28effe9b8c3c83ba6bfa7fe79f7131",
-      "full_article_url": "https://www.smh.com.au/national/australia-news-live-un-climate-talks-collapse-fail-to-reach-agreement-burke-slams-hanson-s-plan-to-cut-humanitarian-refugee-intake-20261123-p61gc9.html",
-      "published_at": "2026-11-22 19:45:08 +0000",
-      "cve_ids": [],
-      "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T21:46:04Z",
+    "generated_at": "2026-11-22T21:50:32Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
