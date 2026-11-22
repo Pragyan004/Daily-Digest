@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:22:30Z",
+  "generated_at": "2026-11-22T22:34:30Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -59,6 +59,24 @@
       "saved": false
     },
     {
+      "id": "5d6340579b02c4b592e39e4047ca5d83034f3b098441b33aaf7b392a90ad1f26",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "We Independently Reproduced the Riemann Hypothesis Proof: 175,187 Lean Files, Zero Errors, and a…",
+      "hook": "We Independently Reproduced the Riemann Hypothesis Proof: 175,187 Lean Files, Zero Errors, and a…",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://miro.medium.com/v2/resize:fit:1200/0*6kzJMu-b8srpG-0c.jpg",
+      "full_article_url": "https://arxivgpt.medium.com/we-independently-reproduced-the-riemann-hypothesis-proof-175-187-lean-files-zero-errors-and-a-c099f7af3dc5",
+      "published_at": "2026-11-22 22:10:03 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "7ebc54de2c71ce235205a89b08887ee769d5e60f3158837772a34204d6545b9a",
       "category": "Technology",
       "source": "Currents API",
@@ -73,6 +91,42 @@
       "image_url": null,
       "full_article_url": "https://www.wsj.com/opinion/how-to-kill-a-bull-market-ai-policy-15fb5af6",
       "published_at": "2026-11-22 22:01:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "5cbcd3c4adf4ece3f9eaa4e8247ad393b0fbaab1b8fb2e7a13f770ccfcc949e3",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "How Short Is Ukraine of Air Defence Missiles?",
+      "hook": "How Short Is Ukraine of Air Defence Missiles?",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://miro.medium.com/v2/resize:fit:960/1*nEm8JFl4uCTTwPntG2PeMg.jpeg",
+      "full_article_url": "https://medium.com/our-world-in-focus/how-short-is-ukraine-of-air-defence-missiles-3955371319db",
+      "published_at": "2026-11-22 22:00:24 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "63452fb76664e003ee1f32759141ea4bedb100fe53b58a33c0e39ec2d07642ea",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Could We Stop an Asteroid Headed for Earth?",
+      "hook": "Could We Stop an Asteroid Headed for Earth?",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://miro.medium.com/v2/resize:fit:1024/1*KTvl3ls_PnXqW5tocBCwbA.jpeg",
+      "full_article_url": "https://medium.com/our-world-in-focus/could-we-stop-an-asteroid-headed-for-earth-6e5394b9f515",
+      "published_at": "2026-11-22 21:59:53 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -127,6 +181,60 @@
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/V8_PHASE-1_LOBTS.jpg?resize=1200,900",
       "full_article_url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
       "published_at": "2026-11-22 21:42:48 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "e4cd014bc2516fce939b4ab670e6899942d8b4ff2c8aeb8240fbe85ec8083a0b",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Four-Year ChatGPT Accounts Banned Overnight: Why Seniority Never Shields Your History",
+      "hook": "Four-Year ChatGPT Accounts Banned Overnight: Why Seniority Never Shields Your History",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*HrYBNE9um2wFIXMYAeYqDA.png",
+      "full_article_url": "https://medium.com/@jiarex/four-year-chatgpt-accounts-banned-overnight-why-seniority-never-shields-your-history-e27e5d9b3e51",
+      "published_at": "2026-11-22 21:41:01 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "8f8e5eeab69810b40416f2a4d75e17e3da9efab00dc2ee128dbee432e657889e",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "How Many Strangers Are Living in Your Website?",
+      "hook": "How Many Strangers Are Living in Your Website?",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+      "full_article_url": "https://medium.com/@founder_17925/how-many-strangers-are-living-in-your-website-57bce72d1f48",
+      "published_at": "2026-11-22 21:39:01 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "15c87193ceaf46733f4a75e671e1e269683a948e060ec696e2a96b650254979b",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Caring for a Parent Who Lives Alone, Without Turning Their Home Into a Surveillance Site",
+      "hook": "Caring for a Parent Who Lives Alone, Without Turning Their Home Into a Surveillance Site",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+      "full_article_url": "https://medium.com/@zhulianxing/caring-for-a-parent-who-lives-alone-without-turning-their-home-into-a-surveillance-site-01b815e7f5b9",
+      "published_at": "2026-11-22 21:36:02 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -311,114 +419,6 @@
       "saved": false
     },
     {
-      "id": "3a4daa769c2f5085d496e4e845397e2a160301330d86af7cd0f92f22556044fe",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "These iOS settings will help you control your mobile data use - Engadget",
-      "hook": "These iOS settings will help you control your mobile data use - Engadget",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/these-ios-settings-will-help-you-control-your-mobile-data-use/l-intro-1794801627.jpg",
-      "full_article_url": "https://www.engadget.com/2319519/ios-settings-help-control-mobile-data-use/",
-      "published_at": "2026-11-22 20:45:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "00cd6d88487e28326e309a66e4a37d006240a1e2d2a4ae20ad437e7ae422e8fd",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Russia is towing drone-hit cargo ship after Baltic Sea attack",
-      "hook": "Russia is towing drone-hit cargo ship after Baltic Sea attack",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://images.euronews.com/articles/stories/10/00/36/70/1200x675_cmsv2_70afc514-edf9-57bd-b999-1e956d1cb25e-10003670.jpg",
-      "full_article_url": "https://www.euronews.com/2026/11/22/finland-confirms-russia-is-towing-drone-hit-cargo-ship-after-baltic-sea-attack",
-      "published_at": "2026-11-22 20:38:31 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "9255846b176b6dde99cc8163e797167a41ce2ef2b130fa44aa0a01f123c2069b",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "MS Dhoni, Sakshi Attend Kavya Maran And Anirudh Ravichander's Wedding Reception In Chennai",
-      "hook": "MS Dhoni, Sakshi Attend Kavya Maran And Anirudh Ravichander's Wedding Reception In Chennai",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://sm.mashable.com/mashable_in/seo/default/msdhonisakshi_tf5h.jpg",
-      "full_article_url": "https://in.mashable.com/sports/116478/ms-dhoni-sakshi-attend-kavya-maran-and-anirudh-ravichanders-wedding-reception-in-chennai",
-      "published_at": "2026-11-22 20:38:19 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "af7a1d71080555fb9f35eec79c91aebcb96c5c29ce77a69e0a245a82e1eee3c8",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "iPhone Duo Could Get More Lock Screen Widgets, Leak Suggests",
-      "hook": "iPhone Duo Could Get More Lock Screen Widgets, Leak Suggests",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://images.macrumors.com/t/3gVkkZa6iu4DUibOwH7QU2RtMac=/2500x/article-new/2026/11/iphone-duo-cyber-monday.jpeg",
-      "full_article_url": "https://www.macrumors.com/2026/11/22/iphone-duo-could-get-more-lock-screen-widgets/",
-      "published_at": "2026-11-22 20:38:16 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "eff1bfad08901b337e3c6f8bdb2c09aede5c79d69260ef40d9c7f4c43c4d1bc2",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age",
-      "hook": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108554284-1795017875830-gettyimages-2305725511-_s019615_hvtmmvsn.jpeg?v=1795017895&w=1920&h=1080",
-      "full_article_url": "https://www.techmeme.com/261122/p11",
-      "published_at": "2026-11-22 20:35:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f8726eb16bea2c0e2dc1454346d3814d4f666be90e4701450c1652f5d4410eef",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Bisleri Faces Prosecution After Bromate And Harmful Chemicals Detected In Water Sample",
-      "hook": "Bisleri Faces Prosecution After Bromate And Harmful Chemicals Detected In Water Sample",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://sm.mashable.com/mashable_in/seo/default/bisleri_hruc.jpg",
-      "full_article_url": "https://in.mashable.com/culture/116477/bisleri-faces-prosecution-after-bromate-and-harmful-chemicals-detected-in-water-sample",
-      "published_at": "2026-11-22 20:32:30 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
       "id": "e7b837b08fd75b08b4fcb3141b5cb5963af071e6b1afc7e528ba35c29236003a",
       "category": "Business",
       "source": "Currents API",
@@ -545,6 +545,24 @@
       "saved": false
     },
     {
+      "id": "4811201fa47b85b4ae263332161fce1f6b8b80510e45c5832f8098dd5644b1ea",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Asian Authorities Fight Back Against AI Stock Selloff",
+      "hook": "Asian Authorities Fight Back Against AI Stock Selloff",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/izlXCFKyPOqk/v6/1200x900.jpg",
+      "full_article_url": "https://www.bloomberg.com/news/newsletters/2026-11-22/asian-authorities-fight-back-against-ai-stock-selloff",
+      "published_at": "2026-11-22 21:38:26 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "20d883dcbcd6d07781cacd450d0e65f40452d9fdee4314bbc9b3d8b8f67f14d5",
       "category": "Business",
       "source": "Currents API",
@@ -613,6 +631,24 @@
       "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
       "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/tylen-riley-scores-24-points-and-cincinnati-outlasts-umass-lowell-78-68",
       "published_at": "2026-11-22 21:28:49 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "9efecbfc46d9b175b0e15a649329c6748106c6389970f7934ed6b6f74aeea4b9",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Sheila Mangubat, ‘90 Day Fiancé’ Reality Star, Dies At 35",
+      "hook": "Sheila Mangubat, ‘90 Day Fiancé’ Reality Star, Dies At 35",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.forbes.com/sites/timlammers/2026/11/22/sheila-mangubat-90-day-fianc-reality-star-dies-at-35/",
+      "published_at": "2026-11-22 21:26:48 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -739,42 +775,6 @@
       "image_url": null,
       "full_article_url": "https://www.inc.com/victoria-salves/noah-wyle-figs-2-millions-dollars-fight-medical-debt-could-erase-200-million-dollars/91440749",
       "published_at": "2026-11-22 21:03:44 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "9ca863abe2fe34a623e5b7baed5580a0140f8674fbb9d7744f741432ef17cec5",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Spacecraft begins orbit of Mercury, with a glitch reported",
-      "hook": "Spacecraft begins orbit of Mercury, with a glitch reported",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://dam.mediacorp.sg/image/upload/s--kg6pebP5--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-22T210021Z_1_LYNXNPEMAL0J0_RTROPTP_3_NETHERLANDS-SPACE-BEPICOLOMBO.JPG?itok=31tOCHIB",
-      "full_article_url": "https://www.channelnewsasia.com/business/spacecraft-begins-orbit-mercury-glitch-reported-6573366",
-      "published_at": "2026-11-22 21:00:21 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "d9545f8558340903da671410a3181f953eb9a742c959767d86bd9d2f8a3d8315",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Americans Are Cutting Back This Christmas — Here's Why",
-      "hook": "Americans Are Cutting Back This Christmas — Here's Why",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/Early-shoppers-found-bargains-and-plenty.jpg",
-      "full_article_url": "https://www.benzinga.com/personal-finance/financial-advisors/26/11/63517539/americans-are-cutting-back-this-christmas-heres-why",
-      "published_at": "2026-11-22 21:00:08 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1140,7 +1140,7 @@
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T22:22:30Z",
+    "generated_at": "2026-11-22T22:34:30Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1214,6 +1214,27 @@
       ],
       "Technology": [
         {
+          "id": "5d6340579b02c4b592e39e4047ca5d83034f3b098441b33aaf7b392a90ad1f26",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "We Independently Reproduced the Riemann Hypothesis Proof: 175,187 Lean Files, Zero Errors, and a…",
+          "hook": "We Independently Reproduced the Riemann Hypothesis Proof: 175,187 Lean Files, Zero Errors, and a…",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://miro.medium.com/v2/resize:fit:1200/0*6kzJMu-b8srpG-0c.jpg",
+          "full_article_url": "https://arxivgpt.medium.com/we-independently-reproduced-the-riemann-hypothesis-proof-175-187-lean-files-zero-errors-and-a-c099f7af3dc5",
+          "published_at": "2026-11-22 22:10:03 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Technology Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "7ebc54de2c71ce235205a89b08887ee769d5e60f3158837772a34204d6545b9a",
           "category": "Technology",
           "source": "Currents API",
@@ -1230,46 +1251,25 @@
           "published_at": "2026-11-22 22:01:00 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Technology Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "04a3ff300807bfefc0dd794c19bdb7e4fe691fe131ef0289775e44fbfa329249",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
-          "hook": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.engadget.com/img/gallery/why-your-monitor-flickers-when-you-turn-it-on-and-can-it-be-fixed/l-intro-1794601400.jpg",
-          "full_article_url": "https://www.engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix/",
-          "published_at": "2026-11-22 21:45:00 +0000",
-          "cve_ids": [],
-          "saved": false,
           "viral_badge": "⚡ Viral Discussion",
           "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "e21ba50d387c16b85b28f12ad76df44a7378d28579c23cdde0b51e0b91bd7132",
+          "id": "5cbcd3c4adf4ece3f9eaa4e8247ad393b0fbaab1b8fb2e7a13f770ccfcc949e3",
           "category": "Technology",
           "source": "Currents API",
-          "title": "FSD 15 Efficiency Only Needs Ai4",
-          "hook": "FSD 15 Efficiency Only Needs Ai4",
+          "title": "How Short Is Ukraine of Air Defence Missiles?",
+          "hook": "How Short Is Ukraine of Air Defence Missiles?",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://www.nextbigfuture.com/2026/11/fsd-15-efficiency-only-needs-ai4.html",
-          "published_at": "2026-11-22 21:44:42 +0000",
+          "image_url": "https://miro.medium.com/v2/resize:fit:960/1*nEm8JFl4uCTTwPntG2PeMg.jpeg",
+          "full_article_url": "https://medium.com/our-world-in-focus/how-short-is-ukraine-of-air-defence-missiles-3955371319db",
+          "published_at": "2026-11-22 22:00:24 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
