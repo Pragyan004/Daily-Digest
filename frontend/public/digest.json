@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:34:30Z",
+  "generated_at": "2026-11-22T22:39:15Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -59,6 +59,114 @@
       "saved": false
     },
     {
+      "id": "70f606efa9d0e30260da36c9bbdcefb149a7cef72d01779fc7d1a9d35c5f93e6",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "This free app connects your Android phone to your Windows PC wirelessly",
+      "hook": "This free app connects your Android phone to your Windows PC wirelessly",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.engadget.com/2319544/free-app-connects-android-phone-windows-pc-wirelessly-plainapp/",
+      "published_at": "2026-11-22 22:15:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "fa6e9aa756e1472cb15cd2b7036c54f27ee0d8ab3e6d01e04d91af727e1d3c61",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-116799 | Apache Perl write buf/len/offset out-of-bounds",
+      "hook": "CVE-2026-116799 | Apache Perl write buf/len/offset out-of-bounds",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442233",
+      "published_at": "2026-11-22 22:14:20 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "fe60b6e7f29a074ec569a87fbfd1778dda3c5cd645e1bfd7f0bad527e63c8ef7",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-116772 | Apache Perl SvPVX @ out-of-bounds",
+      "hook": "CVE-2026-116772 | Apache Perl SvPVX @ out-of-bounds",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442232",
+      "published_at": "2026-11-22 22:13:50 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "c712a42e97982b4df368561aed76480f09c3b2d2b92190a201b9d4becdc4ae35",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-116005 | Apache Perl $r->set_basic_credentials stack-based overflow",
+      "hook": "CVE-2026-116005 | Apache Perl $r->set_basic_credentials stack-based overflow",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442231",
+      "published_at": "2026-11-22 22:13:50 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "dbda56b6aa436cee46d7b10d0ae807cb3a6e73bca4d4652c966b6d910e9013cd",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-116032 | Apache Software Foundation Apache Perl Apache2::Module::loaded stack-based overflow",
+      "hook": "CVE-2026-116032 | Apache Software Foundation Apache Perl Apache2::Module::loaded stack-based overflow",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442230",
+      "published_at": "2026-11-22 22:12:54 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "a13b5d696adc81a00f70dbb8553bda44bdb1b09db3f82063142acc96c0a6598e",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-116001 | Perl null pointer dereference",
+      "hook": "CVE-2026-116001 | Perl null pointer dereference",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442229",
+      "published_at": "2026-11-22 22:12:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "5d6340579b02c4b592e39e4047ca5d83034f3b098441b33aaf7b392a90ad1f26",
       "category": "Technology",
       "source": "Currents API",
@@ -113,6 +221,42 @@
       "saved": false
     },
     {
+      "id": "f3a0cb32942d1ed14b6b3f2ca290299699fe2922191a9c8c51b0c640535834e2",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "How to safely clean your PC's GPU to avoid damaging it in the process - Engadget",
+      "hook": "How to safely clean your PC's GPU to avoid damaging it in the process - Engadget",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.engadget.com/img/gallery/how-to-safely-clean-your-pcs-gpu-to-avoid-damaging-it-in-the-process/l-intro-1794604743.jpg",
+      "full_article_url": "https://www.engadget.com/2319541/safely-clean-pc-gpu-avoid-damage/",
+      "published_at": "2026-11-22 22:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "1c804a9030e91b95d142277aaaf9179ffc3c81ade5dcb02e57541f8e94cda149",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Best Black Friday TV deal: Save $650 on the LG 85-Inch QNED AI 4K Smart TV in the Amazon Black Friday sale.",
+      "hook": "Best Black Friday TV deal: Save $650 on the LG 85-Inch QNED AI 4K Smart TV in the Amazon Black Friday sale.",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://helios-i.mashable.com/imagery/articles/04jTSH9yjNEeRJ92FxJOr1A/hero-image.fill.size_1200x675.v1795383446.jpg",
+      "full_article_url": "https://mashable.com/tech/nov-22-lg-85-inch-qned-ai-4k-tv-early-black-friday-deal",
+      "published_at": "2026-11-22 22:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "63452fb76664e003ee1f32759141ea4bedb100fe53b58a33c0e39ec2d07642ea",
       "category": "Technology",
       "source": "Currents API",
@@ -127,6 +271,42 @@
       "image_url": "https://miro.medium.com/v2/resize:fit:1024/1*KTvl3ls_PnXqW5tocBCwbA.jpeg",
       "full_article_url": "https://medium.com/our-world-in-focus/could-we-stop-an-asteroid-headed-for-earth-6e5394b9f515",
       "published_at": "2026-11-22 21:59:53 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "e1406c483dd69b0ecb4fe4df8dff2b92ec76eec4a716cda22bfad10f0be13811",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-134867 | Assimp up to 6.0.6 FBX File GetRotationKeyframeList allocation of resources",
+      "hook": "CVE-2026-134867 | Assimp up to 6.0.6 FBX File GetRotationKeyframeList allocation of resources",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442228",
+      "published_at": "2026-11-22 21:52:45 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "f9001e449c7d1ba9cceb699c92f4128b00d98552b53bd37ceb1d61605f71a310",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-134861 | Assimp up to 6.0.6 glTF Asset glTFAsset.inl out-of-bounds write",
+      "hook": "CVE-2026-134861 | Assimp up to 6.0.6 glTF Asset glTFAsset.inl out-of-bounds write",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442227",
+      "published_at": "2026-11-22 21:52:39 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -235,186 +415,6 @@
       "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
       "full_article_url": "https://medium.com/@zhulianxing/caring-for-a-parent-who-lives-alone-without-turning-their-home-into-a-surveillance-site-01b815e7f5b9",
       "published_at": "2026-11-22 21:36:02 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "a54c629e9a0fb24b8d0753eb9d3a26cff3033a5a1d90ca48e2dea5ee15018621",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "The cool phone camera trick that can test your remote control's battery - Engadget",
-      "hook": "The cool phone camera trick that can test your remote control's battery - Engadget",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/the-cool-phone-camera-trick-that-can-test-your-remote-controls-battery/l-intro-1794630742.jpg",
-      "full_article_url": "https://www.engadget.com/2319533/how-to-use-phone-test-remote-control-battery/",
-      "published_at": "2026-11-22 21:30:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "6b9740563c3233e9fc335d2f118ca4451941c7b454d110f6ef6d9911baf49106",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "9 people shot at a central California concert; 1 in critical condition",
-      "hook": "9 people shot at a central California concert; 1 in critical condition",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.keloland.com/news/national-world-news/ap-9-people-shot-at-a-central-california-concert-1-in-critical-condition/",
-      "published_at": "2026-11-22 21:16:05 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "cac17eecbc308b66dbde193c536d837ef50471cae1e3bba84c8e39b72dc2b06b",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Which solar panel type is best for your home? - Engadget",
-      "hook": "Which solar panel type is best for your home? - Engadget",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/which-solar-panel-type-is-best-for-your-home/l-intro-1794509643.jpg",
-      "full_article_url": "https://www.engadget.com/2319531/solar-panel-types-best-home-use/",
-      "published_at": "2026-11-22 21:15:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "e169c125eae40b966bea807757599a5ae921cf132c4393c4dbe2ca5b837f0099",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Week Notes 26#47 · Jamie Tanna | Software Engineer",
-      "hook": "Week Notes 26#47 · Jamie Tanna | Software Engineer",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.jvt.me/img/profile.jpg",
-      "full_article_url": "https://www.jvt.me/week-notes/2026/47/",
-      "published_at": "2026-11-22 21:03:45 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "7aaba70f0b275b7f7ad6bcd1cca54af827ea22601035d297410d17f1621ddae7",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "The best apps to make new friends right now | TechCrunch",
-      "hook": "The best apps to make new friends right now | TechCrunch",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-596631439.jpg?resize=1200,800",
-      "full_article_url": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
-      "published_at": "2026-11-22 21:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "c659db5b3ee9148a05ad098fa6509ceee166048b36c70df24525ce955580db53",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "How Secure Is Your Password? Here's How To Test It - Engadget",
-      "hook": "How Secure Is Your Password? Here's How To Test It - Engadget",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/how-secure-is-your-password-heres-how-to-test-it/l-intro-1794581081.jpg",
-      "full_article_url": "https://www.engadget.com/2319522/how-secure-is-password/",
-      "published_at": "2026-11-22 21:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f4051cfaac55abcbc4037065960e50243fc9ce16885a9347f029b876772be87f",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Can Cyberleek's leaked GTA 6 Xbox build become a PC port? Three GitHub projects are trying, without the executable",
-      "hook": "Can Cyberleek's leaked GTA 6 Xbox build become a PC port? Three GitHub projects are trying, without the executable",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Jason-and-Lucia-robbing-a-bank-vault-in-GTA-6-Image-Source-Rockstar-Games.jpg.jpeg",
-      "full_article_url": "https://www.notebookcheck.net/Can-Cyberleek-s-leaked-GTA-6-Xbox-build-become-a-PC-port-Three-GitHub-projects-are-trying-without-the-executable.1456848.0.html",
-      "published_at": "2026-11-22 20:58:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "04c501a00a12590b1ec4ebd5219d52e3a9321a765bf89bb1bbfc2a80302bea47",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Deal: Amazon's Black Friday deal discounts the Pixel 11 Pro and Pixel 11 Pro XL by 31%",
-      "hook": "Deal: Amazon's Black Friday deal discounts the Pixel 11 Pro and Pixel 11 Pro XL by 31%",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/black-friday-amazon-us/-952x498w6/gsmarena_002.jpg",
-      "full_article_url": "https://www.gsmarena.com/deal_amazons_black_friday_deal_discounts_the_pixel_11_pro_and_pixel_11_pro_xl_by_31-news-75570.php",
-      "published_at": "2026-11-22 20:51:02 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "ca9f86531334967c0aceb6ed406d2b9fc3c2b0d1985eea2cfd725c769aa27cd6",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Opinion | America Hits the Brakes on AI",
-      "hook": "Opinion | America Hits the Brakes on AI",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
-      "published_at": "2026-11-22 20:47:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "0681bee7e06892d23a31be94774a226d1ac7b14f7c0e4869ccc9b631e55b9d56",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Your “free” QR code might stop working. We tested 20 generators to see which ones",
-      "hook": "Your “free” QR code might stop working. We tested 20 generators to see which ones",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
-      "full_article_url": "https://medium.com/@endureqr/your-free-qr-code-might-stop-working-we-tested-20-generators-to-see-which-ones-12b38e61ea7b",
-      "published_at": "2026-11-22 20:46:44 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -761,20 +761,20 @@
       "saved": false
     },
     {
-      "id": "ca6516b16c46cdc48dccbb7e488887280090d63729d5e06926a9a2b2d50936bd",
+      "id": "1bf203f70bcbb488acbd8e8b54cfd7681efef1ae4dbc79234b47e11bb350e77f",
       "category": "Business",
       "source": "Currents API",
-      "title": "Noah Wyle and Figs Are Giving $2 Million to Fight Medical Debt. It Could Erase $200 Million",
-      "hook": "Noah Wyle and Figs Are Giving $2 Million to Fight Medical Debt. It Could Erase $200 Million",
+      "title": "MASPRO delivers 100 per cent more percussion hours with upgraded underground cradle assembly - Australian Mining",
+      "hook": "MASPRO delivers 100 per cent more percussion hours with upgraded underground cradle assembly - Australian Mining",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.inc.com/victoria-salves/noah-wyle-figs-2-millions-dollars-fight-medical-debt-could-erase-200-million-dollars/91440749",
-      "published_at": "2026-11-22 21:03:44 +0000",
+      "image_url": "https://www.australianmining.com.au/wp-content/uploads/2026/11/Image-Maspro.jpg",
+      "full_article_url": "https://www.australianmining.com.au/maspro-delivers-100-per-cent-more-percussion-hours-with-upgraded-underground-cradle-assembly/",
+      "published_at": "2026-11-22 21:07:36 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1140,7 +1140,7 @@
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T22:34:30Z",
+    "generated_at": "2026-11-22T22:39:15Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1214,32 +1214,11 @@
       ],
       "Technology": [
         {
-          "id": "5d6340579b02c4b592e39e4047ca5d83034f3b098441b33aaf7b392a90ad1f26",
+          "id": "70f606efa9d0e30260da36c9bbdcefb149a7cef72d01779fc7d1a9d35c5f93e6",
           "category": "Technology",
           "source": "Currents API",
-          "title": "We Independently Reproduced the Riemann Hypothesis Proof: 175,187 Lean Files, Zero Errors, and a…",
-          "hook": "We Independently Reproduced the Riemann Hypothesis Proof: 175,187 Lean Files, Zero Errors, and a…",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://miro.medium.com/v2/resize:fit:1200/0*6kzJMu-b8srpG-0c.jpg",
-          "full_article_url": "https://arxivgpt.medium.com/we-independently-reproduced-the-riemann-hypothesis-proof-175-187-lean-files-zero-errors-and-a-c099f7af3dc5",
-          "published_at": "2026-11-22 22:10:03 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "🔥 Top Technology Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "7ebc54de2c71ce235205a89b08887ee769d5e60f3158837772a34204d6545b9a",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "Opinion | How to Kill a Bull Market",
-          "hook": "Opinion | How to Kill a Bull Market",
+          "title": "This free app connects your Android phone to your Windows PC wirelessly",
+          "hook": "This free app connects your Android phone to your Windows PC wirelessly",
           "bullets": [
             "See full article for details",
             "Link below"
@@ -1247,8 +1226,29 @@
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
           "image_url": null,
-          "full_article_url": "https://www.wsj.com/opinion/how-to-kill-a-bull-market-ai-policy-15fb5af6",
-          "published_at": "2026-11-22 22:01:00 +0000",
+          "full_article_url": "https://www.engadget.com/2319544/free-app-connects-android-phone-windows-pc-wirelessly-plainapp/",
+          "published_at": "2026-11-22 22:15:00 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Technology Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "fa6e9aa756e1472cb15cd2b7036c54f27ee0d8ab3e6d01e04d91af727e1d3c61",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "CVE-2026-116799 | Apache Perl write buf/len/offset out-of-bounds",
+          "hook": "CVE-2026-116799 | Apache Perl write buf/len/offset out-of-bounds",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": null,
+          "full_article_url": "https://vuldb.com/vuln/442233",
+          "published_at": "2026-11-22 22:14:20 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1256,20 +1256,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "5cbcd3c4adf4ece3f9eaa4e8247ad393b0fbaab1b8fb2e7a13f770ccfcc949e3",
+          "id": "fe60b6e7f29a074ec569a87fbfd1778dda3c5cd645e1bfd7f0bad527e63c8ef7",
           "category": "Technology",
           "source": "Currents API",
-          "title": "How Short Is Ukraine of Air Defence Missiles?",
-          "hook": "How Short Is Ukraine of Air Defence Missiles?",
+          "title": "CVE-2026-116772 | Apache Perl SvPVX @ out-of-bounds",
+          "hook": "CVE-2026-116772 | Apache Perl SvPVX @ out-of-bounds",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://miro.medium.com/v2/resize:fit:960/1*nEm8JFl4uCTTwPntG2PeMg.jpeg",
-          "full_article_url": "https://medium.com/our-world-in-focus/how-short-is-ukraine-of-air-defence-missiles-3955371319db",
-          "published_at": "2026-11-22 22:00:24 +0000",
+          "image_url": null,
+          "full_article_url": "https://vuldb.com/vuln/442232",
+          "published_at": "2026-11-22 22:13:50 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
