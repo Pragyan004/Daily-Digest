@@ -447,7 +447,7 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
 <header class="topbar">
   <div class="topbar-left">
     <div class="topbar-title-row">
-      <div class="topbar-title">☕ Digest</div>
+      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v12</span></div>
     </div>
     <div class="topbar-sub">
       <span id="genTs">—</span>
@@ -1608,11 +1608,17 @@ setInterval(() => {
 }, 30000);
 
 /* ═══════════════════════════════════════
-   Service Worker Registration & Update Check
+   Service Worker Registration & Cache Flush
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
+  navigator.serviceWorker.getRegistrations().then(regs => {
+    for(let r of regs){
+      if(r.active && !r.active.scriptURL.includes('v=12')){
+        r.unregister();
+      }
+    }
+  });
   navigator.serviceWorker.register('sw.js?v=12').then(reg => {
-    // Check for updates to purge older cached versions immediately
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));
 }
