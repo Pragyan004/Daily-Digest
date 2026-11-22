@@ -1,0 +1,6 @@
+feedparser
+trafilatura
+beautifulsoup4
+requests
+google-genai
+python-dotenv

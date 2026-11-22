@@ -1,0 +1,90 @@
+# ============================================================
+# Morning News Digest — GitHub Actions Workflow & Deployment
+# ============================================================
+# Runs daily at 02:00 UTC (07:30 AM IST) to fetch security news,
+# generate the AI summary via Gemini, commit the new digest,
+# and deploy the mobile PWA directly to GitHub Pages.
+# ============================================================
+
+name: Morning News Digest
+
+on:
+  schedule:
+    # 02:00 UTC = 07:30 AM IST
+    - cron: '0 2 * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Manual trigger button in GitHub Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  generate-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out repository
+      - uses: actions/checkout@v4
+
+      # 2. Set up Python with cache
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+
+      # 4. Generate digest (falls back to --mock if secrets not yet set)
+      - name: Generate digest
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CURRENTS_API_KEY: ${{ secrets.CURRENTS_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          APP_URL: ${{ secrets.APP_URL }}
+        run: |
+          if [ -n "$GEMINI_API_KEY" ]; then
+            python backend/generate_digest.py
+          else
+            echo "GEMINI_API_KEY not configured yet — running with --mock data"
+            python backend/generate_digest.py --mock
+          fi
+
+      # 5. Commit and push updated digest.json
+      - name: Commit and push digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/digest.json
+          git diff --cached --quiet || git commit -m "📰 Daily digest $(date -u +%Y-%m-%d)"
+          git push || echo "Push skipped or branch protected"
+
+      # 6. Prepare frontend directory for GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'frontend'
+
+  deploy-pages:
+    needs: generate-digest
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
