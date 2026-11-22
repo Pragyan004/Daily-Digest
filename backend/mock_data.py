@@ -272,3 +272,97 @@ def generate_mock_articles() -> list[dict]:
             }
         )
     return result
+
+
+def generate_mock_weekly_recap(articles: list[dict] | None = None) -> dict:
+    """Return top viral & most critical stories of the week grouped by category."""
+    if not articles:
+        articles = generate_mock_articles()
+
+    by_id = {a["id"]: a for a in articles}
+
+    # Selected viral highlights per category with impact badge & viral score
+    viral_configs = {
+        "Cybersecurity": [
+            {
+                "url": "https://thehackernews.com/2026/11/panos-zero-day-rce.html",
+                "viral_badge": "🔥 CVSS 10.0 Zero-Day",
+                "impact_summary": "Active enterprise firewall exploitation affecting over 20,000 public gateways globally.",
+                "viral_rank": 1
+            },
+            {
+                "url": "https://krebsonsecurity.com/2026/11/blackstar-hospital-leak/",
+                "viral_badge": "🚨 2TB Healthcare Breach",
+                "impact_summary": "Extensive patient records leaked after hospitals refused extortion demands.",
+                "viral_rank": 2
+            },
+            {
+                "url": "https://thehackernews.com/2026/11/chrome-seventh-zero-day-v8.html",
+                "viral_badge": "⚠️ Active V8 Sandbox Escape",
+                "impact_summary": "Emergency browser patch rolled out across billions of consumer endpoints.",
+                "viral_rank": 3
+            }
+        ],
+        "Technology": [
+            {
+                "url": "https://techcrunch.com/2026/11/22/openai-gpt5-multimodal/",
+                "viral_badge": "🚀 GPT-5 Milestone",
+                "impact_summary": "New multimodal architecture achieves scientific breakthrough benchmarks.",
+                "viral_rank": 1
+            },
+            {
+                "url": "https://www.apple.com/newsroom/2026/11/m5-macbook-pro/",
+                "viral_badge": "💻 On-Device AI Shift",
+                "impact_summary": "Apple M5 architecture runs 40B models directly on local hardware without cloud latency.",
+                "viral_rank": 2
+            }
+        ],
+        "Business": [
+            {
+                "url": "https://www.reuters.com/business/nvidia-5-trillion-market-cap-2026/",
+                "viral_badge": "📈 First $5T Enterprise",
+                "impact_summary": "Accelerating data center infrastructure spending powers unprecedented corporate valuation.",
+                "viral_rank": 1
+            },
+            {
+                "url": "https://www.bloomberg.com/news/fed-rate-pause-november-2026/",
+                "viral_badge": "🏦 Global Interest Rate Shift",
+                "impact_summary": "Inflation pressures push market expectations for rate relief into next year.",
+                "viral_rank": 2
+            }
+        ],
+        "World": [
+            {
+                "url": "https://www.bbc.com/news/india-uk-free-trade-agreement-2026/",
+                "viral_badge": "🤝 Historic Bilateral Accord",
+                "impact_summary": "Decade-long negotiations culminate in major digital trade and tariff concessions.",
+                "viral_rank": 1
+            },
+            {
+                "url": "https://www.reuters.com/sustainability/cop31-renewable-energy-deal-2026/",
+                "viral_badge": "🌱 $300B Climate Pledge",
+                "impact_summary": "Binding multi-nation treaty sets tripling of clean energy capacity by 2035.",
+                "viral_rank": 2
+            }
+        ]
+    }
+
+    recap_categories = {}
+    for category, items in viral_configs.items():
+        recap_categories[category] = []
+        for item in items:
+            art_id = _id(item["url"])
+            base = by_id.get(art_id)
+            if base:
+                story = dict(base)
+                story["viral_badge"] = item["viral_badge"]
+                story["impact_summary"] = item["impact_summary"]
+                story["viral_rank"] = item["viral_rank"]
+                recap_categories[category].append(story)
+
+    return {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "title": "Weekly Intelligence & Viral Roundup",
+        "period": "Last 7 Days",
+        "categories": recap_categories
+    }

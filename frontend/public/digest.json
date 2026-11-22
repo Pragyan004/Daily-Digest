@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:54:57Z",
+  "generated_at": "2026-11-22T20:22:03Z",
   "articles": [
     {
       "id": "051c606284d0df3366d7ee2d6b66e6edcee5110ccbd1b53f9b17736cfbdd7073",
@@ -15,7 +15,7 @@
       "read_time_sec": 210,
       "image_url": "https://thehackernews.com/images/panos-zero-day-2026.jpg",
       "full_article_url": "https://thehackernews.com/2026/11/panos-zero-day-rce.html",
-      "published_at": "2026-11-22T17:24:57Z",
+      "published_at": "2026-11-22T17:52:03Z",
       "cve_ids": [
         "CVE-2026-47123"
       ],
@@ -35,7 +35,7 @@
       "read_time_sec": 300,
       "image_url": null,
       "full_article_url": "https://krebsonsecurity.com/2026/11/blackstar-hospital-leak/",
-      "published_at": "2026-11-22T15:54:57Z",
+      "published_at": "2026-11-22T16:22:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -53,7 +53,7 @@
       "read_time_sec": 180,
       "image_url": "https://www.securityweek.com/wp-content/uploads/2026/11/kev-catalog.png",
       "full_article_url": "https://www.securityweek.com/cisa-kev-three-new-entries-november/",
-      "published_at": "2026-11-22T14:24:57Z",
+      "published_at": "2026-11-22T14:52:03Z",
       "cve_ids": [
         "CVE-2026-41022",
         "CVE-2026-38910",
@@ -75,7 +75,7 @@
       "read_time_sec": 240,
       "image_url": "https://www.bleepingcomputer.com/wp-content/uploads/2026/11/phantomloader.jpg",
       "full_article_url": "https://www.bleepingcomputer.com/news/security/phantomloader-signed-drivers/",
-      "published_at": "2026-11-22T13:54:57Z",
+      "published_at": "2026-11-22T14:22:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -93,7 +93,7 @@
       "read_time_sec": 150,
       "image_url": null,
       "full_article_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-327-01",
-      "published_at": "2026-11-22T11:54:57Z",
+      "published_at": "2026-11-22T12:22:03Z",
       "cve_ids": [
         "CVE-2026-50112"
       ],
@@ -113,7 +113,7 @@
       "read_time_sec": 160,
       "image_url": "https://thehackernews.com/images/chrome-zeroday-7.png",
       "full_article_url": "https://thehackernews.com/2026/11/chrome-seventh-zero-day-v8.html",
-      "published_at": "2026-11-22T16:54:57Z",
+      "published_at": "2026-11-22T17:22:03Z",
       "cve_ids": [
         "CVE-2026-48877"
       ],
@@ -133,7 +133,7 @@
       "read_time_sec": 270,
       "image_url": null,
       "full_article_url": "https://krebsonsecurity.com/2026/11/bank-supply-chain-breach/",
-      "published_at": "2026-11-22T12:54:57Z",
+      "published_at": "2026-11-22T13:22:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -151,7 +151,7 @@
       "read_time_sec": 200,
       "image_url": "https://cdn.currentsapi.services/images/openai-gpt5-launch.jpg",
       "full_article_url": "https://techcrunch.com/2026/11/22/openai-gpt5-multimodal/",
-      "published_at": "2026-11-22T18:24:57Z",
+      "published_at": "2026-11-22T18:52:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -169,7 +169,7 @@
       "read_time_sec": 180,
       "image_url": "https://cdn.currentsapi.services/images/apple-m5-macbook.jpg",
       "full_article_url": "https://www.apple.com/newsroom/2026/11/m5-macbook-pro/",
-      "published_at": "2026-11-22T16:24:57Z",
+      "published_at": "2026-11-22T16:52:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -187,7 +187,7 @@
       "read_time_sec": 220,
       "image_url": null,
       "full_article_url": "https://ec.europa.eu/ai-liability-directive-2026/",
-      "published_at": "2026-11-22T14:54:57Z",
+      "published_at": "2026-11-22T15:22:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -205,7 +205,7 @@
       "read_time_sec": 190,
       "image_url": "https://cdn.currentsapi.services/images/nvidia-5t-marketcap.jpg",
       "full_article_url": "https://www.reuters.com/business/nvidia-5-trillion-market-cap-2026/",
-      "published_at": "2026-11-22T17:54:57Z",
+      "published_at": "2026-11-22T18:22:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -223,7 +223,7 @@
       "read_time_sec": 170,
       "image_url": null,
       "full_article_url": "https://www.bloomberg.com/news/fed-rate-pause-november-2026/",
-      "published_at": "2026-11-22T13:24:57Z",
+      "published_at": "2026-11-22T13:52:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -241,7 +241,7 @@
       "read_time_sec": 200,
       "image_url": "https://cdn.currentsapi.services/images/india-uk-fta.jpg",
       "full_article_url": "https://www.bbc.com/news/india-uk-free-trade-agreement-2026/",
-      "published_at": "2026-11-22T15:24:57Z",
+      "published_at": "2026-11-22T15:52:03Z",
       "cve_ids": [],
       "saved": false
     },
@@ -259,9 +259,217 @@
       "read_time_sec": 250,
       "image_url": "https://cdn.currentsapi.services/images/cop31-renewables.jpg",
       "full_article_url": "https://www.reuters.com/sustainability/cop31-renewable-energy-deal-2026/",
-      "published_at": "2026-11-22T10:54:57Z",
+      "published_at": "2026-11-22T11:22:03Z",
       "cve_ids": [],
       "saved": false
     }
-  ]
+  ],
+  "weekly_recap": {
+    "generated_at": "2026-11-22T20:22:03Z",
+    "title": "Weekly Intelligence & Viral Roundup",
+    "period": "Last 7 Days",
+    "categories": {
+      "Cybersecurity": [
+        {
+          "id": "051c606284d0df3366d7ee2d6b66e6edcee5110ccbd1b53f9b17736cfbdd7073",
+          "category": "Cybersecurity",
+          "source": "The Hacker News",
+          "title": "Critical Zero-Day in Palo Alto PAN-OS Exploited in the Wild",
+          "hook": "Attackers actively exploit a critical PAN-OS zero-day to compromise enterprise firewalls worldwide.",
+          "bullets": [
+            "CVSS 10.0 flaw allows unauthenticated remote code execution",
+            "Palo Alto urges immediate patching of all affected devices"
+          ],
+          "why_it_matters": "Thousands of internet-facing firewalls are vulnerable, putting corporate networks at immediate risk.",
+          "read_time_sec": 210,
+          "image_url": "https://thehackernews.com/images/panos-zero-day-2026.jpg",
+          "full_article_url": "https://thehackernews.com/2026/11/panos-zero-day-rce.html",
+          "published_at": "2026-11-22T17:52:03Z",
+          "cve_ids": [
+            "CVE-2026-47123"
+          ],
+          "saved": false,
+          "viral_badge": "🔥 CVSS 10.0 Zero-Day",
+          "impact_summary": "Active enterprise firewall exploitation affecting over 20,000 public gateways globally.",
+          "viral_rank": 1
+        },
+        {
+          "id": "008ff56992df7266d7490c6f79ca6db24e08ca5ddaea7b8eaf4b30bc12779053",
+          "category": "Cybersecurity",
+          "source": "Krebs on Security",
+          "title": "Ransomware Gang 'BlackStar' Leaks 2TB of Hospital Records",
+          "hook": "BlackStar ransomware group publishes millions of patient records after failed negotiations.",
+          "bullets": [
+            "Three US hospital chains affected across twelve states",
+            "FBI and CISA issue joint advisory on healthcare targeting"
+          ],
+          "why_it_matters": "Healthcare remains the top ransomware target, and this breach exposes deeply sensitive patient data.",
+          "read_time_sec": 300,
+          "image_url": null,
+          "full_article_url": "https://krebsonsecurity.com/2026/11/blackstar-hospital-leak/",
+          "published_at": "2026-11-22T16:22:03Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🚨 2TB Healthcare Breach",
+          "impact_summary": "Extensive patient records leaked after hospitals refused extortion demands.",
+          "viral_rank": 2
+        },
+        {
+          "id": "4ae438a98b2f5e5e82ab4dfd225f22c2b31d952f9a132da50d00097df5e370b1",
+          "category": "Cybersecurity",
+          "source": "The Hacker News",
+          "title": "Google Patches Seventh Chrome Zero-Day of 2026",
+          "hook": "Google ships emergency Chrome update fixing actively exploited V8 vulnerability.",
+          "bullets": [
+            "Type-confusion bug in V8 engine allows sandbox escape",
+            "Users urged to update Chrome to version 131.0.6778.86 immediately"
+          ],
+          "why_it_matters": "Browser zero-days remain a primary vector for targeted espionage and drive-by download attacks.",
+          "read_time_sec": 160,
+          "image_url": "https://thehackernews.com/images/chrome-zeroday-7.png",
+          "full_article_url": "https://thehackernews.com/2026/11/chrome-seventh-zero-day-v8.html",
+          "published_at": "2026-11-22T17:22:03Z",
+          "cve_ids": [
+            "CVE-2026-48877"
+          ],
+          "saved": false,
+          "viral_badge": "⚠️ Active V8 Sandbox Escape",
+          "impact_summary": "Emergency browser patch rolled out across billions of consumer endpoints.",
+          "viral_rank": 3
+        }
+      ],
+      "Technology": [
+        {
+          "id": "170958a2ecd17fff3d741b6da9df1bdf72baee22868d9377d10d687e3f740ea5",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "OpenAI Unveils GPT-5 With Native Multimodal Reasoning",
+          "hook": "GPT-5 brings real-time video understanding and step-by-step scientific reasoning to ChatGPT.",
+          "bullets": [
+            "New model scores 92% on graduate-level science benchmarks",
+            "Available to Plus subscribers starting next week globally"
+          ],
+          "why_it_matters": "GPT-5 sets a new bar for AI capability and will accelerate enterprise AI adoption across industries.",
+          "read_time_sec": 200,
+          "image_url": "https://cdn.currentsapi.services/images/openai-gpt5-launch.jpg",
+          "full_article_url": "https://techcrunch.com/2026/11/22/openai-gpt5-multimodal/",
+          "published_at": "2026-11-22T18:52:03Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🚀 GPT-5 Milestone",
+          "impact_summary": "New multimodal architecture achieves scientific breakthrough benchmarks.",
+          "viral_rank": 1
+        },
+        {
+          "id": "cfa69674d1b3eb558b4fe0ba62978614e8324d6149314d009cfb041154900b6e",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "Apple Launches M5 MacBook Pro With 'Liquid Neural Engine'",
+          "hook": "Apple's M5 chip doubles AI inference speed with a dedicated on-chip neural accelerator.",
+          "bullets": [
+            "New 16-core Neural Engine handles 40B-parameter models locally",
+            "Battery life reaches 28 hours for the 16-inch model"
+          ],
+          "why_it_matters": "On-device AI processing reduces cloud dependency and brings powerful ML workflows to every developer.",
+          "read_time_sec": 180,
+          "image_url": "https://cdn.currentsapi.services/images/apple-m5-macbook.jpg",
+          "full_article_url": "https://www.apple.com/newsroom/2026/11/m5-macbook-pro/",
+          "published_at": "2026-11-22T16:52:03Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "💻 On-Device AI Shift",
+          "impact_summary": "Apple M5 architecture runs 40B models directly on local hardware without cloud latency.",
+          "viral_rank": 2
+        }
+      ],
+      "Business": [
+        {
+          "id": "b068cecb4c72a83e70d9bf68ea28e204b43f258158a291588632328467a5af5e",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "NVIDIA Surpasses $5 Trillion Market Cap on Record AI Chip Demand",
+          "hook": "NVIDIA becomes the world's most valuable company as data center GPU revenue triples.",
+          "bullets": [
+            "Q3 earnings beat estimates with $48B in data center revenue",
+            "Blackwell GPU architecture drives 90% of new AI cluster orders"
+          ],
+          "why_it_matters": "NVIDIA's dominance signals that enterprise AI infrastructure spending is still accelerating sharply.",
+          "read_time_sec": 190,
+          "image_url": "https://cdn.currentsapi.services/images/nvidia-5t-marketcap.jpg",
+          "full_article_url": "https://www.reuters.com/business/nvidia-5-trillion-market-cap-2026/",
+          "published_at": "2026-11-22T18:22:03Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "📈 First $5T Enterprise",
+          "impact_summary": "Accelerating data center infrastructure spending powers unprecedented corporate valuation.",
+          "viral_rank": 1
+        },
+        {
+          "id": "3148a7f39d8e633a2ddac430747a5c558b5d13a3f2f781e34e6d520d0bb2ff0d",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "Federal Reserve Signals Pause on Rate Cuts Amid Sticky Inflation Data",
+          "hook": "The Fed holds rates steady as November inflation figures come in above expectations.",
+          "bullets": [
+            "Core CPI rose 0.4% month-over-month versus 0.3% forecast",
+            "Markets now price in no further cuts until at least Q2 2027"
+          ],
+          "why_it_matters": "A prolonged rate pause affects borrowing costs, tech valuations, and startup funding conditions.",
+          "read_time_sec": 170,
+          "image_url": null,
+          "full_article_url": "https://www.bloomberg.com/news/fed-rate-pause-november-2026/",
+          "published_at": "2026-11-22T13:52:03Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🏦 Global Interest Rate Shift",
+          "impact_summary": "Inflation pressures push market expectations for rate relief into next year.",
+          "viral_rank": 2
+        }
+      ],
+      "World": [
+        {
+          "id": "6566aee79a6ff1ac8d0cb0df9692b3412c1452bf9238d1494a26ec3576ff75c1",
+          "category": "World",
+          "source": "Currents API",
+          "title": "India and UK Sign Landmark Free Trade Agreement After Three Years of Talks",
+          "hook": "India and the UK finalize a comprehensive trade deal covering goods, services, and digital trade.",
+          "bullets": [
+            "Tariffs eliminated on 95% of bilateral goods over ten years",
+            "Digital trade chapter includes data flow and IP protections"
+          ],
+          "why_it_matters": "The deal opens major market access for tech services and reshapes post-Brexit UK trade strategy.",
+          "read_time_sec": 200,
+          "image_url": "https://cdn.currentsapi.services/images/india-uk-fta.jpg",
+          "full_article_url": "https://www.bbc.com/news/india-uk-free-trade-agreement-2026/",
+          "published_at": "2026-11-22T15:52:03Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🤝 Historic Bilateral Accord",
+          "impact_summary": "Decade-long negotiations culminate in major digital trade and tariff concessions.",
+          "viral_rank": 1
+        },
+        {
+          "id": "42a7bd91420a6999160bc0235aa49c8cd0d64e76fa9c39a9c0899da7789e4e1a",
+          "category": "World",
+          "source": "Currents API",
+          "title": "COP31 Reaches Historic Deal to Triple Global Renewable Energy by 2035",
+          "hook": "Nearly 200 nations agree to binding renewable energy targets at the COP31 climate summit.",
+          "bullets": [
+            "Agreement includes $300B annual climate finance for developing nations",
+            "Fossil fuel phase-down language strengthened from COP28 pledge"
+          ],
+          "why_it_matters": "Binding targets and increased financing could meaningfully accelerate the global energy transition.",
+          "read_time_sec": 250,
+          "image_url": "https://cdn.currentsapi.services/images/cop31-renewables.jpg",
+          "full_article_url": "https://www.reuters.com/sustainability/cop31-renewable-energy-deal-2026/",
+          "published_at": "2026-11-22T11:22:03Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🌱 $300B Climate Pledge",
+          "impact_summary": "Binding multi-nation treaty sets tripling of clean energy capacity by 2035.",
+          "viral_rank": 2
+        }
+      ]
+    }
+  }
 }

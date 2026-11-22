@@ -12,11 +12,11 @@
 <link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#0B0F19;--card:#151C2C;--accent:#00DC82;--cve:#FF4757;
+  --bg:#0B0F19;--card:#151C2C;--accent:#00DC82;--cve:#FF4757;--gemini:#3B82F6;
   --text:#E8ECF4;--text-dim:#8892A4;--text-muted:#5A6478;
   --radius:16px;--transition:0.25s cubic-bezier(.4,0,.2,1);
 }
@@ -86,16 +86,22 @@ img{display:block;max-width:100%}
 }
 .pill.active{background:var(--accent);color:#0B0F19;border-color:var(--accent)}
 .pill.active .badge{background:rgba(0,0,0,.2);color:#0B0F19}
+.pill.pill-weekly{
+  border-color:rgba(0,220,130,.4);color:var(--accent);
+}
+.pill.pill-weekly.active{
+  background:var(--accent);color:#0B0F19;
+}
 .pill:active{transform:scale(.95)}
 
-/* ── Search Bar ── */
+/* ── Google Gemini Search Bar ── */
 .search-wrap{
   padding:6px 16px 8px;
 }
 .search-box{
   display:flex;align-items:center;
   background:var(--card);border:1px solid rgba(255,255,255,.08);
-  border-radius:12px;padding:0 12px;gap:8px;
+  border-radius:12px;padding:0 6px 0 12px;gap:6px;
   transition:border-color var(--transition),box-shadow var(--transition);
 }
 .search-box:focus-within{
@@ -107,7 +113,7 @@ img{display:block;max-width:100%}
 }
 .search-input{
   flex:1;background:transparent;border:none;outline:none;
-  color:var(--text);font-family:inherit;font-size:13.5px;padding:9px 0;
+  color:var(--text);font-family:inherit;font-size:13.5px;padding:9px 0;min-width:0;
 }
 .search-input::placeholder{color:var(--text-muted)}
 .search-clear{
@@ -115,6 +121,22 @@ img{display:block;max-width:100%}
   display:none;cursor:pointer;
 }
 .search-clear.visible{display:block}
+
+.btn-gemini-ai{
+  display:flex;align-items:center;gap:4px;
+  background:linear-gradient(135deg, rgba(0,220,130,.15), rgba(59,130,246,.2));
+  color:var(--text);border:1px solid rgba(0,220,130,.3);
+  padding:5px 10px;border-radius:8px;font-size:11.5px;font-weight:700;
+  transition:all var(--transition);white-space:nowrap;
+}
+.btn-gemini-ai:hover{
+  background:linear-gradient(135deg, rgba(0,220,130,.25), rgba(59,130,246,.35));
+  border-color:var(--accent);
+}
+.btn-gemini-ai:active{transform:scale(.95)}
+.btn-gemini-ai.loading{opacity:.7;pointer-events:none}
+.ai-sparkle{font-size:13px}
+
 .search-meta{
   font-size:11.5px;color:var(--text-dim);padding:5px 4px 0;
   display:flex;justify-content:space-between;align-items:center;
@@ -131,7 +153,7 @@ img{display:block;max-width:100%}
   background:var(--card);border-radius:var(--radius);
   margin-bottom:14px;overflow:hidden;
   transition:transform var(--transition),box-shadow var(--transition);
-  cursor:pointer;
+  cursor:pointer;position:relative;
 }
 .card:active{transform:scale(.985)}
 .card-img-wrap{position:relative;max-height:144px;overflow:hidden}
@@ -190,6 +212,55 @@ img{display:block;max-width:100%}
 }
 .btn-read:hover{background:#00c472!important}
 .card.is-read{opacity:.6}
+
+/* ── Gemini AI Search Match Ribbon ── */
+.ai-match-strip{
+  display:flex;align-items:center;gap:6px;
+  background:linear-gradient(90deg, rgba(0,220,130,.18), rgba(59,130,246,.15));
+  border-bottom:1px solid rgba(0,220,130,.25);
+  padding:7px 14px;font-size:12px;color:var(--text);line-height:1.35;
+}
+.ai-match-strip .ai-badge{
+  font-weight:800;color:var(--accent);font-size:11px;
+  background:rgba(0,0,0,.3);padding:1px 6px;border-radius:6px;
+}
+
+/* ── Weekly Top / Viral Section ── */
+.weekly-hero{
+  background:linear-gradient(135deg, rgba(21,28,44,.95), rgba(11,25,35,.95));
+  border:1px solid rgba(0,220,130,.25);
+  border-radius:var(--radius);padding:18px;margin-bottom:18px;
+}
+.weekly-hero-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(0,220,130,.15);color:var(--accent);
+  padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;
+  margin-bottom:8px;border:1px solid rgba(0,220,130,.3);
+}
+.weekly-hero-title{font-size:19px;font-weight:800;margin-bottom:6px;line-height:1.3}
+.weekly-hero-desc{font-size:13px;color:var(--text-dim);line-height:1.5}
+
+.weekly-sec-header{
+  display:flex;align-items:center;gap:8px;
+  margin:20px 0 10px;padding-bottom:6px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.weekly-sec-icon{font-size:18px}
+.weekly-sec-name{font-size:16px;font-weight:700;color:var(--text)}
+.weekly-sec-badge{
+  margin-left:auto;font-size:11px;color:var(--text-muted);
+  font-family:'JetBrains Mono',monospace;
+}
+
+.viral-badge-row{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px;
+}
+.viral-badge-pill{
+  background:linear-gradient(90deg, rgba(255,71,87,.18), rgba(255,107,129,.1));
+  color:#FF6B81;border:1px solid rgba(255,71,87,.3);
+  font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;
+  display:inline-flex;align-items:center;gap:4px;
+}
 
 /* ── Compact List ── */
 .compact-item{
@@ -257,7 +328,7 @@ img{display:block;max-width:100%}
 }
 .drawer-read-btn:hover{background:#00c472}
 
-/* ── Settings / Notification Modal ── */
+/* ── Settings & Notification Modal ── */
 .modal-overlay{
   position:fixed;inset:0;z-index:250;background:rgba(0,0,0,.65);
   opacity:0;pointer-events:none;transition:opacity .3s ease;
@@ -285,6 +356,9 @@ img{display:block;max-width:100%}
   display:flex;align-items:center;justify-content:space-between;
   padding:14px 0;border-bottom:1px solid rgba(255,255,255,.06);gap:14px;
 }
+.setting-item.stacked{
+  flex-direction:column;align-items:flex-start;gap:8px;
+}
 .setting-text{flex:1}
 .setting-label{font-size:14px;font-weight:600;color:var(--text);margin-bottom:2px}
 .setting-desc{font-size:12px;color:var(--text-muted);line-height:1.4}
@@ -292,6 +366,19 @@ img{display:block;max-width:100%}
   background:var(--card);border:1.5px solid rgba(255,255,255,.15);
   border-radius:8px;color:var(--accent);font-family:'JetBrains Mono',monospace;
   font-size:14px;font-weight:600;padding:6px 10px;outline:none;
+}
+.key-input-wrap{
+  display:flex;width:100%;gap:8px;
+}
+.key-input{
+  flex:1;background:var(--card);border:1.5px solid rgba(255,255,255,.12);
+  border-radius:8px;color:var(--text);font-family:'JetBrains Mono',monospace;
+  font-size:13px;padding:8px 10px;outline:none;
+}
+.key-input:focus{border-color:var(--accent)}
+.btn-save-key{
+  background:var(--accent);color:#0B0F19;font-weight:700;
+  padding:0 14px;border-radius:8px;font-size:13px;
 }
 .toggle-switch{
   position:relative;width:44px;height:24px;flex-shrink:0;
@@ -375,8 +462,8 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
         <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
       </svg>
     </button>
-    <!-- Notification & Time Schedule Settings -->
-    <button class="topbar-btn" id="btnAlerts" title="Notifications & Delivery Time" onclick="openSettings()">
+    <!-- Notification & Settings Button -->
+    <button class="topbar-btn" id="btnAlerts" title="Notifications, Schedule & Gemini API" onclick="openSettings()">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
         <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
@@ -392,30 +479,33 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
   </div>
 </header>
 
-<!-- Category Pills -->
+<!-- Category Pills (Includes "📅 Week's Top") -->
 <div class="pills-wrap">
   <div class="pills" id="pillsContainer"></div>
 </div>
 
-<!-- Variable Search Bar -->
+<!-- Google Gemini AI Search Bar -->
 <div class="search-wrap">
   <div class="search-box">
     <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
     </svg>
-    <input type="text" id="searchInput" class="search-input" placeholder="Search news, topics, CVEs, sources…" autocomplete="off" oninput="handleSearch(this.value)">
+    <input type="text" id="searchInput" class="search-input" placeholder="Ask Gemini AI or search news, CVEs, topics…" autocomplete="off" oninput="handleSearchInput(this.value)" onkeydown="if(event.key==='Enter') triggerGeminiSearch()">
     <button id="searchClear" class="search-clear" onclick="clearSearch()" title="Clear search">✕</button>
+    <button id="btnGeminiSearch" class="btn-gemini-ai" onclick="triggerGeminiSearch()" title="Run Google Gemini AI Semantic Search">
+      <span class="ai-sparkle">✨</span> Gemini
+    </button>
   </div>
   <div id="searchMeta" class="search-meta" style="display:none">
     <span id="searchCount">0 matches</span>
-    <span class="console-hint">Logged to DevTools console</span>
+    <span class="console-hint" id="searchConsoleStatus">Logged to DevTools console</span>
   </div>
 </div>
 
 <!-- Pull-to-refresh hint -->
 <div class="ptr-hint" id="ptrHint">↓ Pull to refresh</div>
 
-<!-- Main Content -->
+<!-- Main Content (Standard Cards, Compact List, or Weekly Recap) -->
 <main class="main" id="mainContent"></main>
 
 <!-- Reader Drawer Overlay -->
@@ -430,19 +520,32 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
   <div id="drawerContent"></div>
 </div>
 
-<!-- Notification & Delivery Schedule Settings Modal -->
+<!-- Notification, Time Schedule & Gemini Key Modal -->
 <div class="modal-overlay" id="settingsOverlay" onclick="closeSettings()"></div>
 <div class="modal" id="settingsModal">
   <div class="modal-header">
-    <div class="modal-title">🔔 Alerts & Time Schedule</div>
+    <div class="modal-title">⚙️ Settings & AI Intelligence</div>
     <button class="modal-close" onclick="closeSettings()">✕</button>
   </div>
   <div class="modal-body">
+    <!-- Gemini API Key for AI Search -->
+    <div class="setting-item stacked">
+      <div class="setting-text">
+        <div class="setting-label">✨ Google Gemini API Key (Client-Side AI Search)</div>
+        <div class="setting-desc">Enables direct natural language reasoning ("which firewalls were breached?", "all healthcare attacks").</div>
+      </div>
+      <div class="key-input-wrap">
+        <input type="password" id="geminiApiKeyInput" class="key-input" placeholder="AIzaSy... (saved locally)">
+        <button class="btn-save-key" onclick="saveGeminiKey()">Save</button>
+      </div>
+      <div id="geminiKeyNotice" style="font-size:11px;color:var(--accent)"></div>
+    </div>
+
     <!-- Notification Toggle -->
     <div class="setting-item">
       <div class="setting-text">
         <div class="setting-label">In-App News Alerts</div>
-        <div class="setting-desc">Direct phone notifications when morning news is ready (no ntfy app needed).</div>
+        <div class="setting-desc">Direct phone notifications when morning news is ready (no ntfy required).</div>
       </div>
       <label class="toggle-switch">
         <input type="checkbox" id="toggleNotify" onchange="toggleNotifications(this.checked)">
@@ -486,10 +589,12 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
    State
    ═══════════════════════════════════════ */
 let articles = [];
+let weeklyRecap = null;
 let currentView = 'focus';          // 'focus' | 'compact'
 let activeCategory = 'Cybersecurity';
 let searchQuery = '';
-const CATEGORIES = ['Cybersecurity','All','Technology','Business','World','Saved'];
+let aiSearchResults = null;        // Map or array when Gemini search is active
+const CATEGORIES = ['Cybersecurity', 'All', "Week's Top", 'Technology', 'Business', 'World', 'Saved'];
 
 function getSaved(){try{return JSON.parse(localStorage.getItem('digest_saved')||'{}');}catch(e){return {};}}
 function setSaved(o){localStorage.setItem('digest_saved',JSON.stringify(o));}
@@ -517,11 +622,11 @@ async function loadDigest(isManual = false){
   if(isManual && refreshBtn) refreshBtn.classList.add('spinning');
 
   try{
-    // Cache buster ?t= ensures fresh news is always fetched
     const res = await fetch('./public/digest.json?t=' + Date.now());
     if(!res.ok) throw new Error('fetch failed: '+res.status);
     const data = await res.json();
     articles = data.articles || [];
+    weeklyRecap = data.weekly_recap || null;
 
     // Check if new digest arrived
     const prevGen = localStorage.getItem('digest_last_gen');
@@ -538,7 +643,6 @@ async function loadDigest(isManual = false){
       });
     }
 
-    // Merge saved state from localStorage
     const saved = getSaved();
     articles.forEach(a=>{ if(saved[a.id]) a.saved = true; });
 
@@ -546,7 +650,7 @@ async function loadDigest(isManual = false){
     renderArticles();
     updateReadProgress();
 
-    if(isManual) showToast('✅ Latest news loaded');
+    if(isManual) showToast('✅ Latest news & weekly recap loaded');
   }catch(e){
     console.error('Failed to load digest:',e);
     if(isManual) showToast('⚠️ Could not refresh news');
@@ -561,65 +665,185 @@ function refreshNews(){
   loadDigest(true);
 }
 
-// Auto-check for fresh news every 20 minutes and when re-opening app tab
 setInterval(() => loadDigest(false), 20 * 60 * 1000);
 document.addEventListener('visibilitychange', () => {
   if(document.visibilityState === 'visible') loadDigest(false);
 });
 
 /* ═══════════════════════════════════════
-   Variable Search & Console Logging
+   Google Gemini AI Search & Variable Search
    ═══════════════════════════════════════ */
-function handleSearch(val){
+function handleSearchInput(val){
   searchQuery = (val || '').trim();
   const clearBtn = document.getElementById('searchClear');
-  const searchMeta = document.getElementById('searchMeta');
-  const searchCount = document.getElementById('searchCount');
-
   if(clearBtn) clearBtn.classList.toggle('visible', searchQuery.length > 0);
 
-  const results = filtered();
-
-  if(searchQuery.length > 0){
-    searchMeta.style.display = 'flex';
-    searchCount.textContent = `${results.length} article${results.length === 1 ? '' : 's'} matching "${searchQuery}"`;
-
-    // Log to browser console with rich formatting as requested!
-    console.group(`%c🔍 News Search: "${searchQuery}" (${results.length} found)`, 'color: #00DC82; font-weight: bold; font-size: 13px;');
-    if(results.length > 0){
-      console.table(results.map(a => ({
-        Title: a.title,
-        Category: a.category,
-        Source: a.source,
-        CVE: (a.cve_ids || []).join(', ') || '—',
-        Hook: a.hook
-      })));
-    } else {
-      console.log('%cNo matching news articles found.', 'color: #8892A4;');
-    }
-    console.groupEnd();
-  } else {
-    searchMeta.style.display = 'none';
+  if(!searchQuery){
+    aiSearchResults = null;
+    document.getElementById('searchMeta').style.display = 'none';
+    renderPills();
+    renderArticles();
+    return;
   }
+
+  // Live variable search as user types
+  aiSearchResults = null;
+  const results = filtered();
+  const searchMeta = document.getElementById('searchMeta');
+  const searchCount = document.getElementById('searchCount');
+  searchMeta.style.display = 'flex';
+  searchCount.textContent = `${results.length} article${results.length === 1 ? '' : 's'} matching "${searchQuery}"`;
+  document.getElementById('searchConsoleStatus').textContent = 'Logged to DevTools console';
+
+  console.group(`%c🔍 Variable Search: "${searchQuery}" (${results.length} found)`, 'color: #00DC82; font-weight: bold; font-size: 13px;');
+  if(results.length > 0){
+    console.table(results.map(a => ({
+      Title: a.title,
+      Category: a.category,
+      Source: a.source,
+      CVE: (a.cve_ids || []).join(', ') || '—',
+      Hook: a.hook
+    })));
+  } else {
+    console.log('%cNo matching news articles found.', 'color: #8892A4;');
+  }
+  console.groupEnd();
 
   renderPills();
   renderArticles();
 }
 
-function clearSearch(){
+async function triggerGeminiSearch(){
   const input = document.getElementById('searchInput');
-  if(input){
-    input.value = '';
-    handleSearch('');
+  const query = (input ? input.value : searchQuery).trim();
+  if(!query){
+    showToast('Please type a search query first');
+    return;
+  }
+
+  const btn = document.getElementById('btnGeminiSearch');
+  btn.classList.add('loading');
+  btn.innerHTML = '<span class="ai-sparkle spinning">✨</span> Thinking…';
+
+  const apiKey = localStorage.getItem('gemini_api_key');
+
+  if(!apiKey){
+    // Smart local semantic search fallback + invite user to add API key
+    handleSearchInput(query);
+    btn.classList.remove('loading');
+    btn.innerHTML = '<span class="ai-sparkle">✨</span> Gemini';
+    showToast('✨ Tip: Add your Gemini API key in Settings (🔔) for full AI natural language search!');
+    return;
+  }
+
+  try{
+    // Build context corpus from available articles
+    const corpus = articles.map(a => ({
+      id: a.id,
+      title: a.title,
+      hook: a.hook,
+      why: a.why_it_matters,
+      cves: a.cve_ids,
+      category: a.category
+    }));
+
+    const promptText = `You are a semantic news search engine for a news app.
+User Query: "${query}"
+
+Articles:
+${JSON.stringify(corpus)}
+
+Evaluate each article. Return ONLY a JSON object (no markdown, no backticks) with:
+{"matches": [{"id": "<article_id>", "relevance": 95, "match_reason": "<1 crisp sentence explaining why this answers the query>"}]}
+Only include genuinely relevant articles with relevance >= 50, ordered by highest relevance first.`;
+
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: promptText }] }],
+        generationConfig: { responseMimeType: 'application/json' }
+      })
+    });
+
+    if(!response.ok){
+      throw new Error(`Gemini API error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+    const parsed = JSON.parse(rawText);
+    const matches = parsed.matches || [];
+
+    if(matches.length === 0){
+      showToast('Gemini found no articles matching your query.');
+      aiSearchResults = [];
+    } else {
+      const matchMap = {};
+      matches.forEach(m => matchMap[m.id] = m);
+      aiSearchResults = matchMap;
+      showToast(`✨ Gemini found ${matches.length} relevant articles!`);
+    }
+
+    // Switch off category filter to show all relevant Gemini matches
+    activeCategory = 'All';
+
+    // Log rich Gemini AI search table to console as requested!
+    console.group(`%c✨ Google Gemini AI Search: "${query}" (${matches.length} matches)`, 'color: #00DC82; font-weight: bold; font-size: 14px;');
+    console.table(matches.map(m => {
+      const art = articles.find(a => a.id === m.id);
+      return {
+        ID: m.id.slice(0, 8),
+        Title: art ? art.title : '—',
+        Category: art ? art.category : '—',
+        "Relevance": `${m.relevance}%`,
+        "Gemini Reason": m.match_reason
+      };
+    }));
+    console.groupEnd();
+
+    const searchMeta = document.getElementById('searchMeta');
+    const searchCount = document.getElementById('searchCount');
+    searchMeta.style.display = 'flex';
+    searchCount.textContent = `✨ Gemini AI matched ${matches.length} article${matches.length === 1 ? '' : 's'}`;
+    document.getElementById('searchConsoleStatus').textContent = 'AI Reasoning in Console';
+
+    renderPills();
+    renderArticles();
+  }catch(err){
+    console.error('Gemini Search error:', err);
+    showToast('⚠️ Gemini search error. Using keyword search.');
+    handleSearchInput(query);
+  }finally{
+    btn.classList.remove('loading');
+    btn.innerHTML = '<span class="ai-sparkle">✨</span> Gemini';
   }
 }
 
-// Expose globally so users can also type searchNews("palo") in the DevTools console!
+function clearSearch(){
+  const input = document.getElementById('searchInput');
+  if(input) input.value = '';
+  searchQuery = '';
+  aiSearchResults = null;
+  document.getElementById('searchClear').classList.remove('visible');
+  document.getElementById('searchMeta').style.display = 'none';
+  renderPills();
+  renderArticles();
+}
+
 window.searchNews = function(keyword){
   const input = document.getElementById('searchInput');
   if(input) input.value = keyword;
-  handleSearch(keyword);
+  handleSearchInput(keyword);
   return filtered();
+};
+
+window.geminiSearch = function(prompt){
+  const input = document.getElementById('searchInput');
+  if(input) input.value = prompt;
+  searchQuery = prompt;
+  triggerGeminiSearch();
 };
 
 /* ═══════════════════════════════════════
@@ -629,9 +853,25 @@ function filtered(){
   const saved = getSaved();
   let list = articles;
 
+  // Gemini AI Search Active Mode
+  if(aiSearchResults){
+    const matchedArticles = [];
+    // Sort by AI relevance score
+    const sortedIds = Object.keys(aiSearchResults).sort((a,b) => (aiSearchResults[b].relevance || 0) - (aiSearchResults[a].relevance || 0));
+    sortedIds.forEach(id => {
+      const art = articles.find(a => a.id === id);
+      if(art){
+        const copy = Object.assign({}, art);
+        copy._ai_match = aiSearchResults[id];
+        matchedArticles.push(copy);
+      }
+    });
+    return matchedArticles;
+  }
+
   // Category filter
   if(activeCategory === 'Saved') list = articles.filter(a => saved[a.id]);
-  else if(activeCategory !== 'All') list = articles.filter(a => a.category === activeCategory);
+  else if(activeCategory !== 'All' && activeCategory !== "Week's Top") list = articles.filter(a => a.category === activeCategory);
 
   // Variable multi-keyword search filter
   if(searchQuery){
@@ -647,7 +887,6 @@ function filtered(){
         a.category || ''
       ].join(' ').toLowerCase();
 
-      // Every typed term must match somewhere in the article
       return terms.every(t => fullText.includes(t));
     });
   }
@@ -663,7 +902,13 @@ function renderPills(){
   const counts = {};
   CATEGORIES.forEach(c => counts[c] = 0);
 
-  // If there's a search query, show count of matches per category
+  // Weekly recap count
+  if(weeklyRecap && weeklyRecap.categories){
+    let totalWeekly = 0;
+    Object.values(weeklyRecap.categories).forEach(arr => totalWeekly += (arr ? arr.length : 0));
+    counts["Week's Top"] = totalWeekly;
+  }
+
   const baseList = searchQuery ? articles.filter(a => {
     const terms = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
     const text = [a.title, a.hook, (a.bullets||[]).join(' '), a.why_it_matters, (a.cve_ids||[]).join(' '), a.source, a.category].join(' ').toLowerCase();
@@ -677,14 +922,18 @@ function renderPills(){
   });
 
   const wrap = document.getElementById('pillsContainer');
-  wrap.innerHTML = CATEGORIES.map(c => `
-    <button class="pill${activeCategory === c ? ' active' : ''}" onclick="selectCategory('${c}')">
-      ${c}<span class="badge">${counts[c] || 0}</span>
-    </button>`).join('');
+  wrap.innerHTML = CATEGORIES.map(c => {
+    const isWeekly = c === "Week's Top";
+    return `
+      <button class="pill${isWeekly ? ' pill-weekly' : ''}${activeCategory === c ? ' active' : ''}" onclick="selectCategory('${c}')">
+        ${isWeekly ? '📅 ' : ''}${c}<span class="badge">${counts[c] || 0}</span>
+      </button>`;
+  }).join('');
 }
 
 function selectCategory(c){
   activeCategory = c;
+  if(aiSearchResults && c !== 'All') aiSearchResults = null;
   renderPills();
   renderArticles();
 }
@@ -699,22 +948,70 @@ function updateReadProgress(){
 }
 
 /* ═══════════════════════════════════════
-   Render Articles
+   Render Articles & Weekly Recap
    ═══════════════════════════════════════ */
 function renderArticles(){
-  const list = filtered();
   const el = document.getElementById('mainContent');
+
+  // If "Week's Top" tab is selected, render the categorized weekly viral recap!
+  if(activeCategory === "Week's Top" && !searchQuery && !aiSearchResults){
+    el.innerHTML = renderWeeklyRecap();
+    return;
+  }
+
+  const list = filtered();
   if(!list.length){
     el.innerHTML = searchQuery
-      ? `<div class="empty-state">No articles found matching "<strong>${esc(searchQuery)}</strong>".<br><small style="margin-top:8px;display:inline-block">Try searching for CVE, source, or general topic.</small></div>`
+      ? `<div class="empty-state">No articles found matching "<strong>${esc(searchQuery)}</strong>".<br><small style="margin-top:8px;display:inline-block">Try asking Gemini AI or searching for CVE, source, or general topic.</small></div>`
       : '<div class="empty-state">No articles here yet.</div>';
     return;
   }
+
   if(currentView === 'focus') el.innerHTML = list.map(focusCard).join('');
   else el.innerHTML = list.map(compactItem).join('');
 }
 
-function focusCard(a){
+/* ── Weekly Top / Viral View Renderer ── */
+function renderWeeklyRecap(){
+  if(!weeklyRecap || !weeklyRecap.categories){
+    return '<div class="empty-state">No weekly recap available yet.</div>';
+  }
+
+  const cats = weeklyRecap.categories;
+  const catIcons = {
+    'Cybersecurity': '🔒',
+    'Technology': '💻',
+    'Business': '📈',
+    'World': '🌍'
+  };
+
+  let html = `
+    <div class="weekly-hero">
+      <div class="weekly-hero-badge">📅 7-DAY INTELLIGENCE ROUNDUP</div>
+      <h1 class="weekly-hero-title">${esc(weeklyRecap.title || "This Week's Most Viral & Critical News")}</h1>
+      <p class="weekly-hero-desc">The biggest cybersecurity incidents, market movements, and tech milestones accumulated across this past week. Tap any card to read.</p>
+    </div>
+  `;
+
+  for(const [catName, items] of Object.entries(cats)){
+    if(!items || !items.length) continue;
+    const icon = catIcons[catName] || '📰';
+    html += `
+      <div class="weekly-sec-header">
+        <span class="weekly-sec-icon">${icon}</span>
+        <span class="weekly-sec-name">${esc(catName)}</span>
+        <span class="weekly-sec-badge">${items.length} critical stories</span>
+      </div>
+      <div class="weekly-cards-wrap">
+        ${items.map(a => weeklyCard(a)).join('')}
+      </div>
+    `;
+  }
+
+  return html;
+}
+
+function weeklyCard(a){
   const rd = getRead();
   const saved = getSaved();
   const isRead = rd[a.id] ? ' is-read' : '';
@@ -733,9 +1030,69 @@ function focusCard(a){
     cveHtml = '<div class="cve-pills">' + a.cve_ids.map(c => `<span class="cve-pill">${esc(c)}</span>`).join('') + '</div>';
   }
 
+  const badgeText = a.viral_badge || `🔥 Top ${a.category} Story`;
+
+  return `<article class="card${isRead}" style="border:1px solid rgba(0,220,130,.25)" data-id="${a.id}" onclick="markRead('${a.id}')">
+    ${imgHtml}
+    <div class="card-body">
+      <div class="viral-badge-row">
+        <span class="viral-badge-pill">${esc(badgeText)}</span>
+        <span class="card-source">${esc(a.source)}</span>
+        <span class="card-time">${relTime(a.published_at)}</span>
+      </div>
+      ${cveHtml}
+      <h2 class="card-title">${esc(a.title)}</h2>
+      <p class="card-hook">${esc(a.hook)}</p>
+      <div class="card-why"><strong style="color:var(--accent)">Weekly Significance:</strong> ${esc(a.impact_summary || a.why_it_matters)}</div>
+      <div class="card-actions" onclick="event.stopPropagation()">
+        <button class="btn-bookmark${isSaved ? ' saved' : ''}" onclick="toggleSave('${a.id}',this)" title="Bookmark">
+          <svg viewBox="0 0 24 24" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        </button>
+        <button class="btn-share" onclick="shareArticle('${a.id}')" title="Share">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        </button>
+        <a class="btn-read" href="${esc(a.full_article_url)}" target="_blank" rel="noopener">Read Article ↗</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+/* ── Standard Focus Card ── */
+function focusCard(a){
+  const rd = getRead();
+  const saved = getSaved();
+  const isRead = rd[a.id] ? ' is-read' : '';
+  const isSaved = saved[a.id];
+
+  // Gemini AI Match Ribbon if present
+  let aiRibbon = '';
+  if(a._ai_match){
+    aiRibbon = `
+      <div class="ai-match-strip">
+        <span class="ai-sparkle">✨</span>
+        <span class="ai-badge">${a._ai_match.relevance || 90}% Match</span>
+        <span>${esc(a._ai_match.match_reason || 'Highly relevant to your query')}</span>
+      </div>
+    `;
+  }
+
+  let imgHtml = '';
+  if(a.image_url){
+    imgHtml = `<div class="card-img-wrap">
+      <img class="card-img" src="${esc(a.image_url)}" alt="" onerror="this.parentElement.style.display='none'" loading="lazy">
+      <div class="card-img-fade"></div>
+    </div>`;
+  }
+
+  let cveHtml = '';
+  if(a.cve_ids && a.cve_ids.length){
+    cveHtml = '<div class="cve-pills">' + a.cve_ids.map(c => `<span class="cve-pill">${esc(c)}</span>`).join('') + '</div>';
+  }
+
   const bullets = (a.bullets || []).map(b => `<li>${esc(b)}</li>`).join('');
 
   return `<article class="card${isRead}" data-id="${a.id}" onclick="markRead('${a.id}')">
+    ${aiRibbon}
     ${imgHtml}
     <div class="card-body">
       <div class="card-meta">
@@ -761,6 +1118,7 @@ function focusCard(a){
   </article>`;
 }
 
+/* ── Standard Compact Item ── */
 function compactItem(a){
   const rd = getRead();
   const isRead = rd[a.id] ? ' is-read' : '';
@@ -772,10 +1130,16 @@ function compactItem(a){
   if(a.cve_ids && a.cve_ids.length){
     cveBadge = `<span class="cve-pill" style="font-size:10px;padding:1px 5px">${esc(a.cve_ids[0])}</span>`;
   }
+  let aiTag = '';
+  if(a._ai_match){
+    aiTag = `<span class="cat-tag" style="background:rgba(59,130,246,.2);color:#60A5FA;font-size:10px;padding:1px 5px">✨ ${a._ai_match.relevance}%</span>`;
+  }
+
   return `<div class="compact-item${isRead}" data-id="${a.id}" onclick="openDrawer('${a.id}')">
     <div class="compact-text">
       <div class="compact-title">${esc(a.title)}</div>
       <div class="compact-sub">
+        ${aiTag}
         <span class="cat-tag" style="font-size:10px;padding:1px 6px">${esc(a.category)}</span>
         <span>${esc(a.source)}</span>
         <span>·</span>
@@ -868,8 +1232,16 @@ function setView(v){
    Reader Drawer
    ═══════════════════════════════════════ */
 function openDrawer(id){
-  const a = articles.find(x => x.id === id);
+  // Check both daily articles and weekly recap items
+  let a = articles.find(x => x.id === id);
+  if(!a && weeklyRecap && weeklyRecap.categories){
+    for(const list of Object.values(weeklyRecap.categories)){
+      const found = list.find(x => x.id === id);
+      if(found){ a = found; break; }
+    }
+  }
   if(!a) return;
+
   const rd = getRead();
   if(!rd[id]){ rd[id] = true; setRead(rd); updateReadProgress(); renderArticles(); }
 
@@ -942,8 +1314,18 @@ document.addEventListener('keydown', e => { if(e.key === 'Escape'){ closeDrawer(
 function openSettings(){
   const isEnabled = localStorage.getItem('digest_notify_enabled') === 'true';
   const savedTime = localStorage.getItem('digest_alert_time') || '07:30';
+  const savedKey = localStorage.getItem('gemini_api_key') || '';
+
   document.getElementById('toggleNotify').checked = isEnabled;
   document.getElementById('alertTimeInput').value = savedTime;
+  document.getElementById('geminiApiKeyInput').value = savedKey;
+
+  const notice = document.getElementById('geminiKeyNotice');
+  if(savedKey){
+    notice.textContent = '✓ Gemini API key active and ready for AI searches.';
+  } else {
+    notice.textContent = '';
+  }
 
   document.getElementById('settingsModal').classList.add('open');
   document.getElementById('settingsOverlay').classList.add('open');
@@ -954,6 +1336,19 @@ function closeSettings(){
   document.getElementById('settingsModal').classList.remove('open');
   document.getElementById('settingsOverlay').classList.remove('open');
   document.body.style.overflow = '';
+}
+
+function saveGeminiKey(){
+  const val = document.getElementById('geminiApiKeyInput').value.trim();
+  if(val){
+    localStorage.setItem('gemini_api_key', val);
+    document.getElementById('geminiKeyNotice').textContent = '✓ Gemini key saved!';
+    showToast('✨ Gemini API Key saved for AI search!');
+  } else {
+    localStorage.removeItem('gemini_api_key');
+    document.getElementById('geminiKeyNotice').textContent = '';
+    showToast('Gemini key removed');
+  }
 }
 
 async function toggleNotifications(enable){
@@ -1059,7 +1454,6 @@ if('serviceWorker' in navigator){
   navigator.serviceWorker.register('sw.js').catch(e => console.warn('SW reg failed:', e));
 }
 
-// Initial state load
 if(localStorage.getItem('digest_notify_enabled') === 'true'){
   document.getElementById('btnAlerts')?.classList.add('has-alerts');
 }

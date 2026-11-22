@@ -435,26 +435,68 @@ def send_ntfy_notification(articles: list[dict]) -> None:
         log.error("ntfy push failed: %s", exc)
 
 
-# ── Output ───────────────────────────────────────────────────────────────────
-def write_digest(articles: list[dict]) -> None:
-    """Write final digest.json."""
+# ── Output & Weekly Recap ────────────────────────────────────────────────────
+def build_weekly_recap(articles: list[dict]) -> dict:
+    """Group top articles by category and assign impact/viral badges."""
+    categories = ["Cybersecurity", "Technology", "Business", "World"]
+    recap = {}
+
+    for cat in categories:
+        cat_articles = [a for a in articles if a.get("category") == cat]
+        if cat == "Cybersecurity":
+            cat_articles.sort(
+                key=lambda a: (len(a.get("cve_ids", [])), a.get("read_time_sec", 0)),
+                reverse=True,
+            )
+        else:
+            cat_articles.sort(key=lambda a: a.get("read_time_sec", 0), reverse=True)
+
+        selected = []
+        for rank, a in enumerate(cat_articles[:3], 1):
+            item = dict(a)
+            if a.get("cve_ids"):
+                badge = f"🔥 {a['cve_ids'][0]} Critical"
+            elif rank == 1:
+                badge = f"🔥 Top {cat} Story"
+            elif rank == 2:
+                badge = "⚡ Viral Discussion"
+            else:
+                badge = "📌 High Impact"
+            item["viral_badge"] = badge
+            item["viral_rank"] = rank
+            item["impact_summary"] = a.get("why_it_matters") or a.get("hook", "")
+            selected.append(item)
+        recap[cat] = selected
+
+    return {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "title": "Weekly Intelligence & Viral Roundup",
+        "period": "Last 7 Days",
+        "categories": recap,
+    }
+
+
+def write_digest(articles: list[dict], weekly_recap: dict | None = None) -> None:
+    """Write final digest.json including weekly top stories recap."""
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     digest = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "articles": articles,
+        "weekly_recap": weekly_recap or build_weekly_recap(articles),
     }
     OUTPUT_PATH.write_text(json.dumps(digest, indent=2, ensure_ascii=False), encoding="utf-8")
-    log.info("Wrote %d articles to %s", len(articles), OUTPUT_PATH)
+    log.info("Wrote %d articles + weekly recap to %s", len(articles), OUTPUT_PATH)
 
 
 # ── Mock mode ────────────────────────────────────────────────────────────────
 def run_mock(notify: bool = False) -> None:
     """Generate realistic mock digest.json without any network calls."""
-    from mock_data import generate_mock_articles
+    from mock_data import generate_mock_articles, generate_mock_weekly_recap
 
     articles = generate_mock_articles()
-    write_digest(articles)
-    log.info("Mock digest generated with %d articles", len(articles))
+    weekly_recap = generate_mock_weekly_recap(articles)
+    write_digest(articles, weekly_recap=weekly_recap)
+    log.info("Mock digest generated with %d articles and weekly recap", len(articles))
     if notify:
         send_ntfy_notification(articles)
 
