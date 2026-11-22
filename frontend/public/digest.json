@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:57:44Z",
+  "generated_at": "2026-11-22T22:04:08Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -59,6 +59,24 @@
       "saved": false
     },
     {
+      "id": "04a3ff300807bfefc0dd794c19bdb7e4fe691fe131ef0289775e44fbfa329249",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
+      "hook": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.engadget.com/img/gallery/why-your-monitor-flickers-when-you-turn-it-on-and-can-it-be-fixed/l-intro-1794601400.jpg",
+      "full_article_url": "https://www.engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix/",
+      "published_at": "2026-11-22 21:45:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "e21ba50d387c16b85b28f12ad76df44a7378d28579c23cdde0b51e0b91bd7132",
       "category": "Technology",
       "source": "Currents API",
@@ -73,6 +91,24 @@
       "image_url": null,
       "full_article_url": "https://www.nextbigfuture.com/2026/11/fsd-15-efficiency-only-needs-ai4.html",
       "published_at": "2026-11-22 21:44:42 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "a54c629e9a0fb24b8d0753eb9d3a26cff3033a5a1d90ca48e2dea5ee15018621",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "The cool phone camera trick that can test your remote control's battery - Engadget",
+      "hook": "The cool phone camera trick that can test your remote control's battery - Engadget",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.engadget.com/img/gallery/the-cool-phone-camera-trick-that-can-test-your-remote-controls-battery/l-intro-1794630742.jpg",
+      "full_article_url": "https://www.engadget.com/2319533/how-to-use-phone-test-remote-control-battery/",
+      "published_at": "2026-11-22 21:30:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -149,6 +185,24 @@
       "saved": false
     },
     {
+      "id": "f4051cfaac55abcbc4037065960e50243fc9ce16885a9347f029b876772be87f",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Can Cyberleek's leaked GTA 6 Xbox build become a PC port? Three GitHub projects are trying, without the executable",
+      "hook": "Can Cyberleek's leaked GTA 6 Xbox build become a PC port? Three GitHub projects are trying, without the executable",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Jason-and-Lucia-robbing-a-bank-vault-in-GTA-6-Image-Source-Rockstar-Games.jpg.jpeg",
+      "full_article_url": "https://www.notebookcheck.net/Can-Cyberleek-s-leaked-GTA-6-Xbox-build-become-a-PC-port-Three-GitHub-projects-are-trying-without-the-executable.1456848.0.html",
+      "published_at": "2026-11-22 20:58:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "04c501a00a12590b1ec4ebd5219d52e3a9321a765bf89bb1bbfc2a80302bea47",
       "category": "Technology",
       "source": "Currents API",
@@ -181,6 +235,24 @@
       "image_url": null,
       "full_article_url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
       "published_at": "2026-11-22 20:47:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "0681bee7e06892d23a31be94774a226d1ac7b14f7c0e4869ccc9b631e55b9d56",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Your “free” QR code might stop working. We tested 20 generators to see which ones",
+      "hook": "Your “free” QR code might stop working. We tested 20 generators to see which ones",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+      "full_article_url": "https://medium.com/@endureqr/your-free-qr-code-might-stop-working-we-tested-20-generators-to-see-which-ones-12b38e61ea7b",
+      "published_at": "2026-11-22 20:46:44 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -329,92 +401,38 @@
       "saved": false
     },
     {
-      "id": "b9e3d16fc4ca0ee6f250147dba5ed21277c33004171f5e278627c50ee7449257",
+      "id": "f82c77772f7ea6e44c1cf44c754244cbc968d1f0f6926b79f07291b975488a2e",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Compact RTX Spark mini PC with 20-core CPU, 128GB RAM, 4TB SSD and 6,144 CUDA cores arrives in Europe",
-      "hook": "Compact RTX Spark mini PC with 20-core CPU, 128GB RAM, 4TB SSD and 6,144 CUDA cores arrives in Europe",
+      "title": "Are We Teaching AI What It Will Become?",
+      "hook": "Are We Teaching AI What It Will Become?",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/asus-proart-gr1x-mini-pc.png",
-      "full_article_url": "https://www.notebookcheck.net/Compact-RTX-Spark-mini-PC-with-20-core-CPU-128GB-RAM-4TB-SSD-and-6-144-CUDA-cores-arrives-in-Europe.1456721.0.html",
-      "published_at": "2026-11-22 20:29:00 +0000",
+      "image_url": "https://miro.medium.com/v2/resize:fit:960/1*BTyOgrgwKOEjEJuvg10UgA@2x.jpeg",
+      "full_article_url": "https://medium.com/@Kyledolby/are-we-teaching-ai-what-it-will-become-4e0efe0a4b94",
+      "published_at": "2026-11-22 20:29:39 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "39d1fbdeccc28c43e3d2a80ffc354035af6c613ca6e76e45b2e7077e370d3967",
-      "category": "Technology",
+      "id": "64818a178c5a3a19484b7f934060154bb99c3e59e6a6ff19c885392714ea3e7d",
+      "category": "Business",
       "source": "Currents API",
-      "title": "Qualcomm’s Diversification Gamble Is Paying Off, As New Estimates Show It Has Built An $8 Billion Automotive Chip Business To Lead The Industry In 2027",
-      "hook": "Qualcomm’s Diversification Gamble Is Paying Off, As New Estimates Show It Has Built An $8 Billion Automotive Chip Business To Lead The Industry In 2027",
+      "title": "NZ Retail Trade Survey: September 2026 Quarter",
+      "hook": "NZ Retail Trade Survey: September 2026 Quarter",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.wccftech.com/wp-content/uploads/2026/11/Qualcomm-2.jpg",
-      "full_article_url": "https://wccftech.com/qualcomm-auto-chip-revenue-8b-run-rate-2027/",
-      "published_at": "2026-11-22 20:27:07 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "1d18db732fd41517557bae3362698bae5a39521f8a6015afbe18b8c0ade7b3df",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "You don't need a foldable phone to use split screen on Android - Engadget",
-      "hook": "You don't need a foldable phone to use split screen on Android - Engadget",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/you-dont-need-a-foldable-phone-to-use-split-screen-on-android/l-intro-1794678668.jpg",
-      "full_article_url": "https://www.engadget.com/2319499/you-dont-need-foldable-phone-use-split-screen-android/",
-      "published_at": "2026-11-22 20:15:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "83f888563314ec8d0e6fc26fe9f208fd72a2c2a56cf02a040374386b6b52d702",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "EscapeArmed",
-      "hook": "EscapeArmed",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://vulners.com/githubexploit/3B9A9F1C-8331-5C6D-BB37-DE5BE29A3A88",
-      "published_at": "2026-11-22 20:13:51 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "3f5d02604a1cbe92909d739762c024f8b431b0f35553a8cae9edaba2fbe33d34",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "xss47",
-      "hook": "xss47",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://vulners.com/githubexploit/8ED7BCA4-A7AD-5CBE-BF5D-070BBE5971BE",
-      "published_at": "2026-11-22 20:13:13 +0000",
+      "image_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter/image",
+      "full_article_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter",
+      "published_at": "2026-11-22 21:47:33 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -527,6 +545,42 @@
       "saved": false
     },
     {
+      "id": "f066d6855843826abf69d84be9fa8bd1b7d0cf7b73eac793d59c50f00fc6eece",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Carlos Alcaraz Wins 1st ATP Finals Title To Join Elite Club",
+      "hook": "Carlos Alcaraz Wins 1st ATP Finals Title To Join Elite Club",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.forbes.com/sites/adamzagoria/2026/11/22/carlos-alcaraz-wins-1st-atp-finals-title-to-join-elite-club/",
+      "published_at": "2026-11-22 21:19:55 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "99caa8a849626ad288c0ce8f539103a6be3b367d56536466e27e093db1fee298",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Week ahead: Holiday lull, inflation ahead | Nov 22 - 28",
+      "hook": "Week ahead: Holiday lull, inflation ahead | Nov 22 - 28",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.forexfactory.com/news/1438114-week-ahead-holiday-lull-inflation-ahead-nov/image",
+      "full_article_url": "https://www.forexfactory.com/news/1438114-week-ahead-holiday-lull-inflation-ahead-nov",
+      "published_at": "2026-11-22 21:10:33 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "2d08a557c1331cf119a53ad667828c7102434ebd5e14a395a89eb9bf31dabf14",
       "category": "Business",
       "source": "Currents API",
@@ -541,6 +595,24 @@
       "image_url": null,
       "full_article_url": "https://www.forbes.com/sites/zacharyfolk/2026/11/22/half-of-all-delta-flights-delayed-sunday-after-ground-delay-in-atlanta/",
       "published_at": "2026-11-22 21:08:51 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "9ca863abe2fe34a623e5b7baed5580a0140f8674fbb9d7744f741432ef17cec5",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Spacecraft begins orbit of Mercury, with a glitch reported",
+      "hook": "Spacecraft begins orbit of Mercury, with a glitch reported",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://dam.mediacorp.sg/image/upload/s--kg6pebP5--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-22T210021Z_1_LYNXNPEMAL0J0_RTROPTP_3_NETHERLANDS-SPACE-BEPICOLOMBO.JPG?itok=31tOCHIB",
+      "full_article_url": "https://www.channelnewsasia.com/business/spacecraft-begins-orbit-mercury-glitch-reported-6573366",
+      "published_at": "2026-11-22 21:00:21 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -703,78 +775,6 @@
       "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2263257374/image_2263257374.jpg?io=getty-c-og",
       "full_article_url": "https://seekingalpha.com/article/4970941-ring-golds-plunge-leaves-miners-undervalued",
       "published_at": "2026-11-22 20:45:38 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "d4ed8f37c5521cb7eb45a33c946f9de501778c1e22d57b2b44c6aa185e36ceac",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Tinubu commits N450 billion to agriculture, approves N1.5 trillion bank recapitalisation",
-      "hook": "Tinubu commits N450 billion to agriculture, approves N1.5 trillion bank recapitalisation",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.nairametrics.com/wp-content/uploads/2024/01/Tinubu-baba.jpg",
-      "full_article_url": "https://nairametrics.com/2026/11/22/tinubu-commits-n450-billion-to-agriculture-approves-n1-5-trillion-bank-recapitalisation/",
-      "published_at": "2026-11-22 20:42:37 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "4f02fe119e7ca9a8ea4fa8601fab897e612a1f71da3576cb2dfd7bc2de3752b5",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "SCHD ETF Reverses Sharply on Valuation Concerns, Yet Inflows Keep Surging - Schwab US Dividend Equity ETF",
-      "hook": "SCHD ETF Reverses Sharply on Valuation Concerns, Yet Inflows Keep Surging - Schwab US Dividend Equity ETF",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/Wall-Street-And-New-Street--New-York--Us.jpg",
-      "full_article_url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63517514/schd-etf-reverses-sharply-on-valuation-concerns-yet-inflows-keep-surging",
-      "published_at": "2026-11-22 20:40:34 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "eb911ec14f6a0b9049f750715788b67cb621764e23f16a0be37681a155ca63f6",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Bears will be yelling fire in crowded theater - Dan Ives",
-      "hook": "Bears will be yelling fire in crowded theater - Dan Ives",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4675414-bears-will-be-yelling-fire-in-crowded-theater-dan-ives",
-      "published_at": "2026-11-22 20:38:42 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "1976339cff0ade59cdf456f3e31cdfd37c047aa5b1a6bcfc4edacd61f6f5aadb",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Every Corn Row Needs Nitrogen and Potash, and $90,000 Across These 3 Fertilizer Stocks Pays More Than $2,900 a Year",
-      "hook": "Every Corn Row Needs Nitrogen and Potash, and $90,000 Across These 3 Fertilizer Stocks Pays More Than $2,900 a Year",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://247wallst.com/wp-content/uploads/2019/11/imageforentry3-q62.jpg",
-      "full_article_url": "https://247wallst.com/investing/2026/11/22/every-corn-row-needs-nitrogen-and-potash-and-90000-across-these-3-fertilizer-stocks-pays-more-than-2900-a-year/",
-      "published_at": "2026-11-22 20:35:56 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1140,7 +1140,7 @@
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T21:57:44Z",
+    "generated_at": "2026-11-22T22:04:08Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1214,6 +1214,27 @@
       ],
       "Technology": [
         {
+          "id": "04a3ff300807bfefc0dd794c19bdb7e4fe691fe131ef0289775e44fbfa329249",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
+          "hook": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://www.engadget.com/img/gallery/why-your-monitor-flickers-when-you-turn-it-on-and-can-it-be-fixed/l-intro-1794601400.jpg",
+          "full_article_url": "https://www.engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix/",
+          "published_at": "2026-11-22 21:45:00 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Technology Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "e21ba50d387c16b85b28f12ad76df44a7378d28579c23cdde0b51e0b91bd7132",
           "category": "Technology",
           "source": "Currents API",
@@ -1230,46 +1251,25 @@
           "published_at": "2026-11-22 21:44:42 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Technology Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "6b9740563c3233e9fc335d2f118ca4451941c7b454d110f6ef6d9911baf49106",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "9 people shot at a central California concert; 1 in critical condition",
-          "hook": "9 people shot at a central California concert; 1 in critical condition",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://www.keloland.com/news/national-world-news/ap-9-people-shot-at-a-central-california-concert-1-in-critical-condition/",
-          "published_at": "2026-11-22 21:16:05 +0000",
-          "cve_ids": [],
-          "saved": false,
           "viral_badge": "⚡ Viral Discussion",
           "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "cac17eecbc308b66dbde193c536d837ef50471cae1e3bba84c8e39b72dc2b06b",
+          "id": "a54c629e9a0fb24b8d0753eb9d3a26cff3033a5a1d90ca48e2dea5ee15018621",
           "category": "Technology",
           "source": "Currents API",
-          "title": "Which solar panel type is best for your home? - Engadget",
-          "hook": "Which solar panel type is best for your home? - Engadget",
+          "title": "The cool phone camera trick that can test your remote control's battery - Engadget",
+          "hook": "The cool phone camera trick that can test your remote control's battery - Engadget",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://www.engadget.com/img/gallery/which-solar-panel-type-is-best-for-your-home/l-intro-1794509643.jpg",
-          "full_article_url": "https://www.engadget.com/2319531/solar-panel-types-best-home-use/",
-          "published_at": "2026-11-22 21:15:00 +0000",
+          "image_url": "https://www.engadget.com/img/gallery/the-cool-phone-camera-trick-that-can-test-your-remote-controls-battery/l-intro-1794630742.jpg",
+          "full_article_url": "https://www.engadget.com/2319533/how-to-use-phone-test-remote-control-battery/",
+          "published_at": "2026-11-22 21:30:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1278,6 +1278,27 @@
         }
       ],
       "Business": [
+        {
+          "id": "64818a178c5a3a19484b7f934060154bb99c3e59e6a6ff19c885392714ea3e7d",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "NZ Retail Trade Survey: September 2026 Quarter",
+          "hook": "NZ Retail Trade Survey: September 2026 Quarter",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter/image",
+          "full_article_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter",
+          "published_at": "2026-11-22 21:47:33 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Business Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
         {
           "id": "20d883dcbcd6d07781cacd450d0e65f40452d9fdee4314bbc9b3d8b8f67f14d5",
           "category": "Business",
@@ -1295,8 +1316,8 @@
           "published_at": "2026-11-22 21:35:29 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Business Story",
-          "viral_rank": 1,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
@@ -1314,27 +1335,6 @@
           "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035f461e37d8fa64db0ab2jpeg.jpg?w=1600",
           "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/jared-goff-throws-2-tds-jahmyr-gibbs-rans-for-2-tds-and-lions-beat-bucs-31-21-for-6th-straight-win",
           "published_at": "2026-11-22 21:32:08 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "107daca80d909c11de42bb155685102c3d5e4bef910643f7b828df846feeab25",
-          "category": "Business",
-          "source": "Currents API",
-          "title": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
-          "hook": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035e92dbdd855fc9ecddc1jpeg.jpg?w=1600",
-          "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/eagles-snap-7-game-losing-streak-and-keep-steelers-winless-in-philly-since-1965-with-19-16-victory",
-          "published_at": "2026-11-22 21:29:05 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
