@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:04:08Z",
+  "generated_at": "2026-11-22T22:09:00Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -419,6 +419,42 @@
       "saved": false
     },
     {
+      "id": "7bd310b2c4620b1bf3c2d262672363219e1010c0383f2ca45d4ae68a6a4c0d21",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Thomas, Braun score 15 each, No. 17 Minnesota women coast past Central Michigan 82-31",
+      "hook": "Thomas, Braun score 15 each, No. 17 Minnesota women coast past Central Michigan 82-31",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/thomas-braun-score-15-each-no-17-minnesota-women-coast-past-central-michigan-82-31",
+      "published_at": "2026-11-22 21:55:47 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "bf2e36d40d31aed81e0eb023a9262b9204aba69c330c583d6785dd4e85be0ec5",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "FashionTV eyes Phuket for branded resort expansion as demand grows",
+      "hook": "FashionTV eyes Phuket for branded resort expansion as demand grows",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.bangkokpost.com/media/content/dcx/2026/11/23/6313260_700.jpg",
+      "full_article_url": "https://www.bangkokpost.com/property/3359535/fashiontv-eyes-phuket-for-branded-resort-expansion-as-demand-grows",
+      "published_at": "2026-11-22 21:54:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "64818a178c5a3a19484b7f934060154bb99c3e59e6a6ff19c885392714ea3e7d",
       "category": "Business",
       "source": "Currents API",
@@ -433,6 +469,24 @@
       "image_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter/image",
       "full_article_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter",
       "published_at": "2026-11-22 21:47:33 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "cf7a222fa9a8ab4c9a40ec69d29e234e8e13b9d489ca51a282b74780555598f6",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Banks drive growth in second-hand home supply",
+      "hook": "Banks drive growth in second-hand home supply",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.bangkokpost.com/media/content/dcx/2026/11/23/6313410_700.jpg",
+      "full_article_url": "https://www.bangkokpost.com/property/3359660/banks-drive-growth-in-secondhand-home-supply",
+      "published_at": "2026-11-22 21:40:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -653,6 +707,24 @@
       "saved": false
     },
     {
+      "id": "fc3fb5d6c8d7989f6808e4b5f5c653140288c846e167298d89274089883440f0",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "‘Size isn’t everything’: OCBC chief eyes higher ROE, bringing staff along even as bank grows",
+      "hook": "‘Size isn’t everything’: OCBC chief eyes higher ROE, bringing staff along even as bank grows",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cassette.sphdigital.com.sg/image/straitstimes/68462d9657548f07f3977dfcedd507ce3063d52b3efa5f4d6315ae19d66d9e54?t=og",
+      "full_article_url": "https://www.straitstimes.com/business/size-isnt-everything-ocbc-chief-eyes-higher-roe-bringing-staff-along-even-as-bank-grows",
+      "published_at": "2026-11-22 21:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "de5ae5896e8b57a2e7620742322e8c5a3eb42de6044baf1a1ab8e003f3754297",
       "category": "Business",
       "source": "Currents API",
@@ -689,92 +761,56 @@
       "saved": false
     },
     {
-      "id": "0626824f59c0c556234ee63a3ab2efc32c58fd1af55bca22b2bc961cc8a07452",
+      "id": "9c89b8809c4b773956ba0cf5ae05d89bbb765539258d5d23b97ea3da1b6c155c",
       "category": "Business",
       "source": "Currents API",
-      "title": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
-      "hook": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
+      "title": "Dreaming of a home, holidays and early retirement? Start with a monthly target: ST InvestMe panel",
+      "hook": "Dreaming of a home, holidays and early retirement? Start with a monthly target: ST InvestMe panel",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035731dbdd855fc9ecd750jpeg.jpg?w=1600",
-      "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/mahomes-throws-3-td-passes-kelce-catches-2-of-them-as-kc-routs-cardinals-34-7-for-3rd-straight-win",
-      "published_at": "2026-11-22 20:57:37 +0000",
+      "image_url": "https://cassette.sphdigital.com.sg/image/straitstimes/2d5f6ec818b565aeb18b12a1b138661d57bcebf7ce42c9cb883d9ada8241e73a?t=og",
+      "full_article_url": "https://www.straitstimes.com/business/dreaming-of-a-home-holidays-and-early-retirement-start-with-a-monthly-target-st-investme-panel",
+      "published_at": "2026-11-22 21:00:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "603bb7b2e2099abbba0a51ed783b909fa15d8fae3e22853d04c45e8950ad36dd",
-      "category": "Business",
+      "id": "3f47eb2aff18dcabb1d4c95e6ab92c0ab600d3c30a8d2ae83fb6e7a5dd590dc3",
+      "category": "World",
       "source": "Currents API",
-      "title": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
-      "hook": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
+      "title": "US Democrats secure 258 House seats, biggest election win since 1992",
+      "hook": "US Democrats secure 258 House seats, biggest election win since 1992",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/montana-state-grabs-the-top-seed-as-the-ncaa-unveils-the-24-team-fcs-playoff-bracket",
-      "published_at": "2026-11-22 20:57:19 +0000",
+      "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/democrat-chuck-hubbard-225817338-16x9_0.jpg?VersionId=CtlyT0Bgne0N27caKTzAx_5aKD7UMK2g",
+      "full_article_url": "https://www.indiatoday.in/world/story/us-democrats-258-house-seats-100-day-agenda-trump-probes-3044681-2026-11-23",
+      "published_at": "2026-11-22 22:01:58 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "f04f67e2b3404d182eac69c7e6d9c315e2611edf9ed2d8f7d7b2c46d84919b2f",
-      "category": "Business",
+      "id": "fe52d199dd0cef4a706aa656a58cb278e49219c613954efdcfdc3720ab1a5d54",
+      "category": "World",
       "source": "Currents API",
-      "title": "Jeeno Thitikul cashes in at LPGA finale to win $4M prize for 3rd straight time",
-      "hook": "Jeeno Thitikul cashes in at LPGA finale to win $4M prize for 3rd straight time",
+      "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
+      "hook": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0354b8dbdd855fc9ecd568jpeg.jpg?w=1600",
-      "full_article_url": "https://www.winnipegfreepress.com/sports/golf/2026/11/22/jeeno-thitikul-cashes-in-at-lpga-finale-to-win-4m-prize-for-3rd-straight-time",
-      "published_at": "2026-11-22 20:50:04 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "d394cd961b357db4fe83ed3605010b6bbe01187d3afe2d0a8080f5a35058b84e",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "From Dean Witter to rock 'n' roll history: Two palatial Piedmont properties on same street with famous former owners go up for sale",
-      "hook": "From Dean Witter to rock 'n' roll history: Two palatial Piedmont properties on same street with famous former owners go up for sale",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.bizjournals.com/sanfrancisco/news/2026/11/22/two-massive-piedmont-estates-come-to-market.html?ana=brss_1566",
-      "published_at": "2026-11-22 20:46:41 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "65b964e5f5aee3d5808ef60b3408da6caae8aa5530f00fc72589072f67387e70",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "RING: Gold's Plunge Leaves Miners Undervalued",
-      "hook": "RING: Gold's Plunge Leaves Miners Undervalued",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2263257374/image_2263257374.jpg?io=getty-c-og",
-      "full_article_url": "https://seekingalpha.com/article/4970941-ring-golds-plunge-leaves-miners-undervalued",
-      "published_at": "2026-11-22 20:45:38 +0000",
+      "image_url": "https://i.guim.co.uk/img/media/92374d04a6b87ec2995da31768a8015be7e26a0b/313_0_2620_2096/master/2620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0ff98ee54df672090a3746027f16007b",
+      "full_article_url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
+      "published_at": "2026-11-22 21:46:40 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -959,6 +995,24 @@
       "saved": false
     },
     {
+      "id": "e7b0be9b33dae1e6e4ae4a84657f3c583934537d8997ccd18e6c8b8d77324664",
+      "category": "World",
+      "source": "Currents API",
+      "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+      "hook": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://i.guim.co.uk/img/media/c6e084993e7554d08fa979d5cced63cab321f6b7/445_0_4447_3559/master/4447.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=81353b4c8f12d58d9666b5e3a6ef43f8",
+      "full_article_url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
+      "published_at": "2026-11-22 20:55:33 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "1dc2dd205405fd43afc9952f9a4465f8678e97cfe4972bd84d360f58b01d73dd",
       "category": "World",
       "source": "Currents API",
@@ -1083,64 +1137,10 @@
       "published_at": "2026-11-22 20:15:51 +0000",
       "cve_ids": [],
       "saved": false
-    },
-    {
-      "id": "4a21ced594e7d98c971542ab5662aa41ab4d529537047f3641aacb58ff1d3f0b",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Beach video played in double murder trial",
-      "hook": "Beach video played in double murder trial",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.smh.com.au/national/nsw/beach-video-played-in-double-murder-trial-20261123-p61gcy.html",
-      "published_at": "2026-11-22 20:15:30 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "56306c88c960de49918fb1d86abe7abe0fd8c3d292008b75bdfab13b86df5921",
-      "category": "World",
-      "source": "Currents API",
-      "title": "The 20-second clip that lead to a trespass investigation",
-      "hook": "The 20-second clip that lead to a trespass investigation",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/eaeae76643d201e607497ad21bef4d8e7411b192",
-      "full_article_url": "https://www.smh.com.au/national/nsw/the-20-second-clip-that-lead-to-a-trespass-investigation-20261123-p61gcx.html",
-      "published_at": "2026-11-22 20:11:41 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "17cb3ce7e12a0c4f3b5271a7739084396f2c6b6cbda0bc55d69c03f490b95e81",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Trump ready to consider Article 5-like security guarantees to Kiev — Kushner",
-      "hook": "Trump ready to consider Article 5-like security guarantees to Kiev — Kushner",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/world/2223083",
-      "published_at": "2026-11-22 20:01:19 +0000",
-      "cve_ids": [],
-      "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T22:04:08Z",
+    "generated_at": "2026-11-22T22:09:00Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1279,6 +1279,48 @@
       ],
       "Business": [
         {
+          "id": "7bd310b2c4620b1bf3c2d262672363219e1010c0383f2ca45d4ae68a6a4c0d21",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "Thomas, Braun score 15 each, No. 17 Minnesota women coast past Central Michigan 82-31",
+          "hook": "Thomas, Braun score 15 each, No. 17 Minnesota women coast past Central Michigan 82-31",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+          "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/thomas-braun-score-15-each-no-17-minnesota-women-coast-past-central-michigan-82-31",
+          "published_at": "2026-11-22 21:55:47 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Business Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "bf2e36d40d31aed81e0eb023a9262b9204aba69c330c583d6785dd4e85be0ec5",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "FashionTV eyes Phuket for branded resort expansion as demand grows",
+          "hook": "FashionTV eyes Phuket for branded resort expansion as demand grows",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://static.bangkokpost.com/media/content/dcx/2026/11/23/6313260_700.jpg",
+          "full_article_url": "https://www.bangkokpost.com/property/3359535/fashiontv-eyes-phuket-for-branded-resort-expansion-as-demand-grows",
+          "published_at": "2026-11-22 21:54:00 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "64818a178c5a3a19484b7f934060154bb99c3e59e6a6ff19c885392714ea3e7d",
           "category": "Business",
           "source": "Currents API",
@@ -1295,54 +1337,54 @@
           "published_at": "2026-11-22 21:47:33 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Business Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "20d883dcbcd6d07781cacd450d0e65f40452d9fdee4314bbc9b3d8b8f67f14d5",
-          "category": "Business",
-          "source": "Currents API",
-          "title": "FTSE 100 giant to quit London for New York",
-          "hook": "FTSE 100 giant to quit London for New York",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.telegraph.co.uk/content/dam/business/2026/11/22/TELEMMGLPICT000507195924_17953804391130_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?impolicy=OG-Standard",
-          "full_article_url": "https://www.telegraph.co.uk/business/2026/11/22/ftse-100-giant-to-quit-london-for-new-york/",
-          "published_at": "2026-11-22 21:35:29 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "61d5d42de5e20bba3dce2d4ecafb953331a83e20e25d83230850b12a8a813698",
-          "category": "Business",
-          "source": "Currents API",
-          "title": "Jared Goff throws 2 TDs, Jahmyr Gibbs rans for 2 TDs and Lions beat Bucs 31-21 for 6th straight win",
-          "hook": "Jared Goff throws 2 TDs, Jahmyr Gibbs rans for 2 TDs and Lions beat Bucs 31-21 for 6th straight win",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035f461e37d8fa64db0ab2jpeg.jpg?w=1600",
-          "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/jared-goff-throws-2-tds-jahmyr-gibbs-rans-for-2-tds-and-lions-beat-bucs-31-21-for-6th-straight-win",
-          "published_at": "2026-11-22 21:32:08 +0000",
-          "cve_ids": [],
-          "saved": false,
           "viral_badge": "📌 High Impact",
           "viral_rank": 3,
           "impact_summary": "Read the full article for context."
         }
       ],
       "World": [
+        {
+          "id": "3f47eb2aff18dcabb1d4c95e6ab92c0ab600d3c30a8d2ae83fb6e7a5dd590dc3",
+          "category": "World",
+          "source": "Currents API",
+          "title": "US Democrats secure 258 House seats, biggest election win since 1992",
+          "hook": "US Democrats secure 258 House seats, biggest election win since 1992",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/democrat-chuck-hubbard-225817338-16x9_0.jpg?VersionId=CtlyT0Bgne0N27caKTzAx_5aKD7UMK2g",
+          "full_article_url": "https://www.indiatoday.in/world/story/us-democrats-258-house-seats-100-day-agenda-trump-probes-3044681-2026-11-23",
+          "published_at": "2026-11-22 22:01:58 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top World Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "fe52d199dd0cef4a706aa656a58cb278e49219c613954efdcfdc3720ab1a5d54",
+          "category": "World",
+          "source": "Currents API",
+          "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
+          "hook": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://i.guim.co.uk/img/media/92374d04a6b87ec2995da31768a8015be7e26a0b/313_0_2620_2096/master/2620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0ff98ee54df672090a3746027f16007b",
+          "full_article_url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
+          "published_at": "2026-11-22 21:46:40 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
         {
           "id": "6c887c5672cb3f82a6fa2ce2800784b6c97d41b32b6b370ff5bc5f321f668183",
           "category": "World",
@@ -1358,48 +1400,6 @@
           "image_url": "https://www.rawstory.com/media-library/trump-tells-new-press-secretary-to-reconsider-job-after-disastrous-debut.jpg?id=68453594&width=1200&height=600&coordinates=0%2C416%2C0%2C417",
           "full_article_url": "https://www.rawstory.com/trump-iran-2678494567/",
           "published_at": "2026-11-22 21:22:55 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "🔥 Top World Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "78d94fda19d11d11dd5420fa036050825d9a0347e07666492ef1fa91c292d221",
-          "category": "World",
-          "source": "Currents API",
-          "title": "Chinese Vice-Premier Ding Xuexiang meets Singapore PM Wong, DPM Gan",
-          "hook": "Chinese Vice-Premier Ding Xuexiang meets Singapore PM Wong, DPM Gan",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226052.jpg",
-          "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/chinese-vice-premier-ding-xuexiang-meets-singapore-pm-wong-dpm-gan",
-          "published_at": "2026-11-22 21:19:45 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "b0bc11f79542b4c0308b0b0de8bc1b579259149fd6ef06c5dd9a08e77dbd8a29",
-          "category": "World",
-          "source": "Currents API",
-          "title": "Lawyer from Punjab’s Sangrur sends legal notice to Bollywood actor Amitabh Bachchan over purported quiz show video",
-          "hook": "Lawyer from Punjab’s Sangrur sends legal notice to Bollywood actor Amitabh Bachchan over purported quiz show video",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226064.jpg",
-          "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/lawyer-from-punjabs-sangrur-sends-legal-notice-to-bollywood-actor-amitabh-bachchan-over-purported-quiz-show-video",
-          "published_at": "2026-11-22 21:19:45 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
