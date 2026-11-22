@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:32:33Z",
+  "generated_at": "2026-11-22T21:46:04Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -59,6 +59,42 @@
       "saved": false
     },
     {
+      "id": "e21ba50d387c16b85b28f12ad76df44a7378d28579c23cdde0b51e0b91bd7132",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "FSD 15 Efficiency Only Needs Ai4",
+      "hook": "FSD 15 Efficiency Only Needs Ai4",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.nextbigfuture.com/2026/11/fsd-15-efficiency-only-needs-ai4.html",
+      "published_at": "2026-11-22 21:44:42 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "6b9740563c3233e9fc335d2f118ca4451941c7b454d110f6ef6d9911baf49106",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "9 people shot at a central California concert; 1 in critical condition",
+      "hook": "9 people shot at a central California concert; 1 in critical condition",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.keloland.com/news/national-world-news/ap-9-people-shot-at-a-central-california-concert-1-in-critical-condition/",
+      "published_at": "2026-11-22 21:16:05 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "cac17eecbc308b66dbde193c536d837ef50471cae1e3bba84c8e39b72dc2b06b",
       "category": "Technology",
       "source": "Currents API",
@@ -77,6 +113,24 @@
       "saved": false
     },
     {
+      "id": "e169c125eae40b966bea807757599a5ae921cf132c4393c4dbe2ca5b837f0099",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Week Notes 26#47 · Jamie Tanna | Software Engineer",
+      "hook": "Week Notes 26#47 · Jamie Tanna | Software Engineer",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.jvt.me/img/profile.jpg",
+      "full_article_url": "https://www.jvt.me/week-notes/2026/47/",
+      "published_at": "2026-11-22 21:03:45 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "c659db5b3ee9148a05ad098fa6509ceee166048b36c70df24525ce955580db53",
       "category": "Technology",
       "source": "Currents API",
@@ -91,6 +145,24 @@
       "image_url": "https://www.engadget.com/img/gallery/how-secure-is-your-password-heres-how-to-test-it/l-intro-1794581081.jpg",
       "full_article_url": "https://www.engadget.com/2319522/how-secure-is-password/",
       "published_at": "2026-11-22 21:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "04c501a00a12590b1ec4ebd5219d52e3a9321a765bf89bb1bbfc2a80302bea47",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Deal: Amazon's Black Friday deal discounts the Pixel 11 Pro and Pixel 11 Pro XL by 31%",
+      "hook": "Deal: Amazon's Black Friday deal discounts the Pixel 11 Pro and Pixel 11 Pro XL by 31%",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/black-friday-amazon-us/-952x498w6/gsmarena_002.jpg",
+      "full_article_url": "https://www.gsmarena.com/deal_amazons_black_friday_deal_discounts_the_pixel_11_pro_and_pixel_11_pro_xl_by_31-news-75570.php",
+      "published_at": "2026-11-22 20:51:02 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -347,65 +419,101 @@
       "saved": false
     },
     {
-      "id": "b6a134c688b0892a1a76d283da4ed74cab4e750e5945248f6b2bba22e7fea732",
-      "category": "Technology",
+      "id": "61d5d42de5e20bba3dce2d4ecafb953331a83e20e25d83230850b12a8a813698",
+      "category": "Business",
       "source": "Currents API",
-      "title": "Exploit for xss47",
-      "hook": "Exploit for xss47",
+      "title": "Jared Goff throws 2 TDs, Jahmyr Gibbs rans for 2 TDs and Lions beat Bucs 31-21 for 6th straight win",
+      "hook": "Jared Goff throws 2 TDs, Jahmyr Gibbs rans for 2 TDs and Lions beat Bucs 31-21 for 6th straight win",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://sploitus.com/static/images/ui/logo.png",
-      "full_article_url": "https://sploitus.com/exploit?id=8ED7BCA4-A7AD-5CBE-BF5D-070BBE5971BE",
-      "published_at": "2026-11-22 20:13:13 +0000",
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035f461e37d8fa64db0ab2jpeg.jpg?w=1600",
+      "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/jared-goff-throws-2-tds-jahmyr-gibbs-rans-for-2-tds-and-lions-beat-bucs-31-21-for-6th-straight-win",
+      "published_at": "2026-11-22 21:32:08 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "f1109444d04ffbde824e7d7f5fcc96a398c6b5ad686910a9803b22de72652253",
-      "category": "Technology",
+      "id": "107daca80d909c11de42bb155685102c3d5e4bef910643f7b828df846feeab25",
+      "category": "Business",
       "source": "Currents API",
-      "title": "crack reopening inside Earth oldest continents",
-      "hook": "crack reopening inside Earth oldest continents",
+      "title": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
+      "hook": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Kalahari-Craton.jpg",
-      "full_article_url": "https://interestingengineering.com/science/crack-reopening-inside-earth-oldest-continents",
-      "published_at": "2026-11-22 20:08:36 +0000",
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035e92dbdd855fc9ecddc1jpeg.jpg?w=1600",
+      "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/eagles-snap-7-game-losing-streak-and-keep-steelers-winless-in-philly-since-1965-with-19-16-victory",
+      "published_at": "2026-11-22 21:29:05 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "3c250980adaec847e04050f2ce68cb49675a960f59b92d9bc3892ccd2ae562f5",
-      "category": "Technology",
+      "id": "02d246f0a99f0a9f4a37666fd6913b378ac87ac834969eb5b6cc23f8b1199300",
+      "category": "Business",
       "source": "Currents API",
-      "title": "Germany tests Kamikaze drones and AI targeting technology in Lithuania",
-      "hook": "Germany tests Kamikaze drones and AI targeting technology in Lithuania",
+      "title": "Tylen Riley scores 24 points and Cincinnati outlasts UMass Lowell 78-68",
+      "hook": "Tylen Riley scores 24 points and Cincinnati outlasts UMass Lowell 78-68",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://images.euronews.com/articles/stories/10/00/36/41/1200x675_cmsv2_aec2fdbb-8822-52a1-b99e-32a98ed9bce8-10003641.jpg",
-      "full_article_url": "https://www.euronews.com/2026/11/22/germany-tests-kamikaze-drones-and-ai-targeting-technology-in-lithuania",
-      "published_at": "2026-11-22 20:07:57 +0000",
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/tylen-riley-scores-24-points-and-cincinnati-outlasts-umass-lowell-78-68",
+      "published_at": "2026-11-22 21:28:49 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "0e664d457f9c98e5bca4713b4b1cbfc98c03e87304bbc5e8fed59b16303c56cb",
-      "category": "Technology",
+      "id": "eaab6174b424d9507e10fea4e70163a1c5586c3d0ea5639ce7adb0f03611a897",
+      "category": "Business",
       "source": "Currents API",
-      "title": "17-year-old Windows 7 gets unofficial DirectX 12 and Vulkan 1.4 support",
-      "hook": "17-year-old Windows 7 gets unofficial DirectX 12 and Vulkan 1.4 support",
+      "title": "Prince rallies No. 23 Nebraska women past Creighton 55-45",
+      "hook": "Prince rallies No. 23 Nebraska women past Creighton 55-45",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/prince-rallies-no-23-nebraska-women-past-creighton-55-45",
+      "published_at": "2026-11-22 21:25:56 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "8d05268b7ad1443ad4fd2b2e20cd1da5cc97aff9813f9bcfdf86fa2fb8edb7d7",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Go public or stay private: Tata Sons gears up for decision this week",
+      "hook": "Go public or stay private: Tata Sons gears up for decision this week",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.toiimg.com/thumb/msid-136083496,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "full_article_url": "https://timesofindia.indiatimes.com/business/india-business/go-public-or-stay-private-tata-sons-gears-up-for-decision-this-week/articleshow/136083498.cms",
+      "published_at": "2026-11-22 21:22:04 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "2d08a557c1331cf119a53ad667828c7102434ebd5e14a395a89eb9bf31dabf14",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Half Of All Delta Flights Delayed Sunday After Ground Delay In Atlanta",
+      "hook": "Half Of All Delta Flights Delayed Sunday After Ground Delay In Atlanta",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -413,8 +521,8 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://www.tomshardware.com/software/windows/17-year-old-windows-7-gets-unofficial-directx-12-and-vulkan-1-4-support-enthusiasts-bring-nvidia-rtx-50-amd-rx-9000-and-intel-arc-gpus-to-the-aging-os",
-      "published_at": "2026-11-22 20:03:52 +0000",
+      "full_article_url": "https://www.forbes.com/sites/zacharyfolk/2026/11/22/half-of-all-delta-flights-delayed-sunday-after-ground-delay-in-atlanta/",
+      "published_at": "2026-11-22 21:08:51 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -635,6 +743,24 @@
       "saved": false
     },
     {
+      "id": "067950ef0d42c8858c2cf458bc91897df380e63dd7abdb7ee95680f992b24dab",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "PlayStation Plus Free Games December 2026: Reveal Date, Rumors, Predictions And More",
+      "hook": "PlayStation Plus Free Games December 2026: Reveal Date, Rumors, Predictions And More",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.forbes.com/sites/erikkain/2026/11/22/ps-plus-december-2026-free-games-predictions-leaks-rumors/",
+      "published_at": "2026-11-22 20:35:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "ae03157c0934a2ed38615ba8c32c2de5ff27b8929dfdaa3b57ef3374278e6b96",
       "category": "Business",
       "source": "Currents API",
@@ -653,128 +779,20 @@
       "saved": false
     },
     {
-      "id": "ebc88d19aadc7fc5af4d684cd0af6bc88af4f2bab2c22b1aac77d59da719f0f0",
-      "category": "Business",
+      "id": "6c887c5672cb3f82a6fa2ce2800784b6c97d41b32b6b370ff5bc5f321f668183",
+      "category": "World",
       "source": "Currents API",
-      "title": "Karasinski scores 26, West adds 21 and Northwestern beats Dayton 79-55 in Charleston Classic",
-      "hook": "Karasinski scores 26, West adds 21 and Northwestern beats Dayton 79-55 in Charleston Classic",
+      "title": "Cursing Trump's war threats leave Fox News reporter weary: 'We have seen this before'",
+      "hook": "Cursing Trump's war threats leave Fox News reporter weary: 'We have seen this before'",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/karasinski-scores-26-west-adds-21-and-northwestern-beats-dayton-79-55-in-charleston-classic",
-      "published_at": "2026-11-22 20:30:19 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "3eb779967301cbcb8579e3e20572bcf71a7768be03cc33fc0c3421d0ee146f98",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Cunningham has double-double as No. 6 Texas women lead throughout 75-61 over No. 19 Ohio State",
-      "hook": "Cunningham has double-double as No. 6 Texas women lead throughout 75-61 over No. 19 Ohio State",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/cunningham-has-double-double-as-no-6-texas-women-lead-throughout-75-61-over-no-19-ohio-state",
-      "published_at": "2026-11-22 20:30:18 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "8a3bfd49f3c08c5ffa6ed28efa5fde0fad6f78a6ff94c5de38f5f3b402f931ba",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "CoreWeave, Nebius, IREN and Top Neoclouds Get Oversold as AI Bubble Fears Rise - IREN (NASDAQ:IREN), Nebi",
-      "hook": "CoreWeave, Nebius, IREN and Top Neoclouds Get Oversold as AI Bubble Fears Rise - IREN (NASDAQ:IREN), Nebi",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/CoreWeaveApex--North-Carolina---April-2-.jpg",
-      "full_article_url": "https://www.benzinga.com/markets/equities/26/11/63517496/coreweave-nebius-iren-and-top-neoclouds-get-oversold-as-ai-bubble-fears-rise",
-      "published_at": "2026-11-22 20:30:08 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "9e363919404f4112ca45727294a31583b1f9d9efab8f456e526562898c2436c4",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Steelers' DK Metcalf ejected for unsportsmanlike conduct vs. the Eagles",
-      "hook": "Steelers' DK Metcalf ejected for unsportsmanlike conduct vs. the Eagles",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035080dbdd855fc9ecd1f2jpeg.jpg?w=1600",
-      "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/steelers-dk-metcalf-ejected-for-unsportsmanlike-conduct-vs-the-eagles",
-      "published_at": "2026-11-22 20:28:54 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "1a784314b584000af752b09e14246d36cf4df29eb74d9839b2550cbe50aac638",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "84-year-old pedestrian dies after being hit by vehicle in Burnaby, B.C.",
-      "hook": "84-year-old pedestrian dies after being hit by vehicle in Burnaby, B.C.",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0347c7930a7a5b3f6a827djpeg.jpg?w=1600",
-      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/84-year-old-pedestrian-dies-after-being-hit-by-vehicle-in-burnaby-b-c",
-      "published_at": "2026-11-22 20:21:20 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "9c050525ffe704783a05546a92ace4e07a5d1cb8e39853eaaf3b73c279102c77",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Workday Earnings Preview: Can Results Calm SaaSPocalypse Concerns? - Workday (NASDAQ:WDAY)",
-      "hook": "Workday Earnings Preview: Can Results Calm SaaSPocalypse Concerns? - Workday (NASDAQ:WDAY)",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/August-25--2019-Pleasanton--Ca--Usa---Cl.jpg",
-      "full_article_url": "https://www.benzinga.com/markets/equities/26/11/63517474/workday-earnings-preview-can-results-calm-saaspocalypse-concerns",
-      "published_at": "2026-11-22 20:20:08 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "8d4a5bdb605b6cc4c36039106ccff6795953b7a1c3033e4db47101e0da569964",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Ethereum Price Rebounds After Hitting Key Support, But Risks of Hitting $1,000 Remain",
-      "hook": "Ethereum Price Rebounds After Hitting Key Support, But Risks of Hitting $1,000 Remain",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.benzinga.com/crypto/26/11/63517460/ethereum-price-rebounds-after-hitting-key-support-but-risks-of-hitting-1000-remain",
-      "published_at": "2026-11-22 20:15:06 +0000",
+      "image_url": "https://www.rawstory.com/media-library/trump-tells-new-press-secretary-to-reconsider-job-after-disastrous-debut.jpg?id=68453594&width=1200&height=600&coordinates=0%2C416%2C0%2C417",
+      "full_article_url": "https://www.rawstory.com/trump-iran-2678494567/",
+      "published_at": "2026-11-22 21:22:55 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1119,28 +1137,10 @@
       "published_at": "2026-11-22 19:45:08 +0000",
       "cve_ids": [],
       "saved": false
-    },
-    {
-      "id": "e18876bd730e9b813a833673761f80847906a7b0a463db487417068a06e36af7",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Russian warship goes up in flames at Libyan port in suspected Ukraine sea drone attack",
-      "hook": "Russian warship goes up in flames at Libyan port in suspected Ukraine sea drone attack",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.ffx.io/images/$zoom_0.1195%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_51/t_crop_custom/q_86%2Cf_auto/6d46b3fc3130447542d21a06ed380d65a2e67b8f",
-      "full_article_url": "https://www.smh.com.au/world/europe/russian-warship-goes-up-in-flames-at-libyan-port-in-suspected-ukraine-sea-drone-attack-20261123-p61gbo.html",
-      "published_at": "2026-11-22 19:44:05 +0000",
-      "cve_ids": [],
-      "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T21:32:33Z",
+    "generated_at": "2026-11-22T21:46:04Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1214,6 +1214,48 @@
       ],
       "Technology": [
         {
+          "id": "e21ba50d387c16b85b28f12ad76df44a7378d28579c23cdde0b51e0b91bd7132",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "FSD 15 Efficiency Only Needs Ai4",
+          "hook": "FSD 15 Efficiency Only Needs Ai4",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": null,
+          "full_article_url": "https://www.nextbigfuture.com/2026/11/fsd-15-efficiency-only-needs-ai4.html",
+          "published_at": "2026-11-22 21:44:42 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Technology Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "6b9740563c3233e9fc335d2f118ca4451941c7b454d110f6ef6d9911baf49106",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "9 people shot at a central California concert; 1 in critical condition",
+          "hook": "9 people shot at a central California concert; 1 in critical condition",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": null,
+          "full_article_url": "https://www.keloland.com/news/national-world-news/ap-9-people-shot-at-a-central-california-concert-1-in-critical-condition/",
+          "published_at": "2026-11-22 21:16:05 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "cac17eecbc308b66dbde193c536d837ef50471cae1e3bba84c8e39b72dc2b06b",
           "category": "Technology",
           "source": "Currents API",
@@ -1230,48 +1272,6 @@
           "published_at": "2026-11-22 21:15:00 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Technology Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "c659db5b3ee9148a05ad098fa6509ceee166048b36c70df24525ce955580db53",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "How Secure Is Your Password? Here's How To Test It - Engadget",
-          "hook": "How Secure Is Your Password? Here's How To Test It - Engadget",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.engadget.com/img/gallery/how-secure-is-your-password-heres-how-to-test-it/l-intro-1794581081.jpg",
-          "full_article_url": "https://www.engadget.com/2319522/how-secure-is-password/",
-          "published_at": "2026-11-22 21:00:00 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "ca9f86531334967c0aceb6ed406d2b9fc3c2b0d1985eea2cfd725c769aa27cd6",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "Opinion | America Hits the Brakes on AI",
-          "hook": "Opinion | America Hits the Brakes on AI",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
-          "published_at": "2026-11-22 20:47:00 +0000",
-          "cve_ids": [],
-          "saved": false,
           "viral_badge": "📌 High Impact",
           "viral_rank": 3,
           "impact_summary": "Read the full article for context."
@@ -1279,20 +1279,20 @@
       ],
       "Business": [
         {
-          "id": "d9545f8558340903da671410a3181f953eb9a742c959767d86bd9d2f8a3d8315",
+          "id": "61d5d42de5e20bba3dce2d4ecafb953331a83e20e25d83230850b12a8a813698",
           "category": "Business",
           "source": "Currents API",
-          "title": "Americans Are Cutting Back This Christmas — Here's Why",
-          "hook": "Americans Are Cutting Back This Christmas — Here's Why",
+          "title": "Jared Goff throws 2 TDs, Jahmyr Gibbs rans for 2 TDs and Lions beat Bucs 31-21 for 6th straight win",
+          "hook": "Jared Goff throws 2 TDs, Jahmyr Gibbs rans for 2 TDs and Lions beat Bucs 31-21 for 6th straight win",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/Early-shoppers-found-bargains-and-plenty.jpg",
-          "full_article_url": "https://www.benzinga.com/personal-finance/financial-advisors/26/11/63517539/americans-are-cutting-back-this-christmas-heres-why",
-          "published_at": "2026-11-22 21:00:08 +0000",
+          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035f461e37d8fa64db0ab2jpeg.jpg?w=1600",
+          "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/jared-goff-throws-2-tds-jahmyr-gibbs-rans-for-2-tds-and-lions-beat-bucs-31-21-for-6th-straight-win",
+          "published_at": "2026-11-22 21:32:08 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top Business Story",
@@ -1300,20 +1300,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "5c9177adab7bfef272eecc4a3e72914c17ae1ead6e253405c49f2e1a2877f779",
+          "id": "107daca80d909c11de42bb155685102c3d5e4bef910643f7b828df846feeab25",
           "category": "Business",
           "source": "Currents API",
-          "title": "Labor has avoided recession at the expense of mortgage holders",
-          "hook": "Labor has avoided recession at the expense of mortgage holders",
+          "title": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
+          "hook": "Eagles snap 7-game losing streak and keep Steelers winless in Philly since 1965 with 19-16 victory",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://api.macrobusiness.com.au/wp-content/uploads/2026/11/Mortgage-Holders-vs-Government-Thumbnail-660x371.png",
-          "full_article_url": "https://www.macrobusiness.com.au/2026/11/labor-has-avoided-recession-at-the-expense-of-mortgage-holders/",
-          "published_at": "2026-11-22 21:00:02 +0000",
+          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035e92dbdd855fc9ecddc1jpeg.jpg?w=1600",
+          "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/eagles-snap-7-game-losing-streak-and-keep-steelers-winless-in-philly-since-1965-with-19-16-victory",
+          "published_at": "2026-11-22 21:29:05 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1321,20 +1321,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "9aa4cff0d0bd81809586545370da029d5298019bdac3cfa0213d6e9ae60ccd57",
+          "id": "02d246f0a99f0a9f4a37666fd6913b378ac87ac834969eb5b6cc23f8b1199300",
           "category": "Business",
           "source": "Currents API",
-          "title": "New Insurance Opportunities: Why Transparency Matters",
-          "hook": "New Insurance Opportunities: Why Transparency Matters",
+          "title": "Tylen Riley scores 24 points and Cincinnati outlasts UMass Lowell 78-68",
+          "hook": "Tylen Riley scores 24 points and Cincinnati outlasts UMass Lowell 78-68",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://seekingalpha.com/article/4970942-new-insurance-opportunities-why-transparency-matters",
-          "published_at": "2026-11-22 21:00:00 +0000",
+          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+          "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/tylen-riley-scores-24-points-and-cincinnati-outlasts-umass-lowell-78-68",
+          "published_at": "2026-11-22 21:28:49 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1343,6 +1343,27 @@
         }
       ],
       "World": [
+        {
+          "id": "6c887c5672cb3f82a6fa2ce2800784b6c97d41b32b6b370ff5bc5f321f668183",
+          "category": "World",
+          "source": "Currents API",
+          "title": "Cursing Trump's war threats leave Fox News reporter weary: 'We have seen this before'",
+          "hook": "Cursing Trump's war threats leave Fox News reporter weary: 'We have seen this before'",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://www.rawstory.com/media-library/trump-tells-new-press-secretary-to-reconsider-job-after-disastrous-debut.jpg?id=68453594&width=1200&height=600&coordinates=0%2C416%2C0%2C417",
+          "full_article_url": "https://www.rawstory.com/trump-iran-2678494567/",
+          "published_at": "2026-11-22 21:22:55 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top World Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
         {
           "id": "78d94fda19d11d11dd5420fa036050825d9a0347e07666492ef1fa91c292d221",
           "category": "World",
@@ -1360,8 +1381,8 @@
           "published_at": "2026-11-22 21:19:45 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top World Story",
-          "viral_rank": 1,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
@@ -1379,27 +1400,6 @@
           "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226064.jpg",
           "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/lawyer-from-punjabs-sangrur-sends-legal-notice-to-bollywood-actor-amitabh-bachchan-over-purported-quiz-show-video",
           "published_at": "2026-11-22 21:19:45 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "63cbe31ca433b08ff33412881fc2b4f1686068dac776dd5c0ea32302b9a1341c",
-          "category": "World",
-          "source": "Currents API",
-          "title": "Thailand finds no arsenic poisoning cases along four northern rivers",
-          "hook": "Thailand finds no arsenic poisoning cases along four northern rivers",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226066.jpg",
-          "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/thailand-finds-no-arsenic-poisoning-cases-along-four-northern-rivers",
-          "published_at": "2026-11-22 21:19:44 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
