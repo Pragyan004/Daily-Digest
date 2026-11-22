@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:18:00Z",
+  "generated_at": "2026-11-22T22:22:30Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -437,6 +437,24 @@
       "saved": false
     },
     {
+      "id": "1ce0c9ea197769ee6ab988d12badd86586e86eafcbcb9d1c28e9e709483ab0ff",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "REVIEW: Strauss tone poems mesmerize under baton of Philippe Jordan at CSO",
+      "hook": "REVIEW: Strauss tone poems mesmerize under baton of Philippe Jordan at CSO",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.bizjournals.com/cincinnati/news/2026/11/22/review-strauss-philippe-jordan-conducts-cso.html?ana=brss_1566",
+      "published_at": "2026-11-22 21:57:03 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "7bd310b2c4620b1bf3c2d262672363219e1010c0383f2ca45d4ae68a6a4c0d21",
       "category": "Business",
       "source": "Currents API",
@@ -487,6 +505,24 @@
       "image_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter/image",
       "full_article_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter",
       "published_at": "2026-11-22 21:47:33 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "9af8728c0023a18ac0211d28bfe2f99380a7ac1300ced9f5d2408c6441ecd958",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Whiskey Judges Named This the World’s Best 18-Year Bourbon. One-Third of It Isn’t Bourbon",
+      "hook": "Whiskey Judges Named This the World’s Best 18-Year Bourbon. One-Third of It Isn’t Bourbon",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.inc.com/lucia-auerbach/judges-named-worlds-best-18-year-bourbon-one-third-of-it-isnt-bourbon/91440029",
+      "published_at": "2026-11-22 21:40:56 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -689,6 +725,24 @@
       "saved": false
     },
     {
+      "id": "ca6516b16c46cdc48dccbb7e488887280090d63729d5e06926a9a2b2d50936bd",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Noah Wyle and Figs Are Giving $2 Million to Fight Medical Debt. It Could Erase $200 Million",
+      "hook": "Noah Wyle and Figs Are Giving $2 Million to Fight Medical Debt. It Could Erase $200 Million",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.inc.com/victoria-salves/noah-wyle-figs-2-millions-dollars-fight-medical-debt-could-erase-200-million-dollars/91440749",
+      "published_at": "2026-11-22 21:03:44 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "9ca863abe2fe34a623e5b7baed5580a0140f8674fbb9d7744f741432ef17cec5",
       "category": "Business",
       "source": "Currents API",
@@ -725,60 +779,6 @@
       "saved": false
     },
     {
-      "id": "5c9177adab7bfef272eecc4a3e72914c17ae1ead6e253405c49f2e1a2877f779",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Labor has avoided recession at the expense of mortgage holders",
-      "hook": "Labor has avoided recession at the expense of mortgage holders",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://api.macrobusiness.com.au/wp-content/uploads/2026/11/Mortgage-Holders-vs-Government-Thumbnail-660x371.png",
-      "full_article_url": "https://www.macrobusiness.com.au/2026/11/labor-has-avoided-recession-at-the-expense-of-mortgage-holders/",
-      "published_at": "2026-11-22 21:00:02 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "fc3fb5d6c8d7989f6808e4b5f5c653140288c846e167298d89274089883440f0",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "‘Size isn’t everything’: OCBC chief eyes higher ROE, bringing staff along even as bank grows",
-      "hook": "‘Size isn’t everything’: OCBC chief eyes higher ROE, bringing staff along even as bank grows",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cassette.sphdigital.com.sg/image/straitstimes/68462d9657548f07f3977dfcedd507ce3063d52b3efa5f4d6315ae19d66d9e54?t=og",
-      "full_article_url": "https://www.straitstimes.com/business/size-isnt-everything-ocbc-chief-eyes-higher-roe-bringing-staff-along-even-as-bank-grows",
-      "published_at": "2026-11-22 21:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "de5ae5896e8b57a2e7620742322e8c5a3eb42de6044baf1a1ab8e003f3754297",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Stalled exit from cancelled Adani deal exposes Kenya to high claims",
-      "hook": "Stalled exit from cancelled Adani deal exposes Kenya to high claims",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.standardmedia.co.ke/business/article/2001562819/stalled-exit-from-cancelled-adani-deal-exposes-kenya-to-high-claims",
-      "published_at": "2026-11-22 21:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
       "id": "3f47eb2aff18dcabb1d4c95e6ab92c0ab600d3c30a8d2ae83fb6e7a5dd590dc3",
       "category": "World",
       "source": "Currents API",
@@ -793,6 +793,24 @@
       "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/democrat-chuck-hubbard-225817338-16x9_0.jpg?VersionId=CtlyT0Bgne0N27caKTzAx_5aKD7UMK2g",
       "full_article_url": "https://www.indiatoday.in/world/story/us-democrats-258-house-seats-100-day-agenda-trump-probes-3044681-2026-11-23",
       "published_at": "2026-11-22 22:01:58 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "878874a4395241cf3e3f056cbebd79ec37e6259ec55a7906580835affed2cd62",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Tigers add another arm, agree to deal with ex-Yankee Luis Gil",
+      "hook": "Tigers add another arm, agree to deal with ex-Yankee Luis Gil",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.gannett-cdn.com/authoring/authoring-images/2026/11/22/PDTN/92916109007-20260911-t-030437-z-1423985692-mt-1-usatoday-29784300-rtrmadp-3-mlbcoloradorockiesatnewyorkyankees.JPG?auto=webp&crop=3837,2159,x0,y0&format=pjpg&width=1200",
+      "full_article_url": "https://www.detroitnews.com/story/sports/mlb/tigers/2026/11/22/tigers-add-another-arm-agree-to-deal-with-ex-yankee-luis-gil/92916265007/",
+      "published_at": "2026-11-22 21:56:53 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1119,28 +1137,10 @@
       "published_at": "2026-11-22 20:32:36 +0000",
       "cve_ids": [],
       "saved": false
-    },
-    {
-      "id": "5085041d4a0c252e445ff3b7f72d132dba0934c83610564ad29d66179d027ded",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Two teens charged over CBD stabbing death",
-      "hook": "Two teens charged over CBD stabbing death",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.ffx.io/images/$zoom_0.2118%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_69/t_crop_custom/q_86%2Cf_auto/19d0d86dcc261b5db8a1cf7c10cc519548a255bd",
-      "full_article_url": "https://www.smh.com.au/national/victoria/two-teens-charged-over-cbd-stabbing-death-20261123-p61gco.html",
-      "published_at": "2026-11-22 20:26:41 +0000",
-      "cve_ids": [],
-      "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T22:18:00Z",
+    "generated_at": "2026-11-22T22:22:30Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1300,6 +1300,27 @@
           "impact_summary": "Read the full article for context."
         },
         {
+          "id": "1ce0c9ea197769ee6ab988d12badd86586e86eafcbcb9d1c28e9e709483ab0ff",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "REVIEW: Strauss tone poems mesmerize under baton of Philippe Jordan at CSO",
+          "hook": "REVIEW: Strauss tone poems mesmerize under baton of Philippe Jordan at CSO",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": null,
+          "full_article_url": "https://www.bizjournals.com/cincinnati/news/2026/11/22/review-strauss-philippe-jordan-conducts-cso.html?ana=brss_1566",
+          "published_at": "2026-11-22 21:57:03 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "7bd310b2c4620b1bf3c2d262672363219e1010c0383f2ca45d4ae68a6a4c0d21",
           "category": "Business",
           "source": "Currents API",
@@ -1314,27 +1335,6 @@
           "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
           "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/thomas-braun-score-15-each-no-17-minnesota-women-coast-past-central-michigan-82-31",
           "published_at": "2026-11-22 21:55:47 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "bf2e36d40d31aed81e0eb023a9262b9204aba69c330c583d6785dd4e85be0ec5",
-          "category": "Business",
-          "source": "Currents API",
-          "title": "FashionTV eyes Phuket for branded resort expansion as demand grows",
-          "hook": "FashionTV eyes Phuket for branded resort expansion as demand grows",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://static.bangkokpost.com/media/content/dcx/2026/11/23/6313260_700.jpg",
-          "full_article_url": "https://www.bangkokpost.com/property/3359535/fashiontv-eyes-phuket-for-branded-resort-expansion-as-demand-grows",
-          "published_at": "2026-11-22 21:54:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1365,6 +1365,27 @@
           "impact_summary": "Read the full article for context."
         },
         {
+          "id": "878874a4395241cf3e3f056cbebd79ec37e6259ec55a7906580835affed2cd62",
+          "category": "World",
+          "source": "Currents API",
+          "title": "Tigers add another arm, agree to deal with ex-Yankee Luis Gil",
+          "hook": "Tigers add another arm, agree to deal with ex-Yankee Luis Gil",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://www.gannett-cdn.com/authoring/authoring-images/2026/11/22/PDTN/92916109007-20260911-t-030437-z-1423985692-mt-1-usatoday-29784300-rtrmadp-3-mlbcoloradorockiesatnewyorkyankees.JPG?auto=webp&crop=3837,2159,x0,y0&format=pjpg&width=1200",
+          "full_article_url": "https://www.detroitnews.com/story/sports/mlb/tigers/2026/11/22/tigers-add-another-arm-agree-to-deal-with-ex-yankee-luis-gil/92916265007/",
+          "published_at": "2026-11-22 21:56:53 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "fe52d199dd0cef4a706aa656a58cb278e49219c613954efdcfdc3720ab1a5d54",
           "category": "World",
           "source": "Currents API",
@@ -1379,27 +1400,6 @@
           "image_url": "https://i.guim.co.uk/img/media/92374d04a6b87ec2995da31768a8015be7e26a0b/313_0_2620_2096/master/2620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0ff98ee54df672090a3746027f16007b",
           "full_article_url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
           "published_at": "2026-11-22 21:46:40 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "6c887c5672cb3f82a6fa2ce2800784b6c97d41b32b6b370ff5bc5f321f668183",
-          "category": "World",
-          "source": "Currents API",
-          "title": "Cursing Trump's war threats leave Fox News reporter weary: 'We have seen this before'",
-          "hook": "Cursing Trump's war threats leave Fox News reporter weary: 'We have seen this before'",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.rawstory.com/media-library/trump-tells-new-press-secretary-to-reconsider-job-after-disastrous-debut.jpg?id=68453594&width=1200&height=600&coordinates=0%2C416%2C0%2C417",
-          "full_article_url": "https://www.rawstory.com/trump-iran-2678494567/",
-          "published_at": "2026-11-22 21:22:55 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
