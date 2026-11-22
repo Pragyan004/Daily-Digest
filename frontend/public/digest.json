@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:09:00Z",
+  "generated_at": "2026-11-22T22:18:00Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -59,6 +59,24 @@
       "saved": false
     },
     {
+      "id": "7ebc54de2c71ce235205a89b08887ee769d5e60f3158837772a34204d6545b9a",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Opinion | How to Kill a Bull Market",
+      "hook": "Opinion | How to Kill a Bull Market",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.wsj.com/opinion/how-to-kill-a-bull-market-ai-policy-15fb5af6",
+      "published_at": "2026-11-22 22:01:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "04a3ff300807bfefc0dd794c19bdb7e4fe691fe131ef0289775e44fbfa329249",
       "category": "Technology",
       "source": "Currents API",
@@ -91,6 +109,24 @@
       "image_url": null,
       "full_article_url": "https://www.nextbigfuture.com/2026/11/fsd-15-efficiency-only-needs-ai4.html",
       "published_at": "2026-11-22 21:44:42 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "1da50c24753579701adc6b5893a35d8e32876f65d65e605cfd5e0a0d2f7e69c7",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "‘You Can See Everything’ has made more than $100M worldwide | TechCrunch",
+      "hook": "‘You Can See Everything’ has made more than $100M worldwide | TechCrunch",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/V8_PHASE-1_LOBTS.jpg?resize=1200,900",
+      "full_article_url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
+      "published_at": "2026-11-22 21:42:48 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -163,6 +199,24 @@
       "image_url": "https://www.jvt.me/img/profile.jpg",
       "full_article_url": "https://www.jvt.me/week-notes/2026/47/",
       "published_at": "2026-11-22 21:03:45 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "7aaba70f0b275b7f7ad6bcd1cca54af827ea22601035d297410d17f1621ddae7",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "The best apps to make new friends right now | TechCrunch",
+      "hook": "The best apps to make new friends right now | TechCrunch",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-596631439.jpg?resize=1200,800",
+      "full_article_url": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
+      "published_at": "2026-11-22 21:00:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -365,56 +419,20 @@
       "saved": false
     },
     {
-      "id": "d8a90deea7c46f6a41164800f3511329c46a433b0a8205ca272829e47cd37cf4",
-      "category": "Technology",
+      "id": "e7b837b08fd75b08b4fcb3141b5cb5963af071e6b1afc7e528ba35c29236003a",
+      "category": "Business",
       "source": "Currents API",
-      "title": "What the tiny key icon means on your Android device - Engadget",
-      "hook": "What the tiny key icon means on your Android device - Engadget",
+      "title": "Aussie flash PMI plunges into recession",
+      "hook": "Aussie flash PMI plunges into recession",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/what-the-tiny-key-icon-means-on-your-android-device/l-intro-1794812963.jpg",
-      "full_article_url": "https://www.engadget.com/2319509/what-tiny-key-icon-means-android-device/",
-      "published_at": "2026-11-22 20:30:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "0778e7b1a128dcc5c1dbbdb2fe8ae95bf83a0411f677f8697ee7f3f7a76f756c",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Gurman: Siri Layoffs Spared Newer AI Systems, But Problems Persist",
-      "hook": "Gurman: Siri Layoffs Spared Newer AI Systems, But Problems Persist",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://images.macrumors.com/t/_tjfK0vua64wDcGeqmNXpkPzL54=/2048x/article-new/2026/11/Siri-AI-Icon.jpeg",
-      "full_article_url": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems/",
-      "published_at": "2026-11-22 20:29:51 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f82c77772f7ea6e44c1cf44c754244cbc968d1f0f6926b79f07291b975488a2e",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Are We Teaching AI What It Will Become?",
-      "hook": "Are We Teaching AI What It Will Become?",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://miro.medium.com/v2/resize:fit:960/1*BTyOgrgwKOEjEJuvg10UgA@2x.jpeg",
-      "full_article_url": "https://medium.com/@Kyledolby/are-we-teaching-ai-what-it-will-become-4e0efe0a4b94",
-      "published_at": "2026-11-22 20:29:39 +0000",
+      "image_url": "https://api.macrobusiness.com.au/wp-content/uploads/2026/11/Albanese-No-Recession-660x371.png",
+      "full_article_url": "https://www.macrobusiness.com.au/2026/11/aussie-flash-pmi-plunges-into-recession/",
+      "published_at": "2026-11-22 22:10:14 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -653,6 +671,24 @@
       "saved": false
     },
     {
+      "id": "960a82bd9111b3b9ea512828ee8f91cc64d68f5032eb816dc9def33ad8f740d6",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Small firms urged to seize Chinese growth opportunities",
+      "hook": "Small firms urged to seize Chinese growth opportunities",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.bangkokpost.com/v3/assets/images/img-default.jpg",
+      "full_article_url": "https://www.bangkokpost.com/business/general/3359685/small-firms-urged-to-seize-chinese-growth-opportunities",
+      "published_at": "2026-11-22 21:08:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "9ca863abe2fe34a623e5b7baed5580a0140f8674fbb9d7744f741432ef17cec5",
       "category": "Business",
       "source": "Currents API",
@@ -738,42 +774,6 @@
       "read_time_sec": 180,
       "image_url": null,
       "full_article_url": "https://www.standardmedia.co.ke/business/article/2001562819/stalled-exit-from-cancelled-adani-deal-exposes-kenya-to-high-claims",
-      "published_at": "2026-11-22 21:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "9aa4cff0d0bd81809586545370da029d5298019bdac3cfa0213d6e9ae60ccd57",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "New Insurance Opportunities: Why Transparency Matters",
-      "hook": "New Insurance Opportunities: Why Transparency Matters",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/article/4970942-new-insurance-opportunities-why-transparency-matters",
-      "published_at": "2026-11-22 21:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "9c89b8809c4b773956ba0cf5ae05d89bbb765539258d5d23b97ea3da1b6c155c",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Dreaming of a home, holidays and early retirement? Start with a monthly target: ST InvestMe panel",
-      "hook": "Dreaming of a home, holidays and early retirement? Start with a monthly target: ST InvestMe panel",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cassette.sphdigital.com.sg/image/straitstimes/2d5f6ec818b565aeb18b12a1b138661d57bcebf7ce42c9cb883d9ada8241e73a?t=og",
-      "full_article_url": "https://www.straitstimes.com/business/dreaming-of-a-home-holidays-and-early-retirement-start-with-a-monthly-target-st-investme-panel",
       "published_at": "2026-11-22 21:00:00 +0000",
       "cve_ids": [],
       "saved": false
@@ -995,6 +995,24 @@
       "saved": false
     },
     {
+      "id": "2bbdac09193d3fb666511164b21ca20748404b170764b5d106d395319cdcca49",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Iranian president turns out office lights to urge citizens to save energy",
+      "hook": "Iranian president turns out office lights to urge citizens to save energy",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.washingtonpost.com/world/2026/11/22/iranian-president-turns-out-office-lights-urge-citizens-save-energy/",
+      "published_at": "2026-11-22 21:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "e7b0be9b33dae1e6e4ae4a84657f3c583934537d8997ccd18e6c8b8d77324664",
       "category": "World",
       "source": "Currents API",
@@ -1119,28 +1137,10 @@
       "published_at": "2026-11-22 20:26:41 +0000",
       "cve_ids": [],
       "saved": false
-    },
-    {
-      "id": "5eee4a4616ca6f614e9da04e033d7f2f1c51388d531027bb9b749c8d0dc90cf0",
-      "category": "World",
-      "source": "Currents API",
-      "title": "US to discuss post-conflict security architecture with Russia, Kiev, Europe — Kushner",
-      "hook": "US to discuss post-conflict security architecture with Russia, Kiev, Europe — Kushner",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261122/1494001.jpg",
-      "full_article_url": "https://tass.com/world/2223085",
-      "published_at": "2026-11-22 20:15:51 +0000",
-      "cve_ids": [],
-      "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T22:09:00Z",
+    "generated_at": "2026-11-22T22:18:00Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1214,6 +1214,27 @@
       ],
       "Technology": [
         {
+          "id": "7ebc54de2c71ce235205a89b08887ee769d5e60f3158837772a34204d6545b9a",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "Opinion | How to Kill a Bull Market",
+          "hook": "Opinion | How to Kill a Bull Market",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": null,
+          "full_article_url": "https://www.wsj.com/opinion/how-to-kill-a-bull-market-ai-policy-15fb5af6",
+          "published_at": "2026-11-22 22:01:00 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Technology Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "04a3ff300807bfefc0dd794c19bdb7e4fe691fe131ef0289775e44fbfa329249",
           "category": "Technology",
           "source": "Currents API",
@@ -1230,8 +1251,8 @@
           "published_at": "2026-11-22 21:45:00 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Technology Story",
-          "viral_rank": 1,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
@@ -1251,33 +1272,33 @@
           "published_at": "2026-11-22 21:44:42 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "a54c629e9a0fb24b8d0753eb9d3a26cff3033a5a1d90ca48e2dea5ee15018621",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "The cool phone camera trick that can test your remote control's battery - Engadget",
-          "hook": "The cool phone camera trick that can test your remote control's battery - Engadget",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.engadget.com/img/gallery/the-cool-phone-camera-trick-that-can-test-your-remote-controls-battery/l-intro-1794630742.jpg",
-          "full_article_url": "https://www.engadget.com/2319533/how-to-use-phone-test-remote-control-battery/",
-          "published_at": "2026-11-22 21:30:00 +0000",
-          "cve_ids": [],
-          "saved": false,
           "viral_badge": "📌 High Impact",
           "viral_rank": 3,
           "impact_summary": "Read the full article for context."
         }
       ],
       "Business": [
+        {
+          "id": "e7b837b08fd75b08b4fcb3141b5cb5963af071e6b1afc7e528ba35c29236003a",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "Aussie flash PMI plunges into recession",
+          "hook": "Aussie flash PMI plunges into recession",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://api.macrobusiness.com.au/wp-content/uploads/2026/11/Albanese-No-Recession-660x371.png",
+          "full_article_url": "https://www.macrobusiness.com.au/2026/11/aussie-flash-pmi-plunges-into-recession/",
+          "published_at": "2026-11-22 22:10:14 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Business Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
         {
           "id": "7bd310b2c4620b1bf3c2d262672363219e1010c0383f2ca45d4ae68a6a4c0d21",
           "category": "Business",
@@ -1295,8 +1316,8 @@
           "published_at": "2026-11-22 21:55:47 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Business Story",
-          "viral_rank": 1,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
@@ -1314,27 +1335,6 @@
           "image_url": "https://static.bangkokpost.com/media/content/dcx/2026/11/23/6313260_700.jpg",
           "full_article_url": "https://www.bangkokpost.com/property/3359535/fashiontv-eyes-phuket-for-branded-resort-expansion-as-demand-grows",
           "published_at": "2026-11-22 21:54:00 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "64818a178c5a3a19484b7f934060154bb99c3e59e6a6ff19c885392714ea3e7d",
-          "category": "Business",
-          "source": "Currents API",
-          "title": "NZ Retail Trade Survey: September 2026 Quarter",
-          "hook": "NZ Retail Trade Survey: September 2026 Quarter",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter/image",
-          "full_article_url": "https://www.forexfactory.com/news/1438116-nz-retail-trade-survey-september-2026-quarter",
-          "published_at": "2026-11-22 21:47:33 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
