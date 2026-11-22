@@ -447,7 +447,7 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
 <header class="topbar">
   <div class="topbar-left">
     <div class="topbar-title-row">
-      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v12</span></div>
+      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v13</span></div>
     </div>
     <div class="topbar-sub">
       <span id="genTs">—</span>
@@ -836,7 +836,7 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     });
 
     if(!response.ok){
-      const errText = await response.text();
+      let errText = await response.text();
       // If Google suggests an updated model in the error message (e.g. gemini-3.8-flash)
       const suggestedMatch = errText.match(/models\/(gemini-[\w\.\-]+)/);
       if(suggestedMatch && suggestedMatch[1] && suggestedMatch[1] !== chosenModel){
@@ -855,14 +855,16 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
             generationConfig: { responseMimeType: 'application/json' }
           })
         });
+        if(!response.ok){
+          errText = await response.text();
+        }
       }
 
       if(!response.ok){
-        const retryErrText = await response.text();
-        let errMsg = retryErrText;
+        let errMsg = errText;
         try{
-          const errObj = JSON.parse(retryErrText);
-          errMsg = errObj.error?.message || retryErrText;
+          const errObj = JSON.parse(errText);
+          errMsg = errObj.error?.message || errText;
         }catch(e){}
         console.error('Gemini generateContent error:', response.status, errMsg);
         throw new Error(`Google (${response.status}): ${errMsg}`);
@@ -1613,12 +1615,12 @@ setInterval(() => {
 if('serviceWorker' in navigator){
   navigator.serviceWorker.getRegistrations().then(regs => {
     for(let r of regs){
-      if(r.active && !r.active.scriptURL.includes('v=12')){
+      if(r.active && !r.active.scriptURL.includes('v=13')){
         r.unregister();
       }
     }
   });
-  navigator.serviceWorker.register('sw.js?v=12').then(reg => {
+  navigator.serviceWorker.register('sw.js?v=13').then(reg => {
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));
 }
