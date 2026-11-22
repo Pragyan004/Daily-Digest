@@ -758,27 +758,38 @@ Evaluate each article against the query. Return ONLY a JSON object (no markdown,
 {"matches": [{"id": "<article_id>", "relevance": 95, "match_reason": "<1 crisp sentence explaining why this answers the query>"}]}
 Only include genuinely relevant articles with relevance >= 50, ordered by highest relevance first.`;
 
-    // Try standard supported models (gemini-2.5-flash, gemini-1.5-flash, gemini-2.0-flash)
-    const modelsToTry = ['gemini-2.5-flash', 'gemini-1.5-flash', 'gemini-2.0-flash', 'gemini-1.5-pro'];
+    // Supported Gemini models (gemini-1.5-flash is fast & standard; gemini-2.0-flash as modern alternative)
+    const modelsToTry = ['gemini-1.5-flash', 'gemini-2.0-flash', 'gemini-1.5-pro'];
     let response = null;
     let lastStatus = 0;
     let lastErrorMsg = '';
 
+    const isAQ = apiKey.startsWith('AQ.');
+
     for(const model of modelsToTry){
-      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+      // For AQ keys, Google requires x-goog-api-key header and rejects ?key= query param with 404.
+      // For legacy AIza keys, passing via header or query param is supported.
+      const endpoint = isAQ
+        ? `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`
+        : `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+
+      const headers = {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': apiKey
+      };
+
       try{
         response = await fetch(endpoint, {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-goog-api-key': apiKey
-          },
+          headers: headers,
           body: JSON.stringify({
             contents: [{ parts: [{ text: promptText }] }],
             generationConfig: { responseMimeType: 'application/json' }
           })
         });
+
         if(response.ok) break;
+
         lastStatus = response.status;
         const errText = await response.text();
         console.warn(`Gemini model ${model} returned status ${lastStatus}:`, errText);
@@ -799,7 +810,7 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
       if(lastStatus === 404 && lastErrorMsg.includes('unregistered callers')){
         throw new Error('Gemini key not recognized by Google. Get a free key at aistudio.google.com/apikey');
       } else if(lastStatus === 400 || lastStatus === 403){
-        throw new Error('Invalid Gemini Key or permissions. Please check your key in Settings (⚙️).');
+        throw new Error(`Google API: ${lastErrorMsg || 'Invalid Gemini Key or permissions. Please check Settings (⚙️).'}`);
       } else if(lastStatus === 429){
         throw new Error('Gemini quota reached. Please wait a moment and try again.');
       } else {
@@ -1488,10 +1499,13 @@ setInterval(() => {
 }, 30000);
 
 /* ═══════════════════════════════════════
-   Service Worker Registration
+   Service Worker Registration & Update Check
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js').catch(e => console.warn('SW reg failed:', e));
+  navigator.serviceWorker.register('sw.js?v=2').then(reg => {
+    // Check for updates to purge older cached versions immediately
+    if(reg) reg.update();
+  }).catch(e => console.warn('SW reg failed:', e));
 }
 
 if(localStorage.getItem('digest_notify_enabled') === 'true'){
