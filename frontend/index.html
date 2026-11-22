@@ -788,7 +788,6 @@ async function triggerGeminiSearch(){
   const apiKey = rawKey ? rawKey.trim().replace(/^["']|["']$/g, '') : '';
 
   if(!apiKey || apiKey.length < 10){
-    // Smart local semantic search fallback + invite user to add API key
     handleSearchInput(query);
     btn.classList.remove('loading');
     btn.innerHTML = '<span class="ai-sparkle">✨</span> Gemini';
@@ -815,89 +814,63 @@ ${JSON.stringify(corpus)}
 
 Evaluate each article against the query. Return ONLY a JSON object (no markdown, no backticks) with:
 {"matches": [{"id": "<article_id>", "relevance": 95, "match_reason": "<1 crisp sentence explaining why this answers the query>"}]}
-Only include genuinely relevant articles with relevance >= 50, ordered by highest relevance first.`;
+Only include genuinely relevant articles with relevance >= 50, ordered by highest relevance first. If none match, return {"matches": []}.`;
 
-    // 1. Auto-discover active models supported by user's key via ModelService.ListModels
-    let modelsToTry = [];
-    const { model: discovered, error: listError } = await resolveGeminiModel(apiKey);
+    // 1. Get verified model from Google's list
+    const cleanKey = encodeURIComponent(apiKey);
+    let chosenModel = localStorage.getItem('gemini_active_model');
 
-    if(discovered){
-      modelsToTry.push(discovered);
-    } else if(listError){
-      // Give the user the real root cause directly from Google
-      if(listError.includes('API has not been used') || listError.includes('disabled')){
-        throw new Error('Generative Language API is disabled in your Google Cloud project. Enable it in Google Cloud Console or create a free key at aistudio.google.com/apikey');
-      } else if(listError.includes('API key not valid') || listError.includes('unregistered')){
-        throw new Error('Gemini key not recognized. Please generate a new key at aistudio.google.com/apikey');
-      } else {
-        throw new Error(`Google API: ${listError}`);
+    if(!chosenModel){
+      try{
+        const listRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`, {
+          headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey }
+        });
+        if(listRes.ok){
+          const listData = await listRes.json();
+          const contentModels = (listData.models || [])
+            .filter(m => (m.supportedGenerationMethods || []).includes('generateContent'))
+            .map(m => m.name.replace(/^models\//, ''));
+
+          console.log('Available Gemini models for search:', contentModels);
+          chosenModel = contentModels.find(m => m.includes('2.5-flash'))
+            || contentModels.find(m => m.includes('2.0-flash'))
+            || contentModels.find(m => m.includes('1.5-flash'))
+            || contentModels.find(m => m.includes('flash'))
+            || contentModels[0]
+            || 'gemini-2.5-flash';
+          localStorage.setItem('gemini_active_model', chosenModel);
+        }
+      }catch(e){
+        console.warn('Could not fetch model list:', e);
       }
     }
 
-    // Fallback candidates
-    ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-1.5-flash-latest', 'gemini-1.5-pro'].forEach(m => {
-      if(!modelsToTry.includes(m)) modelsToTry.push(m);
+    if(!chosenModel) chosenModel = 'gemini-2.5-flash';
+    console.log('Using Gemini model for search:', chosenModel);
+
+    // Call generateContent on v1beta with responseMimeType JSON
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${chosenModel}:generateContent?key=${cleanKey}`;
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': apiKey
+      },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: promptText }] }],
+        generationConfig: { responseMimeType: 'application/json' }
+      })
     });
 
-    let response = null;
-    let lastStatus = 0;
-    let lastErrorMsg = '';
-
-    for(const model of modelsToTry){
-      const apiVersions = ['v1beta', 'v1'];
-      for(const apiVer of apiVersions){
-        // Always supply ?key= in the URL and x-goog-api-key in headers for universal compatibility
-        const endpoint = `https://generativelanguage.googleapis.com/${apiVer}/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
-
-        const headers = {
-          'Content-Type': 'application/json',
-          'x-goog-api-key': apiKey
-        };
-
-        try{
-          response = await fetch(endpoint, {
-            method: 'POST',
-            headers: headers,
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: promptText }] }],
-              generationConfig: { responseMimeType: 'application/json' }
-            })
-          });
-
-          if(response.ok) break;
-
-          lastStatus = response.status;
-          const errText = await response.text();
-          console.warn(`Gemini (${apiVer}) model ${model} status ${lastStatus}:`, errText);
-          try{
-            const errObj = JSON.parse(errText);
-            lastErrorMsg = errObj.error?.message || errText;
-          }catch(e){
-            lastErrorMsg = errText;
-          }
-
-          if(lastStatus === 400 || lastStatus === 403) break;
-        }catch(e){
-          console.warn(`Connection to ${model} (${apiVer}) failed:`, e);
-          lastErrorMsg = e.message;
-        }
-      }
-      if(response && response.ok) break;
-      if(lastStatus === 400 || lastStatus === 403) break;
-    }
-
-    if(!response || !response.ok){
-      if(lastErrorMsg.includes('is not found for API version') || lastErrorMsg.includes('ModelService.ListModels')){
-        throw new Error('Generative Language API is not enabled for this project. Enable "Generative Language API" in Google Cloud or get a free key at aistudio.google.com/apikey');
-      } else if(lastStatus === 404 && lastErrorMsg.includes('unregistered callers')){
-        throw new Error('Gemini key not recognized by Google. Get a free key at aistudio.google.com/apikey');
-      } else if(lastStatus === 400 || lastStatus === 403){
-        throw new Error(`Google API: ${lastErrorMsg || 'Invalid Gemini Key or permissions. Please check Settings (⚙️).'}`);
-      } else if(lastStatus === 429){
-        throw new Error('Gemini quota reached. Please wait a moment and try again.');
-      } else {
-        throw new Error(`Gemini: ${lastErrorMsg || 'Status ' + lastStatus}`);
-      }
+    if(!response.ok){
+      const errText = await response.text();
+      let errMsg = errText;
+      try{
+        const errObj = JSON.parse(errText);
+        errMsg = errObj.error?.message || errText;
+      }catch(e){}
+      console.error('Gemini generateContent error:', response.status, errMsg);
+      throw new Error(`Google (${response.status}): ${errMsg}`);
     }
 
     const data = await response.json();
@@ -910,7 +883,7 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     const matches = parsed.matches || [];
 
     if(matches.length === 0){
-      showToast('Gemini found no articles matching your query.');
+      showToast(`Gemini found no articles matching "${query}".`);
       aiSearchResults = [];
     } else {
       const matchMap = {};
@@ -918,6 +891,40 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
       aiSearchResults = matchMap;
       showToast(`✨ Gemini found ${matches.length} relevant articles!`);
     }
+
+    activeCategory = 'All';
+
+    // Log rich Gemini AI search table to console as requested!
+    console.group(`%c✨ Google Gemini AI Search: "${query}" (${matches.length} matches)`, 'color: #00DC82; font-weight: bold; font-size: 14px;');
+    console.table(matches.map(m => {
+      const art = articles.find(a => a.id === m.id);
+      return {
+        ID: m.id.slice(0, 8),
+        Title: art ? art.title : '—',
+        Category: art ? art.category : '—',
+        "Relevance": `${m.relevance}%`,
+        "Gemini Reason": m.match_reason
+      };
+    }));
+    console.groupEnd();
+
+    const searchMeta = document.getElementById('searchMeta');
+    const searchCount = document.getElementById('searchCount');
+    searchMeta.style.display = 'flex';
+    searchCount.textContent = `✨ Gemini AI matched ${matches.length} article${matches.length === 1 ? '' : 's'}`;
+    document.getElementById('searchConsoleStatus').textContent = 'AI Reasoning in Console';
+
+    renderPills();
+    renderArticles();
+  }catch(err){
+    console.error('Gemini Search error:', err);
+    showToast(err.message || '⚠️ Gemini search error. Using keyword search.');
+    handleSearchInput(query);
+  }finally{
+    btn.classList.remove('loading');
+    btn.innerHTML = '<span class="ai-sparkle">✨</span> Gemini';
+  }
+}
 
     // Switch off category filter to show all relevant Gemini matches
     activeCategory = 'All';
@@ -1514,16 +1521,25 @@ async function testGeminiKey(){
     try { data = JSON.parse(text); } catch(e){ data = { raw: text }; }
 
     if(res.ok && data && data.models){
-      const modelNames = data.models
+      const validModels = data.models
         .filter(m => (m.supportedGenerationMethods||[]).includes('generateContent'))
-        .map(m => m.name.replace('models/', ''))
-        .slice(0, 3)
-        .join(', ');
+        .map(m => m.name.replace(/^models\//, ''));
+
+      const bestModel = validModels.find(m => m.includes('2.5-flash'))
+        || validModels.find(m => m.includes('2.0-flash'))
+        || validModels.find(m => m.includes('1.5-flash'))
+        || validModels.find(m => m.includes('flash'))
+        || validModels[0]
+        || 'gemini-2.5-flash';
+
+      localStorage.setItem('gemini_active_model', bestModel);
+      localStorage.setItem('gemini_api_key', key);
+
+      const modelNames = validModels.slice(0, 3).join(', ');
       notice.innerHTML = `<div style="color:var(--accent);background:rgba(0,220,130,0.1);padding:8px 10px;border-radius:8px;margin-top:6px">
         <strong>✅ Connected to Google Gemini!</strong><br>
-        <span style="font-size:11px">Models available: ${esc(modelNames || 'gemini-1.5-flash')}</span>
+        <span style="font-size:11px">Active Model: <strong>${esc(bestModel)}</strong> (${esc(modelNames || 'ready')})</span>
       </div>`;
-      localStorage.setItem('gemini_api_key', key);
     } else {
       const errMsg = data.error?.message || text || `HTTP ${res.status}`;
       notice.innerHTML = `<div style="color:#FF6B81;background:rgba(255,71,87,0.12);padding:10px 12px;border-radius:8px;margin-top:6px;line-height:1.4">
@@ -1641,7 +1657,7 @@ setInterval(() => {
    Service Worker Registration & Update Check
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js?v=7').then(reg => {
+  navigator.serviceWorker.register('sw.js?v=9').then(reg => {
     // Check for updates to purge older cached versions immediately
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));
