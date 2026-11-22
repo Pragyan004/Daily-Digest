@@ -725,14 +725,15 @@ async function triggerGeminiSearch(){
   btn.classList.add('loading');
   btn.innerHTML = '<span class="ai-sparkle spinning">✨</span> Thinking…';
 
-  const apiKey = localStorage.getItem('gemini_api_key');
+  const rawKey = localStorage.getItem('gemini_api_key');
+  const apiKey = rawKey ? rawKey.trim().replace(/^["']|["']$/g, '') : '';
 
   if(!apiKey){
     // Smart local semantic search fallback + invite user to add API key
     handleSearchInput(query);
     btn.classList.remove('loading');
     btn.innerHTML = '<span class="ai-sparkle">✨</span> Gemini';
-    showToast('✨ Tip: Add your Gemini API key in Settings (🔔) for full AI natural language search!');
+    showToast('✨ Tip: Add your Gemini API key in Settings (⚙️) for full AI search!');
     return;
   }
 
@@ -747,32 +748,59 @@ async function triggerGeminiSearch(){
       category: a.category
     }));
 
-    const promptText = `You are a semantic news search engine for a news app.
+    const promptText = `You are an AI semantic news search engine.
 User Query: "${query}"
 
 Articles:
 ${JSON.stringify(corpus)}
 
-Evaluate each article. Return ONLY a JSON object (no markdown, no backticks) with:
+Evaluate each article against the query. Return ONLY a JSON object (no markdown, no backticks) with:
 {"matches": [{"id": "<article_id>", "relevance": 95, "match_reason": "<1 crisp sentence explaining why this answers the query>"}]}
 Only include genuinely relevant articles with relevance >= 50, ordered by highest relevance first.`;
 
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
-    const response = await fetch(endpoint, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: promptText }] }],
-        generationConfig: { responseMimeType: 'application/json' }
-      })
-    });
+    // Try standard supported models (gemini-1.5-flash first, then gemini-2.0-flash / gemini-1.5-pro)
+    const modelsToTry = ['gemini-1.5-flash', 'gemini-2.0-flash', 'gemini-1.5-pro'];
+    let response = null;
+    let lastStatus = 0;
 
-    if(!response.ok){
-      throw new Error(`Gemini API error: ${response.status}`);
+    for(const model of modelsToTry){
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+      try{
+        response = await fetch(endpoint, {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: promptText }] }],
+            generationConfig: { responseMimeType: 'application/json' }
+          })
+        });
+        if(response.ok) break;
+        lastStatus = response.status;
+        const errText = await response.text();
+        console.warn(`Gemini model ${model} returned status ${lastStatus}:`, errText);
+        // If invalid key (400) or forbidden (403), do not retry
+        if(lastStatus === 400 || lastStatus === 403) break;
+      }catch(e){
+        console.warn(`Connection to ${model} failed:`, e);
+      }
+    }
+
+    if(!response || !response.ok){
+      if(lastStatus === 400 || lastStatus === 403){
+        throw new Error('Invalid Gemini API Key. Please verify your key in Settings (⚙️).');
+      } else if(lastStatus === 429){
+        throw new Error('Gemini quota reached. Please wait a moment and try again.');
+      } else {
+        throw new Error(`Gemini connection error (Status ${lastStatus}).`);
+      }
     }
 
     const data = await response.json();
-    const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+    let rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+    rawText = rawText.trim();
+    if(rawText.startsWith('```')){
+      rawText = rawText.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '');
+    }
     const parsed = JSON.parse(rawText);
     const matches = parsed.matches || [];
 
@@ -813,7 +841,7 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     renderArticles();
   }catch(err){
     console.error('Gemini Search error:', err);
-    showToast('⚠️ Gemini search error. Using keyword search.');
+    showToast(err.message || '⚠️ Gemini search error. Using keyword search.');
     handleSearchInput(query);
   }finally{
     btn.classList.remove('loading');
