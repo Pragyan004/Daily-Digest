@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:07:17Z",
+  "generated_at": "2026-11-22T21:20:11Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -257,6 +257,42 @@
       "saved": false
     },
     {
+      "id": "b6a134c688b0892a1a76d283da4ed74cab4e750e5945248f6b2bba22e7fea732",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Exploit for xss47",
+      "hook": "Exploit for xss47",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://sploitus.com/static/images/ui/logo.png",
+      "full_article_url": "https://sploitus.com/exploit?id=8ED7BCA4-A7AD-5CBE-BF5D-070BBE5971BE",
+      "published_at": "2026-11-22 20:13:13 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "f1109444d04ffbde824e7d7f5fcc96a398c6b5ad686910a9803b22de72652253",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "crack reopening inside Earth oldest continents",
+      "hook": "crack reopening inside Earth oldest continents",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Kalahari-Craton.jpg",
+      "full_article_url": "https://interestingengineering.com/science/crack-reopening-inside-earth-oldest-continents",
+      "published_at": "2026-11-22 20:08:36 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "3c250980adaec847e04050f2ce68cb49675a960f59b92d9bc3892ccd2ae562f5",
       "category": "Technology",
       "source": "Currents API",
@@ -383,38 +419,74 @@
       "saved": false
     },
     {
-      "id": "3a4be8eee13b42f528da1806f99d6024c2ab0a15b036e374dacf922ec6078175",
-      "category": "Technology",
+      "id": "d9545f8558340903da671410a3181f953eb9a742c959767d86bd9d2f8a3d8315",
+      "category": "Business",
       "source": "Currents API",
-      "title": "‘Sunrise on the Reaping’ Box Office Proves ‘Hunger Games’ Still Got It",
-      "hook": "‘Sunrise on the Reaping’ Box Office Proves ‘Hunger Games’ Still Got It",
+      "title": "Americans Are Cutting Back This Christmas — Here's Why",
+      "hook": "Americans Are Cutting Back This Christmas — Here's Why",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://gizmodo.com/sunrise-on-the-reaping-box-office-proves-hunger-games-still-got-it-2000843666",
-      "published_at": "2026-11-22 19:51:38 +0000",
+      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/Early-shoppers-found-bargains-and-plenty.jpg",
+      "full_article_url": "https://www.benzinga.com/personal-finance/financial-advisors/26/11/63517539/americans-are-cutting-back-this-christmas-heres-why",
+      "published_at": "2026-11-22 21:00:08 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "88304c217877ebf4d97c411039b4503f81bc4390105c19febdd53a61d0d101aa",
-      "category": "Technology",
+      "id": "0626824f59c0c556234ee63a3ab2efc32c58fd1af55bca22b2bc961cc8a07452",
+      "category": "Business",
       "source": "Currents API",
-      "title": "FlipperCode",
-      "hook": "FlipperCode",
+      "title": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
+      "hook": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://vulners.com/githubexploit/8B0E6A83-FAC5-5566-B500-DD5897237720",
-      "published_at": "2026-11-22 19:47:29 +0000",
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035731dbdd855fc9ecd750jpeg.jpg?w=1600",
+      "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/mahomes-throws-3-td-passes-kelce-catches-2-of-them-as-kc-routs-cardinals-34-7-for-3rd-straight-win",
+      "published_at": "2026-11-22 20:57:37 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "603bb7b2e2099abbba0a51ed783b909fa15d8fae3e22853d04c45e8950ad36dd",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
+      "hook": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+      "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/montana-state-grabs-the-top-seed-as-the-ncaa-unveils-the-24-team-fcs-playoff-bracket",
+      "published_at": "2026-11-22 20:57:19 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "f04f67e2b3404d182eac69c7e6d9c315e2611edf9ed2d8f7d7b2c46d84919b2f",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Jeeno Thitikul cashes in at LPGA finale to win $4M prize for 3rd straight time",
+      "hook": "Jeeno Thitikul cashes in at LPGA finale to win $4M prize for 3rd straight time",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0354b8dbdd855fc9ecd568jpeg.jpg?w=1600",
+      "full_article_url": "https://www.winnipegfreepress.com/sports/golf/2026/11/22/jeeno-thitikul-cashes-in-at-lpga-finale-to-win-4m-prize-for-3rd-straight-time",
+      "published_at": "2026-11-22 20:50:04 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -451,6 +523,24 @@
       "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2263257374/image_2263257374.jpg?io=getty-c-og",
       "full_article_url": "https://seekingalpha.com/article/4970941-ring-golds-plunge-leaves-miners-undervalued",
       "published_at": "2026-11-22 20:45:38 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "d4ed8f37c5521cb7eb45a33c946f9de501778c1e22d57b2b44c6aa185e36ceac",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Tinubu commits N450 billion to agriculture, approves N1.5 trillion bank recapitalisation",
+      "hook": "Tinubu commits N450 billion to agriculture, approves N1.5 trillion bank recapitalisation",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.nairametrics.com/wp-content/uploads/2024/01/Tinubu-baba.jpg",
+      "full_article_url": "https://nairametrics.com/2026/11/22/tinubu-commits-n450-billion-to-agriculture-approves-n1-5-trillion-bank-recapitalisation/",
+      "published_at": "2026-11-22 20:42:37 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -689,92 +779,146 @@
       "saved": false
     },
     {
-      "id": "6b169717c76e9f00a7d9a3a124efcc73dd434ed578a2a849c53222cf31313f79",
-      "category": "Business",
+      "id": "78d94fda19d11d11dd5420fa036050825d9a0347e07666492ef1fa91c292d221",
+      "category": "World",
       "source": "Currents API",
-      "title": "Reddit Stock Tumbles, Short Interest Jumps as Valuation Metric Slips on Growth Worries",
-      "hook": "Reddit Stock Tumbles, Short Interest Jumps as Valuation Metric Slips on Growth Worries",
+      "title": "Chinese Vice-Premier Ding Xuexiang meets Singapore PM Wong, DPM Gan",
+      "hook": "Chinese Vice-Premier Ding Xuexiang meets Singapore PM Wong, DPM Gan",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.benzinga.com/markets/equities/26/11/63517448/reddit-stock-tumbles-short-interest-jumps-as-valuation-metric-slips-on-growth-worries",
-      "published_at": "2026-11-22 20:10:05 +0000",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226052.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/chinese-vice-premier-ding-xuexiang-meets-singapore-pm-wong-dpm-gan",
+      "published_at": "2026-11-22 21:19:45 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "058ffdff017297cf2ab0fc0d8b35e3eb149961ddb63b6644b7a77be1088a297f",
-      "category": "Business",
+      "id": "b0bc11f79542b4c0308b0b0de8bc1b579259149fd6ef06c5dd9a08e77dbd8a29",
+      "category": "World",
       "source": "Currents API",
-      "title": "Luca Mining Provides Clarification Regarding Media-Reported Statements Related to the Campo Morado Mine",
-      "hook": "Luca Mining Provides Clarification Regarding Media-Reported Statements Related to the Campo Morado Mine",
+      "title": "Lawyer from Punjab’s Sangrur sends legal notice to Bollywood actor Amitabh Bachchan over purported quiz show video",
+      "hook": "Lawyer from Punjab’s Sangrur sends legal notice to Bollywood actor Amitabh Bachchan over purported quiz show video",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://mmx.prnewswire.com/media/MS1451467/Luca-Mining-Corp-Luca-Mining-Provides-Clarification-Regarding-M.jpg?id=OA3095285&p=facebook",
-      "full_article_url": "https://www.prnewswire.com/news-releases/luca-mining-provides-clarification-regarding-media-reported-statements-related-to-the-campo-morado-mine-302947688.html",
-      "published_at": "2026-11-22 20:10:00 +0000",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226064.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/lawyer-from-punjabs-sangrur-sends-legal-notice-to-bollywood-actor-amitabh-bachchan-over-purported-quiz-show-video",
+      "published_at": "2026-11-22 21:19:45 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "4b25d910cf4b82f759a736fefadda65197e93c8e0242171c0f6b95646cd0df95",
-      "category": "Business",
+      "id": "63cbe31ca433b08ff33412881fc2b4f1686068dac776dd5c0ea32302b9a1341c",
+      "category": "World",
       "source": "Currents API",
-      "title": "Max Verstappen’s Lap 40 Radio Message Shows Why He Won F1’s Wildest Race",
-      "hook": "Max Verstappen’s Lap 40 Radio Message Shows Why He Won F1’s Wildest Race",
+      "title": "Thailand finds no arsenic poisoning cases along four northern rivers",
+      "hook": "Thailand finds no arsenic poisoning cases along four northern rivers",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.inc.com/jason-aten/max-verstappens-lap-40-radio-message-shows-why-he-won-f1s-wildest-race/91441059",
-      "published_at": "2026-11-22 20:06:15 +0000",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226066.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/thailand-finds-no-arsenic-poisoning-cases-along-four-northern-rivers",
+      "published_at": "2026-11-22 21:19:44 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "9c07d1dbd3683ec83b6a706f324b11d6aa999c8d396df80fb79cf0f366068d35",
-      "category": "Business",
+      "id": "0975fc6451f191f655bef3eef8b481c78f90295901f61ca89e1c05cbad6bc1a4",
+      "category": "World",
       "source": "Currents API",
-      "title": "Trump Issues Ominous $6Trillion Stock Market Warning After Democrats' 'Strange' Election Victory as Financial Fears Mount",
-      "hook": "Trump Issues Ominous $6Trillion Stock Market Warning After Democrats' 'Strange' Election Victory as Financial Fears Mount",
+      "title": "Asean News Headlines at 10pm on Sunday (Nov 22, 2026)",
+      "hook": "Asean News Headlines at 10pm on Sunday (Nov 22, 2026)",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://media.radaronline.com/brand-img/RY3rbkAx3/1200x628/trump-blames-democrats-for-6-trillion-market-slide-as-tech-sell-off-deepens-1795374503671.jpg",
-      "full_article_url": "https://radaronline.com/p/trump-issues-ominous-6trillion-stock-market-warning-after-democrats-strange-election-victory-as-financial-fears-mount/",
-      "published_at": "2026-11-22 20:06:08 +0000",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226180.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/asean-news-headlines-at-10pm-on-sunday-nov-22-2026",
+      "published_at": "2026-11-22 21:19:44 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "fa0e8c641ae908f635474367b2b7d6aba73d187f13f0b0e447a9066eda599028",
-      "category": "Business",
+      "id": "dd52711c0466697a7a8b912bd7eea59129cc4e6c9e593b3b7164010c7cea0179",
+      "category": "World",
       "source": "Currents API",
-      "title": "Transport Evolved Sunday Musing: Do You Suffer 12V Issues in Your EV? - Transport Evolved",
-      "hook": "Transport Evolved Sunday Musing: Do You Suffer 12V Issues in Your EV? - Transport Evolved",
+      "title": "Singapore PM Wong to visit Australia for leaders’ meeting, arrive on inaugural SIA flight to new Sydney airport",
+      "hook": "Singapore PM Wong to visit Australia for leaders’ meeting, arrive on inaugural SIA flight to new Sydney airport",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.transportevolved.com/2026/11/22/transport-evolved-sunday-musing-do-you-suffer-12v-issues-in-your-ev/",
-      "published_at": "2026-11-22 20:00:00 +0000",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226181.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/singapore-pm-wong-to-visit-australia-for-leaders-meeting-arrive-on-inaugural-sia-flight-to-new-sydney-airport",
+      "published_at": "2026-11-22 21:19:44 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "0b082adf21c448447d0b1ffe987c4e20445dd3281d702002fe3ca25a5b1fdfd0",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Thailand plans to block exports of chemicals used in Myanmar rare earth mining",
+      "hook": "Thailand plans to block exports of chemicals used in Myanmar rare earth mining",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226183.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/thailand-plans-to-block-exports-of-chemicals-used-in-myanmar-rare-earth-mining",
+      "published_at": "2026-11-22 21:19:44 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "49f1177b597805fa5ac297c02b150dc0f95eda7540b3b3ce08a3a58f93f5b60a",
+      "category": "World",
+      "source": "Currents API",
+      "title": "16-year-old to be charged after allegedly punching a policeman in Singapore's Bedok",
+      "hook": "16-year-old to be charged after allegedly punching a policeman in Singapore's Bedok",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226185.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/16-year-old-to-be-charged-after-allegedly-punching-a-policeman-in-singapore039s-bedok",
+      "published_at": "2026-11-22 21:19:44 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "1dc2dd205405fd43afc9952f9a4465f8678e97cfe4972bd84d360f58b01d73dd",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Myanmar says combatting graft in military draft process",
+      "hook": "Myanmar says combatting graft in military draft process",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4225981.jpg",
+      "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/myanmar-says-combatting-graft-in-military-draft-process",
+      "published_at": "2026-11-22 20:51:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -793,6 +937,24 @@
       "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
       "full_article_url": "https://tass.com/emergencies/2223089",
       "published_at": "2026-11-22 20:48:32 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "6ed905091a48d8d9c45a19e37bd865f58ab1fb9b78389bd73f21cc27802193d0",
+      "category": "World",
+      "source": "Currents API",
+      "title": "A Landmark Genocide Ruling",
+      "hook": "A Landmark Genocide Ruling",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.nytimes.com/2026/11/22/world/genocide-myanmar-un-climate-talks.html",
+      "published_at": "2026-11-22 20:35:19 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -975,172 +1137,10 @@
       "published_at": "2026-11-22 19:44:05 +0000",
       "cve_ids": [],
       "saved": false
-    },
-    {
-      "id": "1f1fa9cebe8a85e75d0d8680da05275606bbd0d3d0c814ad3edc62ac436c1e67",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Second fire ants nest discovered in Sydney may have been there for a year",
-      "hook": "Second fire ants nest discovered in Sydney may have been there for a year",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.ffx.io/images/$zoom_0.1293%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_96/t_crop_custom/q_86%2Cf_auto/1adff1b6593ffe5ba810ee37550dac3867ef2996",
-      "full_article_url": "https://www.smh.com.au/national/nsw/second-fire-ants-nest-discovered-in-sydney-may-have-been-there-for-a-year-20261123-p61gch.html",
-      "published_at": "2026-11-22 19:41:26 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "b5d14d9e268c6ea37cb0d8292b0b15dfc4bb98151bb91f44953e7e8bebd8ec5f",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
-      "hook": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://i.abcnewsfe.com/a/8616c4e8-6a5a-4610-ace6-ea67ab77b3b7/wirestory_721096a4d9ba2cd68683692361798cdb_16x9.jpg?w=1600",
-      "full_article_url": "https://abcnews.com/Politics/wireStory/democrats-clinch-historic-house-majority-258-seats-largest-138361835",
-      "published_at": "2026-11-22 19:38:27 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "57e7a4bf5ee98f301809a6cfc4e07ebb24b775f2621b868840801a3dfd57cffa",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Natural gas pipeline fire shoots flames in Alabama, cause under investigation",
-      "hook": "Natural gas pipeline fire shoots flames in Alabama, cause under investigation",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-      "full_article_url": "https://abcnews.com/US/wireStory/natural-gas-pipeline-fire-shoots-flames-air-alabama-138362181",
-      "published_at": "2026-11-22 19:38:22 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "6b7b6f89a928ecc6c9cb832cc2f12e3e3840fcc2d36503b9c455c598a13377a3",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Holy Grail: Mathematician says he has solved a 167-year-old problem using AI",
-      "hook": "Holy Grail: Mathematician says he has solved a 167-year-old problem using AI",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.ffx.io/images/$zoom_0.6765064090753711%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_1120%2C$y_65/t_crop_custom/q_86%2Cf_auto/d5950b4b61fe430c82fe64ef18601c06bc70af41",
-      "full_article_url": "https://www.smh.com.au/technology/holy-grail-mathematician-says-he-has-solved-a-167-year-old-problem-using-ai-20261123-p61gbx.html",
-      "published_at": "2026-11-22 19:22:12 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "148ae6d159918709326a8e76e396135ecdb7ef939608d89648ce3cc254d0a22b",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
-      "hook": "Democrats capture at least 258 House seats in largest sweep since 1992",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/5f402191919a3838c9536ca633ae08dfe18991da/530_0_4817_3854/master/4817.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=55a79b30034ae865497535ef2879a83e",
-      "full_article_url": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep",
-      "published_at": "2026-11-22 19:17:56 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "594c0dbde63abeefa409b6d422cb8f5a32812e1435a6999ebda63aee3b0f29c2",
-      "category": "World",
-      "source": "Currents API",
-      "title": "3 killed, 1 wounded in shooting at Ohio baby shower, police say",
-      "hook": "3 killed, 1 wounded in shooting at Ohio baby shower, police say",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-      "full_article_url": "https://abcnews.com/US/wireStory/police-3-killed-1-wounded-shooting-ohio-baby-138362112",
-      "published_at": "2026-11-22 19:14:24 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "45ac375d0e60eb22545af7b506d31a50f8e356dbbdc6141c9aff139630b5c1a2",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Russian warship attacked off Libya",
-      "hook": "Russian warship attacked off Libya",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.smh.com.au/world/russian-warship-attacked-off-libya-20261123-p61gca.html",
-      "published_at": "2026-11-22 19:07:15 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "1539a9404f4d1ccf15afeb080a516e40a3609ca3c80d8e1a26bede6fa25d7c24",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Outage hits US airline",
-      "hook": "Outage hits US airline",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/304f0790d8f3aa236813c317706a3cab82a55280",
-      "full_article_url": "https://www.smh.com.au/world/outage-hits-us-airline-20261123-p61gcb.html",
-      "published_at": "2026-11-22 19:07:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "565fb4bd5f6c18237f70106a1c4ec85d490ca562987da435c0fdd3c59c86c28f",
-      "category": "World",
-      "source": "Currents API",
-      "title": "German army starts testing kamikaze drones and AI targeting tool in Lithuania",
-      "hook": "German army starts testing kamikaze drones and AI targeting tool in Lithuania",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226182.jpg",
-      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/22/german-army-starts-testing-kamikaze-drones-and-ai-targeting-tool-in-lithuania",
-      "published_at": "2026-11-22 19:05:47 +0000",
-      "cve_ids": [],
-      "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T21:07:17Z",
+    "generated_at": "2026-11-22T21:20:11Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1279,20 +1279,20 @@
       ],
       "Business": [
         {
-          "id": "d394cd961b357db4fe83ed3605010b6bbe01187d3afe2d0a8080f5a35058b84e",
+          "id": "d9545f8558340903da671410a3181f953eb9a742c959767d86bd9d2f8a3d8315",
           "category": "Business",
           "source": "Currents API",
-          "title": "From Dean Witter to rock 'n' roll history: Two palatial Piedmont properties on same street with famous former owners go up for sale",
-          "hook": "From Dean Witter to rock 'n' roll history: Two palatial Piedmont properties on same street with famous former owners go up for sale",
+          "title": "Americans Are Cutting Back This Christmas — Here's Why",
+          "hook": "Americans Are Cutting Back This Christmas — Here's Why",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://www.bizjournals.com/sanfrancisco/news/2026/11/22/two-massive-piedmont-estates-come-to-market.html?ana=brss_1566",
-          "published_at": "2026-11-22 20:46:41 +0000",
+          "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/Early-shoppers-found-bargains-and-plenty.jpg",
+          "full_article_url": "https://www.benzinga.com/personal-finance/financial-advisors/26/11/63517539/americans-are-cutting-back-this-christmas-heres-why",
+          "published_at": "2026-11-22 21:00:08 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top Business Story",
@@ -1300,20 +1300,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "65b964e5f5aee3d5808ef60b3408da6caae8aa5530f00fc72589072f67387e70",
+          "id": "0626824f59c0c556234ee63a3ab2efc32c58fd1af55bca22b2bc961cc8a07452",
           "category": "Business",
           "source": "Currents API",
-          "title": "RING: Gold's Plunge Leaves Miners Undervalued",
-          "hook": "RING: Gold's Plunge Leaves Miners Undervalued",
+          "title": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
+          "hook": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2263257374/image_2263257374.jpg?io=getty-c-og",
-          "full_article_url": "https://seekingalpha.com/article/4970941-ring-golds-plunge-leaves-miners-undervalued",
-          "published_at": "2026-11-22 20:45:38 +0000",
+          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035731dbdd855fc9ecd750jpeg.jpg?w=1600",
+          "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/mahomes-throws-3-td-passes-kelce-catches-2-of-them-as-kc-routs-cardinals-34-7-for-3rd-straight-win",
+          "published_at": "2026-11-22 20:57:37 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1321,20 +1321,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "4f02fe119e7ca9a8ea4fa8601fab897e612a1f71da3576cb2dfd7bc2de3752b5",
+          "id": "603bb7b2e2099abbba0a51ed783b909fa15d8fae3e22853d04c45e8950ad36dd",
           "category": "Business",
           "source": "Currents API",
-          "title": "SCHD ETF Reverses Sharply on Valuation Concerns, Yet Inflows Keep Surging - Schwab US Dividend Equity ETF",
-          "hook": "SCHD ETF Reverses Sharply on Valuation Concerns, Yet Inflows Keep Surging - Schwab US Dividend Equity ETF",
+          "title": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
+          "hook": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/Wall-Street-And-New-Street--New-York--Us.jpg",
-          "full_article_url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63517514/schd-etf-reverses-sharply-on-valuation-concerns-yet-inflows-keep-surging",
-          "published_at": "2026-11-22 20:40:34 +0000",
+          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+          "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/montana-state-grabs-the-top-seed-as-the-ncaa-unveils-the-24-team-fcs-playoff-bracket",
+          "published_at": "2026-11-22 20:57:19 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1344,20 +1344,20 @@
       ],
       "World": [
         {
-          "id": "8518cc1fd48f364d8ef471fb1b415c44461df194a096071ade869c252f78bcd5",
+          "id": "78d94fda19d11d11dd5420fa036050825d9a0347e07666492ef1fa91c292d221",
           "category": "World",
           "source": "Currents API",
-          "title": "Kindergarten in Gorlovka damaged in Ukraine’s drone attack",
-          "hook": "Kindergarten in Gorlovka damaged in Ukraine’s drone attack",
+          "title": "Chinese Vice-Premier Ding Xuexiang meets Singapore PM Wong, DPM Gan",
+          "hook": "Chinese Vice-Premier Ding Xuexiang meets Singapore PM Wong, DPM Gan",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-          "full_article_url": "https://tass.com/emergencies/2223089",
-          "published_at": "2026-11-22 20:48:32 +0000",
+          "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226052.jpg",
+          "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/chinese-vice-premier-ding-xuexiang-meets-singapore-pm-wong-dpm-gan",
+          "published_at": "2026-11-22 21:19:45 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top World Story",
@@ -1365,20 +1365,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "8f89cdcf6b53a21daf99d67829326f4eadebc702d808518588c37e9e4ee88545",
+          "id": "b0bc11f79542b4c0308b0b0de8bc1b579259149fd6ef06c5dd9a08e77dbd8a29",
           "category": "World",
           "source": "Currents API",
-          "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
-          "hook": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
+          "title": "Lawyer from Punjab’s Sangrur sends legal notice to Bollywood actor Amitabh Bachchan over purported quiz show video",
+          "hook": "Lawyer from Punjab’s Sangrur sends legal notice to Bollywood actor Amitabh Bachchan over purported quiz show video",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/house.jpg",
-          "full_article_url": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx",
-          "published_at": "2026-11-22 20:34:07 +0000",
+          "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226064.jpg",
+          "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/lawyer-from-punjabs-sangrur-sends-legal-notice-to-bollywood-actor-amitabh-bachchan-over-purported-quiz-show-video",
+          "published_at": "2026-11-22 21:19:45 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1386,20 +1386,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "45830c26870b639c47dc6507741cf75e6cc70caad54f29a308aa9e2eca769c6d",
+          "id": "63cbe31ca433b08ff33412881fc2b4f1686068dac776dd5c0ea32302b9a1341c",
           "category": "World",
           "source": "Currents API",
-          "title": "Trump tells Europeans they should spend money on their economies instead of Ukraine",
-          "hook": "Trump tells Europeans they should spend money on their economies instead of Ukraine",
+          "title": "Thailand finds no arsenic poisoning cases along four northern rivers",
+          "hook": "Thailand finds no arsenic poisoning cases along four northern rivers",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-          "full_article_url": "https://tass.com/world/2223087",
-          "published_at": "2026-11-22 20:32:36 +0000",
+          "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/22/4226066.jpg",
+          "full_article_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/thailand-finds-no-arsenic-poisoning-cases-along-four-northern-rivers",
+          "published_at": "2026-11-22 21:19:44 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
