@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-22T22:39:15Z",
+  "generated_at": "2026-11-22T22:50:34Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
       "category": "Cybersecurity",
       "source": "The Hacker News",
       "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "hook": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "hook": "OpenRouter dropped three AI providers after researchers uncovered months of undetected customer prompt theft.",
       "bullets": [
-        "See full article for details",
-        "Link below"
+        "Attackers intercepted prompts even when flagged for Zero Data Retention.",
+        "Canary tokens revealed stolen AWS credentials were actively exploited by hackers."
       ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
+      "why_it_matters": "The breaches reveal severe vulnerabilities in third-party AI hosting pipelines and compromise strict privacy promises.",
+      "read_time_sec": 70,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png",
       "full_article_url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
       "published_at": "2026-11-22T05:06:55Z",
@@ -24,13 +24,13 @@
       "category": "Cybersecurity",
       "source": "The Hacker News",
       "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "hook": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "hook": "A patched Ghostscript flaw allows attackers to execute code remotely through routine file uploads in popular applications.",
       "bullets": [
-        "See full article for details",
-        "Link below"
+        "Common libraries invoke Ghostscript automatically even when handling disguised image or document files.",
+        "Researchers triggered unauthenticated exploits via email attachments, print queues, and web forms."
       ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
+      "why_it_matters": "Because Ghostscript operates invisibly behind standard web features, unpatched servers face severe remote compromise risks from benign-looking uploads.",
+      "read_time_sec": 60,
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1600/ghostscript.jpg",
       "full_article_url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
       "published_at": "2026-11-22T05:03:41Z",
@@ -311,29 +311,11 @@
       "saved": false
     },
     {
-      "id": "04a3ff300807bfefc0dd794c19bdb7e4fe691fe131ef0289775e44fbfa329249",
+      "id": "b201e6d25d5155c0bc72aa506b4b57b66fc6adf9a284f7c8cd18551afe2b8870",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
-      "hook": "Why your monitor flickers when you turn it on and can it be fixed? - Engadget",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/why-your-monitor-flickers-when-you-turn-it-on-and-can-it-be-fixed/l-intro-1794601400.jpg",
-      "full_article_url": "https://www.engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix/",
-      "published_at": "2026-11-22 21:45:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "e21ba50d387c16b85b28f12ad76df44a7378d28579c23cdde0b51e0b91bd7132",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "FSD 15 Efficiency Only Needs Ai4",
-      "hook": "FSD 15 Efficiency Only Needs Ai4",
+      "title": "CVE-2026-134866 | Assimp up to 6.0.6 SkipLine infinite loop",
+      "hook": "CVE-2026-134866 | Assimp up to 6.0.6 SkipLine infinite loop",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -341,80 +323,116 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://www.nextbigfuture.com/2026/11/fsd-15-efficiency-only-needs-ai4.html",
-      "published_at": "2026-11-22 21:44:42 +0000",
+      "full_article_url": "https://vuldb.com/vuln/442226",
+      "published_at": "2026-11-22 21:52:22 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "1da50c24753579701adc6b5893a35d8e32876f65d65e605cfd5e0a0d2f7e69c7",
+      "id": "dd05e451a4b1f53fa809c167953ea268519cc0e14d12ab09c75c95bdeca082bd",
       "category": "Technology",
       "source": "Currents API",
-      "title": "‘You Can See Everything’ has made more than $100M worldwide | TechCrunch",
-      "hook": "‘You Can See Everything’ has made more than $100M worldwide | TechCrunch",
+      "title": "CVE-2026-134862 | Assimp up to 6.0.6 glTFImporter ImportMeshes out-of-bounds",
+      "hook": "CVE-2026-134862 | Assimp up to 6.0.6 glTFImporter ImportMeshes out-of-bounds",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/V8_PHASE-1_LOBTS.jpg?resize=1200,900",
-      "full_article_url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
-      "published_at": "2026-11-22 21:42:48 +0000",
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442225",
+      "published_at": "2026-11-22 21:51:47 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "e4cd014bc2516fce939b4ab670e6899942d8b4ff2c8aeb8240fbe85ec8083a0b",
+      "id": "f488e075a181c8c07bc796a78183380ced676c3ed266a76cc7af1ff8eda21a00",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Four-Year ChatGPT Accounts Banned Overnight: Why Seniority Never Shields Your History",
-      "hook": "Four-Year ChatGPT Accounts Banned Overnight: Why Seniority Never Shields Your History",
+      "title": "CVE-2026-134863 | Assimp up to 6.0.6 glTFImporter ImportEmbeddedTextures null pointer dereference",
+      "hook": "CVE-2026-134863 | Assimp up to 6.0.6 glTFImporter ImportEmbeddedTextures null pointer dereference",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*HrYBNE9um2wFIXMYAeYqDA.png",
-      "full_article_url": "https://medium.com/@jiarex/four-year-chatgpt-accounts-banned-overnight-why-seniority-never-shields-your-history-e27e5d9b3e51",
-      "published_at": "2026-11-22 21:41:01 +0000",
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442224",
+      "published_at": "2026-11-22 21:51:44 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "8f8e5eeab69810b40416f2a4d75e17e3da9efab00dc2ee128dbee432e657889e",
+      "id": "3f51e11b0aad21419cc1129aa00427e731521ddb95aeec1ce514eba92a2eeb00",
       "category": "Technology",
       "source": "Currents API",
-      "title": "How Many Strangers Are Living in Your Website?",
-      "hook": "How Many Strangers Are Living in Your Website?",
+      "title": "CVE-2026-134860 | Assimp up to 6.0.6 Collada Loader ColladaLoader.cpp ReadFloat out-of-bounds",
+      "hook": "CVE-2026-134860 | Assimp up to 6.0.6 Collada Loader ColladaLoader.cpp ReadFloat out-of-bounds",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
-      "full_article_url": "https://medium.com/@founder_17925/how-many-strangers-are-living-in-your-website-57bce72d1f48",
-      "published_at": "2026-11-22 21:39:01 +0000",
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442223",
+      "published_at": "2026-11-22 21:51:24 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "15c87193ceaf46733f4a75e671e1e269683a948e060ec696e2a96b650254979b",
+      "id": "82fe7d364d8e9b3ae4d7452cf4f060a7cb6470dc83a39dd3a738dfe3fad8166f",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Caring for a Parent Who Lives Alone, Without Turning Their Home Into a Surveillance Site",
-      "hook": "Caring for a Parent Who Lives Alone, Without Turning Their Home Into a Surveillance Site",
+      "title": "CVE-2026-134840 | HumHub up to 1.19.3 GroupController actionNewMemberSearch/actionAdminUserSearch id improper authorization",
+      "hook": "CVE-2026-134840 | HumHub up to 1.19.3 GroupController actionNewMemberSearch/actionAdminUserSearch id improper authorization",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
-      "full_article_url": "https://medium.com/@zhulianxing/caring-for-a-parent-who-lives-alone-without-turning-their-home-into-a-surveillance-site-01b815e7f5b9",
-      "published_at": "2026-11-22 21:36:02 +0000",
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442222",
+      "published_at": "2026-11-22 21:50:49 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "d5b633799b16a1fdd173fa20da0161cc5bc477779b60903d947a64029ee6841f",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "CVE-2026-134859 | Assimp up to 6.0.6 PLY Importer LoadFace/createFromeTriStrip out-of-bounds",
+      "hook": "CVE-2026-134859 | Assimp up to 6.0.6 PLY Importer LoadFace/createFromeTriStrip out-of-bounds",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://vuldb.com/vuln/442221",
+      "published_at": "2026-11-22 21:50:47 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "e37c671fd4dd79d3ae409c99687b3d77c58f53a6d67af6d2f20c6ef01c5816e8",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "A2 Milk shares fell more than 10% last week. Is it time to buy back in?",
+      "hook": "A2 Milk shares fell more than 10% last week. Is it time to buy back in?",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.fool.com.au/wp-content/uploads/2022/05/Surprised-baby-eyes-16_9.jpg",
+      "full_article_url": "https://www.fool.com.au/2026/11/23/a2-milk-shares-fell-more-than-10-last-week-is-it-time-to-buy-back-in/",
+      "published_at": "2026-11-22 22:19:35 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -433,6 +451,24 @@
       "image_url": "https://api.macrobusiness.com.au/wp-content/uploads/2026/11/Albanese-No-Recession-660x371.png",
       "full_article_url": "https://www.macrobusiness.com.au/2026/11/aussie-flash-pmi-plunges-into-recession/",
       "published_at": "2026-11-22 22:10:14 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "9df9ccdd7131b205f0f3e20210997f925fd5b723cee5f07fc8c30e2a3464789d",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "PCE backs state plan to expand B20 biodiesel use",
+      "hook": "PCE backs state plan to expand B20 biodiesel use",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.bangkokpost.com/media/content/dcx/2026/11/23/6313270_700.jpg",
+      "full_article_url": "https://www.bangkokpost.com/business/general/3359550/pce-backs-state-plan-to-expand-b20-biodiesel-use",
+      "published_at": "2026-11-22 22:10:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -581,6 +617,24 @@
       "saved": false
     },
     {
+      "id": "42b0bb81a93826332b31f1c53ab6058f2f12a1caa7e1a9a6b269cd9d0b8604b4",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "These are the 10 most shorted ASX shares",
+      "hook": "These are the 10 most shorted ASX shares",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.fool.com.au/wp-content/uploads/2022/04/aargh-1200x675.jpg",
+      "full_article_url": "https://www.fool.com.au/2026/11/23/these-are-the-10-most-shorted-asx-shares-23-november-2026/",
+      "published_at": "2026-11-22 21:33:08 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "61d5d42de5e20bba3dce2d4ecafb953331a83e20e25d83230850b12a8a813698",
       "category": "Business",
       "source": "Currents API",
@@ -595,6 +649,24 @@
       "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035f461e37d8fa64db0ab2jpeg.jpg?w=1600",
       "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/jared-goff-throws-2-tds-jahmyr-gibbs-rans-for-2-tds-and-lions-beat-bucs-31-21-for-6th-straight-win",
       "published_at": "2026-11-22 21:32:08 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "2a6e2b85e7108c631f31e926d380ad5e6ab9b044024eab4551e1de453d2cc6db",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "2 ASX 200 shares I rate as top buys for growth",
+      "hook": "2 ASX 200 shares I rate as top buys for growth",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.fool.com.au/wp-content/uploads/2026/08/compounding-16.9-1200x675.jpg",
+      "full_article_url": "https://www.fool.com.au/2026/11/23/2-asx-200-shares-i-rate-as-top-buys-for-growth-4/",
+      "published_at": "2026-11-22 21:30:04 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -671,6 +743,24 @@
       "saved": false
     },
     {
+      "id": "e337c7a94e57c4b65b78d489f9f359d9a95a58b3fca43cc1293ecc842cee9fd6",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Catapult Sports shares crashed 17% on results. Why 2 brokers think the market has it wrong",
+      "hook": "Catapult Sports shares crashed 17% on results. Why 2 brokers think the market has it wrong",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.fool.com.au/wp-content/uploads/2022/07/nfl-1200x675.jpg",
+      "full_article_url": "https://www.fool.com.au/2026/11/23/catapult-sports-shares-crashed-17-on-results-why-2-brokers-think-the-market-has-it-wrong/",
+      "published_at": "2026-11-22 21:25:22 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "8d05268b7ad1443ad4fd2b2e20cd1da5cc97aff9813f9bcfdf86fa2fb8edb7d7",
       "category": "Business",
       "source": "Currents API",
@@ -689,92 +779,20 @@
       "saved": false
     },
     {
-      "id": "f066d6855843826abf69d84be9fa8bd1b7d0cf7b73eac793d59c50f00fc6eece",
-      "category": "Business",
+      "id": "84fd7421d7ab6c62dff564de3b936aeb411c0b528191841c05a2fef107343a69",
+      "category": "World",
       "source": "Currents API",
-      "title": "Carlos Alcaraz Wins 1st ATP Finals Title To Join Elite Club",
-      "hook": "Carlos Alcaraz Wins 1st ATP Finals Title To Join Elite Club",
+      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
+      "hook": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.forbes.com/sites/adamzagoria/2026/11/22/carlos-alcaraz-wins-1st-atp-finals-title-to-join-elite-club/",
-      "published_at": "2026-11-22 21:19:55 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "99caa8a849626ad288c0ce8f539103a6be3b367d56536466e27e093db1fee298",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Week ahead: Holiday lull, inflation ahead | Nov 22 - 28",
-      "hook": "Week ahead: Holiday lull, inflation ahead | Nov 22 - 28",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.forexfactory.com/news/1438114-week-ahead-holiday-lull-inflation-ahead-nov/image",
-      "full_article_url": "https://www.forexfactory.com/news/1438114-week-ahead-holiday-lull-inflation-ahead-nov",
-      "published_at": "2026-11-22 21:10:33 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "2d08a557c1331cf119a53ad667828c7102434ebd5e14a395a89eb9bf31dabf14",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Half Of All Delta Flights Delayed Sunday After Ground Delay In Atlanta",
-      "hook": "Half Of All Delta Flights Delayed Sunday After Ground Delay In Atlanta",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.forbes.com/sites/zacharyfolk/2026/11/22/half-of-all-delta-flights-delayed-sunday-after-ground-delay-in-atlanta/",
-      "published_at": "2026-11-22 21:08:51 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "960a82bd9111b3b9ea512828ee8f91cc64d68f5032eb816dc9def33ad8f740d6",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Small firms urged to seize Chinese growth opportunities",
-      "hook": "Small firms urged to seize Chinese growth opportunities",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.bangkokpost.com/v3/assets/images/img-default.jpg",
-      "full_article_url": "https://www.bangkokpost.com/business/general/3359685/small-firms-urged-to-seize-chinese-growth-opportunities",
-      "published_at": "2026-11-22 21:08:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "1bf203f70bcbb488acbd8e8b54cfd7681efef1ae4dbc79234b47e11bb350e77f",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "MASPRO delivers 100 per cent more percussion hours with upgraded underground cradle assembly - Australian Mining",
-      "hook": "MASPRO delivers 100 per cent more percussion hours with upgraded underground cradle assembly - Australian Mining",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.australianmining.com.au/wp-content/uploads/2026/11/Image-Maspro.jpg",
-      "full_article_url": "https://www.australianmining.com.au/maspro-delivers-100-per-cent-more-percussion-hours-with-upgraded-underground-cradle-assembly/",
-      "published_at": "2026-11-22 21:07:36 +0000",
+      "image_url": "https://i.guim.co.uk/img/media/df88b141409fe9863f25f07d5c8fd7707d6c5e27/0_128_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8ede16047ab91ed32a60664bdefb3f7f",
+      "full_article_url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
+      "published_at": "2026-11-22 22:24:56 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -793,6 +811,24 @@
       "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/democrat-chuck-hubbard-225817338-16x9_0.jpg?VersionId=CtlyT0Bgne0N27caKTzAx_5aKD7UMK2g",
       "full_article_url": "https://www.indiatoday.in/world/story/us-democrats-258-house-seats-100-day-agenda-trump-probes-3044681-2026-11-23",
       "published_at": "2026-11-22 22:01:58 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "db5e339fff908aaf64718a076a4749a60aec6cc36a917feb93a3d37b4f207567",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Abdul El-Sayed doubles down on ‘TrumpCare’ health plan, urging president to ‘get it done’",
+      "hook": "Abdul El-Sayed doubles down on ‘TrumpCare’ health plan, urging president to ‘get it done’",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://i.guim.co.uk/img/media/78f33ce8c7f9ce573db8956e2c3886261286f04f/232_0_4113_3290/master/4113.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4b95a772f220b46e9d2c893a0ad1813b",
+      "full_article_url": "https://www.theguardian.com/us-news/2026/nov/22/abdul-el-sayed-trump-care-health-proposal-name",
+      "published_at": "2026-11-22 22:01:17 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -829,6 +865,24 @@
       "image_url": "https://i.guim.co.uk/img/media/92374d04a6b87ec2995da31768a8015be7e26a0b/313_0_2620_2096/master/2620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0ff98ee54df672090a3746027f16007b",
       "full_article_url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
       "published_at": "2026-11-22 21:46:40 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "9b6a7eac9068db857c70e49571eeaf960930d7d76b3ab90d11841e935b77078e",
+      "category": "World",
+      "source": "Currents API",
+      "title": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
+      "hook": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=619e77e77651c54be3fa12528d40eccb",
+      "full_article_url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
+      "published_at": "2026-11-22 21:31:03 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1083,64 +1137,10 @@
       "published_at": "2026-11-22 20:48:32 +0000",
       "cve_ids": [],
       "saved": false
-    },
-    {
-      "id": "6ed905091a48d8d9c45a19e37bd865f58ab1fb9b78389bd73f21cc27802193d0",
-      "category": "World",
-      "source": "Currents API",
-      "title": "A Landmark Genocide Ruling",
-      "hook": "A Landmark Genocide Ruling",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.nytimes.com/2026/11/22/world/genocide-myanmar-un-climate-talks.html",
-      "published_at": "2026-11-22 20:35:19 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "8f89cdcf6b53a21daf99d67829326f4eadebc702d808518588c37e9e4ee88545",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
-      "hook": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/house.jpg",
-      "full_article_url": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx",
-      "published_at": "2026-11-22 20:34:07 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "45830c26870b639c47dc6507741cf75e6cc70caad54f29a308aa9e2eca769c6d",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Trump tells Europeans they should spend money on their economies instead of Ukraine",
-      "hook": "Trump tells Europeans they should spend money on their economies instead of Ukraine",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/world/2223087",
-      "published_at": "2026-11-22 20:32:36 +0000",
-      "cve_ids": [],
-      "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T22:39:15Z",
+    "generated_at": "2026-11-22T22:50:34Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1150,13 +1150,13 @@
           "category": "Cybersecurity",
           "source": "The Hacker News",
           "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-          "hook": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+          "hook": "A patched Ghostscript flaw allows attackers to execute code remotely through routine file uploads in popular applications.",
           "bullets": [
-            "See full article for details",
-            "Link below"
+            "Common libraries invoke Ghostscript automatically even when handling disguised image or document files.",
+            "Researchers triggered unauthenticated exploits via email attachments, print queues, and web forms."
           ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
+          "why_it_matters": "Because Ghostscript operates invisibly behind standard web features, unpatched servers face severe remote compromise risks from benign-looking uploads.",
+          "read_time_sec": 60,
           "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1600/ghostscript.jpg",
           "full_article_url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
           "published_at": "2026-11-22T05:03:41Z",
@@ -1167,28 +1167,7 @@
           "saved": false,
           "viral_badge": "🔥 CVE-2026-125396 Critical",
           "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
-          "category": "Cybersecurity",
-          "source": "The Hacker News",
-          "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-          "hook": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png",
-          "full_article_url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-          "published_at": "2026-11-22T05:06:55Z",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
+          "impact_summary": "Because Ghostscript operates invisibly behind standard web features, unpatched servers face severe remote compromise risks from benign-looking uploads."
         },
         {
           "id": "eb89847b683b3c00f3611f707884872ae23d596563253ea27b7288fd881da669",
@@ -1207,9 +1186,30 @@
           "published_at": "2026-11-22T00:53:02Z",
           "cve_ids": [],
           "saved": false,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
+          "category": "Cybersecurity",
+          "source": "The Hacker News",
+          "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+          "hook": "OpenRouter dropped three AI providers after researchers uncovered months of undetected customer prompt theft.",
+          "bullets": [
+            "Attackers intercepted prompts even when flagged for Zero Data Retention.",
+            "Canary tokens revealed stolen AWS credentials were actively exploited by hackers."
+          ],
+          "why_it_matters": "The breaches reveal severe vulnerabilities in third-party AI hosting pipelines and compromise strict privacy promises.",
+          "read_time_sec": 70,
+          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png",
+          "full_article_url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+          "published_at": "2026-11-22T05:06:55Z",
+          "cve_ids": [],
+          "saved": false,
           "viral_badge": "📌 High Impact",
           "viral_rank": 3,
-          "impact_summary": "Read the full article for context."
+          "impact_summary": "The breaches reveal severe vulnerabilities in third-party AI hosting pipelines and compromise strict privacy promises."
         }
       ],
       "Technology": [
@@ -1279,6 +1279,27 @@
       ],
       "Business": [
         {
+          "id": "e37c671fd4dd79d3ae409c99687b3d77c58f53a6d67af6d2f20c6ef01c5816e8",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "A2 Milk shares fell more than 10% last week. Is it time to buy back in?",
+          "hook": "A2 Milk shares fell more than 10% last week. Is it time to buy back in?",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://www.fool.com.au/wp-content/uploads/2022/05/Surprised-baby-eyes-16_9.jpg",
+          "full_article_url": "https://www.fool.com.au/2026/11/23/a2-milk-shares-fell-more-than-10-last-week-is-it-time-to-buy-back-in/",
+          "published_at": "2026-11-22 22:19:35 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Business Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "e7b837b08fd75b08b4fcb3141b5cb5963af071e6b1afc7e528ba35c29236003a",
           "category": "Business",
           "source": "Currents API",
@@ -1295,46 +1316,25 @@
           "published_at": "2026-11-22 22:10:14 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Business Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "1ce0c9ea197769ee6ab988d12badd86586e86eafcbcb9d1c28e9e709483ab0ff",
-          "category": "Business",
-          "source": "Currents API",
-          "title": "REVIEW: Strauss tone poems mesmerize under baton of Philippe Jordan at CSO",
-          "hook": "REVIEW: Strauss tone poems mesmerize under baton of Philippe Jordan at CSO",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://www.bizjournals.com/cincinnati/news/2026/11/22/review-strauss-philippe-jordan-conducts-cso.html?ana=brss_1566",
-          "published_at": "2026-11-22 21:57:03 +0000",
-          "cve_ids": [],
-          "saved": false,
           "viral_badge": "⚡ Viral Discussion",
           "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "7bd310b2c4620b1bf3c2d262672363219e1010c0383f2ca45d4ae68a6a4c0d21",
+          "id": "9df9ccdd7131b205f0f3e20210997f925fd5b723cee5f07fc8c30e2a3464789d",
           "category": "Business",
           "source": "Currents API",
-          "title": "Thomas, Braun score 15 each, No. 17 Minnesota women coast past Central Michigan 82-31",
-          "hook": "Thomas, Braun score 15 each, No. 17 Minnesota women coast past Central Michigan 82-31",
+          "title": "PCE backs state plan to expand B20 biodiesel use",
+          "hook": "PCE backs state plan to expand B20 biodiesel use",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-          "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/thomas-braun-score-15-each-no-17-minnesota-women-coast-past-central-michigan-82-31",
-          "published_at": "2026-11-22 21:55:47 +0000",
+          "image_url": "https://static.bangkokpost.com/media/content/dcx/2026/11/23/6313270_700.jpg",
+          "full_article_url": "https://www.bangkokpost.com/business/general/3359550/pce-backs-state-plan-to-expand-b20-biodiesel-use",
+          "published_at": "2026-11-22 22:10:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1343,6 +1343,27 @@
         }
       ],
       "World": [
+        {
+          "id": "84fd7421d7ab6c62dff564de3b936aeb411c0b528191841c05a2fef107343a69",
+          "category": "World",
+          "source": "Currents API",
+          "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
+          "hook": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://i.guim.co.uk/img/media/df88b141409fe9863f25f07d5c8fd7707d6c5e27/0_128_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8ede16047ab91ed32a60664bdefb3f7f",
+          "full_article_url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
+          "published_at": "2026-11-22 22:24:56 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top World Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
         {
           "id": "3f47eb2aff18dcabb1d4c95e6ab92c0ab600d3c30a8d2ae83fb6e7a5dd590dc3",
           "category": "World",
@@ -1360,46 +1381,25 @@
           "published_at": "2026-11-22 22:01:58 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top World Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "878874a4395241cf3e3f056cbebd79ec37e6259ec55a7906580835affed2cd62",
-          "category": "World",
-          "source": "Currents API",
-          "title": "Tigers add another arm, agree to deal with ex-Yankee Luis Gil",
-          "hook": "Tigers add another arm, agree to deal with ex-Yankee Luis Gil",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.gannett-cdn.com/authoring/authoring-images/2026/11/22/PDTN/92916109007-20260911-t-030437-z-1423985692-mt-1-usatoday-29784300-rtrmadp-3-mlbcoloradorockiesatnewyorkyankees.JPG?auto=webp&crop=3837,2159,x0,y0&format=pjpg&width=1200",
-          "full_article_url": "https://www.detroitnews.com/story/sports/mlb/tigers/2026/11/22/tigers-add-another-arm-agree-to-deal-with-ex-yankee-luis-gil/92916265007/",
-          "published_at": "2026-11-22 21:56:53 +0000",
-          "cve_ids": [],
-          "saved": false,
           "viral_badge": "⚡ Viral Discussion",
           "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "fe52d199dd0cef4a706aa656a58cb278e49219c613954efdcfdc3720ab1a5d54",
+          "id": "db5e339fff908aaf64718a076a4749a60aec6cc36a917feb93a3d37b4f207567",
           "category": "World",
           "source": "Currents API",
-          "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
-          "hook": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
+          "title": "Abdul El-Sayed doubles down on ‘TrumpCare’ health plan, urging president to ‘get it done’",
+          "hook": "Abdul El-Sayed doubles down on ‘TrumpCare’ health plan, urging president to ‘get it done’",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://i.guim.co.uk/img/media/92374d04a6b87ec2995da31768a8015be7e26a0b/313_0_2620_2096/master/2620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0ff98ee54df672090a3746027f16007b",
-          "full_article_url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone",
-          "published_at": "2026-11-22 21:46:40 +0000",
+          "image_url": "https://i.guim.co.uk/img/media/78f33ce8c7f9ce573db8956e2c3886261286f04f/232_0_4113_3290/master/4113.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4b95a772f220b46e9d2c893a0ad1813b",
+          "full_article_url": "https://www.theguardian.com/us-news/2026/nov/22/abdul-el-sayed-trump-care-health-proposal-name",
+          "published_at": "2026-11-22 22:01:17 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
