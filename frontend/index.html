@@ -926,41 +926,6 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
   }
 }
 
-    // Switch off category filter to show all relevant Gemini matches
-    activeCategory = 'All';
-
-    // Log rich Gemini AI search table to console as requested!
-    console.group(`%c✨ Google Gemini AI Search: "${query}" (${matches.length} matches)`, 'color: #00DC82; font-weight: bold; font-size: 14px;');
-    console.table(matches.map(m => {
-      const art = articles.find(a => a.id === m.id);
-      return {
-        ID: m.id.slice(0, 8),
-        Title: art ? art.title : '—',
-        Category: art ? art.category : '—',
-        "Relevance": `${m.relevance}%`,
-        "Gemini Reason": m.match_reason
-      };
-    }));
-    console.groupEnd();
-
-    const searchMeta = document.getElementById('searchMeta');
-    const searchCount = document.getElementById('searchCount');
-    searchMeta.style.display = 'flex';
-    searchCount.textContent = `✨ Gemini AI matched ${matches.length} article${matches.length === 1 ? '' : 's'}`;
-    document.getElementById('searchConsoleStatus').textContent = 'AI Reasoning in Console';
-
-    renderPills();
-    renderArticles();
-  }catch(err){
-    console.error('Gemini Search error:', err);
-    showToast(err.message || '⚠️ Gemini search error. Using keyword search.');
-    handleSearchInput(query);
-  }finally{
-    btn.classList.remove('loading');
-    btn.innerHTML = '<span class="ai-sparkle">✨</span> Gemini';
-  }
-}
-
 function clearSearch(){
   const input = document.getElementById('searchInput');
   if(input) input.value = '';
@@ -1657,7 +1622,7 @@ setInterval(() => {
    Service Worker Registration & Update Check
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js?v=9').then(reg => {
+  navigator.serviceWorker.register('sw.js?v=10').then(reg => {
     // Check for updates to purge older cached versions immediately
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));
