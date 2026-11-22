@@ -886,7 +886,9 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     }
 
     if(!response || !response.ok){
-      if(lastStatus === 404 && lastErrorMsg.includes('unregistered callers')){
+      if(lastErrorMsg.includes('is not found for API version') || lastErrorMsg.includes('ModelService.ListModels')){
+        throw new Error('Generative Language API is not enabled for this project. Enable "Generative Language API" in Google Cloud or get a free key at aistudio.google.com/apikey');
+      } else if(lastStatus === 404 && lastErrorMsg.includes('unregistered callers')){
         throw new Error('Gemini key not recognized by Google. Get a free key at aistudio.google.com/apikey');
       } else if(lastStatus === 400 || lastStatus === 403){
         throw new Error(`Google API: ${lastErrorMsg || 'Invalid Gemini Key or permissions. Please check Settings (⚙️).'}`);
@@ -1581,7 +1583,7 @@ setInterval(() => {
    Service Worker Registration & Update Check
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js?v=5').then(reg => {
+  navigator.serviceWorker.register('sw.js?v=6').then(reg => {
     // Check for updates to purge older cached versions immediately
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));

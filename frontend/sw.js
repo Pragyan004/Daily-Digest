@@ -1,4 +1,4 @@
-const CACHE_NAME = 'digest-v5';
+const CACHE_NAME = 'digest-v6';
 const STATIC_ASSETS = [
   './',
   './index.html',
