@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:50:32Z",
+  "generated_at": "2026-11-22T21:57:44Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -419,6 +419,24 @@
       "saved": false
     },
     {
+      "id": "20d883dcbcd6d07781cacd450d0e65f40452d9fdee4314bbc9b3d8b8f67f14d5",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "FTSE 100 giant to quit London for New York",
+      "hook": "FTSE 100 giant to quit London for New York",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.telegraph.co.uk/content/dam/business/2026/11/22/TELEMMGLPICT000507195924_17953804391130_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?impolicy=OG-Standard",
+      "full_article_url": "https://www.telegraph.co.uk/business/2026/11/22/ftse-100-giant-to-quit-london-for-new-york/",
+      "published_at": "2026-11-22 21:35:29 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "61d5d42de5e20bba3dce2d4ecafb953331a83e20e25d83230850b12a8a813698",
       "category": "Business",
       "source": "Currents API",
@@ -757,24 +775,6 @@
       "image_url": "https://247wallst.com/wp-content/uploads/2019/11/imageforentry3-q62.jpg",
       "full_article_url": "https://247wallst.com/investing/2026/11/22/every-corn-row-needs-nitrogen-and-potash-and-90000-across-these-3-fertilizer-stocks-pays-more-than-2900-a-year/",
       "published_at": "2026-11-22 20:35:56 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "067950ef0d42c8858c2cf458bc91897df380e63dd7abdb7ee95680f992b24dab",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "PlayStation Plus Free Games December 2026: Reveal Date, Rumors, Predictions And More",
-      "hook": "PlayStation Plus Free Games December 2026: Reveal Date, Rumors, Predictions And More",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.forbes.com/sites/erikkain/2026/11/22/ps-plus-december-2026-free-games-predictions-leaks-rumors/",
-      "published_at": "2026-11-22 20:35:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1140,7 +1140,7 @@
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T21:50:32Z",
+    "generated_at": "2026-11-22T21:57:44Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1279,6 +1279,27 @@
       ],
       "Business": [
         {
+          "id": "20d883dcbcd6d07781cacd450d0e65f40452d9fdee4314bbc9b3d8b8f67f14d5",
+          "category": "Business",
+          "source": "Currents API",
+          "title": "FTSE 100 giant to quit London for New York",
+          "hook": "FTSE 100 giant to quit London for New York",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://www.telegraph.co.uk/content/dam/business/2026/11/22/TELEMMGLPICT000507195924_17953804391130_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?impolicy=OG-Standard",
+          "full_article_url": "https://www.telegraph.co.uk/business/2026/11/22/ftse-100-giant-to-quit-london-for-new-york/",
+          "published_at": "2026-11-22 21:35:29 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Business Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
           "id": "61d5d42de5e20bba3dce2d4ecafb953331a83e20e25d83230850b12a8a813698",
           "category": "Business",
           "source": "Currents API",
@@ -1295,8 +1316,8 @@
           "published_at": "2026-11-22 21:32:08 +0000",
           "cve_ids": [],
           "saved": false,
-          "viral_badge": "🔥 Top Business Story",
-          "viral_rank": 1,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
@@ -1314,27 +1335,6 @@
           "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035e92dbdd855fc9ecddc1jpeg.jpg?w=1600",
           "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/eagles-snap-7-game-losing-streak-and-keep-steelers-winless-in-philly-since-1965-with-19-16-victory",
           "published_at": "2026-11-22 21:29:05 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "02d246f0a99f0a9f4a37666fd6913b378ac87ac834969eb5b6cc23f8b1199300",
-          "category": "Business",
-          "source": "Currents API",
-          "title": "Tylen Riley scores 24 points and Cincinnati outlasts UMass Lowell 78-68",
-          "hook": "Tylen Riley scores 24 points and Cincinnati outlasts UMass Lowell 78-68",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-          "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/tylen-riley-scores-24-points-and-cincinnati-outlasts-umass-lowell-78-68",
-          "published_at": "2026-11-22 21:28:49 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
