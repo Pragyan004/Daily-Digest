@@ -820,7 +820,7 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     const cleanKey = encodeURIComponent(apiKey);
     let chosenModel = localStorage.getItem('gemini_active_model');
 
-    if(!chosenModel){
+    if(!chosenModel || chosenModel.includes('2.5-flash')){
       try{
         const listRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`, {
           headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey }
@@ -832,12 +832,11 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
             .map(m => m.name.replace(/^models\//, ''));
 
           console.log('Available Gemini models for search:', contentModels);
-          chosenModel = contentModels.find(m => m.includes('2.5-flash'))
-            || contentModels.find(m => m.includes('2.0-flash'))
-            || contentModels.find(m => m.includes('1.5-flash'))
+          chosenModel = contentModels.find(m => m.includes('3.8-flash'))
+            || contentModels.find(m => m.includes('3.'))
             || contentModels.find(m => m.includes('flash'))
             || contentModels[0]
-            || 'gemini-2.5-flash';
+            || 'gemini-3.8-flash';
           localStorage.setItem('gemini_active_model', chosenModel);
         }
       }catch(e){
@@ -845,12 +844,12 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
       }
     }
 
-    if(!chosenModel) chosenModel = 'gemini-2.5-flash';
+    if(!chosenModel || chosenModel.includes('2.5-flash')) chosenModel = 'gemini-3.8-flash';
     console.log('Using Gemini model for search:', chosenModel);
 
     // Call generateContent on v1beta with responseMimeType JSON
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${chosenModel}:generateContent?key=${cleanKey}`;
-    const response = await fetch(endpoint, {
+    let endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${chosenModel}:generateContent?key=${cleanKey}`;
+    let response = await fetch(endpoint, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -864,13 +863,36 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
 
     if(!response.ok){
       const errText = await response.text();
-      let errMsg = errText;
-      try{
-        const errObj = JSON.parse(errText);
-        errMsg = errObj.error?.message || errText;
-      }catch(e){}
-      console.error('Gemini generateContent error:', response.status, errMsg);
-      throw new Error(`Google (${response.status}): ${errMsg}`);
+      // If Google suggests an updated model in the error message (e.g. gemini-3.8-flash)
+      const suggestedMatch = errText.match(/models\/(gemini-[\w\.\-]+)/);
+      if(suggestedMatch && suggestedMatch[1] && suggestedMatch[1] !== chosenModel){
+        chosenModel = suggestedMatch[1];
+        localStorage.setItem('gemini_active_model', chosenModel);
+        console.log('Auto-retrying with Google-suggested model:', chosenModel);
+        endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${chosenModel}:generateContent?key=${cleanKey}`;
+        response = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-goog-api-key': apiKey
+          },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: promptText }] }],
+            generationConfig: { responseMimeType: 'application/json' }
+          })
+        });
+      }
+
+      if(!response.ok){
+        const retryErrText = await response.text();
+        let errMsg = retryErrText;
+        try{
+          const errObj = JSON.parse(retryErrText);
+          errMsg = errObj.error?.message || retryErrText;
+        }catch(e){}
+        console.error('Gemini generateContent error:', response.status, errMsg);
+        throw new Error(`Google (${response.status}): ${errMsg}`);
+      }
     }
 
     const data = await response.json();
@@ -1490,12 +1512,12 @@ async function testGeminiKey(){
         .filter(m => (m.supportedGenerationMethods||[]).includes('generateContent'))
         .map(m => m.name.replace(/^models\//, ''));
 
-      const bestModel = validModels.find(m => m.includes('2.5-flash'))
-        || validModels.find(m => m.includes('2.0-flash'))
-        || validModels.find(m => m.includes('1.5-flash'))
+      const bestModel = validModels.find(m => m.includes('3.8-flash'))
+        || validModels.find(m => m.includes('3.'))
+        || validModels.find(m => m.includes('2.5-flash'))
         || validModels.find(m => m.includes('flash'))
         || validModels[0]
-        || 'gemini-2.5-flash';
+        || 'gemini-3.8-flash';
 
       localStorage.setItem('gemini_active_model', bestModel);
       localStorage.setItem('gemini_api_key', key);
@@ -1622,7 +1644,7 @@ setInterval(() => {
    Service Worker Registration & Update Check
    ═══════════════════════════════════════ */
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js?v=10').then(reg => {
+  navigator.serviceWorker.register('sw.js?v=11').then(reg => {
     // Check for updates to purge older cached versions immediately
     if(reg) reg.update();
   }).catch(e => console.warn('SW reg failed:', e));

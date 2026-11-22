@@ -57,7 +57,7 @@ OUTPUT_PATH = Path(
 CURRENTS_API_URL = "https://api.currentsapi.services/v1/latest-news"
 CURRENTS_CATEGORIES = ["technology", "business", "world"]
 
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
