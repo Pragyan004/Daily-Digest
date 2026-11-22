@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:20:11Z",
+  "generated_at": "2026-11-22T21:32:33Z",
   "articles": [
     {
       "id": "6d087c898942cc0c2503082abebf929ab7e0d4a3ca4293f9919606c8fd9cc88c",
@@ -55,6 +55,60 @@
       "image_url": "https://www.securityweek.com/wp-content/uploads/2024/04/FBI-Surveillance.jpg",
       "full_article_url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
       "published_at": "2026-11-22T00:53:02Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "cac17eecbc308b66dbde193c536d837ef50471cae1e3bba84c8e39b72dc2b06b",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Which solar panel type is best for your home? - Engadget",
+      "hook": "Which solar panel type is best for your home? - Engadget",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.engadget.com/img/gallery/which-solar-panel-type-is-best-for-your-home/l-intro-1794509643.jpg",
+      "full_article_url": "https://www.engadget.com/2319531/solar-panel-types-best-home-use/",
+      "published_at": "2026-11-22 21:15:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "c659db5b3ee9148a05ad098fa6509ceee166048b36c70df24525ce955580db53",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "How Secure Is Your Password? Here's How To Test It - Engadget",
+      "hook": "How Secure Is Your Password? Here's How To Test It - Engadget",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.engadget.com/img/gallery/how-secure-is-your-password-heres-how-to-test-it/l-intro-1794581081.jpg",
+      "full_article_url": "https://www.engadget.com/2319522/how-secure-is-password/",
+      "published_at": "2026-11-22 21:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "ca9f86531334967c0aceb6ed406d2b9fc3c2b0d1985eea2cfd725c769aa27cd6",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Opinion | America Hits the Brakes on AI",
+      "hook": "Opinion | America Hits the Brakes on AI",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
+      "published_at": "2026-11-22 20:47:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -131,6 +185,24 @@
       "saved": false
     },
     {
+      "id": "eff1bfad08901b337e3c6f8bdb2c09aede5c79d69260ef40d9c7f4c43c4d1bc2",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age",
+      "hook": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108554284-1795017875830-gettyimages-2305725511-_s019615_hvtmmvsn.jpeg?v=1795017895&w=1920&h=1080",
+      "full_article_url": "https://www.techmeme.com/261122/p11",
+      "published_at": "2026-11-22 20:35:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "f8726eb16bea2c0e2dc1454346d3814d4f666be90e4701450c1652f5d4410eef",
       "category": "Technology",
       "source": "Currents API",
@@ -181,6 +253,24 @@
       "image_url": "https://images.macrumors.com/t/_tjfK0vua64wDcGeqmNXpkPzL54=/2048x/article-new/2026/11/Siri-AI-Icon.jpeg",
       "full_article_url": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems/",
       "published_at": "2026-11-22 20:29:51 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "b9e3d16fc4ca0ee6f250147dba5ed21277c33004171f5e278627c50ee7449257",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Compact RTX Spark mini PC with 20-core CPU, 128GB RAM, 4TB SSD and 6,144 CUDA cores arrives in Europe",
+      "hook": "Compact RTX Spark mini PC with 20-core CPU, 128GB RAM, 4TB SSD and 6,144 CUDA cores arrives in Europe",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/asus-proart-gr1x-mini-pc.png",
+      "full_article_url": "https://www.notebookcheck.net/Compact-RTX-Spark-mini-PC-with-20-core-CPU-128GB-RAM-4TB-SSD-and-6-144-CUDA-cores-arrives-in-Europe.1456721.0.html",
+      "published_at": "2026-11-22 20:29:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -329,96 +419,6 @@
       "saved": false
     },
     {
-      "id": "c3e0acfcbde53b7f6f993e8dbbb35f46704d69ff22496106148af0a41f7a5966",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "The advantages of using a USB-C docking station - Engadget",
-      "hook": "The advantages of using a USB-C docking station - Engadget",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.engadget.com/img/gallery/the-advantages-of-using-a-usb-c-docking-station/l-intro-1794847590.jpg",
-      "full_article_url": "https://www.engadget.com/2319496/advantages-using-usb-c-docking-station/",
-      "published_at": "2026-11-22 20:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "3e01d62470db3ae88f557e50f6908993bee01db26ffb2886bff7c25d088828e3",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Funniest/Most Insightful Comments Of The Week At Techdirt",
-      "hook": "Funniest/Most Insightful Comments Of The Week At Techdirt",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.techdirt.com/2026/11/22/funniest-most-insightful-comments-of-the-week-at-techdirt-235/",
-      "published_at": "2026-11-22 20:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "22cde9dc051112f7d79b7139444e30120764f4e9aaf92048bc7ada268bb4e10f",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "OLEDTextFix Is A New Free, Open-Source Tool That Promises To Reduce Text Fringing On QD-OLED And WOLED Monitors",
-      "hook": "OLEDTextFix Is A New Free, Open-Source Tool That Promises To Reduce Text Fringing On QD-OLED And WOLED Monitors",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.wccftech.com/wp-content/uploads/2026/11/FI-62.jpg",
-      "full_article_url": "https://wccftech.com/oledtextfix-is-a-new-free-open-source-tool-that-promises-to-reduce-text-fringing-on-qd-oled-and-woled-monitors/",
-      "published_at": "2026-11-22 20:00:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "27cbc9ba0acc369531ecdd80474ed4458506063581419a5946b30c10cc85a60f",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Samsung Galaxy S25 Ultra Available For Rs 50,009 On Flipkart: Check Discount And Bank Offers",
-      "hook": "Samsung Galaxy S25 Ultra Available For Rs 50,009 On Flipkart: Check Discount And Bank Offers",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://sm.mashable.com/mashable_in/seo/default/s25ultra_6w14.jpg",
-      "full_article_url": "https://in.mashable.com/tech/116476/samsung-galaxy-s25-ultra-available-for-rs-50009-on-flipkart-check-discount-and-bank-offers",
-      "published_at": "2026-11-22 19:59:07 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "c93c0252f9704d0cc881c90020103585ba0fcd1f9c6fa334ceba2067d4db26b4",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-      "hook": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.keloland.com/news/national-world-news/ap-us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa/",
-      "published_at": "2026-11-22 19:54:44 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
       "id": "d9545f8558340903da671410a3181f953eb9a742c959767d86bd9d2f8a3d8315",
       "category": "Business",
       "source": "Currents API",
@@ -433,6 +433,42 @@
       "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/22/Early-shoppers-found-bargains-and-plenty.jpg",
       "full_article_url": "https://www.benzinga.com/personal-finance/financial-advisors/26/11/63517539/americans-are-cutting-back-this-christmas-heres-why",
       "published_at": "2026-11-22 21:00:08 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "5c9177adab7bfef272eecc4a3e72914c17ae1ead6e253405c49f2e1a2877f779",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Labor has avoided recession at the expense of mortgage holders",
+      "hook": "Labor has avoided recession at the expense of mortgage holders",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://api.macrobusiness.com.au/wp-content/uploads/2026/11/Mortgage-Holders-vs-Government-Thumbnail-660x371.png",
+      "full_article_url": "https://www.macrobusiness.com.au/2026/11/labor-has-avoided-recession-at-the-expense-of-mortgage-holders/",
+      "published_at": "2026-11-22 21:00:02 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "9aa4cff0d0bd81809586545370da029d5298019bdac3cfa0213d6e9ae60ccd57",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "New Insurance Opportunities: Why Transparency Matters",
+      "hook": "New Insurance Opportunities: Why Transparency Matters",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://seekingalpha.com/article/4970942-new-insurance-opportunities-why-transparency-matters",
+      "published_at": "2026-11-22 21:00:00 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -581,6 +617,24 @@
       "saved": false
     },
     {
+      "id": "1976339cff0ade59cdf456f3e31cdfd37c047aa5b1a6bcfc4edacd61f6f5aadb",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Every Corn Row Needs Nitrogen and Potash, and $90,000 Across These 3 Fertilizer Stocks Pays More Than $2,900 a Year",
+      "hook": "Every Corn Row Needs Nitrogen and Potash, and $90,000 Across These 3 Fertilizer Stocks Pays More Than $2,900 a Year",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://247wallst.com/wp-content/uploads/2019/11/imageforentry3-q62.jpg",
+      "full_article_url": "https://247wallst.com/investing/2026/11/22/every-corn-row-needs-nitrogen-and-potash-and-90000-across-these-3-fertilizer-stocks-pays-more-than-2900-a-year/",
+      "published_at": "2026-11-22 20:35:56 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
       "id": "ae03157c0934a2ed38615ba8c32c2de5ff27b8929dfdaa3b57ef3374278e6b96",
       "category": "Business",
       "source": "Currents API",
@@ -721,60 +775,6 @@
       "image_url": null,
       "full_article_url": "https://www.benzinga.com/crypto/26/11/63517460/ethereum-price-rebounds-after-hitting-key-support-but-risks-of-hitting-1000-remain",
       "published_at": "2026-11-22 20:15:06 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "80344a31233bb18170d7c23452292c30f1f701628e7456f9f65a9425f1888dbc",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Retiring with a 401(k)? Be sure you understand the tax rules for it.",
-      "hook": "Retiring with a 401(k)? Be sure you understand the tax rules for it.",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.washingtonpost.com/business/2026/11/22/retiring-with-401k-be-sure-you-understand-rmds/",
-      "published_at": "2026-11-22 20:15:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "4fc72beab794fd28b6dc4f15303e1036d3a2617437cd921bb587424fef150cb6",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Watch: Bessent's Surprising Jensen Huang About-Face",
-      "hook": "Watch: Bessent's Surprising Jensen Huang About-Face",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cms.zerohedge.com/sites/default/files/styles/16_9_max_700/public/2026-11/Bessent%20and%20Huang%E2%80%99s%20NVIDIA%20about-face.png?itok=PnuWKg1L",
-      "full_article_url": "https://www.zerohedge.com/ai/watch-bessents-stunning-jensen-huang-about-face",
-      "published_at": "2026-11-22 20:15:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "40572e6952ef73ab0099d35041ebf585fa9ac7c12f5bf12542e605dccf3d8006",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "'Hunger Games' helps box office rebound amid GTA 6 fever",
-      "hook": "'Hunger Games' helps box office rebound amid GTA 6 fever",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4675413-hunger-games-helps-box-office-rebound-amid-gta-6-fever",
-      "published_at": "2026-11-22 20:10:59 +0000",
       "cve_ids": [],
       "saved": false
     },
@@ -1140,7 +1140,7 @@
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-22T21:20:11Z",
+    "generated_at": "2026-11-22T21:32:33Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
@@ -1214,20 +1214,20 @@
       ],
       "Technology": [
         {
-          "id": "3a4daa769c2f5085d496e4e845397e2a160301330d86af7cd0f92f22556044fe",
+          "id": "cac17eecbc308b66dbde193c536d837ef50471cae1e3bba84c8e39b72dc2b06b",
           "category": "Technology",
           "source": "Currents API",
-          "title": "These iOS settings will help you control your mobile data use - Engadget",
-          "hook": "These iOS settings will help you control your mobile data use - Engadget",
+          "title": "Which solar panel type is best for your home? - Engadget",
+          "hook": "Which solar panel type is best for your home? - Engadget",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://www.engadget.com/img/gallery/these-ios-settings-will-help-you-control-your-mobile-data-use/l-intro-1794801627.jpg",
-          "full_article_url": "https://www.engadget.com/2319519/ios-settings-help-control-mobile-data-use/",
-          "published_at": "2026-11-22 20:45:00 +0000",
+          "image_url": "https://www.engadget.com/img/gallery/which-solar-panel-type-is-best-for-your-home/l-intro-1794509643.jpg",
+          "full_article_url": "https://www.engadget.com/2319531/solar-panel-types-best-home-use/",
+          "published_at": "2026-11-22 21:15:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top Technology Story",
@@ -1235,20 +1235,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "00cd6d88487e28326e309a66e4a37d006240a1e2d2a4ae20ad437e7ae422e8fd",
+          "id": "c659db5b3ee9148a05ad098fa6509ceee166048b36c70df24525ce955580db53",
           "category": "Technology",
           "source": "Currents API",
-          "title": "Russia is towing drone-hit cargo ship after Baltic Sea attack",
-          "hook": "Russia is towing drone-hit cargo ship after Baltic Sea attack",
+          "title": "How Secure Is Your Password? Here's How To Test It - Engadget",
+          "hook": "How Secure Is Your Password? Here's How To Test It - Engadget",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://images.euronews.com/articles/stories/10/00/36/70/1200x675_cmsv2_70afc514-edf9-57bd-b999-1e956d1cb25e-10003670.jpg",
-          "full_article_url": "https://www.euronews.com/2026/11/22/finland-confirms-russia-is-towing-drone-hit-cargo-ship-after-baltic-sea-attack",
-          "published_at": "2026-11-22 20:38:31 +0000",
+          "image_url": "https://www.engadget.com/img/gallery/how-secure-is-your-password-heres-how-to-test-it/l-intro-1794581081.jpg",
+          "full_article_url": "https://www.engadget.com/2319522/how-secure-is-password/",
+          "published_at": "2026-11-22 21:00:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1256,20 +1256,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "9255846b176b6dde99cc8163e797167a41ce2ef2b130fa44aa0a01f123c2069b",
+          "id": "ca9f86531334967c0aceb6ed406d2b9fc3c2b0d1985eea2cfd725c769aa27cd6",
           "category": "Technology",
           "source": "Currents API",
-          "title": "MS Dhoni, Sakshi Attend Kavya Maran And Anirudh Ravichander's Wedding Reception In Chennai",
-          "hook": "MS Dhoni, Sakshi Attend Kavya Maran And Anirudh Ravichander's Wedding Reception In Chennai",
+          "title": "Opinion | America Hits the Brakes on AI",
+          "hook": "Opinion | America Hits the Brakes on AI",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://sm.mashable.com/mashable_in/seo/default/msdhonisakshi_tf5h.jpg",
-          "full_article_url": "https://in.mashable.com/sports/116478/ms-dhoni-sakshi-attend-kavya-maran-and-anirudh-ravichanders-wedding-reception-in-chennai",
-          "published_at": "2026-11-22 20:38:19 +0000",
+          "image_url": null,
+          "full_article_url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
+          "published_at": "2026-11-22 20:47:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1300,20 +1300,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "0626824f59c0c556234ee63a3ab2efc32c58fd1af55bca22b2bc961cc8a07452",
+          "id": "5c9177adab7bfef272eecc4a3e72914c17ae1ead6e253405c49f2e1a2877f779",
           "category": "Business",
           "source": "Currents API",
-          "title": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
-          "hook": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
+          "title": "Labor has avoided recession at the expense of mortgage holders",
+          "hook": "Labor has avoided recession at the expense of mortgage holders",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b035731dbdd855fc9ecd750jpeg.jpg?w=1600",
-          "full_article_url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/22/mahomes-throws-3-td-passes-kelce-catches-2-of-them-as-kc-routs-cardinals-34-7-for-3rd-straight-win",
-          "published_at": "2026-11-22 20:57:37 +0000",
+          "image_url": "https://api.macrobusiness.com.au/wp-content/uploads/2026/11/Mortgage-Holders-vs-Government-Thumbnail-660x371.png",
+          "full_article_url": "https://www.macrobusiness.com.au/2026/11/labor-has-avoided-recession-at-the-expense-of-mortgage-holders/",
+          "published_at": "2026-11-22 21:00:02 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1321,20 +1321,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "603bb7b2e2099abbba0a51ed783b909fa15d8fae3e22853d04c45e8950ad36dd",
+          "id": "9aa4cff0d0bd81809586545370da029d5298019bdac3cfa0213d6e9ae60ccd57",
           "category": "Business",
           "source": "Currents API",
-          "title": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
-          "hook": "Montana State grabs the top seed as the NCAA unveils the 24-team FCS playoff bracket",
+          "title": "New Insurance Opportunities: Why Transparency Matters",
+          "hook": "New Insurance Opportunities: Why Transparency Matters",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-          "full_article_url": "https://www.winnipegfreepress.com/uncategorized/2026/11/22/montana-state-grabs-the-top-seed-as-the-ncaa-unveils-the-24-team-fcs-playoff-bracket",
-          "published_at": "2026-11-22 20:57:19 +0000",
+          "image_url": null,
+          "full_article_url": "https://seekingalpha.com/article/4970942-new-insurance-opportunities-why-transparency-matters",
+          "published_at": "2026-11-22 21:00:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
