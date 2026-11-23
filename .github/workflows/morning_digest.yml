@@ -24,11 +24,12 @@ permissions:
 
 concurrency:
   group: 'pages'
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   generate-digest:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       # 1. Check out repository
@@ -45,7 +46,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r backend/requirements.txt
 
-      # 4. Generate digest (falls back to --mock if secrets not yet set)
+      # 4. Generate digest (runs on schedule, workflow_dispatch, or when digest.json is missing)
       - name: Generate digest
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -53,11 +54,16 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           APP_URL: ${{ secrets.APP_URL }}
         run: |
-          if [ -n "$GEMINI_API_KEY" ]; then
-            python backend/generate_digest.py
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ ! -f "frontend/public/digest.json" ]; then
+            echo "Running news crawler and AI summarizer..."
+            if [ -n "$GEMINI_API_KEY" ]; then
+              python backend/generate_digest.py
+            else
+              echo "GEMINI_API_KEY not configured yet — running with --mock data"
+              python backend/generate_digest.py --mock
+            fi
           else
-            echo "GEMINI_API_KEY not configured yet — running with --mock data"
-            python backend/generate_digest.py --mock
+            echo "Existing digest.json found for code push — skipping crawl to deploy code instantly!"
           fi
 
       # 5. Commit and push updated digest.json
@@ -81,6 +87,7 @@ jobs:
   deploy-pages:
     needs: generate-digest
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

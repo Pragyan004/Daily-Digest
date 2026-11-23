@@ -12,9 +12,13 @@ import json
 import logging
 import os
 import re
+import socket
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+# Enforce 25-second socket timeout globally to prevent any TCP hang
+socket.setdefaulttimeout(25)
 
 import feedparser
 import requests
@@ -354,8 +358,10 @@ def summarise_articles(articles: list[dict]) -> list[dict]:
         return []
 
     from google import genai
+    from google.genai import types
 
-    client = genai.Client(api_key=api_key)
+    # Enforce 20s timeout per API call so no slow response can hang the runner
+    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=20_000))
 
     results: list[dict] = []
     for i, article in enumerate(articles, 1):
