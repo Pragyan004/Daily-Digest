@@ -447,7 +447,7 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
 <header class="topbar">
   <div class="topbar-left">
     <div class="topbar-title-row">
-      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v15</span></div>
+      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v16</span></div>
     </div>
     <div class="topbar-sub">
       <span id="genTs">—</span>
@@ -672,8 +672,119 @@ document.addEventListener('visibilitychange', () => {
 });
 
 /* ═══════════════════════════════════════
-   Google Gemini AI Search & Variable Search
+   Google Gemini AI Search & Smart Thesaurus Search
    ═══════════════════════════════════════ */
+const CYBER_SYNONYMS = {
+  'ransomware': ['malware', 'hijack', 'encrypt', 'extort', 'payload', 'lock', 'exploit', 'hack', 'breach', 'incident', 'cve', 'threat', 'attack'],
+  'ransom': ['malware', 'hijack', 'extort', 'lock', 'hack', 'threat'],
+  'nvidia': ['gpu', 'chip', 'ai', 'hardware', 'semiconductor', 'tech', 'graphics', 'huang'],
+  'phishing': ['credential', 'scam', 'fraud', 'email', 'social engineering', 'impersonat', 'spear'],
+  'crypto': ['bitcoin', 'wallet', 'blockchain', 'token', 'fintech', 'ethereum'],
+  'apt': ['nation-state', 'espionage', 'hackers', 'campaign', 'threat actor', 'rce'],
+  'zero-day': ['zeroday', '0-day', 'cve', 'vulnerability', 'unpatched', 'flaw', 'exploit'],
+  'zeroday': ['0-day', 'zero-day', 'cve', 'vulnerability', 'unpatched', 'flaw', 'exploit'],
+  'cve': ['vulnerability', 'flaw', 'rce', 'exploit', 'patch', 'bypass'],
+  'leak': ['breach', 'exposed', 'dump', 'database', 'stolen', 'hacked'],
+  'ddos': ['dos', 'flood', 'outage', 'botnet', 'disruption'],
+  'firewall': ['network', 'router', 'perimeter', 'gateway', 'vpn', 'remote', 'screenconnect', 'gl.inet'],
+  'cloud': ['aws', 'azure', 'gcp', 'hosting', 'server', 'openrouter', 'api'],
+  'ai': ['openrouter', 'prompt', 'model', 'llm', 'inference', 'deepseek', 'anthropic', 'openai', 'gemini'],
+  'hack': ['breach', 'exploit', 'compromise', 'hijack', 'attack', 'threat'],
+  'hacker': ['threat actor', 'breach', 'exploit', 'compromise', 'malware']
+};
+
+const SEARCH_STOP_WORDS = new Set([
+  'what', 'which', 'where', 'when', 'who', 'how', 'why', 'were', 'was', 'are', 'is',
+  'the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'about', 'all', 'any'
+]);
+
+function searchMatchesArticles(query, articleList){
+  if(!query || !articleList || !articleList.length) return articleList || [];
+
+  // Punctuation-stripped word tokens
+  const cleanedTokens = query.toLowerCase()
+    .replace(/[^\w\s\-]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean);
+  if(!cleanedTokens.length) return articleList;
+
+  const meaningfulTerms = cleanedTokens.filter(t => !SEARCH_STOP_WORDS.has(t) && t.length > 1);
+  const terms = meaningfulTerms.length > 0 ? meaningfulTerms : cleanedTokens;
+
+  // 1. Direct multi-keyword filter (all terms present in article text)
+  let matches = articleList.filter(a => {
+    const fullText = [
+      a.title || '',
+      a.hook || '',
+      (a.bullets || []).join(' '),
+      a.why_it_matters || '',
+      (a.cve_ids || []).join(' '),
+      a.source || '',
+      a.category || ''
+    ].join(' ').toLowerCase();
+    return terms.every(t => fullText.includes(t));
+  });
+
+  if(matches.length > 0) return matches;
+
+  // 2. Intelligent Concept & Synonym Expansion (e.g. ransomware -> malware, hijack, exploit, breach)
+  const expanded = new Set();
+  terms.forEach(t => {
+    if(CYBER_SYNONYMS[t]) CYBER_SYNONYMS[t].forEach(s => expanded.add(s));
+    if(t.endsWith('s') && t.length > 3) {
+      const base = t.slice(0, -1);
+      expanded.add(base);
+      if(CYBER_SYNONYMS[base]) CYBER_SYNONYMS[base].forEach(s => expanded.add(s));
+    }
+    if(t.endsWith('ed') && t.length > 4) {
+      const base = t.slice(0, -2);
+      expanded.add(base);
+      if(CYBER_SYNONYMS[base]) CYBER_SYNONYMS[base].forEach(s => expanded.add(s));
+    }
+    if(t.endsWith('ing') && t.length > 5) {
+      const base = t.slice(0, -3);
+      expanded.add(base);
+      if(CYBER_SYNONYMS[base]) CYBER_SYNONYMS[base].forEach(s => expanded.add(s));
+    }
+  });
+
+  if(expanded.size > 0){
+    const expList = Array.from(expanded);
+    matches = articleList.filter(a => {
+      const fullText = [
+        a.title || '',
+        a.hook || '',
+        (a.bullets || []).join(' '),
+        a.why_it_matters || '',
+        (a.cve_ids || []).join(' '),
+        a.source || '',
+        a.category || ''
+      ].join(' ').toLowerCase();
+      return expList.some(s => fullText.includes(s));
+    });
+    if(matches.length > 0) return matches;
+  }
+
+  // 3. Fallback: partial match on any meaningful term
+  if(terms.length > 1){
+    matches = articleList.filter(a => {
+      const fullText = [
+        a.title || '',
+        a.hook || '',
+        (a.bullets || []).join(' '),
+        a.why_it_matters || '',
+        (a.cve_ids || []).join(' '),
+        a.source || '',
+        a.category || ''
+      ].join(' ').toLowerCase();
+      return terms.some(t => fullText.includes(t));
+    });
+    if(matches.length > 0) return matches;
+  }
+
+  return [];
+}
+
 function handleSearchInput(val){
   searchQuery = (val || '').trim();
   const clearBtn = document.getElementById('searchClear');
@@ -687,7 +798,7 @@ function handleSearchInput(val){
     return;
   }
 
-  // Live variable search as user types
+  // Live smart search as user types
   aiSearchResults = null;
   const results = filtered();
   const searchMeta = document.getElementById('searchMeta');
@@ -696,7 +807,7 @@ function handleSearchInput(val){
   searchCount.textContent = `${results.length} article${results.length === 1 ? '' : 's'} matching "${searchQuery}"`;
   document.getElementById('searchConsoleStatus').textContent = 'Logged to DevTools console';
 
-  console.group(`%c🔍 Variable Search: "${searchQuery}" (${results.length} found)`, 'color: #00DC82; font-weight: bold; font-size: 13px;');
+  console.group(`%c🔍 Smart Search: "${searchQuery}" (${results.length} found)`, 'color: #00DC82; font-weight: bold; font-size: 13px;');
   if(results.length > 0){
     console.table(results.map(a => ({
       Title: a.title,
@@ -718,86 +829,86 @@ async function callGeminiGenerateContent(apiKey, promptText){
   const cleanKey = encodeURIComponent(apiKey);
   const savedModel = localStorage.getItem('gemini_active_model');
 
-  // Candidate models: prioritize Google's recommended gemini-3.8-flash first
+  // Candidate models: prioritize 3.8-flash, 2.0-flash, 1.5-flash, 3.5-flash-lite
   let candidateModels = [
     'gemini-3.8-flash',
+    'gemini-2.0-flash',
+    'gemini-1.5-flash',
+    'gemini-3.5-flash-lite',
     savedModel,
-    'gemini-3.8-pro',
-    'gemini-2.5-flash',
-    'gemini-2.5-pro'
-  ].filter((m, i, arr) => m && arr.indexOf(m) === i);
+    'gemini-1.5-pro'
+  ].filter((m, i, arr) => m && arr.indexOf(m) === i && !m.includes('2.5'));
 
-  // Probe both v1 (standard GA API) and v1beta (preview API)
-  const apiVersions = ['v1', 'v1beta'];
   let lastStatus = 0;
   let lastErrMsg = '';
+  let hadHighDemand = false;
 
   for (const model of candidateModels) {
-    for (const ver of apiVersions) {
-      for (let attempt = 1; attempt <= 2; attempt++) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        console.log(`[Gemini AI] Querying model: ${model} (attempt ${attempt}/2)…`);
+        const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cleanKey}`;
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-goog-api-key': apiKey
+          },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: promptText }] }],
+            generationConfig: { responseMimeType: 'application/json' }
+          })
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          localStorage.setItem('gemini_active_model', model);
+          console.log(`%c[Gemini AI] ✓ Succeeded with model: ${model}`, 'color: #00DC82; font-weight: bold;');
+          return { data, model, error: null };
+        }
+
+        lastStatus = response.status;
+        const errText = await response.text();
         try {
-          console.log(`[Gemini AI] Trying ${ver}/models/${model} (attempt ${attempt}/2)…`);
-          const endpoint = `https://generativelanguage.googleapis.com/${ver}/models/${model}:generateContent?key=${cleanKey}`;
-          const response = await fetch(endpoint, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'x-goog-api-key': apiKey
-            },
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: promptText }] }],
-              generationConfig: { responseMimeType: 'application/json' }
-            })
-          });
+          const errObj = JSON.parse(errText);
+          lastErrMsg = errObj.error?.message || errText;
+        } catch(e) {
+          lastErrMsg = errText;
+        }
 
-          if (response.ok) {
-            const data = await response.json();
-            localStorage.setItem('gemini_active_model', model);
-            console.log(`%c[Gemini AI] ✓ Succeeded with ${ver}/${model}`, 'color: #00DC82; font-weight: bold;');
-            return { data, model, ver, error: null };
-          }
+        console.warn(`[Gemini AI] ${model} returned HTTP ${response.status}:`, lastErrMsg);
 
-          lastStatus = response.status;
-          const errText = await response.text();
-          try {
-            const errObj = JSON.parse(errText);
-            lastErrMsg = errObj.error?.message || errText;
-          } catch(e) {
-            lastErrMsg = errText;
-          }
+        if (response.status === 503 || /high demand|capacity|temporar/i.test(lastErrMsg)) {
+          hadHighDemand = true;
+        }
 
-          console.warn(`[Gemini AI] ${ver}/${model} returned HTTP ${response.status}:`, lastErrMsg);
+        // If Google explicitly suggests a model, add it to candidates
+        const suggestedMatch = lastErrMsg.match(/models\/(gemini-[\w\.\-]+)/);
+        if (suggestedMatch && suggestedMatch[1] && !candidateModels.includes(suggestedMatch[1]) && !suggestedMatch[1].includes('2.5')) {
+          candidateModels.push(suggestedMatch[1]);
+        }
 
-          // If Google explicitly suggests a model in the error message, add it to candidates
-          const suggestedMatch = lastErrMsg.match(/models\/(gemini-[\w\.\-]+)/);
-          if (suggestedMatch && suggestedMatch[1] && !candidateModels.includes(suggestedMatch[1])) {
-            candidateModels.push(suggestedMatch[1]);
-          }
-
-          // If 404: skip to next version or next model immediately
-          if (response.status === 404) {
-            break;
-          }
-
-          // If 503 (high demand) or 429 (rate limit): back off 1200ms before attempt 2
-          if ((response.status === 503 || response.status === 429) && attempt === 1) {
-            console.log('[Gemini AI] Capacity spike encountered, waiting 1200ms before retry…');
-            await new Promise(r => setTimeout(r, 1200));
-            continue;
-          }
-
-          break;
-        } catch (networkErr) {
-          console.warn(`[Gemini AI] Fetch error on ${ver}/${model}:`, networkErr);
-          lastErrMsg = networkErr.message;
+        // If 404 (model retired/not found on this key): skip to next model
+        if (response.status === 404) {
           break;
         }
+
+        // If 503 or 429: wait 1000ms before attempt 2
+        if ((response.status === 503 || response.status === 429) && attempt === 1) {
+          await new Promise(r => setTimeout(r, 1000));
+          continue;
+        }
+
+        break;
+      } catch (networkErr) {
+        console.warn(`[Gemini AI] Fetch error on ${model}:`, networkErr);
+        lastErrMsg = networkErr.message;
+        break;
       }
     }
   }
 
-  const isHighDemand = lastStatus === 503 || /high demand|temporar|capacity/i.test(lastErrMsg);
-  return { data: null, model: null, status: lastStatus, isHighDemand, error: lastErrMsg };
+  return { data: null, model: null, status: lastStatus, isHighDemand: hadHighDemand, error: lastErrMsg };
 }
 
 async function triggerGeminiSearch(){
@@ -848,11 +959,10 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     const result = await callGeminiGenerateContent(apiKey, promptText);
 
     if(!result.data){
-      // Graceful fallback when Google servers are at capacity
       if(result.isHighDemand){
-        showToast('⚡ Google AI is at high capacity right now. Switched to smart search.');
+        showToast('⚡ Google AI has high server load. Showing smart topic matches.');
       } else {
-        showToast(`⚠️ AI search unavailable (${result.status || 'offline'}). Showing matching news.`);
+        showToast('⚡ Switched to smart search.');
       }
       activeCategory = 'All';
       handleSearchInput(query);
@@ -904,7 +1014,7 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     renderArticles();
   }catch(err){
     console.error('Gemini Search error:', err);
-    showToast('⚠️ Switched to smart search.');
+    showToast('⚡ Switched to smart search.');
     activeCategory = 'All';
     handleSearchInput(query);
   }finally{
@@ -961,27 +1071,24 @@ function filtered(){
     return matchedArticles;
   }
 
-  // Category filter
+  // Smart multi-keyword and concept search filter
+  if(searchQuery){
+    const allMatches = searchMatchesArticles(searchQuery, articles);
+    if(activeCategory === 'Saved'){
+      list = allMatches.filter(a => saved[a.id]);
+    } else if(activeCategory !== 'All' && activeCategory !== "Week's Top"){
+      const catMatches = allMatches.filter(a => a.category === activeCategory);
+      // If there are matches in current category, show them; otherwise fallback to showing all matches across categories
+      list = catMatches.length > 0 ? catMatches : allMatches;
+    } else {
+      list = allMatches;
+    }
+    return list;
+  }
+
+  // Category filter (when no search query)
   if(activeCategory === 'Saved') list = articles.filter(a => saved[a.id]);
   else if(activeCategory !== 'All' && activeCategory !== "Week's Top") list = articles.filter(a => a.category === activeCategory);
-
-  // Variable multi-keyword search filter
-  if(searchQuery){
-    const terms = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
-    list = list.filter(a => {
-      const fullText = [
-        a.title || '',
-        a.hook || '',
-        (a.bullets || []).join(' '),
-        a.why_it_matters || '',
-        (a.cve_ids || []).join(' '),
-        a.source || '',
-        a.category || ''
-      ].join(' ').toLowerCase();
-
-      return terms.every(t => fullText.includes(t));
-    });
-  }
 
   return list;
 }
@@ -1001,11 +1108,7 @@ function renderPills(){
     counts["Week's Top"] = totalWeekly;
   }
 
-  const baseList = searchQuery ? articles.filter(a => {
-    const terms = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
-    const text = [a.title, a.hook, (a.bullets||[]).join(' '), a.why_it_matters, (a.cve_ids||[]).join(' '), a.source, a.category].join(' ').toLowerCase();
-    return terms.every(t => text.includes(t));
-  }) : articles;
+  const baseList = searchQuery ? searchMatchesArticles(searchQuery, articles) : articles;
 
   baseList.forEach(a => {
     counts['All']++;
@@ -1054,7 +1157,7 @@ function renderArticles(){
   const list = filtered();
   if(!list.length){
     el.innerHTML = searchQuery
-      ? `<div class="empty-state">No articles found matching "<strong>${esc(searchQuery)}</strong>" in today's 63 stories.<br><small style="margin-top:10px;display:inline-block;color:var(--text-dim);line-height:1.6">Try searching topics in today's news:<br><span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('OpenRouter')">OpenRouter</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('Ghostscript')">Ghostscript</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('FBI')">FBI</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('Perl')">Perl</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('breach')">breach</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('CVE')">CVE</span></small></div>`
+      ? `<div class="empty-state">No articles found matching "<strong>${esc(searchQuery)}</strong>".<br><small style="margin-top:10px;display:inline-block;color:var(--text-dim);line-height:1.6">Try searching topics in today's news:<br><span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('ransomware')">ransomware</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('ScreenConnect')">ScreenConnect</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('router')">router</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('Nvidia')">Nvidia</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('breach')">breach</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('malware')">malware</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('CVE')">CVE</span></small></div>`
       : '<div class="empty-state">No articles here yet.</div>';
     return;
   }
@@ -1486,23 +1589,22 @@ async function testGeminiKey(){
         }
       } catch(e) {}
     }
-    validModels = [...new Set(validModels)];
+    // Google explicitly retired the 2.5 series for new users (returns 404 on generateContent)
+    validModels = [...new Set(validModels)].filter(m => !m.includes('2.5'));
 
-    if(validModels.length > 0){
+    const activePriority = ['gemini-3.8-flash', 'gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-3.5-flash-lite', 'gemini-1.5-pro'];
+    const bestModel = activePriority.find(am => validModels.includes(am))
+      || validModels.find(m => m.includes('flash'))
+      || 'gemini-3.8-flash';
+
+    if(validModels.length > 0 || !lastErrorMsg){
       localStorage.setItem('gemini_api_key', key);
-      localStorage.setItem('gemini_supported_models', JSON.stringify(validModels));
-
-      const bestModel = validModels.find(m => m === 'gemini-3.8-flash')
-        || validModels.find(m => m.includes('3.8-flash'))
-        || validModels.find(m => m === 'gemini-3.8-pro')
-        || validModels.find(m => m.includes('2.5-flash'))
-        || 'gemini-3.8-flash';
-
+      localStorage.setItem('gemini_supported_models', JSON.stringify(validModels.length ? validModels : activePriority));
       localStorage.setItem('gemini_active_model', bestModel);
 
       notice.innerHTML = `<div style="color:var(--accent);background:rgba(0,220,130,0.1);padding:8px 10px;border-radius:8px;margin-top:6px">
         <strong>✅ Connected to Google Gemini!</strong><br>
-        <span style="font-size:11px">Active Model: <strong>${esc(bestModel)}</strong> (v1 & v1beta dual-route ready)</span>
+        <span style="font-size:11px">Active Model: <strong>${esc(bestModel)}</strong> (ready for AI search)</span>
       </div>`;
     } else {
       const errMsg = lastErrorMsg || 'Could not find supported models for this key.';
@@ -1640,6 +1742,13 @@ if(localStorage.getItem('digest_notify_enabled') === 'true'){
 /* ═══════════════════════════════════════
    Boot
    ═══════════════════════════════════════ */
+try {
+  const currentSaved = localStorage.getItem('gemini_active_model');
+  if (currentSaved && currentSaved.includes('2.5')) {
+    localStorage.setItem('gemini_active_model', 'gemini-3.8-flash');
+  }
+} catch(e) {}
+
 loadDigest();
 </script>
 </body>
