@@ -447,7 +447,7 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
 <header class="topbar">
   <div class="topbar-left">
     <div class="topbar-title-row">
-      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v13</span></div>
+      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v14</span></div>
     </div>
     <div class="topbar-sub">
       <span id="genTs">—</span>
@@ -714,62 +714,89 @@ function handleSearchInput(val){
   renderArticles();
 }
 
-let cachedGeminiModel = null;
-
-async function resolveGeminiModel(apiKey){
-  if(cachedGeminiModel) return { model: cachedGeminiModel, error: null };
-
+async function callGeminiGenerateContent(apiKey, promptText){
   const cleanKey = encodeURIComponent(apiKey);
-  const listUrls = [
-    `https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`,
-    `https://generativelanguage.googleapis.com/v1/models?key=${cleanKey}`
-  ];
+  const savedModel = localStorage.getItem('gemini_active_model');
 
-  let lastListError = null;
+  // Candidate models pool:
+  // Primary: gemini-3.8-flash (Google's required model for new projects)
+  // Fallbacks: gemini-3.8-pro, gemini-2.5-flash, gemini-2.5-pro
+  let candidateModels = [
+    savedModel,
+    'gemini-3.8-flash',
+    'gemini-3.8-pro',
+    'gemini-2.5-flash',
+    'gemini-2.5-pro'
+  ].filter((m, i, arr) => m && arr.indexOf(m) === i);
 
-  for(const url of listUrls){
-    try{
-      const res = await fetch(url, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-goog-api-key': apiKey
+  let lastStatus = 0;
+  let lastErrMsg = '';
+
+  for (const model of candidateModels) {
+    // Up to 2 attempts per model (with exponential backoff for 503 high-demand spikes)
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        console.log(`[Gemini AI] Trying model: ${model} (attempt ${attempt}/2)…`);
+        const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cleanKey}`;
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-goog-api-key': apiKey
+          },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: promptText }] }],
+            generationConfig: { responseMimeType: 'application/json' }
+          })
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          localStorage.setItem('gemini_active_model', model);
+          console.log(`%c[Gemini AI] ✓ Succeeded with model: ${model}`, 'color: #00DC82; font-weight: bold;');
+          return { data, model, error: null };
         }
-      });
-      const data = await res.json().catch(() => null);
-      if(res.ok && data && data.models){
-        const models = data.models || [];
-        console.group('%c🤖 Gemini Available Models for your Key:', 'color: #3B82F6; font-weight: bold;');
-        console.table(models.map(m => ({
-          Name: m.name,
-          DisplayName: m.displayName,
-          Methods: (m.supportedGenerationMethods || []).join(', ')
-        })));
-        console.groupEnd();
 
-        const supported = models.filter(m => (m.supportedGenerationMethods || []).includes('generateContent'));
-        if(supported.length > 0){
-          // Preference: 2.5-flash > 2.0-flash > 1.5-flash > any flash > first available
-          const best = supported.find(m => m.name.includes('2.5-flash'))
-            || supported.find(m => m.name.includes('2.0-flash'))
-            || supported.find(m => m.name.includes('1.5-flash'))
-            || supported.find(m => m.name.includes('flash'))
-            || supported[0];
-
-          cachedGeminiModel = best.name.replace(/^models\//, '');
-          console.log('%c✓ Auto-selected Gemini Model:', 'color: #00DC82; font-weight: bold;', cachedGeminiModel);
-          return { model: cachedGeminiModel, error: null };
+        lastStatus = response.status;
+        const errText = await response.text();
+        try {
+          const errObj = JSON.parse(errText);
+          lastErrMsg = errObj.error?.message || errText;
+        } catch(e) {
+          lastErrMsg = errText;
         }
-      } else if(data && data.error){
-        console.warn('ListModels API error:', data.error);
-        lastListError = data.error.message || `Status ${res.status}`;
+
+        console.warn(`[Gemini AI] ${model} returned HTTP ${response.status}:`, lastErrMsg);
+
+        // If Google explicitly suggests a model in the error message, add it to candidates
+        const suggestedMatch = lastErrMsg.match(/models\/(gemini-[\w\.\-]+)/);
+        if (suggestedMatch && suggestedMatch[1] && !candidateModels.includes(suggestedMatch[1])) {
+          candidateModels.push(suggestedMatch[1]);
+        }
+
+        // If 404 (model retired/not available for this user): skip immediately to next model
+        if (response.status === 404) {
+          break;
+        }
+
+        // If 503 (high demand) or 429 (rate limit): wait 1200ms before attempt 2
+        if ((response.status === 503 || response.status === 429) && attempt === 1) {
+          console.log('[Gemini AI] High demand spike encountered, waiting 1200ms before retry…');
+          await new Promise(r => setTimeout(r, 1200));
+          continue;
+        }
+
+        break;
+      } catch (networkErr) {
+        console.warn(`[Gemini AI] Fetch error on ${model}:`, networkErr);
+        lastErrMsg = networkErr.message;
+        break;
       }
-    }catch(e){
-      console.warn('Could not auto-discover models via ListModels:', e);
-      lastListError = e.message;
     }
   }
-  return { model: null, error: lastListError };
+
+  const isHighDemand = lastStatus === 503 || /high demand|temporar|capacity/i.test(lastErrMsg);
+  return { data: null, model: null, status: lastStatus, isHighDemand, error: lastErrMsg };
 }
 
 async function triggerGeminiSearch(){
@@ -788,6 +815,7 @@ async function triggerGeminiSearch(){
   const apiKey = rawKey ? rawKey.trim().replace(/^["']|["']$/g, '') : '';
 
   if(!apiKey || apiKey.length < 10){
+    activeCategory = 'All';
     handleSearchInput(query);
     btn.classList.remove('loading');
     btn.innerHTML = '<span class="ai-sparkle">✨</span> Gemini';
@@ -816,62 +844,21 @@ Evaluate each article against the query. Return ONLY a JSON object (no markdown,
 {"matches": [{"id": "<article_id>", "relevance": 95, "match_reason": "<1 crisp sentence explaining why this answers the query>"}]}
 Only include genuinely relevant articles with relevance >= 50, ordered by highest relevance first. If none match, return {"matches": []}.`;
 
-    // Direct targeting of Google's required model gemini-3.8-flash
-    const cleanKey = encodeURIComponent(apiKey);
-    const chosenModel = 'gemini-3.8-flash';
-    console.log('Using Gemini model for search:', chosenModel);
+    const result = await callGeminiGenerateContent(apiKey, promptText);
 
-    // Call generateContent on v1beta with responseMimeType JSON
-    let endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${chosenModel}:generateContent?key=${cleanKey}`;
-    let response = await fetch(endpoint, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-goog-api-key': apiKey
-      },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: promptText }] }],
-        generationConfig: { responseMimeType: 'application/json' }
-      })
-    });
-
-    if(!response.ok){
-      let errText = await response.text();
-      // If Google suggests an updated model in the error message (e.g. gemini-3.8-flash)
-      const suggestedMatch = errText.match(/models\/(gemini-[\w\.\-]+)/);
-      if(suggestedMatch && suggestedMatch[1] && suggestedMatch[1] !== chosenModel){
-        chosenModel = suggestedMatch[1];
-        localStorage.setItem('gemini_active_model', chosenModel);
-        console.log('Auto-retrying with Google-suggested model:', chosenModel);
-        endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${chosenModel}:generateContent?key=${cleanKey}`;
-        response = await fetch(endpoint, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-goog-api-key': apiKey
-          },
-          body: JSON.stringify({
-            contents: [{ parts: [{ text: promptText }] }],
-            generationConfig: { responseMimeType: 'application/json' }
-          })
-        });
-        if(!response.ok){
-          errText = await response.text();
-        }
+    if(!result.data){
+      // Graceful fallback when Google servers are at capacity
+      if(result.isHighDemand){
+        showToast('⚡ Google AI is at high capacity right now. Switched to smart search.');
+      } else {
+        showToast(`⚠️ AI search unavailable (${result.status || 'offline'}). Showing matching news.`);
       }
-
-      if(!response.ok){
-        let errMsg = errText;
-        try{
-          const errObj = JSON.parse(errText);
-          errMsg = errObj.error?.message || errText;
-        }catch(e){}
-        console.error('Gemini generateContent error:', response.status, errMsg);
-        throw new Error(`Google (${response.status}): ${errMsg}`);
-      }
+      activeCategory = 'All';
+      handleSearchInput(query);
+      return;
     }
 
-    const data = await response.json();
+    const data = result.data;
     let rawText = data.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
     rawText = rawText.trim();
     if(rawText.startsWith('```')){
@@ -916,7 +903,8 @@ Only include genuinely relevant articles with relevance >= 50, ordered by highes
     renderArticles();
   }catch(err){
     console.error('Gemini Search error:', err);
-    showToast(err.message || '⚠️ Gemini search error. Using keyword search.');
+    showToast('⚠️ Switched to smart search.');
+    activeCategory = 'All';
     handleSearchInput(query);
   }finally{
     btn.classList.remove('loading');
@@ -1065,7 +1053,7 @@ function renderArticles(){
   const list = filtered();
   if(!list.length){
     el.innerHTML = searchQuery
-      ? `<div class="empty-state">No articles found matching "<strong>${esc(searchQuery)}</strong>".<br><small style="margin-top:8px;display:inline-block">Try asking Gemini AI or searching for CVE, source, or general topic.</small></div>`
+      ? `<div class="empty-state">No articles found matching "<strong>${esc(searchQuery)}</strong>" in today's 63 stories.<br><small style="margin-top:10px;display:inline-block;color:var(--text-dim);line-height:1.6">Try searching topics in today's news:<br><span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('OpenRouter')">OpenRouter</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('Ghostscript')">Ghostscript</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('FBI')">FBI</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('Perl')">Perl</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('breach')">breach</span> · <span style="color:var(--accent);cursor:pointer;text-decoration:underline;margin:0 4px" onclick="searchNews('CVE')">CVE</span></small></div>`
       : '<div class="empty-state">No articles here yet.</div>';
     return;
   }
@@ -1488,13 +1476,20 @@ async function testGeminiKey(){
         .filter(m => (m.supportedGenerationMethods||[]).includes('generateContent'))
         .map(m => m.name.replace(/^models\//, ''));
 
-      const bestModel = validModels.find(m => m.includes('3.8-flash'))
-      localStorage.setItem('gemini_active_model', 'gemini-3.8-flash');
       localStorage.setItem('gemini_api_key', key);
+      localStorage.setItem('gemini_supported_models', JSON.stringify(validModels));
+
+      const bestModel = validModels.find(m => m === 'gemini-3.8-flash')
+        || validModels.find(m => m.includes('3.8-flash'))
+        || validModels.find(m => m === 'gemini-3.8-pro')
+        || validModels.find(m => m.includes('2.5-flash'))
+        || 'gemini-3.8-flash';
+
+      localStorage.setItem('gemini_active_model', bestModel);
 
       notice.innerHTML = `<div style="color:var(--accent);background:rgba(0,220,130,0.1);padding:8px 10px;border-radius:8px;margin-top:6px">
         <strong>✅ Connected to Google Gemini!</strong><br>
-        <span style="font-size:11px">Active Model: <strong>gemini-3.8-flash</strong> (Ready for AI search)</span>
+        <span style="font-size:11px">Active Model: <strong>${esc(bestModel)}</strong> (Auto-fallback enabled for peak capacity)</span>
       </div>`;
     } else {
       const errMsg = data.error?.message || text || `HTTP ${res.status}`;
