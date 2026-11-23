@@ -447,7 +447,7 @@ input:checked + .toggle-slider:before{transform:translateX(20px);background-colo
 <header class="topbar">
   <div class="topbar-left">
     <div class="topbar-title-row">
-      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v14</span></div>
+      <div class="topbar-title">☕ Digest <span style="font-size:10px;color:var(--accent);font-family:'JetBrains Mono',monospace;opacity:.8">v15</span></div>
     </div>
     <div class="topbar-sub">
       <span id="genTs">—</span>
@@ -718,79 +718,80 @@ async function callGeminiGenerateContent(apiKey, promptText){
   const cleanKey = encodeURIComponent(apiKey);
   const savedModel = localStorage.getItem('gemini_active_model');
 
-  // Candidate models pool:
-  // Primary: gemini-3.8-flash (Google's required model for new projects)
-  // Fallbacks: gemini-3.8-pro, gemini-2.5-flash, gemini-2.5-pro
+  // Candidate models: prioritize Google's recommended gemini-3.8-flash first
   let candidateModels = [
-    savedModel,
     'gemini-3.8-flash',
+    savedModel,
     'gemini-3.8-pro',
     'gemini-2.5-flash',
     'gemini-2.5-pro'
   ].filter((m, i, arr) => m && arr.indexOf(m) === i);
 
+  // Probe both v1 (standard GA API) and v1beta (preview API)
+  const apiVersions = ['v1', 'v1beta'];
   let lastStatus = 0;
   let lastErrMsg = '';
 
   for (const model of candidateModels) {
-    // Up to 2 attempts per model (with exponential backoff for 503 high-demand spikes)
-    for (let attempt = 1; attempt <= 2; attempt++) {
-      try {
-        console.log(`[Gemini AI] Trying model: ${model} (attempt ${attempt}/2)…`);
-        const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cleanKey}`;
-        const response = await fetch(endpoint, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-goog-api-key': apiKey
-          },
-          body: JSON.stringify({
-            contents: [{ parts: [{ text: promptText }] }],
-            generationConfig: { responseMimeType: 'application/json' }
-          })
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          localStorage.setItem('gemini_active_model', model);
-          console.log(`%c[Gemini AI] ✓ Succeeded with model: ${model}`, 'color: #00DC82; font-weight: bold;');
-          return { data, model, error: null };
-        }
-
-        lastStatus = response.status;
-        const errText = await response.text();
+    for (const ver of apiVersions) {
+      for (let attempt = 1; attempt <= 2; attempt++) {
         try {
-          const errObj = JSON.parse(errText);
-          lastErrMsg = errObj.error?.message || errText;
-        } catch(e) {
-          lastErrMsg = errText;
-        }
+          console.log(`[Gemini AI] Trying ${ver}/models/${model} (attempt ${attempt}/2)…`);
+          const endpoint = `https://generativelanguage.googleapis.com/${ver}/models/${model}:generateContent?key=${cleanKey}`;
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'x-goog-api-key': apiKey
+            },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: promptText }] }],
+              generationConfig: { responseMimeType: 'application/json' }
+            })
+          });
 
-        console.warn(`[Gemini AI] ${model} returned HTTP ${response.status}:`, lastErrMsg);
+          if (response.ok) {
+            const data = await response.json();
+            localStorage.setItem('gemini_active_model', model);
+            console.log(`%c[Gemini AI] ✓ Succeeded with ${ver}/${model}`, 'color: #00DC82; font-weight: bold;');
+            return { data, model, ver, error: null };
+          }
 
-        // If Google explicitly suggests a model in the error message, add it to candidates
-        const suggestedMatch = lastErrMsg.match(/models\/(gemini-[\w\.\-]+)/);
-        if (suggestedMatch && suggestedMatch[1] && !candidateModels.includes(suggestedMatch[1])) {
-          candidateModels.push(suggestedMatch[1]);
-        }
+          lastStatus = response.status;
+          const errText = await response.text();
+          try {
+            const errObj = JSON.parse(errText);
+            lastErrMsg = errObj.error?.message || errText;
+          } catch(e) {
+            lastErrMsg = errText;
+          }
 
-        // If 404 (model retired/not available for this user): skip immediately to next model
-        if (response.status === 404) {
+          console.warn(`[Gemini AI] ${ver}/${model} returned HTTP ${response.status}:`, lastErrMsg);
+
+          // If Google explicitly suggests a model in the error message, add it to candidates
+          const suggestedMatch = lastErrMsg.match(/models\/(gemini-[\w\.\-]+)/);
+          if (suggestedMatch && suggestedMatch[1] && !candidateModels.includes(suggestedMatch[1])) {
+            candidateModels.push(suggestedMatch[1]);
+          }
+
+          // If 404: skip to next version or next model immediately
+          if (response.status === 404) {
+            break;
+          }
+
+          // If 503 (high demand) or 429 (rate limit): back off 1200ms before attempt 2
+          if ((response.status === 503 || response.status === 429) && attempt === 1) {
+            console.log('[Gemini AI] Capacity spike encountered, waiting 1200ms before retry…');
+            await new Promise(r => setTimeout(r, 1200));
+            continue;
+          }
+
+          break;
+        } catch (networkErr) {
+          console.warn(`[Gemini AI] Fetch error on ${ver}/${model}:`, networkErr);
+          lastErrMsg = networkErr.message;
           break;
         }
-
-        // If 503 (high demand) or 429 (rate limit): wait 1200ms before attempt 2
-        if ((response.status === 503 || response.status === 429) && attempt === 1) {
-          console.log('[Gemini AI] High demand spike encountered, waiting 1200ms before retry…');
-          await new Promise(r => setTimeout(r, 1200));
-          continue;
-        }
-
-        break;
-      } catch (networkErr) {
-        console.warn(`[Gemini AI] Fetch error on ${model}:`, networkErr);
-        lastErrMsg = networkErr.message;
-        break;
       }
     }
   }
@@ -1458,24 +1459,36 @@ async function testGeminiKey(){
 
   try{
     const cleanKey = encodeURIComponent(key);
-    const url = `https://generativelanguage.googleapis.com/v1beta/models?key=${cleanKey}`;
-    const res = await fetch(url, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-goog-api-key': key
-      }
-    });
+    let validModels = [];
+    let lastErrorMsg = null;
 
-    const text = await res.text();
-    let data;
-    try { data = JSON.parse(text); } catch(e){ data = { raw: text }; }
+    // Probe both v1 (production GA) and v1beta (preview) endpoints
+    for (const ver of ['v1', 'v1beta']) {
+      try {
+        const url = `https://generativelanguage.googleapis.com/${ver}/models?key=${cleanKey}`;
+        const res = await fetch(url, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-goog-api-key': key
+          }
+        });
+        const text = await res.text();
+        let data;
+        try { data = JSON.parse(text); } catch(e){ data = { raw: text }; }
+        if (res.ok && data && data.models) {
+          const list = data.models
+            .filter(m => (m.supportedGenerationMethods||[]).includes('generateContent'))
+            .map(m => m.name.replace(/^models\//, ''));
+          validModels.push(...list);
+        } else if (data && data.error) {
+          lastErrorMsg = data.error.message;
+        }
+      } catch(e) {}
+    }
+    validModels = [...new Set(validModels)];
 
-    if(res.ok && data && data.models){
-      const validModels = data.models
-        .filter(m => (m.supportedGenerationMethods||[]).includes('generateContent'))
-        .map(m => m.name.replace(/^models\//, ''));
-
+    if(validModels.length > 0){
       localStorage.setItem('gemini_api_key', key);
       localStorage.setItem('gemini_supported_models', JSON.stringify(validModels));
 
@@ -1489,12 +1502,12 @@ async function testGeminiKey(){
 
       notice.innerHTML = `<div style="color:var(--accent);background:rgba(0,220,130,0.1);padding:8px 10px;border-radius:8px;margin-top:6px">
         <strong>✅ Connected to Google Gemini!</strong><br>
-        <span style="font-size:11px">Active Model: <strong>${esc(bestModel)}</strong> (Auto-fallback enabled for peak capacity)</span>
+        <span style="font-size:11px">Active Model: <strong>${esc(bestModel)}</strong> (v1 & v1beta dual-route ready)</span>
       </div>`;
     } else {
-      const errMsg = data.error?.message || text || `HTTP ${res.status}`;
+      const errMsg = lastErrorMsg || 'Could not find supported models for this key.';
       notice.innerHTML = `<div style="color:#FF6B81;background:rgba(255,71,87,0.12);padding:10px 12px;border-radius:8px;margin-top:6px;line-height:1.4">
-        <strong>❌ Google Error (HTTP ${res.status}):</strong><br>
+        <strong>❌ Google Error:</strong><br>
         <span style="font-family:'JetBrains Mono',monospace;font-size:11.5px;word-break:break-all">${esc(errMsg)}</span>
       </div>`;
     }
