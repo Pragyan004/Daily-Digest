@@ -1,512 +1,763 @@
 {
-  "generated_at": "2026-11-24T12:03:15Z",
+  "generated_at": "2026-11-25T10:55:20Z",
   "articles": [
     {
-      "id": "47c6e40ac66c9d3b81c5f40c195b2b4419709a2d0249484182b879258a330a6a",
+      "id": "c4aa0fb847865c57486cfdbfb40b62249462350d3e91535e18faf738f1165a33",
       "category": "Cybersecurity",
       "source": "The Hacker News",
-      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-      "hook": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "hook": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSM2FAnf9UEb3Do4v-r8AEBpoI8byXOrHgng-eRjEyudSf0hiKMpymmDiK_NLTxYuzXdtrWvMrBzY9qmLqDo31r3JOpVefOQxLE77gdkoOAYMkCK__-Bc-AJoWg-8nEOEVjcY6SswkzLbCfYl6kK9clg6xXw3xginWqIwnMxBUaS6wgPKVVwXZNhZA5G85/s1600/azure-ms.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-      "published_at": "2026-11-24T10:44:49Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBxy4VIOekOumZfm8RElWJl6ZTKoIJ1QLc3U7ynLQ8p9PCqm_kYX1T-akwbZwbthTYcNwfVW-aWbRB4wIkvbUeM_gvQmnw8EH-hpY0542jCwFUAaI2mNEXGE3dct9K4JKFURV1smdERZlx4tV1zCy3AbS_NwF4o926_KSW-OKMPfDXT2gWbbZ4lKjFm6Y/s1600/hex-hack.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "published_at": "2026-11-25T09:06:59Z",
+      "cve_ids": [
+        "CVE-2026-124283",
+        "CVE-2026-129514",
+        "CVE-2026-130411",
+        "CVE-2026-133555"
+      ],
+      "saved": false
+    },
+    {
+      "id": "d5f3ce6a4d9a56a9ddbb16bc7fa352d7d3db9d7b00faee4765c5b4ec71edc5d1",
+      "category": "Cybersecurity",
+      "source": "The Hacker News",
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "hook": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxhgIKTt8K5ep8a4qHW9dDpkSYcBC5D1CWgkvvh9Ee5DRlNRSg-2UcZZVNoXrHXVTeIcdzj47FFcSz6gAssLknSDf6f0JDyQCoH51D4GYLSju_wh4smA6-2yE3Z7I30SPeuY8LOKA__Y9xPiU66t1aPsHTzuRnX0QUq2iadcKXFfv7ZhAhcXti_BDnrmu/s1600/code.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "published_at": "2026-11-25T06:50:19Z",
+      "cve_ids": [
+        "CVE-2020-1472",
+        "CVE-2021-21972",
+        "CVE-2021-26855",
+        "CVE-2021-34473",
+        "CVE-2023-34048",
+        "CVE-2023-4966",
+        "CVE-2024-21893",
+        "CVE-2025-5777",
+        "CVE-2026-16232",
+        "CVE-2026-41089",
+        "CVE-2026-61500",
+        "CVE-2026-98432"
+      ],
+      "saved": false
+    },
+    {
+      "id": "da2703c97fc2d132e2700249902a3a018445cb688e9d2aa0736cf288c6a90824",
+      "category": "Cybersecurity",
+      "source": "The Hacker News",
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "hook": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCQn2zL8-RpfdhDeb1Zmyn46vLk1s9lerpXtGlcMkN5IGF9nlhEejtwoOXwhznjS7JVrix_FeG_G6yJ6Jb8mI31CU4Mi2dndKvLp-4nG4wWsqMaBpI60HFIk5d8_5uIxj6XEjSt4sixJYkJN8Xeqs4OrgSzOPK48esNtXbQ_FgtVe67B_WZkfpuUSEiD7/s1600/vishing.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "published_at": "2026-11-25T06:37:06Z",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "63045753ac0089989528c35e616b117b3f8a70dc183acfdedf3e9f4adfb4be41",
+      "id": "da78c9293f40e55b44b7a013c06b8488ba264c08a461c7ebda4de0e94ee9a9cc",
       "category": "Cybersecurity",
       "source": "The Hacker News",
-      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-      "hook": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "hook": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK7wXAof6nH7PDC5-3qxXZJgJvZODTjQcrWFOjO8jeb9yGkK6bUkzm27MzMy5n0S_Xywsj0npu_F0FmQ4JcKxPXNEoezLrpKoSStaYK4Ww46QUuzySTeQnnzcIXs_NADunlqeyuMIl5Wm5PKWc3c0JyNmYPxfbInIWx2tfosieI_QS_e4PX-JILlLH-1U/s1600/hosting.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-      "published_at": "2026-11-24T08:34:20Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNbawIx8zYCfd7sCTbVfIzPFBtykkY65lf8EOswU62pIdZKTrx9ReB3mGnqYqujmW5eGzN_w8pEijAZMTpmOZ3fGB5zFyFaPo4ZhRQ8V0BkAmDCH3WoVqJ3kAfjDcw3_wRjhwphfyJxjF3_rDYiudb-cxt0pY3t8s-IRjNP1aEYHqtO5L1eZMkgBX6y2xD/s1600/wp.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "published_at": "2026-11-25T06:21:12Z",
       "cve_ids": [
-        "CVE-2026-82979",
-        "CVE-2026-82981",
-        "CVE-2026-93700"
+        "CVE-2026-135202"
       ],
       "saved": false
     },
     {
-      "id": "b0d72916ebeceea8cb41017bf0b586d3324e098b155b3c45366bccd22da6800b",
+      "id": "9582e29a3fdc5bee41c2e6a92f9415a2684891ced3082e3757203fc594e7c0b2",
       "category": "Cybersecurity",
       "source": "The Hacker News",
-      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-      "hook": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "hook": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKBknwzOcmsT5P3Gnyn8-WGRNbttWLAtmWlHkVuS900lrH1Q7Wj_kBCJiASbBvhNUKWEsO8Xt5VKKokGA-M17y8Pj4EtH6564yafSWGebOVgMuTwxUUB5fV4oProNTbg8MeEhcaiy95WbMi6og3q0uSM4SxLCyzVwV3FbCfiSXrVoJtQUrYpJfyeW1AUFm/s1600/openai-linux.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-      "published_at": "2026-11-24T06:02:57Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqukTcR2pkDWiTqMzORa4j7zZRB0MDUGfBly50X7gPwPHqSeBmfReQWpMR9IdPOP_NbeuQSBdYPknSgxvutDll4VAZNSoGqcwmXzhZNEez-UoE-MwTnM9i9XxjoLYRdhY0iY6tD9BK9IDB0o8RUU7sNsOex5tVNtoNwRHCCAxM9ri66c4G2wPa9AqW9saA/s1600/iran-hackers.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "published_at": "2026-11-24T16:54:07Z",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "d70285cdacc0c3a7734f42127ce5d6c20eed3bf74071823c528e7e4bdf1cb755",
+      "id": "aa014f4b55f462a96af72e8e2ecc5e5bb0cff4d6097b23678ad6ab20d1bd1122",
       "category": "Cybersecurity",
       "source": "The Hacker News",
-      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-      "hook": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "hook": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrPCPwSotVSX8IYSgpSrVceRAIYqba8YSZSlNwD5RjetEhPG6vLRhk_NKkatjg1h-fulZJDm4CucsLvQrEtCO6v0NtuJGo3nZD3mXSHyKpgPrUZMpq7YNpheStYC_AqyMWRfWIFiK9bcHJNAw6pwK9JqirhO8JESKdmsI5Pl8UgtsVsRivmMmMenQ01ClW/s1600/cisa-kev.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
-      "published_at": "2026-11-24T06:02:45Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zpQTclLnhVQHphFdBZZ_hrxhsZvA5G50sGBz5qq1iOg2B1YLu8rE5e_HM1GZOE24SNpwexwst80NTKP7_Wwexq7EzIl-I7ykIXCtTGQjeZhBGVVuAgzxac5JwaquTQuMNRstBFo8JzMDyqgsNbM_KtxGF3wHPBIM9GfaclNu0OTPlpF5YhNvqoKKytAY/s1600/vmware-exploit.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "published_at": "2026-11-24T13:28:26Z",
       "cve_ids": [
-        "CVE-2025-3248",
-        "CVE-2026-133968",
-        "CVE-2026-134624"
-      ],
-      "saved": false
-    },
-    {
-      "id": "5495a06dee26529fd91c294dd847c1ac8a7e2598d92424d1ec0956e2c216e645",
-      "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-      "hook": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9_mXkFA2_QQWa_ajcGxgoc3rSAfxGJqP-uIREqPGAfJGM7D7-mLrjwSE_F1egX-pwVRvMRinRGs4QbcBE1yJrmHFw4Fa_ILg6ZuTIOy1bf86-wPQ-Zgsqa-6hqdBapRROk97rOeT-Vfa002vHuWF6fCSE1KPttjswyjUeBxjrJzrmVU9KY724e75Giq1T/s1600/chinese-malware.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-      "published_at": "2026-11-23T17:45:15Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "a75fd36abba0068884a2947b988146ee3b4b275e95cdaa2368a6bb4dda72d713",
-      "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-      "hook": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBkXdg7nYK3nVTpBuC9FL7mGBvzvUxU0VxYplArVFYSTg2d_6tFITemHBYRAOD29pVBKzfo2aZ9Jsy8avRdACCMqrVdlEER0zn2xIWDBdswcH_nZpnJYkfORK6CEaWwX3f-B8AvkUqbR2TLNa7odUG4PFu1uTk_cwsUt8DPGJBSjjF2wd8VPIa5ATJ4fo3/s1600/crecap.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-      "published_at": "2026-11-23T15:10:48Z",
-      "cve_ids": [
-        "CVE-2026-112115",
-        "CVE-2026-113425",
-        "CVE-2026-114202",
-        "CVE-2026-114204",
-        "CVE-2026-114205",
-        "CVE-2026-114819",
-        "CVE-2026-114938",
-        "CVE-2026-116953",
-        "CVE-2026-119618",
-        "CVE-2026-120285",
-        "CVE-2026-120292",
-        "CVE-2026-120718",
-        "CVE-2026-120722",
-        "CVE-2026-121805",
-        "CVE-2026-121810",
-        "CVE-2026-121812",
-        "CVE-2026-123007",
-        "CVE-2026-123633",
-        "CVE-2026-123634",
-        "CVE-2026-123637",
         "CVE-2026-123890",
-        "CVE-2026-125272",
-        "CVE-2026-125274",
-        "CVE-2026-125396",
-        "CVE-2026-126336",
-        "CVE-2026-126574",
-        "CVE-2026-126822",
-        "CVE-2026-129975",
-        "CVE-2026-130963",
-        "CVE-2026-130975",
-        "CVE-2026-131008",
-        "CVE-2026-131031",
-        "CVE-2026-131054",
-        "CVE-2026-131060",
+        "CVE-2026-123903",
+        "CVE-2026-123904",
+        "CVE-2026-123905",
+        "CVE-2026-123906",
+        "CVE-2026-123907"
+      ],
+      "saved": false
+    },
+    {
+      "id": "c4ed564253ff3bb566e8a696af105218d334ad799bf86e224045909db929c35a",
+      "category": "Cybersecurity",
+      "source": "The Hacker News",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "hook": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjete6dy8Fmd7sbjqKI5GKSySXkcnz4NF__irfVMBHzgRIDUnpGHtvRIbCywZYYsoKsnMdPhvanoXcnXbYvZpMjL2lL6d_F9a4ErEaI5rH_boPedH_ru2Ush9wonb8tYhGNVM6M_01DTue1THY7uGMbuKBJKNgMbrACkxHCGJiJylHWoxkkpCXNr2Z_CIdf/s1600/leaks.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "published_at": "2026-11-24T13:28:21Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "88d6d55f0b06ce11ebd6ca5cbacdb3f63a8bbb35535198355b69323ae482a09e",
+      "category": "Cybersecurity",
+      "source": "The Hacker News",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "hook": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYUhfLA6wixTr6AiVmOSa8uxO2mHxPqG7rHalDaUtYlOaTwUSIzi3JAP78cfEUhwwaoijNe8vJ0ZFiBqDmfrG9LVOzItxMxCYcTCbEc4f7W8iWgKSvzR6DrT0XtK_cM4eTKQ2Edvz-QG5P8iXF_GV_-k6CXMN_-D_QAJags-LpeuXmJ5C6DDz7mDRSBMY/s1600/git-actions.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "published_at": "2026-11-24T12:42:09Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "372382395c6e6dd9c78dc46ff9de666b4be0fe7f29892254ccb64ffaf997e9e8",
+      "category": "Cybersecurity",
+      "source": "The Hacker News",
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "hook": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiOJqhOn7t8wd3NeMCWVCg9xmusuRJmZuaePaCbKTif2XsPpPhu0fR1NwQncA4y-wAMmLOzylBZ3ebd9f4G8F6K54sUdnZ2cTn6yPq1RgAKrh4lSX3y1Ll8LIywXkDyVXItUuUGS4sy0BVUMhwXPvOZGdxhvwnd55_OvjOVnh2CfnAeURMVcmafuFgJlQ/s1600/windows.net.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "published_at": "2026-11-24T12:02:00Z",
+      "cve_ids": [
+        "CVE-2026-108398",
+        "CVE-2026-87268"
+      ],
+      "saved": false
+    },
+    {
+      "id": "446e0a68acf810671a62145cdf6f86803cf22dfcc00435aa1da5eede33be201e",
+      "category": "Cybersecurity",
+      "source": "The Hacker News",
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "hook": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifgNbpx-KISiy12Rp8KNb5ElWQADJtyC7fLFuLFCc7WzbOjCP5CmU2dPyuwhq5kRSQP5lOuwwFhvZovILCzeMgaSes8APbVabNVpJB71EC56WrojqqLU-tjIr2MFDPK8fMHnu-dx35G-p6btlQb1xU16c8IPrY4cs0k8t1pufSHgp74Y5HtqiAVk4A1QI/s1600/2027.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "published_at": "2026-11-24T12:01:54Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "a8811e2d71a420812e2bf423428adf9251c9410ea8da7c0965fe2ab063894464",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+      "hook": "Plagiarism Checker Turnitin Investigating Cyberattack",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2024/06/Hacker-Log-files.jpg",
+      "full_article_url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+      "published_at": "2026-11-25T10:40:07Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "82036ae67fb3684a5f3821c383436994f6fe30a696addb259b7fdf767071b5ad",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+      "hook": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
+      "full_article_url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "published_at": "2026-11-25T09:05:13Z",
+      "cve_ids": [
+        "CVE-2026-131914"
+      ],
+      "saved": false
+    },
+    {
+      "id": "e36b7c85ba0054d4f48eb94fe8f3b5452045579a486111ff1c6f4fde68bbcf96",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "hook": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg",
+      "full_article_url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "published_at": "2026-11-25T08:12:24Z",
+      "cve_ids": [
+        "CVE-2026-109618",
+        "CVE-2026-46300"
+      ],
+      "saved": false
+    },
+    {
+      "id": "a2064bb4d857121c3e70edc17e99af76223afd5900b1936b39474a3b9b48dcd0",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "hook": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
+      "full_article_url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "published_at": "2026-11-25T08:01:06Z",
+      "cve_ids": [
+        "CVE-2026-118539",
+        "CVE-2026-132165",
+        "CVE-2026-9082"
+      ],
+      "saved": false
+    },
+    {
+      "id": "c11f64b8d05e747d2ced7bbc85851753848ba6a01b807063ba991c1cb58d2d89",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "hook": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/11/CIA_Hacked.jpg",
+      "full_article_url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "published_at": "2026-11-24T22:41:58Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "cbd825ca533eb80e837ab4b3c5bb4934ddce25a22a8fd45183b7ca9e018757e1",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "hook": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
+      "full_article_url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "published_at": "2026-11-24T16:32:56Z",
+      "cve_ids": [
+        "CVE-2026-123903",
+        "CVE-2026-123910",
+        "CVE-2026-123911",
+        "CVE-2026-123912"
+      ],
+      "saved": false
+    },
+    {
+      "id": "313fcd81073c8f90ef3b7c189b39f7b2e866967167d7829da29adfc9efe10408",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "hook": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg",
+      "full_article_url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+      "published_at": "2026-11-24T14:49:59Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "defec4e244cdf7e4e1d6c3a43d8da093d4a98840c1d0be2c8ceb274bf9285fea",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "hook": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
+      "full_article_url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+      "published_at": "2026-11-24T14:21:56Z",
+      "cve_ids": [
+        "CVE-2020-1472",
+        "CVE-2021-21972",
+        "CVE-2021-26855",
+        "CVE-2021-34473",
+        "CVE-2023-34048",
+        "CVE-2023-4966",
+        "CVE-2024-21893",
+        "CVE-2025-5777",
+        "CVE-2026-16232",
+        "CVE-2026-41089",
+        "CVE-2026-61500",
+        "CVE-2026-98432"
+      ],
+      "saved": false
+    },
+    {
+      "id": "653803b645805368d03a90f097eb8a1da093f55ce326c97fe3af3bc8cdec6beb",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "hook": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg",
+      "full_article_url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+      "published_at": "2026-11-24T13:30:23Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "539a1e0fd9e43f1a0940014ebc3adf59dc5eca8015519de194f017bfefa0e0da",
+      "category": "Cybersecurity",
+      "source": "SecurityWeek",
+      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+      "hook": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2025/02/Agentic-AI-Hacking.jpg",
+      "full_article_url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+      "published_at": "2026-11-24T12:20:41Z",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "165729c3cbfbb2e3eb18effe0ee38ddcb4750533a7997f54145c9c36d968882c",
+      "category": "Cybersecurity",
+      "source": "CISA Advisories",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "hook": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": null,
+      "full_article_url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "published_at": "2026-11-24T12:00:00Z",
+      "cve_ids": [
         "CVE-2026-131914",
         "CVE-2026-132165",
-        "CVE-2026-132798",
-        "CVE-2026-132825",
-        "CVE-2026-134624",
-        "CVE-2026-134814",
-        "CVE-2026-14978",
-        "CVE-2026-23871",
-        "CVE-2026-28400",
-        "CVE-2026-45110",
-        "CVE-2026-49401",
-        "CVE-2026-59890",
-        "CVE-2026-99312",
-        "CVE-2026-99362"
+        "CVE-2026-132224"
       ],
       "saved": false
     },
     {
-      "id": "fa4289a3f22edc8ceac6282bc5040252b0b639e07c897297a2f251ad0fbc3b15",
+      "id": "3a8ad132bbb8c2a03e0e6a7af9143590c289fa5fb4d20f5ef3b55a66f9c5ea37",
       "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-      "hook": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "source": "CISA Advisories",
+      "title": "Danfoss AK-SM 8xxA Series",
+      "hook": "Danfoss AK-SM 8xxA Series",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ_LYD1NyoPDf8MFXggODpgd2hvazxjShSZltgrLUVic7V-ZIQSjXIzFrkUx0FNoUjlxlIYocEd1AZwGx66uqGWEUyd1TMSlDmxUu8M_r6jdYkmWDZjbszL2WsK7LJzrwI-NgsI7EaLe9WkLwNLGKj8ww3tTOY4X4JPug3RWQqoypUiEpZjVXgBhhcLuZG/s1600/js-cve.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
-      "published_at": "2026-11-23T13:22:20Z",
+      "image_url": null,
+      "full_article_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+      "published_at": "2026-11-24T12:00:00Z",
       "cve_ids": [
-        "CVE-2026-1245",
-        "CVE-2026-134814"
+        "CVE-2026-129713"
       ],
       "saved": false
     },
     {
-      "id": "2da724996ccb9ddbf7a504e372055974323de6fbf7e52f1e12aa893c5f1fc6ff",
+      "id": "7b6115f8e21f6eecb0f9b31f4c78552ef5403e150d1360c317cc6f603a4fe20e",
       "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-      "hook": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "source": "CISA Advisories",
+      "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+      "hook": "Schneider Electric EcoStruxure Power Build Rapsody software",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWAI03mMW-UNs2bdUuZEiugVBMZq3speEoo8tbQ7TZVITD4fnXiK4l657Tn4-G9fX2w8xLz2zkP9-RTrg3QZPtNMHL_Lg7YRoruCnp8TJA4tbA5bW1YsBZU8QR2FIqSb3_IpN1Le-Xoq2MQ82ZQyRNmYxr8q70PPzijzypDcIDKMIOjrzBweBUiKJ_nuJY/s1600/screens.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-      "published_at": "2026-11-23T12:41:04Z",
+      "image_url": null,
+      "full_article_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+      "published_at": "2026-11-24T12:00:00Z",
       "cve_ids": [
-        "CVE-2026-84869"
+        "CVE-2026-119055"
       ],
       "saved": false
     },
     {
-      "id": "89ef724f9ef49976c42f721d78889fb009112baad1bd6bfe62f5942e5fb72218",
+      "id": "3ed1970e74313c87defd62ab34be2d54a605b79fce8f5ba00395b92419fa40ae",
       "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-      "hook": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "source": "CISA Advisories",
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "hook": "AutomationDirect C-More EA9 Programming Software",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcXbCG8v5Kc2mTfNCFEiow0EHLJWtsrsrEodqvL8qF8awCnrDzw2TfxtPq7rYI3u78mviB8ekGNGL1Of8FZrSM6uZT1lhz2mfRHwHQyhQT8234u03WGZ9M4UZzmj2cYMs8qlsJ54PwNPvVMb2awEzinXAYL0Y25iOGjjikMvq4NQ-v03mqluZnI53PNdk/s1600/nables.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-      "published_at": "2026-11-23T12:28:09Z",
+      "image_url": null,
+      "full_article_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "published_at": "2026-11-24T12:00:00Z",
       "cve_ids": [
-        "CVE-2026-134624"
+        "CVE-2026-127280"
       ],
       "saved": false
     },
     {
-      "id": "db7975af80ee66d0e4c4351148f9798253275a47fe7befff39f54007cf256c22",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
-      "hook": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2023/05/COSMICENERGY-OT-Malware.jpg",
-      "full_article_url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
-      "published_at": "2026-11-24T11:50:21Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "0039fd31022b3a2c9f15a9474edc0422acaa490e02ed6425873ec426917252ab",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
-      "hook": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2025/11/truck-cargo-freight-hacking-transportation.jpeg",
-      "full_article_url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
-      "published_at": "2026-11-24T10:44:44Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "7c1cc2ee5575a436f0eff920542e259e65a399e4461e74d7fe2458eeb14540b3",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
-      "hook": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/11/mining.jpeg",
-      "full_article_url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
-      "published_at": "2026-11-24T10:35:04Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "2486c32c8ff2033b0e23b1e1d3e72666d110b6dc59016a7a1410722a854d53b5",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
-      "hook": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2024/08/Microsoft-Azure.jpeg",
-      "full_article_url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
-      "published_at": "2026-11-23T15:47:40Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "d7008ca0e04c7d2b0322e04930a87259d9c160ef6c4b39e6ed5aacd84fc9f121",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
-      "hook": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
-      "full_article_url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-      "published_at": "2026-11-23T15:06:49Z",
-      "cve_ids": [
-        "CVE-2026-134624"
-      ],
-      "saved": false
-    },
-    {
-      "id": "63f758028b049e795f5629dff1187225e0cbb216a15989c31fc6144c811d3950",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
-      "hook": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp",
-      "full_article_url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
-      "published_at": "2026-11-23T13:58:07Z",
-      "cve_ids": [
-        "CVE-2026-126714"
-      ],
-      "saved": false
-    },
-    {
-      "id": "cfdf5bb87e1b479391344be852b9a46c5609977f70f2d88016dc5eab251b26e3",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
-      "hook": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2025/03/router.jpeg",
-      "full_article_url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-      "published_at": "2026-11-23T13:26:22Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f3e2b2dafb4cb03a4233f021c22d1cb130b9c6870ef4c7d4d30aa61a285ab202",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
-      "hook": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/09/data-leak.jpeg",
-      "full_article_url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
-      "published_at": "2026-11-23T12:16:20Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f34b2d3a5658b6e19189465bc36612bd5e9a3c88692669b9834ea219f07afa93",
+      "id": "00f531a4d7ea4bc85ae9ec2d6e4d8c41fa9a445797285abf011a64d1301b645d",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Culture Archives - Interesting Engineering",
-      "hook": "Culture Archives - Interesting Engineering",
+      "title": "LG’s 65-Inch OLED C6 TV Is Almost Half Off at $1,400 for Black Friday - CNET",
+      "hook": "LG’s 65-Inch OLED C6 TV Is Almost Half Off at $1,400 for Black Friday - CNET",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2025/12/Interesting-Enginnering.jpg",
-      "full_article_url": "https://interestingengineering.com/culture",
-      "published_at": "2026-11-24 11:50:00 +0000",
+      "image_url": "https://www.cnet.com/wp-content/uploads/sites/2/LG-C6.jpg",
+      "full_article_url": "https://www.cnet.com/tech/home-entertainment/lg-65-inch-oled-evo-c6-tv-deal/",
+      "published_at": "2026-11-25 10:53:08 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "db43282f3b3768175a27c4159e42944807f113701d3ef66a8fb0e4262f90d7c4",
+      "id": "ac1dbb1b6c6d4add15747032e1c1e0976b55be522079766006d495aa3e980cf3",
       "category": "Technology",
       "source": "Currents API",
-      "title": "You Don’t Have to Wait Until Black Friday to Buy AirPods",
-      "hook": "You Don’t Have to Wait Until Black Friday to Buy AirPods",
+      "title": "This Bean-to-Cup Espresso Machine Is for Lazy Coffee Snobs Like Me - CNET",
+      "hook": "This Bean-to-Cup Espresso Machine Is for Lazy Coffee Snobs Like Me - CNET",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://media.wired.com/photos/6a6a501f4a743f1551e95445/191:100/w_1280,c_limit/If-You%E2%80%99ve-Been-Waiting-to-Upgrade-Your-AirPods,-This-Is-Your-Chance.jpg",
-      "full_article_url": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-24-2026/",
-      "published_at": "2026-11-24 11:45:00 +0000",
+      "image_url": "https://www.cnet.com/wp-content/uploads/sites/2/image_1bb9dd.jpeg",
+      "full_article_url": "https://www.cnet.com/home/kitchen-and-household/kitchenaid-kf4-espresso-machine-automatic-with-iced-coffee-review/",
+      "published_at": "2026-11-25 10:35:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "c3c3146066b1ab0af49231640505879342379dae433afdeceae910665e312946",
+      "id": "0b15da183919041e3cd138c8d79299a29eeb91e65a574c2369552828fe65bf32",
       "category": "Technology",
       "source": "Currents API",
-      "title": "GTA VI Is a Birder’s Paradise",
-      "hook": "GTA VI Is a Birder’s Paradise",
+      "title": "Figure 03 robot passes Elon Musk's apple test, adapts when table moved",
+      "hook": "Figure 03 robot passes Elon Musk's apple test, adapts when table moved",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://media.wired.com/photos/6b03f4615f8e6c0d7b84ae8c/191:100/w_1280,c_limit/image2.png",
-      "full_article_url": "https://www.wired.com/story/gta-vi-birders-paradise/",
-      "published_at": "2026-11-24 11:45:00 +0000",
+      "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-Design-25.jpg",
+      "full_article_url": "https://interestingengineering.com/ai-robotics/figure-counters-musks-staged-robot-claim",
+      "published_at": "2026-11-25 10:33:02 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "15dbad2352495afe17f65d1e4d4f7fded46eec1f80716cc934c759ffb5612ca1",
+      "id": "13dbc7ddae42fd1f89f0784b3df427d905649f416256c7e18920942be1676405",
       "category": "Technology",
       "source": "Currents API",
-      "title": "FromSoftware and Bluepoint Games' Demon's Souls Remake Unofficial PC Port Delivers Extensive Graphics Settings, But Its 80-Minute-Long Shader Preparation Shatters Every Record",
-      "hook": "FromSoftware and Bluepoint Games' Demon's Souls Remake Unofficial PC Port Delivers Extensive Graphics Settings, But Its 80-Minute-Long Shader Preparation Shatters Every Record",
+      "title": "Advent of Code tips for beginners - through an example",
+      "hook": "Advent of Code tips for beginners - through an example",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.wccftech.com/wp-content/uploads/2026/11/Demons-Souls-Remake-Unofficial-PC-Port-1920x1072.jpg",
-      "full_article_url": "https://wccftech.com/fromsoftware-demons-souls-remake-unofficial-pc-port/",
-      "published_at": "2026-11-24 11:37:48 +0000",
+      "image_url": "https://hamatti.org/assets/img/posts/advent-of-code-tips-for-beginners-through-an-example/advent-of-code-tips-for-beginners-through-an-example-cover.png.webp",
+      "full_article_url": "https://hamatti.org/posts/advent-of-code-tips-for-beginners-through-an-example/",
+      "published_at": "2026-11-25 10:32:36 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "7610c955aa7329c8e624a5f7ddd388b310e18f493a77545937482f075648515e",
+      "id": "a1899c384d19063682f21a29b89d8f2c26e8f4d538bad66a4269dd244d4bdeb1",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Apple Black Friday deals live: cheap AirTags, AirPods Pro 3, iPad 11-in, Apple Watch 12, iPhone Air & more",
-      "hook": "Apple Black Friday deals live: cheap AirTags, AirPods Pro 3, iPad 11-in, Apple Watch 12, iPhone Air & more",
+      "title": "Shop Small: Our Favorite Gifts From Independent Businesses",
+      "hook": "Shop Small: Our Favorite Gifts From Independent Businesses",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/BFvzt5wRmEUo6UdEiunZtM-1920-80.png",
-      "full_article_url": "https://www.techradar.com/live/news/apple-black-friday-deals-2026-november-24",
-      "published_at": "2026-11-24 11:35:02 +0000",
+      "image_url": "https://media.wired.com/photos/6b06176900d767ae948b4ef6/191:100/w_1280,c_limit/Shop-Small--Our-Favorite-Gifts-From-Independent-Businesses.jpg",
+      "full_article_url": "https://www.wired.com/story/shop-small-gift-guide-2026/",
+      "published_at": "2026-11-25 10:32:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "8d394cf6dc306e7c0516c8d42ebd89a82010ad17558babf5e7893a2a845ff70c",
+      "id": "bd8b58875c4ae40f34f8a6a4f0aa0fd1f84c28607ea7ff2e3d649992f7dba9ba",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Walmart Black Friday deals are live — huge savings on Ninja Crispi, AirPods Pro 3, LG C6 OLED TV, Apple Watch and more",
-      "hook": "Walmart Black Friday deals are live — huge savings on Ninja Crispi, AirPods Pro 3, LG C6 OLED TV, Apple Watch and more",
+      "title": "I'm a Samsung Galaxy expert - these are the Black Friday deals I'd recommend to all owners",
+      "hook": "I'm a Samsung Galaxy expert - these are the Black Friday deals I'd recommend to all owners",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/xnu9kSmnyZ2eS7KhswAx9-1920-80.jpg",
-      "full_article_url": "https://www.techradar.com/live/news/walmart-black-friday-24-november-2026",
-      "published_at": "2026-11-24 11:34:19 +0000",
+      "image_url": "https://www.techadvisor.com/wp-content/uploads/2026/11/3294228-0-92131200-1795539436-samsung-galaxy-owners-black-friday-deals.jpg?quality=50&strip=all&w=1024",
+      "full_article_url": "https://www.techadvisor.com/article/3294228/best-black-friday-deals-samsung-galaxy-owners.html",
+      "published_at": "2026-11-25 10:29:34 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "4a815a98aa54339f287820f67ce7f0c61bd400bdede3349c542e105026c42afc",
+      "id": "626d3cf165b6a7a6f8b1901588d826602a1206775a232833361da61881d5da79",
       "category": "Technology",
       "source": "Currents API",
-      "title": "LiTime Lares K1 review",
-      "hook": "LiTime Lares K1 review",
+      "title": "Claude Now Lets You Install Artifacts as Desktop Apps",
+      "hook": "Claude Now Lets You Install Artifacts as Desktop Apps",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/Avjfxd7c7hCdahzSrzkyeN-2560-80.jpg",
-      "full_article_url": "https://www.techradar.com/pro/litime-lares-k1-review",
-      "published_at": "2026-11-24 11:34:18 +0000",
+      "image_url": "https://images.macrumors.com/t/E1srBYcO_hKVuKsLHK5QCRSd66k=/1600x/article-new/2024/05/claude-ai.jpeg",
+      "full_article_url": "https://www.macrumors.com/2026/11/25/claude-install-artifacts-desktop-apps/",
+      "published_at": "2026-11-25 10:27:42 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "bcf85c819dc9df819d1ba3402711cdebf925c6bd0d9d0f05f7730c127253a17a",
+      "id": "50d120263efb9f7297b224e5b1b283c5359e52bbf108e8e916c613964622349e",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Gratitude changes how we see the world. And that changes everything, including your team’s performance",
-      "hook": "Gratitude changes how we see the world. And that changes everything, including your team’s performance",
+      "title": "Nintendo's Super Smash Bros. Ultimate Is Rejuvenated on PC Ahead of Its 8th Anniversary With Rollback Netcode, Reduced Input Lag, and 240 FPS Support",
+      "hook": "Nintendo's Super Smash Bros. Ultimate Is Rejuvenated on PC Ahead of Its 8th Anniversary With Rollback Netcode, Reduced Input Lag, and 240 FPS Support",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.wccftech.com/wp-content/uploads/2026/11/Super-Smash-Bros.-Ultimate-PC-Port-1920x1072.jpg",
+      "full_article_url": "https://wccftech.com/super-smash-bros-ultimate-pc-port-rollback-240-fps/",
+      "published_at": "2026-11-25 10:27:32 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "f3726e4f13d05f32a6ae35f18755c206c83e700cdd50e447c5650ef84fe1a0ca",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "AI security is not enough - trust depends on context",
+      "hook": "AI security is not enough - trust depends on context",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.mos.cms.futurecdn.net/JpXukHGqkZ8gapEzDQNqRW-1920-80.jpg",
+      "full_article_url": "https://www.techradar.com/pro/ai-security-is-not-enough-trust-depends-on-context",
+      "published_at": "2026-11-25 10:24:52 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "2c2c19c52f13d0fea36825c89c3b662efab27a9904a477ecd975756710cd0863",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Maruti Suzuki Baleno, Swift, Fronx And More Become Costlier: Check New Prices",
+      "hook": "Maruti Suzuki Baleno, Swift, Fronx And More Become Costlier: Check New Prices",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://sm.mashable.com/mashable_in/seo/default/baleno-2026_rtfu.jpg",
+      "full_article_url": "https://in.mashable.com/automobiles/116575/maruti-suzuki-baleno-swift-fronx-and-more-become-costlier-check-new-prices",
+      "published_at": "2026-11-25 10:23:59 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "2e9763b1e8af72ba7a7e82dad0140b91575b3681822a2b0ad3a6975f6f812896",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Video. Tax expert: Planned EU-wide digital tax will damage economy",
+      "hook": "Video. Tax expert: Planned EU-wide digital tax will damage economy",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://images.euronews.com/articles/stories/10/00/70/01/1200x675_cmsv2_aa76bc5b-e9d5-5717-ba75-938f1098792e-10007001.jpg",
+      "full_article_url": "https://www.euronews.com/video/2026/11/25/tax-expert-planned-eu-wide-digital-tax-will-damage-economy",
+      "published_at": "2026-11-25 10:23:44 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "058f7cea92877330a939bdc7c3beff43dc594ea3f1c8cffe3debe32783a31be7",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Millions of UK firms are opting out of Black Friday this year — with a perhaps unsurprising reason why",
+      "hook": "Millions of UK firms are opting out of Black Friday this year — with a perhaps unsurprising reason why",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.mos.cms.futurecdn.net/NMBmyzfLwQFn8e8FR4ZhqL-2560-80.jpg",
+      "full_article_url": "https://www.techradar.com/pro/millions-of-uk-firms-are-opting-out-of-black-friday-this-year-with-a-perhaps-unsurprising-reason-why",
+      "published_at": "2026-11-25 10:21:53 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "c9bc63f58c59362e14c37c4f92fa23797c99380896d2dac2fd3f00771b142254",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Amazon's latest Kindle accessory is utterly bizarre",
+      "hook": "Amazon's latest Kindle accessory is utterly bizarre",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.trustedreviews.com/wp-content/uploads/sites/7/2026/11/77e46a78-5580-4c05-864c-fed3893c5513.jpg",
+      "full_article_url": "https://www.trustedreviews.com/news/amazons-latest-kindle-accessory-is-utterly-bizarre",
+      "published_at": "2026-11-25 10:15:47 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "e37ea9cf648ad310ffe782e023262ae49c26672043dc5cd95b3fa90777a3ff84",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "The world's fastest computers have a problem: Keeping the work running",
+      "hook": "The world's fastest computers have a problem: Keeping the work running",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://image.theregister.com/5311858.jpg?imageId=5311858&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "full_article_url": "https://www.theregister.com/systems/2026/11/25/the-worlds-fastest-computers-have-a-problem-keeping-the-work-running/5311710",
+      "published_at": "2026-11-25 10:15:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "8f123543a015f73692e8850e939aefa1de2589074841defe772d84e6b01aebe2",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "UK police charge 2 men over a break-in at Prince William and Princess Catherine’s country home",
+      "hook": "UK police charge 2 men over a break-in at Prince William and Princess Catherine’s country home",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -514,251 +765,161 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://www.fastcompany.com/91628294/gratitude-changes-how-we-see-the-world-and-that-changes-everything-including-your-teams-performance-leadership-gratitude",
-      "published_at": "2026-11-24 11:32:00 +0000",
+      "full_article_url": "https://www.keloland.com/news/national-world-news/ap-uk-police-charge-2-men-over-a-break-in-at-prince-william-and-princess-catherines-country-home/",
+      "published_at": "2026-11-25 10:09:41 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "072898e74443bdc1677bff0db29ae8ef48a61403378988db759c1262930f9565",
+      "id": "e6c4ea687b8d0548b09846b33419717344e74dd307b6daafda15c536e62b86bf",
       "category": "Technology",
       "source": "Currents API",
-      "title": "The best Black Friday streaming deals from 99 cents: Apple TV, HBO Max, Paramount+, Peacock, and more",
-      "hook": "The best Black Friday streaming deals from 99 cents: Apple TV, HBO Max, Paramount+, Peacock, and more",
+      "title": "Bored of the color options of the AirPods Max 2? It sounds like a new one is coming very soon, for charity",
+      "hook": "Bored of the color options of the AirPods Max 2? It sounds like a new one is coming very soon, for charity",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/kbm5eYYXLGphFwBMiA7S6V-1920-80.jpg",
-      "full_article_url": "https://www.techradar.com/live/news/black-friday-streaming-deals-2026-november-24",
-      "published_at": "2026-11-24 11:30:29 +0000",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/iffnpuBBEJBAY7RQxMpkQ4-2560-80.jpg",
+      "full_article_url": "https://www.techradar.com/audio/wireless-headphones/apple-could-release-a-new-look-for-airpods-max-2-and-homepod-mini-2-very-soon-and-itll-be-a-retro-throwback-for-older-iphone-and-ipod-fans",
+      "published_at": "2026-11-25 10:06:53 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "5971711536e894813dc651869ad468609c192282fe22516f0cf7b5a6b1900853",
+      "id": "25b9bd620d1dd253efb0fda44eccca98bd4b834cc4040899bd47f775a5fb6706",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Soundcore Liberty 5 Pro earbuds drop to a record low $129.99",
-      "hook": "Soundcore Liberty 5 Pro earbuds drop to a record low $129.99",
+      "title": "HBO Max's epic Black Friday deal is back: Save 50%",
+      "hook": "HBO Max's epic Black Friday deal is back: Save 50%",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/10/Soundcore-Liberty-5-Pro-SoundGuys-scaled.jpg",
-      "full_article_url": "https://www.androidauthority.com/soundcore-liberty-5-pro-deal-2-3738586/",
-      "published_at": "2026-11-24 11:30:19 +0000",
+      "image_url": "https://www.techadvisor.com/wp-content/uploads/2026/11/1392676-0-29645300-1795450335-HBO-Max-Black-Friday-Deal-2026-50-off.png?w=1024",
+      "full_article_url": "https://www.techadvisor.com/article/1392676/hbo-max-black-friday-deal-2026-save-50.html",
+      "published_at": "2026-11-25 10:05:52 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "728180db06fc0aff9fb3b6624e7fb22e534e79801478dbe3e3f90799662ebdaa",
+      "id": "1f1cdf62c9cc339b518587cba69bed68478d5ba63419221e30860adcfaf70041",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Japan puts chipmaking labs inside trucks with mobileFab — trucks pack 30-cm lithography gear to tackle a 10-year semiconductor engineer shortage",
-      "hook": "Japan puts chipmaking labs inside trucks with mobileFab — trucks pack 30-cm lithography gear to tackle a 10-year semiconductor engineer shortage",
+      "title": "Why agentic AI is no longer a free magic tool",
+      "hook": "Why agentic AI is no longer a free magic tool",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/Z6EebzJC5Ui7UejTkwUa7T-991-80.png",
-      "full_article_url": "https://www.tomshardware.com/tech-industry/semiconductors/japan-puts-chipmaking-labs-inside-trucks-with-mobilefab-trucks-pack-30-cm-lithography-gear-to-tackle-a-10-year-semiconductor-engineer-shortage",
-      "published_at": "2026-11-24 11:30:00 +0000",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/qP76MS2BAb7kSuWrvJXXYL-2560-80.jpg",
+      "full_article_url": "https://www.techradar.com/pro/why-agentic-ai-is-no-longer-a-free-magic-tool",
+      "published_at": "2026-11-25 10:05:50 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "68cf16a4329c1ff3e8435670da06b93c2ae73e129d0debe5734ca9691b7786e3",
+      "id": "2b4d9c61d36b88f97c418611012643739b068ddedfed5b06150cf65af057f308",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Honor confirms that its next super flagship is coming to the UK",
-      "hook": "Honor confirms that its next super flagship is coming to the UK",
+      "title": "Galaxy Watch 8 owners are getting the Wear OS 7 update",
+      "hook": "Galaxy Watch 8 owners are getting the Wear OS 7 update",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/8njdwNU8wgdVCcbxTpX4mn-1920-80.jpg",
-      "full_article_url": "https://www.t3.com/tech/android-phones/honor-confirms-that-its-next-super-flagship-is-coming-to-the-uk",
-      "published_at": "2026-11-24 11:30:00 +0000",
+      "image_url": "https://www.trustedreviews.com/wp-content/uploads/sites/7/2026/11/8493dea9-cf5d-4161-b96e-9b34e70a674e.jpg",
+      "full_article_url": "https://www.trustedreviews.com/news/galaxy-watch-8-owners-are-getting-the-wear-os-7-update",
+      "published_at": "2026-11-25 10:04:44 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "62ff7427f923c77b59631ab510ad58f7af1570c6e2e72c2125563abd18f42e36",
+      "id": "608cbd1bf9cb64212c622f47b7c8f6baa88ceff59b0e087afa295dfe00d2962f",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Shared CXL memory pools come with steep software tax that could stall multi-server scaling — UT Arlington shares real-world test that measured four servers sharing the same pool at SC26",
-      "hook": "Shared CXL memory pools come with steep software tax that could stall multi-server scaling — UT Arlington shares real-world test that measured four servers sharing the same pool at SC26",
+      "title": "I Played GTA 6 at \"60 FPS\"",
+      "hook": "I Played GTA 6 at \"60 FPS\"",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/oKm72GAg88vciWfFVLddfT-1600-80.jpg",
-      "full_article_url": "https://www.tomshardware.com/pc-components/dram/shared-cxl-memory-pools-come-with-steep-software-tax-that-could-stall-multi-server-scaling-ut-arlington-shares-real-world-test-that-measured-four-servers-sharing-the-same-pool-at-sc26",
-      "published_at": "2026-11-24 11:30:00 +0000",
+      "image_url": "https://www.techspot.com/articles-info/3202/images/2026-11-24-image-2.jpg",
+      "full_article_url": "https://www.techspot.com/article/3202-gta-vi-60-fps/",
+      "published_at": "2026-11-25 10:04:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "55fc046fab16a458f4da506e58b4b3355741f7528372df63057b409872c2df46",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "This iconic Californian outdoor brand has been equipping mountaineers since the 1990s, and its rugged 35-litre backpack is now over $50 cheaper for Black Friday",
-      "hook": "This iconic Californian outdoor brand has been equipping mountaineers since the 1990s, and its rugged 35-litre backpack is now over $50 cheaper for Black Friday",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/WPAMtwoXyK9y7kNqbQZFtY-1600-80.jpg",
-      "full_article_url": "https://www.t3.com/active/hiking-walking/this-iconic-californian-outdoor-brand-has-been-equipping-mountaineers-since-the-1990s-and-its-rugged-35-litre-backpack-is-now-over-usd50-cheaper-for-black-friday",
-      "published_at": "2026-11-24 11:30:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "b7320324a01638a61f4c6109e32e3c4e99a7612c14d78750acfeb9b5c1a6e2bd",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Xiaomi's profit falls 68% as AI-driven chip costs squeeze smartphone business - Businessday NG",
-      "hook": "Xiaomi's profit falls 68% as AI-driven chip costs squeeze smartphone business - Businessday NG",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.businessday.ng/wp-content/uploads/2026/09/2-8-scaled-large.png",
-      "full_article_url": "https://businessday.ng/?p=1225453",
-      "published_at": "2026-11-24 11:27:11 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "be9bd89ec72e3a115744ec03f840e7ca11e8aeb60cb50d65e8f8037f9a792541",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Carbon capture was rejected at COP31: What is it and does it work?",
-      "hook": "Carbon capture was rejected at COP31: What is it and does it work?",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://images.euronews.com/articles/stories/09/90/60/31/1200x675_cmsv2_dc74368d-8e4a-53f5-8649-504bdbc3b719-9906031.jpg",
-      "full_article_url": "https://www.euronews.com/2026/11/24/delay-tactic-or-genuine-solution-carbon-capture-under-fire-again-as-eu-invests-in-unproven",
-      "published_at": "2026-11-24 11:25:30 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "7e31b8d5666f492d29874464f6626ff826672be413075365679fe616734ed7b5",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Black Friday solar panel and home battery deals LIVE – today's best discounts on home energy tech",
-      "hook": "Black Friday solar panel and home battery deals LIVE – today's best discounts on home energy tech",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/RAQ9FJYuXThCY9XHAJhZed-1920-80.jpg",
-      "full_article_url": "https://www.t3.com/home-living/live/black-friday-solar-panel-and-home-battery-deals-live-todays-best-discounts-on-home-energy-tech",
-      "published_at": "2026-11-24 11:25:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "c2ec7d4f8e1cfeb524dbb4c956518f8ddd338c9c7de06b4f8e3aaabf48893ea8",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Agentic AI is reaching the desktop. Is your security strategy ready?",
-      "hook": "Agentic AI is reaching the desktop. Is your security strategy ready?",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/mfPaYGQmks2VALWFFBnSej-2000-80.jpg",
-      "full_article_url": "https://www.techradar.com/pro/agentic-ai-is-reaching-the-desktop-is-your-security-strategy-ready",
-      "published_at": "2026-11-24 11:23:30 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "b8e7399f51e8aeee590f455e6543301dca2e5f120d16452d0f8d40eb75a56c5d",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Grab a 4K-ready CyberPowerPC gaming rig with a 7800X3D and RTX 5070 for $2,099.99 — Newegg knocks $130 off this liquid-cooled desktop with 32GB DDR5 and a 1TB SSD",
-      "hook": "Grab a 4K-ready CyberPowerPC gaming rig with a 7800X3D and RTX 5070 for $2,099.99 — Newegg knocks $130 off this liquid-cooled desktop with 32GB DDR5 and a 1TB SSD",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/WPMVBc6BXyqXhvXmVjfTfR-1920-80.png",
-      "full_article_url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-4k-ready-cyberpowerpc-gaming-rig-with-a-7800x3d-and-rtx-5070-for-usd2-099-99-newegg-knocks-usd130-off-this-liquid-cooled-desktop-with-32gb-ddr5-and-a-1tb-ssd",
-      "published_at": "2026-11-24 11:21:13 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "8e02d6952cc88efdd049176b8db6c6a23a2c59bd176d85568e4982eb4e26c9c0",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Motorola Edge 70 Neo's price and sale date announced",
-      "hook": "Motorola Edge 70 Neo's price and sale date announced",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/motorola-edge-70-neo-price-sale-date/-952x498w6/gsmarena_001.jpg",
-      "full_article_url": "https://www.gsmarena.com/motorola_edge_70_neo_price_sale_date-news-75606.php",
-      "published_at": "2026-11-24 11:21:02 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f28ad24628dd1e42f0cea015652413cbd5fb5f7e86306a4842d0c17e0a267058",
+      "id": "b478ece246bc1100ced7f76ee22641549be632ea0b1017177c563caa50406d24",
       "category": "Business",
       "source": "Currents API",
-      "title": "Octodec sheds noncore properties as distributable income grows",
-      "hook": "Octodec sheds noncore properties as distributable income grows",
+      "title": "South Africa needs strong fiscal rule to boost reforms, IMF says",
+      "hook": "South Africa needs strong fiscal rule to boost reforms, IMF says",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.businessday.co.za/resizer/v2/UQVHLP7OZ5AKVJ3SZ6NOKTW3LU.jpg?smart=true&auth=e44b50800762db9411806f97148fc6e834f7419f5f065a533bb68492f817815e&width=1200&height=630",
-      "full_article_url": "https://www.businessday.co.za/companies/2026-11-24-octodec-sheds-noncore-properties-as-distributable-income-grows/",
-      "published_at": "2026-11-24 11:55:30 +0000",
+      "image_url": "https://cdn.creamermedia.com/assets/articles/images/resized/0001314382_resized_jhbjohannesburgskylinetrain110221015duane.jpg",
+      "full_article_url": "https://www.engineeringnews.co.za/article/south-africa-needs-strong-fiscal-rule-to-boost-reforms-imf-says-2026-11-25",
+      "published_at": "2026-11-25 10:50:23 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "6c12bab67ba39d176086456d3c627db5c28a46c1f9379423c742d5f55a0d78e3",
+      "id": "487389c6dde49f49ce0e806d8c001abe5c6b503f71bf04dd25189a8c248c6626",
       "category": "Business",
       "source": "Currents API",
-      "title": "Driven Brands receives Nasdaq notice for delayed Q3 2026 form 10-Q filing",
-      "hook": "Driven Brands receives Nasdaq notice for delayed Q3 2026 form 10-Q filing",
+      "title": "Zoom Communications: The Core Business Trades At Just 9x FCF, With Anthropic Upside On Top",
+      "hook": "Zoom Communications: The Core Business Trades At Just 9x FCF, With Anthropic Upside On Top",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1464824803/image_1464824803.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4971792-zoom-communications-stock-core-business-trades-just-9x-fcf-with-anthropic-upside-on-top",
+      "published_at": "2026-11-25 10:47:35 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "817b7438ece3050aa3233bb4b24183e8ca4bacd36a9b0441f654bed8286b342e",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "DPC Dash Pushes Ahead With New Store Openings Despite Lingering Economic Headwinds - Domino's Pizza (NASD",
+      "hook": "DPC Dash Pushes Ahead With New Store Openings Despite Lingering Economic Headwinds - Domino's Pizza (NASD",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/25/25-11-2026-104339-thebambooworks-com.jpg",
+      "full_article_url": "https://www.benzinga.com/opinion/26/11/63615914/dpc-dash-pushes-ahead-with-new-store-openings-despite-lingering-economic-headwinds",
+      "published_at": "2026-11-25 10:45:05 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "29c5d503f311cb3c0df6884ad15827449ef9ba1d23886474e112472b898d58c6",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Box CEO Warns AI Is Creating a ‘10X Delta’ in Workplace Productivity as Early Adopters Pull Ahead",
+      "hook": "Box CEO Warns AI Is Creating a ‘10X Delta’ in Workplace Productivity as Early Adopters Pull Ahead",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -766,17 +927,71 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4676051-driven-brands-receives-nasdaq-notice-for-delayed-q3-2026-form-10-q-filing",
-      "published_at": "2026-11-24 11:51:35 +0000",
+      "full_article_url": "https://www.benzinga.com/markets/tech/26/11/63615901/box-ceo-warns-ai-creating-10x-productivity-gap",
+      "published_at": "2026-11-25 10:42:33 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "9980657e84af6a81946bab05cc8298fe5f0d01bc446d6475b38bf7ce77d453d8",
+      "id": "85138cc24c2c04b21be48295b533ca7cb4367681c187b2b0c1c3229b6d41e1f8",
       "category": "Business",
       "source": "Currents API",
-      "title": "MiniMed Group misses top-line and bottom-line estimates; reaffirms FY27 outlook",
-      "hook": "MiniMed Group misses top-line and bottom-line estimates; reaffirms FY27 outlook",
+      "title": "Helus Pharma Inc. (HELP) Phase 3 APPROACH Topline Results for HLP003 in Major Depressive Disorder - Slideshow",
+      "hook": "Helus Pharma Inc. (HELP) Phase 3 APPROACH Topline Results for HLP003 in Major Depressive Disorder - Slideshow",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static3.seekingalpha.com/uploads/sa_presentations/226/140226/slides/1.jpg?ts=1795603334",
+      "full_article_url": "https://seekingalpha.com/article/4971813-helus-pharma-inc-help-phase-3-approach-topline-results-for-hlp003-in-major-depressive",
+      "published_at": "2026-11-25 10:42:14 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "562abdf207dd9d4897a5131fc39bc9e62861dc5b0f2b60c260748192436b75fd",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "4 Reasons The Market Could Be Underestimating Chances Of A Recovery In Equities Won't Be V-Shaped",
+      "hook": "4 Reasons The Market Could Be Underestimating Chances Of A Recovery In Equities Won't Be V-Shaped",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2212339480/image_2212339480.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4971790-4-reasons-the-market-could-be-underestimating-chances-of-a-recovery-in-equities-wont-be-v-shaped",
+      "published_at": "2026-11-25 10:41:09 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "2b18c5a61d74d0004e79486d4346da1b3bf5ab8fc3610e542eb0e551703a5726",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Elon Musk Wants Neuralink to Tackle Neck and Back Pain: 'One Day' - Apple (NASDAQ:AAPL)",
+      "hook": "Elon Musk Wants Neuralink to Tackle Neck and Back Pain: 'One Day' - Apple (NASDAQ:AAPL)",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/25/Elon-Reeve-Musk-Is-A-Businessman-Known-F.jpg",
+      "full_article_url": "https://www.benzinga.com/markets/tech/26/11/63615887/elon-musk-wants-neuralink-to-tackle-neck-and-back-pain-one-day",
+      "published_at": "2026-11-25 10:39:27 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "c8e288b3aed29d0956458bfa86b15427b2704f95dabc17219aab85f578207c4d",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Goldman Sachs Small Cap Growth Insights Fund Q3 2026 Commentary",
+      "hook": "Goldman Sachs Small Cap Growth Insights Fund Q3 2026 Commentary",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -784,35 +999,179 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4676067-minimed-group-misses-top-line-and-bottom-line-estimates-reaffirms-fy27-outlook",
-      "published_at": "2026-11-24 11:51:31 +0000",
+      "full_article_url": "https://seekingalpha.com/article/4971789-goldman-sachs-small-cap-growth-insights-fund-q3-2026-commentary",
+      "published_at": "2026-11-25 10:39:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "fff436dec0d4a689b9689b365e8391777cf91ac2c766a2571fb4008211033e4b",
+      "id": "d78e3cdb7806d50b4c675f93ec11245851983715490e5f937041fef2c3c0f7fe",
       "category": "Business",
       "source": "Currents API",
-      "title": "K-Shipbuilding Shaken by China Even in High Value-Added Vessels",
-      "hook": "K-Shipbuilding Shaken by China Even in High Value-Added Vessels",
+      "title": "GOKA commits $350,000 to Rivers United in three-year sponsorship deal",
+      "hook": "GOKA commits $350,000 to Rivers United in three-year sponsorship deal",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.businesskorea.co.kr/news/thumbnail/202611/282077_290036_616_v150.jpg",
-      "full_article_url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=282077",
-      "published_at": "2026-11-24 11:50:05 +0000",
+      "image_url": "https://cdn.nairametrics.com/wp-content/uploads/2026/11/Goka.jpg",
+      "full_article_url": "https://nairametrics.com/2026/11/25/goka-commits-350000-to-rivers-united-in-three-year-sponsorship-deal/",
+      "published_at": "2026-11-25 10:38:02 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "81f8d576fe60728cdbd451b6093790f74f1c845d4118529f4b77b3ecb39cf2cc",
+      "id": "8db15a5d5406d07a6bbe665073267f89454415e4dc803e26f89bdeb9b51c8a98",
       "category": "Business",
       "source": "Currents API",
-      "title": "Burlington reports mixed Q3 results; gives Q4 and updates FY26 outlook",
-      "hook": "Burlington reports mixed Q3 results; gives Q4 and updates FY26 outlook",
+      "title": "Shein Europe sales sink as new import fees bite",
+      "hook": "Shein Europe sales sink as new import fees bite",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://dam.mediacorp.sg/image/upload/s--uwblf6D5--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-25T103846Z_2_LYNXNPEMAO0TO_RTROPTP_3_SHEIN-FRANCE.JPG?itok=guA5DmER",
+      "full_article_url": "https://www.channelnewsasia.com/business/shein-europe-sales-sink-new-import-fees-bite-6581411",
+      "published_at": "2026-11-25 10:37:52 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "0ab8af93a496e3a597b02bc5290f9b1262cc8d1c642d02c270616f53225d0be8",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "USA Compression Partners: A 9% Yield Hit By Oil Fears",
+      "hook": "USA Compression Partners: A 9% Yield Hit By Oil Fears",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2292327717/image_2292327717.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4971788-usa-compression-partners-a-9-percent-yield-hit-by-oil-fears",
+      "published_at": "2026-11-25 10:35:35 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "0c48a5efbb669c8b18a6825313af6a676ce4409d9d596b352ed0af0b68a4234d",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Broker’s Call: Voltamp Transformers (Hold)",
+      "hook": "Broker’s Call: Voltamp Transformers (Hold)",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://bl-i.thgim.com/public/incoming/ea9kys/article71741602.ece/alternates/LANDSCAPE_1200/BL28_Think_financial_crisis.jpg",
+      "full_article_url": "https://www.thehindubusinessline.com/markets/brokers-call-voltamp-transformers-hold/article71738017.ece",
+      "published_at": "2026-11-25 10:35:05 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "8f8c68540089159f287097b1e2fb1a3f71436de5a793c71c2e211e8a0a50115d",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Biggest threat to India lies in 'cognitive domain', says former CDS Gen Anil Chauhan",
+      "hook": "Biggest threat to India lies in 'cognitive domain', says former CDS Gen Anil Chauhan",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://img.etimg.com/thumb/msid-136157867,width-1200,height-900,imgsize-46078,overlay-etdefence/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/defence/biggest-threat-to-india-lies-in-cognitive-domain-says-former-cds-gen-anil-chauhan/articleshow/136157733.cms",
+      "published_at": "2026-11-25 10:33:50 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "49bdbd0844af16bb6ee4617a41a666695590d3e3f32746ea09d2d190872414ca",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "NNN REIT: A Dividend Champion Paying A Well-Covered 6.2% Yield After The Selloff",
+      "hook": "NNN REIT: A Dividend Champion Paying A Well-Covered 6.2% Yield After The Selloff",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2305867465/image_2305867465.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4971787-nnn-reit-a-dividend-champion-paying-a-well-covered-6-2-percent-yield-after-the-selloff",
+      "published_at": "2026-11-25 10:33:45 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "4e1cf06e77cd04ba5dd00509679e42d105bb4072b2d51c935db4a68b7511f080",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Naira hits eight-month low against US dollar, prompting CBN intervention",
+      "hook": "Naira hits eight-month low against US dollar, prompting CBN intervention",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.nairametrics.com/wp-content/uploads/2026/08/Naira-and-Dollars-1.webp",
+      "full_article_url": "https://nairametrics.com/2026/11/25/naira-hits-eight-month-low-against-us-dollar-prompting-cbn-intervention/",
+      "published_at": "2026-11-25 10:32:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "e78cb9bc5d789dc457abba9f17aa7674aebb4c2ceb68bcb1000036a4e0d9a2f9",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "PhonePe lending crosses 20 lakh micro-enterprise loan disbursals",
+      "hook": "PhonePe lending crosses 20 lakh micro-enterprise loan disbursals",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://bl-i.thgim.com/public/companies/hf3o00/article71741919.ece/alternates/LANDSCAPE_1200/PhonePe%20Logo.jpg.jpeg",
+      "full_article_url": "https://www.thehindubusinessline.com/companies/phonepe-lending-crosses-20-lakh-micro-enterprise-loan-disbursals/article71741913.ece",
+      "published_at": "2026-11-25 10:31:59 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "25c28d1fbe04ffd76409321bc2a0cbd9524fe24a4b9f29aefbbebcfb5e06d982",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Heriot’s racking fight hits the shelf as court dismisses appeal",
+      "hook": "Heriot’s racking fight hits the shelf as court dismisses appeal",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://iol-prod.appspot.com/image/dedc9768cc7850185261e24440ee042cbe22f510/1000/jpeg",
+      "full_article_url": "https://iol.co.za/business/2026-11-25-heriots-racking-fight-hits-the-shelf-as-court-dismisses-appeal/",
+      "published_at": "2026-11-25 10:31:41 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "0ebf1bea7ef903b6fc418196b06f0717102389b467b97fb2491568755cf4460d",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Pope Leo laments failure of COP31 talks, urges action to address climate change",
+      "hook": "Pope Leo laments failure of COP31 talks, urges action to address climate change",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -820,89 +1179,251 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4676065-burlington-reports-mixed-q3-results-gives-q4-and-updates-fy26-outlook",
-      "published_at": "2026-11-24 11:48:31 +0000",
+      "full_article_url": "https://www.miningweekly.com/article/pope-leo-laments-failure-of-cop31-talks-urges-action-to-address-climate-change-2026-11-25",
+      "published_at": "2026-11-25 10:31:16 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "84a4584e24e56878392608553a5f3e76c42217b56344dedc4f066e48272e6805",
+      "id": "a56db629fb0e054b46ce704998a8c015798ade78e3c95498ad3ce09f01175e85",
       "category": "Business",
       "source": "Currents API",
-      "title": "Options on Tradr's 2X Long and Short Anthropic ETFs List Today",
-      "hook": "Options on Tradr's 2X Long and Short Anthropic ETFs List Today",
+      "title": "S-Oil Completes Shaheen Project, Sparking Industry Restructuring Concerns",
+      "hook": "S-Oil Completes Shaheen Project, Sparking Industry Restructuring Concerns",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://mmx.prnewswire.com/media/MS1604770/Tradr-ETFs-Logo.jpg?id=OA3097472&p=facebook",
-      "full_article_url": "https://www.prnewswire.com/news-releases/options-on-tradrs-2x-long-and-short-anthropic-etfs-list-today-302948724.html",
-      "published_at": "2026-11-24 11:46:00 +0000",
+      "image_url": "https://www.businesskorea.co.kr/news/thumbnail/202611/282206_290181_5836_v150.jpg",
+      "full_article_url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=282206",
+      "published_at": "2026-11-25 10:30:47 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "d891e0d91115337572a43c7a767ab3c524aa093008bf08adf5cca3df7a27663d",
-      "category": "Business",
+      "id": "5e85c7f045a720a55b95878db086ee79d18567156b74f5168a365f601ff66f04",
+      "category": "World",
       "source": "Currents API",
-      "title": "INVESTOR DEADLINE: Lennar Corporation (LEN) Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before January 11, 2027 Deadline",
-      "hook": "INVESTOR DEADLINE: Lennar Corporation (LEN) Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before January 11, 2027 Deadline",
+      "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns",
+      "hook": "‘Russia wants more than Ukraine,’ Germany’s Merz warns",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://mmx.prnewswire.com/media/MS675308/robbins-geller-rudman-and-dowd-llp-logo-v2-Logo.jpg?id=OA3097335&p=facebook",
-      "full_article_url": "https://www.prnewswire.com/news-releases/investor-deadline-lennar-corporation-len-investors-with-substantial-losses-may-seek-to-lead-class-action-lawsuit-before-january-11-2027-deadline-302948721.html",
-      "published_at": "2026-11-24 11:45:00 +0000",
+      "image_url": "https://www.irishtimes.com/resizer/v2/VRQIF6RYKEFTMFK5T43YI4QONQ.jpg?smart=true&auth=b34eea5531f646eb2f44aaa2bce3a0d8cc18fa750964919488e005e72e129b69&width=1200&height=630",
+      "full_article_url": "https://www.irishtimes.com/world/europe/2026/11/25/russia-wants-more-than-ukraine-germanys-merz-warns/",
+      "published_at": "2026-11-25 10:41:40 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "37993d42abfdb62daf8769d5e3982f03c4e0b40ae7f3809be793ddf3b71d44c1",
-      "category": "Business",
+      "id": "293c18e5e8e7541a5161afdb6580cec2db278d516fa33653a680f6c9a0a8af17",
+      "category": "World",
       "source": "Currents API",
-      "title": "Facade Systems Market worth $147.30 billion by 2031 - Exclusive Report by MarketsandMarkets™",
-      "hook": "Facade Systems Market worth $147.30 billion by 2031 - Exclusive Report by MarketsandMarkets™",
+      "title": "Pakistan seeks to boost trade with Russia to $5 bln annually — Energy Minister",
+      "hook": "Pakistan seeks to boost trade with Russia to $5 bln annually — Energy Minister",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://mmx.prnewswire.com/media/MS1173081/MarketsandMarkets-Logo.jpg?id=OA3097914&p=facebook",
-      "full_article_url": "https://www.prnewswire.com/news-releases/facade-systems-market-worth-147-30-billion-by-2031---exclusive-report-by-marketsandmarkets-302949169.html",
-      "published_at": "2026-11-24 11:45:00 +0000",
+      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+      "full_article_url": "https://tass.com/economy/2224485",
+      "published_at": "2026-11-25 10:23:09 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "905b102a232f133ef3e1e4e120d6eb4cc76fc9bd8180df7ff2dd6f7b16593072",
-      "category": "Business",
+      "id": "3dc17faba9f13e0052e00b6c9ba57a6c72dc5762ed3dd66d5522ad99780abb0f",
+      "category": "World",
       "source": "Currents API",
-      "title": "MiniMed Delivers Strong Fiscal Q2 with Accelerating Pump Demand, Expanding Profitability, and Faster Pipeline Commercialization",
-      "hook": "MiniMed Delivers Strong Fiscal Q2 with Accelerating Pump Demand, Expanding Profitability, and Faster Pipeline Commercialization",
+      "title": "Russia, China recognize need of control over information infrastructure — official",
+      "hook": "Russia, China recognize need of control over information infrastructure — official",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://mmx.prnewswire.com/media/MS2041943/Earnings-Presentation-FY27Q2-FINAL.pdf?id=OA3097743&p=pdf&p=facebook",
-      "full_article_url": "https://www.prnewswire.com/news-releases/minimed-delivers-strong-fiscal-q2-with-accelerating-pump-demand-expanding-profitability-and-faster-pipeline-commercialization-302948848.html",
-      "published_at": "2026-11-24 11:45:00 +0000",
+      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+      "full_article_url": "https://tass.com/society/2224481",
+      "published_at": "2026-11-25 10:19:22 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "14973533807ecb9afb8a0f2a0c3ea7a982c968c88f6273bf70599b63431fac76",
-      "category": "Business",
+      "id": "e0ce2345ad37752ea9a8d6d7de2e9943929964dfc6abe36531631e20bc09aee7",
+      "category": "World",
       "source": "Currents API",
-      "title": "South Florida Homeowners Ranked Their Landscapers. These 3 Came Out on Top.",
-      "hook": "South Florida Homeowners Ranked Their Landscapers. These 3 Came Out on Top.",
+      "title": "Lukashenko does not rule out possibility of Russian weapons withdrawing from Belarus",
+      "hook": "Lukashenko does not rule out possibility of Russian weapons withdrawing from Belarus",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261125/1494289.jpg",
+      "full_article_url": "https://tass.com/world/2224477",
+      "published_at": "2026-11-25 10:16:40 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "034b109b68afc7ee0e2e2ec770d18c44f9ec2e5b5122d832804f0c3ebbe4da1e",
+      "category": "World",
+      "source": "Currents API",
+      "title": "North Korea expels Swiss diplomat over sanctions weeks after office reopening",
+      "hook": "North Korea expels Swiss diplomat over sanctions weeks after office reopening",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/25/4230260.jpg",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/north-korea-expels-swiss-representative-closes-diplomatic-office-over-sanctions",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "f86c30fff948417c7b45b76f4a5c23a04978e84d95366e9b5915d27608b8ee60",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
+      "hook": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/25/4230416.jpg",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/yemen039s-houthis-threaten-to-target-jeddah-and-other-saudi-red-sea-ports",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "a8c3837dd771fa9174a2cdd02c5a3a14661e4a698e3c2bdf457ed5cd6c70afab",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Trump administration pauses joint military operations with Ecuador, NYT says",
+      "hook": "Trump administration pauses joint military operations with Ecuador, NYT says",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/25/4230180.jpg",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/trump-administration-pauses-joint-military-operations-with-ecuador-nyt-says",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "772a46c9709abfd25d6574be97ff57876db3b54daa2f06ea3db0eac230850002",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Australia apologises to LGBTQ veterans for past discrimination in the military",
+      "hook": "Australia apologises to LGBTQ veterans for past discrimination in the military",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.thestar.com.my/Themes/img/newTsol_logo_socmedia.png",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/australia-apologises-to-lgbtq-veterans-for-past-discrimination-in-the-military",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "cca36aaf676a6e957979338ac8ce61a92fae4a434e8c1c599aac9c8dc09d60a2",
+      "category": "World",
+      "source": "Currents API",
+      "title": "In landmine-ravaged Myanmar, a rebel with an artificial leg vows to fight on",
+      "hook": "In landmine-ravaged Myanmar, a rebel with an artificial leg vows to fight on",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/25/4230185.jpg",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/in-landmine-ravaged-myanmar-a-rebel-with-an-artificial-leg-vows-to-fight-on",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "14d585e73c5342d8d4aec60deb79394d2f7a996dbbd1f4c9c82efaf525d75231",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Salvadoran migrant Kilmar Abrego Garcia leaves US for Spain",
+      "hook": "Salvadoran migrant Kilmar Abrego Garcia leaves US for Spain",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/25/4230316.jpg",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/salvadoran-migrant-kilmar-abrego-garcia-to-leave-us-for-spain",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "a590ddd76a0e180743d7b5253b9a7ed48d0be7247606eb4321f8446b5bdf3c78",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Indonesian rescuers search for possibly 'dozens' trapped in mine",
+      "hook": "Indonesian rescuers search for possibly 'dozens' trapped in mine",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.thestar.com.my/Themes/img/newTsol_logo_socmedia.png",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/indonesian-rescuers-search-for-possibly-039dozens039-trapped-in-mine",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "fab92f6c45c8a80414131fcd411f013dc9a77e8e3952236d6c7fcd8823135442",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Russian strike kills two people in Ukraine's Odesa region, governor says",
+      "hook": "Russian strike kills two people in Ukraine's Odesa region, governor says",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.thestar.com.my/Themes/img/newTsol_logo_socmedia.png",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/russian-strike-kills-two-people-in-ukraine039s-odesa-region-governor-says",
+      "published_at": "2026-11-25 10:09:25 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "7c322344900237497bc71174d95799cc434ba1708e7efdc85ff71040b0e0f044",
+      "category": "World",
+      "source": "Currents API",
+      "title": "EU Lays out Plan to Boost Quantum Technology",
+      "hook": "EU Lays out Plan to Boost Quantum Technology",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -910,323 +1431,89 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://techfinancials.co.za/2026/11/24/south-florida-homeowners-ranked-their-landscapers-these-3-came-out-on-top/",
-      "published_at": "2026-11-24 11:43:04 +0000",
+      "full_article_url": "https://www.wsj.com/world/europe/eu-lays-out-plan-to-boost-quantum-technology-6555b429",
+      "published_at": "2026-11-25 10:04:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "582ded9bb1ddbd281f169e32a56e2822a49ecabe1274ce4178cb2f4dc24cead8",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Oscar Healthcare: A Compelling Growth Story At A Great Price, Reiterating Buy",
-      "hook": "Oscar Healthcare: A Compelling Growth Story At A Great Price, Reiterating Buy",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2243770074/image_2243770074.jpg?io=getty-c-og",
-      "full_article_url": "https://seekingalpha.com/article/4971384-oscar-healthcare-stock-compelling-growth-story-at-a-great-price-reiterating-buy",
-      "published_at": "2026-11-24 11:41:55 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "11a79e1cb58db9537a0f28173a12df9637a857d58bce2b422bae8bde58c0ab32",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "WATCH LIVE | Brown Mogotsi in court on perjury charge",
-      "hook": "WATCH LIVE | Brown Mogotsi in court on perjury charge",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.businessday.co.za/resizer/v2/HR7E2EZRWNGNBLADL7PAV5ARPM.JPG?smart=true&auth=a15b65fff384f4a41c616a0fca0411424a8eb4efe57f27fe3a35279911198229&width=1200&height=630",
-      "full_article_url": "https://www.businessday.co.za/news/2026-11-24-watch-live-brown-mogotsi-in-court-on-perjury-charge/",
-      "published_at": "2026-11-24 11:40:14 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "7004cbd12f9eed2ed84a439bee5c0172b11c2e2f189c445a3d8f139cf0f60ad2",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "UK finance watchdog warns AI agent builders they may need a licence",
-      "hook": "UK finance watchdog warns AI agent builders they may need a licence",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://media.thenextweb.com/2026/11/fca-logo-london-office.jpg",
-      "full_article_url": "https://thenextweb.com/news/fca-agentic-ai-authorisation",
-      "published_at": "2026-11-24 11:40:13 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "2fdd710228fc18eb7d0b1e6ec015003ae46434231a39fc447b89aa20e93b0be0",
+      "id": "bb89ad1ecab164b96589b5a2ecb25b3bdf62c18ef50972756b9cce7885e19167",
       "category": "World",
       "source": "Currents API",
-      "title": "China investigates Politburo member Chen Jining: State media",
-      "hook": "China investigates Politburo member Chen Jining: State media",
+      "title": "Pope Leo laments failure of COP31 talks, urges action to address climate change",
+      "hook": "Pope Leo laments failure of COP31 talks, urges action to address climate change",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://dam.mediacorp.sg/image/upload/s--xIcVaEew--/c_crop,h_562,w_1000,x_0,y_0/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/china_congress_78916.jpg?itok=jiDsNE0i",
-      "full_article_url": "https://www.channelnewsasia.com/east-asia/china-investigates-politburo-member-chen-jining-6578161",
-      "published_at": "2026-11-24 11:51:18 +0000",
+      "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/25/4231160.jpg",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/pope-leo-laments-failure-of-cop31-talks-urges-action-to-address-climate-change",
+      "published_at": "2026-11-25 10:01:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "ec040a51157184060c3cf5380efdf17437f7346fb74f2d7e6f9ea1b417f52ff0",
+      "id": "8a29ad2c631e6cdcaa4e673c067960d3034d6637c8ef2313d84ca14a75286dba",
       "category": "World",
       "source": "Currents API",
-      "title": "Prisoner admits murdering Soham killer Ian Huntley at UK high-security prison",
-      "hook": "Prisoner admits murdering Soham killer Ian Huntley at UK high-security prison",
+      "title": "Ukrainian drones attacked industrial facilities in Russia's Syzran, authorities say",
+      "hook": "Ukrainian drones attacked industrial facilities in Russia's Syzran, authorities say",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://prod-img.independent.ie/public/incoming/zbdfim-5c6cd8ab-ef29-.jpg/alternates/SIXTEEN_NINE_1200/5c6cd8ab-ef29-.jpg",
-      "full_article_url": "https://www.independent.ie/world-news/prisoner-admits-murdering-soham-killer-ian-huntley-at-uk-high-security-prison/a/165020000.html",
-      "published_at": "2026-11-24 11:45:00 +0000",
+      "image_url": "https://cdn.thestar.com.my/Themes/img/newTsol_logo_socmedia.png",
+      "full_article_url": "https://www.thestar.com.my/news/world/2026/11/25/ukrainian-drones-attacked-industrial-facilities-in-russia039s-syzran-authorities-say",
+      "published_at": "2026-11-25 10:01:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "7f680e25938f8fe383feedd661afe12da5adc8f2a459bb1d94385da657a8acef",
+      "id": "ea2366fa7c9b1b585be97cfcecf5a5d3e92f3e61cd856682b6a0e8db4edaf74e",
       "category": "World",
       "source": "Currents API",
-      "title": "Trump takes credit for Jensen Huang returns to Nvidia, says its good for the economy",
-      "hook": "Trump takes credit for Jensen Huang returns to Nvidia, says its good for the economy",
+      "title": "Why more Indian families are making chess their next move",
+      "hook": "Why more Indian families are making chess their next move",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
-      "full_article_url": "https://www.npr.org/2026/11/24/nx-s1-6051045/trump-takes-credit-for-jensen-huang-returns-to-nvidia-says-its-good-for-the-economy",
-      "published_at": "2026-11-24 11:42:24 +0000",
+      "image_url": "https://images.csmonitor.com/csm/2026/11/1124_OINDIACHESS_KAIRA_LEDE.jpg?alias=standard_900x600",
+      "full_article_url": "https://www.csmonitor.com/World/Asia-South-Central/2026/1125/india-young-chess-championship",
+      "published_at": "2026-11-25 10:00:10 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "d9c8f7ab1ec55b30b0f012c6a25b3cd512efd4fe4046cd5cce2a049c9f69914e",
+      "id": "319168cba5fbbcaac0d6695480597e19814a05edb0feddcc26723a9cc8116c87",
       "category": "World",
       "source": "Currents API",
-      "title": "Democrats hit out at Nvidia and Trump over Huang’s return – US politics live",
-      "hook": "Democrats hit out at Nvidia and Trump over Huang’s return – US politics live",
+      "title": "Press review: US halts Ukraine aid as EU splits and Washington poised to pressure Iran",
+      "hook": "Press review: US halts Ukraine aid as EU splits and Washington poised to pressure Iran",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/9560ef918dbf3e3237a2cfc686481305dc422d34/0_56_2518_2013/master/2518.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=4a3f6f4f0573e5032a3f93531b1c889b",
-      "full_article_url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-      "published_at": "2026-11-24 11:39:48 +0000",
+      "image_url": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261125/1494277.jpg",
+      "full_article_url": "https://tass.com/pressreview/2224379",
+      "published_at": "2026-11-25 10:00:01 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "8073e51ea37cccfc6919ae2ff8690716c6995d0dd44970d089d9e84ebc1a51e4",
+      "id": "68f9760c9e7022e04cac7ea422bacfcb9fa53aef8415543a7eeaf72e47c4b70c",
       "category": "World",
       "source": "Currents API",
-      "title": "Russia values focus of Latin America on cooperating with Russian cities",
-      "hook": "Russia values focus of Latin America on cooperating with Russian cities",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/politics/2223913",
-      "published_at": "2026-11-24 11:33:38 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "ecb2ae0a0dd7c5e24fd96b094cde8d42472fff9483901507eb91e4086d3c1fc1",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Russia says OPCW executive council election not above board",
-      "hook": "Russia says OPCW executive council election not above board",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/politics/2223911",
-      "published_at": "2026-11-24 11:29:16 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "af7166defecc4a2613ee570803f7607884c0978e42a6bf665cde74c46e04d38d",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Iraqi PM banned independent oil export approval for Iraqi Kurdistan’s authorities",
-      "hook": "Iraqi PM banned independent oil export approval for Iraqi Kurdistan’s authorities",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/economy/2223909",
-      "published_at": "2026-11-24 11:24:45 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f4886ee79282827b15b6f4ff077953fe3f62e9ff39f113f543a83cb043f79612",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Man admits murdering Soham killer Ian Huntley at high-security jail",
-      "hook": "Man admits murdering Soham killer Ian Huntley at high-security jail",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/b6bf03a4887ba59892425c17e5cc0a09311df87a/0_19_1278_1021/master/1278.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=07088193c4be1366b7b7a406dd49eff8",
-      "full_article_url": "https://www.theguardian.com/uk-news/2026/nov/24/man-admits-murdering-soham-killer-ian-huntley-jail",
-      "published_at": "2026-11-24 11:24:31 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "8d6d79a1b4ebb47c200b7292a11ad57b1e932d969396e3d60672796fd7864f78",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Danantara Indonesia’s investment arm to miss 2026 profit target",
-      "hook": "Danantara Indonesia’s investment arm to miss 2026 profit target",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cassette.sphdigital.com.sg/image/businesstimes/47a9d5f5b889d59a59482d6dd6d9e977c5d580fa72985d5e4a45ec997123c508?t=og&f=webp&w=240",
-      "full_article_url": "https://www.businesstimes.com.sg/international/danantara-indonesias-investment-arm-miss-2026-profit-target",
-      "published_at": "2026-11-24 11:24:09 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "6367bdbca1960c8b1914ccda31e5a7bdd824b2a977d1d668d79f2ad044c0bea7",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Cuba proposes new projects to Russia, businesses reviewing them — Russian ambassador",
-      "hook": "Cuba proposes new projects to Russia, businesses reviewing them — Russian ambassador",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/politics/2223903",
-      "published_at": "2026-11-24 11:23:56 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "ed970ed07269630392dbe8751d36a912bf44bd51173d41bfba624b0bd4fa5b92",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Nearly 7,000 people killed, injured by mines in 2025, highest figure in five years",
-      "hook": "Nearly 7,000 people killed, injured by mines in 2025, highest figure in five years",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/society/2223901",
-      "published_at": "2026-11-24 11:23:05 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "3500deafa92becc87e2a8a68e645d26e2d7cfe4c1ba51975c275d22118efa9cd",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Liberation of Barvinovka strengthens Russian positions near Gulyaipole — security official",
-      "hook": "Liberation of Barvinovka strengthens Russian positions near Gulyaipole — security official",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/politics/2223907",
-      "published_at": "2026-11-24 11:21:33 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "9ab1c1ae658cca67f076e21dc7cb5f6366c036e3f652c546465354eed82fb936",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Ukrainian drone strike on Donetsk bus station targeted crowds, minister says",
-      "hook": "Ukrainian drone strike on Donetsk bus station targeted crowds, minister says",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/politics/2223899",
-      "published_at": "2026-11-24 11:17:27 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "b659d0aa1ebdba8a96baed68b43c1ec9e1317d79c42bac712d7b03044a8fc94b",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Scheduled int’l sports tournaments in Europe may be relocated — Russian sports official",
-      "hook": "Scheduled int’l sports tournaments in Europe may be relocated — Russian sports official",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/sports/2223895",
-      "published_at": "2026-11-24 11:17:27 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "13c09423279e02532827f70a9c19ca51250246ac881ec77072198f5452f010fe",
-      "category": "World",
-      "source": "Currents API",
-      "title": "China to Suspend Some Critical-Material Export Curbs to U.S. Until January",
-      "hook": "China to Suspend Some Critical-Material Export Curbs to U.S. Until January",
+      "title": "Top Nvidia chips are still on offer in China, despite U.S. ban",
+      "hook": "Top Nvidia chips are still on offer in China, despite U.S. ban",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -1234,245 +1521,167 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://www.wsj.com/economy/trade/china-to-suspend-some-critical-material-export-curbs-to-u-s-until-january-35bc8dca",
-      "published_at": "2026-11-24 11:13:00 +0000",
+      "full_article_url": "https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/",
+      "published_at": "2026-11-25 10:00:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "795484874b51950815b428ba9f1e876db33a52f8c56e541a8e1433397651cf7a",
+      "id": "f2dd7394656929f6f4afc7793d700686798c6c001119b0c6bc9d3ae77bfa5f7e",
       "category": "World",
       "source": "Currents API",
-      "title": "Over 99% of Gaza may be chemically contaminated due to Israeli attacks — Oxfam",
-      "hook": "Over 99% of Gaza may be chemically contaminated due to Israeli attacks — Oxfam",
+      "title": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
+      "hook": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/world/2223889",
-      "published_at": "2026-11-24 11:12:48 +0000",
+      "image_url": null,
+      "full_article_url": "https://www.washingtonpost.com/politics/2026/11/25/backing-jensen-huang-trump-delivers-setback-china-hawks/",
+      "published_at": "2026-11-25 10:00:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "cabfe796ae7a3519cf7f62d7be30bf664fb4e19ed1a470580d08559f924edf2f",
+      "id": "a9ab39eb2b0c128d20c6cd8a2302b760d92637fb7759999c1f14a5a7c1483548",
       "category": "World",
       "source": "Currents API",
-      "title": "Poland blames Russia for drone incursion as fears grow of Ukraine conflict escalation",
-      "hook": "Poland blames Russia for drone incursion as fears grow of Ukraine conflict escalation",
+      "title": "Eisenkot, pushing to oust Netanyahu, sharpens warnings over new strikes on Iran",
+      "hook": "Eisenkot, pushing to oust Netanyahu, sharpens warnings over new strikes on Iran",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://prod-img.independent.ie/public/incoming/fnvdp8-2026-11-17t025747z-828363150-rc2epoavpv59-rtrmadp-3-ukraine-crisis-poland-military-drill.jpg/alternates/SIXTEEN_NINE_1200/2026-11-17T025747Z_828363150_RC2EPOAVPV59_RTRMADP_3_UKRAINE-CRISIS-POLAND-MILITARY-DRILL.JPG",
-      "full_article_url": "https://www.independent.ie/world-news/poland-blames-russia-for-drone-incursion-as-fears-grow-of-ukraine-conflict-escalation/a/165007398.html",
-      "published_at": "2026-11-24 11:10:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "10b067021f77073e1a9329cc2f4269218b57b0044d1236395aefae901fdb7fa4",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Russia so far sees no added value in EU participation in Ukraine talks — Kremlin",
-      "hook": "Russia so far sees no added value in EU participation in Ukraine talks — Kremlin",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261124/1494211.jpg",
-      "full_article_url": "https://tass.com/politics/2223897",
-      "published_at": "2026-11-24 11:06:20 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "73aad3be019cb905ab143f890ade4a984427279130420f773bc235cb9c8e7ef2",
-      "category": "World",
-      "source": "Currents API",
-      "title": "US school bus drivers decline amid low pay and poor work conditions",
-      "hook": "US school bus drivers decline amid low pay and poor work conditions",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/412afdba3882cd3b1d06808302acfc40643b1a58/369_0_3706_2965/master/3706.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4fe338912e03f5e889c462e39f5cfa45",
-      "full_article_url": "https://www.theguardian.com/education/2026/nov/24/school-bus-driver-decline-budget",
-      "published_at": "2026-11-24 11:00:45 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "63d829b6cc55fa78e65c81552b6cf8c2aecb187604829d3c0566e37a997553c9",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Researcher who helped improve melanoma survival rates among winners of top Australian science prize",
-      "hook": "Researcher who helped improve melanoma survival rates among winners of top Australian science prize",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/9158937167556e9b18af557d3528a389a0ca3a26/990_0_6366_5093/master/6366.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9fca47ccacaaf846744b398275abf17f",
-      "full_article_url": "https://www.theguardian.com/australia-news/2026/nov/24/georgina-long-melanoma-anthony-thomas-2026-prime-ministers-prizes-for-science",
-      "published_at": "2026-11-24 11:00:45 +0000",
+      "image_url": null,
+      "full_article_url": "https://www.washingtonpost.com/world/2026/11/25/eisenkot-pushing-oust-netanyahu-sharpens-warnings-over-new-strikes-iran/",
+      "published_at": "2026-11-25 10:00:00 +0000",
       "cve_ids": [],
       "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-24T12:03:15Z",
+    "generated_at": "2026-11-25T10:55:20Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
       "Cybersecurity": [
         {
-          "id": "a75fd36abba0068884a2947b988146ee3b4b275e95cdaa2368a6bb4dda72d713",
+          "id": "d5f3ce6a4d9a56a9ddbb16bc7fa352d7d3db9d7b00faee4765c5b4ec71edc5d1",
           "category": "Cybersecurity",
           "source": "The Hacker News",
-          "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-          "hook": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+          "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+          "hook": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBkXdg7nYK3nVTpBuC9FL7mGBvzvUxU0VxYplArVFYSTg2d_6tFITemHBYRAOD29pVBKzfo2aZ9Jsy8avRdACCMqrVdlEER0zn2xIWDBdswcH_nZpnJYkfORK6CEaWwX3f-B8AvkUqbR2TLNa7odUG4PFu1uTk_cwsUt8DPGJBSjjF2wd8VPIa5ATJ4fo3/s1600/crecap.jpg",
-          "full_article_url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-          "published_at": "2026-11-23T15:10:48Z",
+          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxhgIKTt8K5ep8a4qHW9dDpkSYcBC5D1CWgkvvh9Ee5DRlNRSg-2UcZZVNoXrHXVTeIcdzj47FFcSz6gAssLknSDf6f0JDyQCoH51D4GYLSju_wh4smA6-2yE3Z7I30SPeuY8LOKA__Y9xPiU66t1aPsHTzuRnX0QUq2iadcKXFfv7ZhAhcXti_BDnrmu/s1600/code.jpg",
+          "full_article_url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+          "published_at": "2026-11-25T06:50:19Z",
           "cve_ids": [
-            "CVE-2026-112115",
-            "CVE-2026-113425",
-            "CVE-2026-114202",
-            "CVE-2026-114204",
-            "CVE-2026-114205",
-            "CVE-2026-114819",
-            "CVE-2026-114938",
-            "CVE-2026-116953",
-            "CVE-2026-119618",
-            "CVE-2026-120285",
-            "CVE-2026-120292",
-            "CVE-2026-120718",
-            "CVE-2026-120722",
-            "CVE-2026-121805",
-            "CVE-2026-121810",
-            "CVE-2026-121812",
-            "CVE-2026-123007",
-            "CVE-2026-123633",
-            "CVE-2026-123634",
-            "CVE-2026-123637",
-            "CVE-2026-123890",
-            "CVE-2026-125272",
-            "CVE-2026-125274",
-            "CVE-2026-125396",
-            "CVE-2026-126336",
-            "CVE-2026-126574",
-            "CVE-2026-126822",
-            "CVE-2026-129975",
-            "CVE-2026-130963",
-            "CVE-2026-130975",
-            "CVE-2026-131008",
-            "CVE-2026-131031",
-            "CVE-2026-131054",
-            "CVE-2026-131060",
-            "CVE-2026-131914",
-            "CVE-2026-132165",
-            "CVE-2026-132798",
-            "CVE-2026-132825",
-            "CVE-2026-134624",
-            "CVE-2026-134814",
-            "CVE-2026-14978",
-            "CVE-2026-23871",
-            "CVE-2026-28400",
-            "CVE-2026-45110",
-            "CVE-2026-49401",
-            "CVE-2026-59890",
-            "CVE-2026-99312",
-            "CVE-2026-99362"
+            "CVE-2020-1472",
+            "CVE-2021-21972",
+            "CVE-2021-26855",
+            "CVE-2021-34473",
+            "CVE-2023-34048",
+            "CVE-2023-4966",
+            "CVE-2024-21893",
+            "CVE-2025-5777",
+            "CVE-2026-16232",
+            "CVE-2026-41089",
+            "CVE-2026-61500",
+            "CVE-2026-98432"
           ],
           "saved": false,
-          "viral_badge": "🔥 CVE-2026-112115 Critical",
+          "viral_badge": "🔥 CVE-2020-1472 Critical",
           "viral_rank": 1,
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "63045753ac0089989528c35e616b117b3f8a70dc183acfdedf3e9f4adfb4be41",
+          "id": "defec4e244cdf7e4e1d6c3a43d8da093d4a98840c1d0be2c8ceb274bf9285fea",
           "category": "Cybersecurity",
-          "source": "The Hacker News",
-          "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-          "hook": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+          "source": "SecurityWeek",
+          "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+          "hook": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK7wXAof6nH7PDC5-3qxXZJgJvZODTjQcrWFOjO8jeb9yGkK6bUkzm27MzMy5n0S_Xywsj0npu_F0FmQ4JcKxPXNEoezLrpKoSStaYK4Ww46QUuzySTeQnnzcIXs_NADunlqeyuMIl5Wm5PKWc3c0JyNmYPxfbInIWx2tfosieI_QS_e4PX-JILlLH-1U/s1600/hosting.jpg",
-          "full_article_url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-          "published_at": "2026-11-24T08:34:20Z",
+          "image_url": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
+          "full_article_url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+          "published_at": "2026-11-24T14:21:56Z",
           "cve_ids": [
-            "CVE-2026-82979",
-            "CVE-2026-82981",
-            "CVE-2026-93700"
+            "CVE-2020-1472",
+            "CVE-2021-21972",
+            "CVE-2021-26855",
+            "CVE-2021-34473",
+            "CVE-2023-34048",
+            "CVE-2023-4966",
+            "CVE-2024-21893",
+            "CVE-2025-5777",
+            "CVE-2026-16232",
+            "CVE-2026-41089",
+            "CVE-2026-61500",
+            "CVE-2026-98432"
           ],
           "saved": false,
-          "viral_badge": "🔥 CVE-2026-82979 Critical",
+          "viral_badge": "🔥 CVE-2020-1472 Critical",
           "viral_rank": 2,
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "d70285cdacc0c3a7734f42127ce5d6c20eed3bf74071823c528e7e4bdf1cb755",
+          "id": "aa014f4b55f462a96af72e8e2ecc5e5bb0cff4d6097b23678ad6ab20d1bd1122",
           "category": "Cybersecurity",
           "source": "The Hacker News",
-          "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-          "hook": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+          "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+          "hook": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrPCPwSotVSX8IYSgpSrVceRAIYqba8YSZSlNwD5RjetEhPG6vLRhk_NKkatjg1h-fulZJDm4CucsLvQrEtCO6v0NtuJGo3nZD3mXSHyKpgPrUZMpq7YNpheStYC_AqyMWRfWIFiK9bcHJNAw6pwK9JqirhO8JESKdmsI5Pl8UgtsVsRivmMmMenQ01ClW/s1600/cisa-kev.jpg",
-          "full_article_url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
-          "published_at": "2026-11-24T06:02:45Z",
+          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zpQTclLnhVQHphFdBZZ_hrxhsZvA5G50sGBz5qq1iOg2B1YLu8rE5e_HM1GZOE24SNpwexwst80NTKP7_Wwexq7EzIl-I7ykIXCtTGQjeZhBGVVuAgzxac5JwaquTQuMNRstBFo8JzMDyqgsNbM_KtxGF3wHPBIM9GfaclNu0OTPlpF5YhNvqoKKytAY/s1600/vmware-exploit.jpg",
+          "full_article_url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+          "published_at": "2026-11-24T13:28:26Z",
           "cve_ids": [
-            "CVE-2025-3248",
-            "CVE-2026-133968",
-            "CVE-2026-134624"
+            "CVE-2026-123890",
+            "CVE-2026-123903",
+            "CVE-2026-123904",
+            "CVE-2026-123905",
+            "CVE-2026-123906",
+            "CVE-2026-123907"
           ],
           "saved": false,
-          "viral_badge": "🔥 CVE-2025-3248 Critical",
+          "viral_badge": "🔥 CVE-2026-123890 Critical",
           "viral_rank": 3,
           "impact_summary": "Read the full article for context."
         }
       ],
       "Technology": [
         {
-          "id": "f34b2d3a5658b6e19189465bc36612bd5e9a3c88692669b9834ea219f07afa93",
+          "id": "00f531a4d7ea4bc85ae9ec2d6e4d8c41fa9a445797285abf011a64d1301b645d",
           "category": "Technology",
           "source": "Currents API",
-          "title": "Culture Archives - Interesting Engineering",
-          "hook": "Culture Archives - Interesting Engineering",
+          "title": "LG’s 65-Inch OLED C6 TV Is Almost Half Off at $1,400 for Black Friday - CNET",
+          "hook": "LG’s 65-Inch OLED C6 TV Is Almost Half Off at $1,400 for Black Friday - CNET",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2025/12/Interesting-Enginnering.jpg",
-          "full_article_url": "https://interestingengineering.com/culture",
-          "published_at": "2026-11-24 11:50:00 +0000",
+          "image_url": "https://www.cnet.com/wp-content/uploads/sites/2/LG-C6.jpg",
+          "full_article_url": "https://www.cnet.com/tech/home-entertainment/lg-65-inch-oled-evo-c6-tv-deal/",
+          "published_at": "2026-11-25 10:53:08 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top Technology Story",
@@ -1480,20 +1689,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "db43282f3b3768175a27c4159e42944807f113701d3ef66a8fb0e4262f90d7c4",
+          "id": "ac1dbb1b6c6d4add15747032e1c1e0976b55be522079766006d495aa3e980cf3",
           "category": "Technology",
           "source": "Currents API",
-          "title": "You Don’t Have to Wait Until Black Friday to Buy AirPods",
-          "hook": "You Don’t Have to Wait Until Black Friday to Buy AirPods",
+          "title": "This Bean-to-Cup Espresso Machine Is for Lazy Coffee Snobs Like Me - CNET",
+          "hook": "This Bean-to-Cup Espresso Machine Is for Lazy Coffee Snobs Like Me - CNET",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://media.wired.com/photos/6a6a501f4a743f1551e95445/191:100/w_1280,c_limit/If-You%E2%80%99ve-Been-Waiting-to-Upgrade-Your-AirPods,-This-Is-Your-Chance.jpg",
-          "full_article_url": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-24-2026/",
-          "published_at": "2026-11-24 11:45:00 +0000",
+          "image_url": "https://www.cnet.com/wp-content/uploads/sites/2/image_1bb9dd.jpeg",
+          "full_article_url": "https://www.cnet.com/home/kitchen-and-household/kitchenaid-kf4-espresso-machine-automatic-with-iced-coffee-review/",
+          "published_at": "2026-11-25 10:35:00 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1501,20 +1710,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "c3c3146066b1ab0af49231640505879342379dae433afdeceae910665e312946",
+          "id": "0b15da183919041e3cd138c8d79299a29eeb91e65a574c2369552828fe65bf32",
           "category": "Technology",
           "source": "Currents API",
-          "title": "GTA VI Is a Birder’s Paradise",
-          "hook": "GTA VI Is a Birder’s Paradise",
+          "title": "Figure 03 robot passes Elon Musk's apple test, adapts when table moved",
+          "hook": "Figure 03 robot passes Elon Musk's apple test, adapts when table moved",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://media.wired.com/photos/6b03f4615f8e6c0d7b84ae8c/191:100/w_1280,c_limit/image2.png",
-          "full_article_url": "https://www.wired.com/story/gta-vi-birders-paradise/",
-          "published_at": "2026-11-24 11:45:00 +0000",
+          "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-Design-25.jpg",
+          "full_article_url": "https://interestingengineering.com/ai-robotics/figure-counters-musks-staged-robot-claim",
+          "published_at": "2026-11-25 10:33:02 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1524,20 +1733,20 @@
       ],
       "Business": [
         {
-          "id": "f28ad24628dd1e42f0cea015652413cbd5fb5f7e86306a4842d0c17e0a267058",
+          "id": "b478ece246bc1100ced7f76ee22641549be632ea0b1017177c563caa50406d24",
           "category": "Business",
           "source": "Currents API",
-          "title": "Octodec sheds noncore properties as distributable income grows",
-          "hook": "Octodec sheds noncore properties as distributable income grows",
+          "title": "South Africa needs strong fiscal rule to boost reforms, IMF says",
+          "hook": "South Africa needs strong fiscal rule to boost reforms, IMF says",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://www.businessday.co.za/resizer/v2/UQVHLP7OZ5AKVJ3SZ6NOKTW3LU.jpg?smart=true&auth=e44b50800762db9411806f97148fc6e834f7419f5f065a533bb68492f817815e&width=1200&height=630",
-          "full_article_url": "https://www.businessday.co.za/companies/2026-11-24-octodec-sheds-noncore-properties-as-distributable-income-grows/",
-          "published_at": "2026-11-24 11:55:30 +0000",
+          "image_url": "https://cdn.creamermedia.com/assets/articles/images/resized/0001314382_resized_jhbjohannesburgskylinetrain110221015duane.jpg",
+          "full_article_url": "https://www.engineeringnews.co.za/article/south-africa-needs-strong-fiscal-rule-to-boost-reforms-imf-says-2026-11-25",
+          "published_at": "2026-11-25 10:50:23 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top Business Story",
@@ -1545,20 +1754,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "6c12bab67ba39d176086456d3c627db5c28a46c1f9379423c742d5f55a0d78e3",
+          "id": "487389c6dde49f49ce0e806d8c001abe5c6b503f71bf04dd25189a8c248c6626",
           "category": "Business",
           "source": "Currents API",
-          "title": "Driven Brands receives Nasdaq notice for delayed Q3 2026 form 10-Q filing",
-          "hook": "Driven Brands receives Nasdaq notice for delayed Q3 2026 form 10-Q filing",
+          "title": "Zoom Communications: The Core Business Trades At Just 9x FCF, With Anthropic Upside On Top",
+          "hook": "Zoom Communications: The Core Business Trades At Just 9x FCF, With Anthropic Upside On Top",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://seekingalpha.com/news/4676051-driven-brands-receives-nasdaq-notice-for-delayed-q3-2026-form-10-q-filing",
-          "published_at": "2026-11-24 11:51:35 +0000",
+          "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1464824803/image_1464824803.jpg?io=getty-c-og",
+          "full_article_url": "https://seekingalpha.com/article/4971792-zoom-communications-stock-core-business-trades-just-9x-fcf-with-anthropic-upside-on-top",
+          "published_at": "2026-11-25 10:47:35 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1566,20 +1775,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "9980657e84af6a81946bab05cc8298fe5f0d01bc446d6475b38bf7ce77d453d8",
+          "id": "817b7438ece3050aa3233bb4b24183e8ca4bacd36a9b0441f654bed8286b342e",
           "category": "Business",
           "source": "Currents API",
-          "title": "MiniMed Group misses top-line and bottom-line estimates; reaffirms FY27 outlook",
-          "hook": "MiniMed Group misses top-line and bottom-line estimates; reaffirms FY27 outlook",
+          "title": "DPC Dash Pushes Ahead With New Store Openings Despite Lingering Economic Headwinds - Domino's Pizza (NASD",
+          "hook": "DPC Dash Pushes Ahead With New Store Openings Despite Lingering Economic Headwinds - Domino's Pizza (NASD",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://seekingalpha.com/news/4676067-minimed-group-misses-top-line-and-bottom-line-estimates-reaffirms-fy27-outlook",
-          "published_at": "2026-11-24 11:51:31 +0000",
+          "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/25/25-11-2026-104339-thebambooworks-com.jpg",
+          "full_article_url": "https://www.benzinga.com/opinion/26/11/63615914/dpc-dash-pushes-ahead-with-new-store-openings-despite-lingering-economic-headwinds",
+          "published_at": "2026-11-25 10:45:05 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1589,20 +1798,20 @@
       ],
       "World": [
         {
-          "id": "2fdd710228fc18eb7d0b1e6ec015003ae46434231a39fc447b89aa20e93b0be0",
+          "id": "5e85c7f045a720a55b95878db086ee79d18567156b74f5168a365f601ff66f04",
           "category": "World",
           "source": "Currents API",
-          "title": "China investigates Politburo member Chen Jining: State media",
-          "hook": "China investigates Politburo member Chen Jining: State media",
+          "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns",
+          "hook": "‘Russia wants more than Ukraine,’ Germany’s Merz warns",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://dam.mediacorp.sg/image/upload/s--xIcVaEew--/c_crop,h_562,w_1000,x_0,y_0/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/china_congress_78916.jpg?itok=jiDsNE0i",
-          "full_article_url": "https://www.channelnewsasia.com/east-asia/china-investigates-politburo-member-chen-jining-6578161",
-          "published_at": "2026-11-24 11:51:18 +0000",
+          "image_url": "https://www.irishtimes.com/resizer/v2/VRQIF6RYKEFTMFK5T43YI4QONQ.jpg?smart=true&auth=b34eea5531f646eb2f44aaa2bce3a0d8cc18fa750964919488e005e72e129b69&width=1200&height=630",
+          "full_article_url": "https://www.irishtimes.com/world/europe/2026/11/25/russia-wants-more-than-ukraine-germanys-merz-warns/",
+          "published_at": "2026-11-25 10:41:40 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top World Story",
@@ -1610,20 +1819,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "ec040a51157184060c3cf5380efdf17437f7346fb74f2d7e6f9ea1b417f52ff0",
+          "id": "293c18e5e8e7541a5161afdb6580cec2db278d516fa33653a680f6c9a0a8af17",
           "category": "World",
           "source": "Currents API",
-          "title": "Prisoner admits murdering Soham killer Ian Huntley at UK high-security prison",
-          "hook": "Prisoner admits murdering Soham killer Ian Huntley at UK high-security prison",
+          "title": "Pakistan seeks to boost trade with Russia to $5 bln annually — Energy Minister",
+          "hook": "Pakistan seeks to boost trade with Russia to $5 bln annually — Energy Minister",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://prod-img.independent.ie/public/incoming/zbdfim-5c6cd8ab-ef29-.jpg/alternates/SIXTEEN_NINE_1200/5c6cd8ab-ef29-.jpg",
-          "full_article_url": "https://www.independent.ie/world-news/prisoner-admits-murdering-soham-killer-ian-huntley-at-uk-high-security-prison/a/165020000.html",
-          "published_at": "2026-11-24 11:45:00 +0000",
+          "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+          "full_article_url": "https://tass.com/economy/2224485",
+          "published_at": "2026-11-25 10:23:09 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1631,20 +1840,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "7f680e25938f8fe383feedd661afe12da5adc8f2a459bb1d94385da657a8acef",
+          "id": "3dc17faba9f13e0052e00b6c9ba57a6c72dc5762ed3dd66d5522ad99780abb0f",
           "category": "World",
           "source": "Currents API",
-          "title": "Trump takes credit for Jensen Huang returns to Nvidia, says its good for the economy",
-          "hook": "Trump takes credit for Jensen Huang returns to Nvidia, says its good for the economy",
+          "title": "Russia, China recognize need of control over information infrastructure — official",
+          "hook": "Russia, China recognize need of control over information infrastructure — official",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
-          "full_article_url": "https://www.npr.org/2026/11/24/nx-s1-6051045/trump-takes-credit-for-jensen-huang-returns-to-nvidia-says-its-good-for-the-economy",
-          "published_at": "2026-11-24 11:42:24 +0000",
+          "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+          "full_article_url": "https://tass.com/society/2224481",
+          "published_at": "2026-11-25 10:19:22 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
