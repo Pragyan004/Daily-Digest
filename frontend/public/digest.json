@@ -1,277 +1,105 @@
 {
-  "generated_at": "2026-11-27T10:37:28Z",
+  "generated_at": "2026-11-28T09:55:19Z",
   "articles": [
     {
-      "id": "979e934b372966d4ae8bd13b83934ebfa15dd60c0802be66ff4ed9eedea45b14",
+      "id": "98be6a877e81694765a1c6c3c55fc93493eb2c1034fc174acba8ee529aa9ec94",
       "category": "Cybersecurity",
       "source": "The Hacker News",
-      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-      "hook": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "hook": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjviiPK0v6Kpjxjo_jDNE9vaZ8-JKiq6Oct4uU6qPDfTXq66QnxuV2iExRo2Rx2FyHhyphenhyphenDquMIoxmlfo5GwxfKoEXRG8Pj38FDOzEKitDdhXBNOGN7b6sddsMozMuhI44c-3mimoE4OxU-Xg7h8IzhDiyrXmP6qBO-wW6xmitkIEv_EkU-FJUJBTNtQ8uY/s1600/swiss.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-      "published_at": "2026-11-27T06:04:20Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizySCkvtf5mXH_3zoxzuk-QyEdUnYmspglEsVYdqRITloUFrUDZCQJcwtQG09teFmXo2IJOknOQb7CXhUpjKjGnadD6TuOIvVWIoWmKcaxb8-1uwf-3AiXZPYCFf2RzDkHNZ06d2Q5OS6AcCV7JHjTACCJH2f5aipC8vllpOwj1dSBYQJtqJ_wDc5nXQwU/s1600/pcloud.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "published_at": "2026-11-28T08:08:11Z",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "27f1645ed04a4e7e9931ae5a0f86eafec12f065f534add389908bc165f68c607",
+      "id": "a061202fd8df49d87211a1c596fa9f8f4dd6f055906dcfc5c058fa876aaaf94f",
       "category": "Cybersecurity",
       "source": "The Hacker News",
-      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-      "hook": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "hook": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy4kFFGLYGbyvO7M_M1gKBjBUm5TF_eT6dIHtCmXKz_cGyC6orRw9XupBLbcQlJTQEEqjZ3q73Cv_Sn9ncPKxOJYU8Poi8Q54-bWKIro4Sp4JYi9hjUjYy71OR1LOV6B5nX8dHK0jYSRJ1p4O1pdMWomZGhCiTKE7MkvrC-gfeINrM-GOab64Bw_MzxA6Z/s1600/cacti.png",
-      "full_article_url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
-      "published_at": "2026-11-27T05:48:20Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "0b75246ced860331ec95f848a57abe949814aacf57c2f5e0d0e943f31526529b",
-      "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
-      "hook": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlwb4cL2xbF38yynT-hp8rHaGntsYzuQwL4-68g3SxEW4Taw6_Kl4WFfL4CuNRNXGxO_KS9prZaqk0A6SA6fib3k8j9miTymP8PzABv9OA21eSDsRv1j9NEgbIEVMR7u1C7VmFyFxdBf0Zcj2sckIyHDkRSjm76oFMDd10drUHa1ctv6190vdYHhuVuRPk/s1600/thday.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
-      "published_at": "2026-11-26T19:39:57Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "0574110d7d17666e48071c3c326a9c786cb5bc6888a2dad7c05d3cc974fd57ee",
-      "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-      "hook": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgquhPuqGJrSE3xNpn5ZUELVAv-Y7qXqkHgpw7nbVqCay4gyraYO5NNE12rAGzuqk_zhreNwcyzjZf3vZZB5C4teohyuppUP-JlP41PQiLu-hGEFCsqMZO0T6MoaVk-uY818yaTaiJaX-d2O0h0RER22knXbUQc7qnwIcVbleLQrEspMQ8btNa4Q9mFrmue/s1600/gitcat.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-      "published_at": "2026-11-26T15:13:41Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "54cc21ceab246c659a8305c807da624dccfec8330c600f42514dc79b97378f18",
-      "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-      "hook": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOYXUiExbrrmBGGBgTjOFcDJSrLYJuITQwZY-l1mOzzkes21-mR0My9ikeCM7cI6VDXuBIE9BZPnKazemiuZf7A4w_xeeMy_IUUlNVTKX3PmW-Xt7FA9UI8JoICZDPW4ZWSspztPv_Mo4Zf7G_fXEw_phMe4uc89O38ugIlQJJKmc6VD7QN3NzU0n0SQU/s1600/push-most.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
-      "published_at": "2026-11-26T10:57:55Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "5e5b0d3bb248d414374e3a8d55b76caf5cad21992bd3766660657468a247d1a6",
-      "category": "Cybersecurity",
-      "source": "The Hacker News",
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "hook": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg",
-      "full_article_url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "published_at": "2026-11-26T10:57:25Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "73f2ff30155be912750c2dde9dd4fef445e3334d205c469f37a9ceee72beda89",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "100,000 Potentially Impacted by Colorado Data Breach",
-      "hook": "100,000 Potentially Impacted by Colorado Data Breach",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/07/data-tracking-report.jpeg",
-      "full_article_url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
-      "published_at": "2026-11-27T09:30:54Z",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "fb1f1662f6eb09c6bff7a1e9c62a18d93da620947d84ef24e016986178d7ef7a",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "Hex Package Manager Warns of Potential Data Breach",
-      "hook": "Hex Package Manager Warns of Potential Data Breach",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
-      "full_article_url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
-      "published_at": "2026-11-27T07:44:49Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj19T-kU1dmVfKt2PtUQ2I25MGovj8kmv6lMkk6inlif4yLeezJS4kVRTvsARL5UkpTT66jYru6k2b5bmWfjjlkmG4JznSKmkmd4ldXcyxTw3xsU5nP6_jxfWMw9thW37m5usfr-eWAZBHq6bPuS613CIx9XgWxPcSVFcZVgz_9tWd5Nu8YWAxexuqcVPrN/s1600/data.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "published_at": "2026-11-27T16:36:11Z",
       "cve_ids": [
-        "CVE-2026-124283",
-        "CVE-2026-129514",
-        "CVE-2026-130411",
-        "CVE-2026-133555"
+        "CVE-2021-42235",
+        "CVE-2024-36401"
       ],
       "saved": false
     },
     {
-      "id": "491e8129162380ab76877a254b34b169059a16e2bff62ec9ad0217f07ccc173c",
+      "id": "c60eeeaa334b435fe2df496ffce78876d8c3bf149035e885dc199506a17bc665",
       "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
-      "hook": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "source": "The Hacker News",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "hook": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/09/SAP_vulnerability-patches.jpg",
-      "full_article_url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
-      "published_at": "2026-11-27T07:36:14Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpD815FTK1v-12AKbFYOz3fplAY5EWVRrb1mh5LOUSmUmG7u7mdgGnppCpL9-ZaG-3CyWm_2KP4icW3UY1Q3AYG6lEe03ezqY9Jx49mW9SC4D0JqiUhT-Rmet7lin7u1bHdyppzeay-bTKDty53IDUI_P9md3iUp5xaY-ko1U2uBRTkNdPhAVTYuW9hDmO/s1600/ms-store.png",
+      "full_article_url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "published_at": "2026-11-27T11:49:34Z",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "1bfd0310f4efb8cb795d69a6d0b8877e8924ad9129861cbded04e6b65bbc82fa",
+      "id": "982bfc2fadcbc6850a49288f7e669bfcda31800ce391cad504fe622040359e22",
       "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
-      "hook": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "source": "The Hacker News",
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "hook": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/11/FIFA-stadium-football-soccer.webp",
-      "full_article_url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
-      "published_at": "2026-11-26T17:06:55Z",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivjmF6SycZfBA1Red5jxgerBNr4pe7i8jIwZyZkF20Kxvw__-2oD3cO1hKSCGGQRqncukvouxIx-6KBQdRf5jz9eXb80yFmNyTo2sOsmW2TEXS4irdH7uPvWfZh66zxIa9h0RixfLZtaKO3rSo_riHT9hfbyBGC1m_Y0_FWRu_M0EADEFFZmXFB_NG72Q/s1600/anecdotes.jpg",
+      "full_article_url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "published_at": "2026-11-27T10:32:18Z",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "e5ae44210f7d499350fbf829f9775f593216bd0fcbcc61089380a95c55693ca4",
+      "id": "9b89881540e0cac7df46a086615a24afc0ef35c374ed263904f6a0b5d40d7569",
       "category": "Cybersecurity",
       "source": "SecurityWeek",
-      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-      "hook": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "hook": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2025/01/Juniper-Networks.jpeg",
-      "full_article_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-      "published_at": "2026-11-26T13:04:06Z",
-      "cve_ids": [
-        "CVE-2026-103406"
-      ],
-      "saved": false
-    },
-    {
-      "id": "cc622f5f1349b4145e7fb236f9ee16622aaede78310ff85d2b23741669c6d950",
-      "category": "Cybersecurity",
-      "source": "SecurityWeek",
-      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
-      "hook": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2026/11/Mitel.jpeg",
-      "full_article_url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
-      "published_at": "2026-11-26T11:35:25Z",
-      "cve_ids": [
-        "CVE-2026-133275",
-        "CVE-2026-133303",
-        "CVE-2026-133311",
-        "CVE-2026-133323",
-        "CVE-2026-133324"
-      ],
-      "saved": false
-    },
-    {
-      "id": "10f46cafaeb1f4a94382f8d405ffafc24f7bf08312f85b13bee5db1c6152914f",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Our favorite headphones and earbuds are cheaper than ever ahead of Black Friday",
-      "hook": "Our favorite headphones and earbuds are cheaper than ever ahead of Black Friday",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "full_article_url": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
-      "published_at": "2026-11-27 10:30:00 +0000",
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "full_article_url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "published_at": "2026-11-27T11:00:00Z",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "1bd59e2ae37ca6ea475d24463317f256b2c870e5dd89cd46488916c1c002a78c",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "China's 20-foot battery with 5 MWh capacity lasts up to 20,000 cycles",
-      "hook": "China's 20-foot battery with 5 MWh capacity lasts up to 20,000 cycles",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Energy-storage-solution.jpg",
-      "full_article_url": "https://interestingengineering.com/ai-robotics/china-20-foot-battery-with-5-mwh-capacity",
-      "published_at": "2026-11-27 10:25:10 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "13656a86589fad2cb7ca8c6b1f9a9834954c6fade2f66ee57d47c7e069343d56",
-      "category": "Technology",
-      "source": "Currents API",
-      "title": "Barty Walsh, co-founder of oral care brand Ordo, on being a geeky kid, swapping architecture for toothbrushes, AI, and the joys of cold water swimming | Stuff",
-      "hook": "Barty Walsh, co-founder of oral care brand Ordo, on being a geeky kid, swapping architecture for toothbrushes, AI, and the joys of cold water swimming | Stuff",
+      "id": "a939823268298b2351a68df64d032318dd57cc22c4427a9b72b9badea2574d8a",
+      "category": "Cybersecurity",
+      "source": "CISA Advisories",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "hook": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -279,31 +107,197 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://www.stuff.tv/features/barty-walsh-co-founder-of-oral-care-brand-ordo-on-being-a-geeky-kid-swapping-architecture-for-toothbrushes-ai-and-the-joys-of-cold-water-swimming/",
-      "published_at": "2026-11-27 10:22:05 +0000",
-      "cve_ids": [],
+      "full_article_url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "published_at": "2026-11-27T12:00:00Z",
+      "cve_ids": [
+        "CVE-2026-120705",
+        "CVE-2026-129243",
+        "CVE-2026-136716"
+      ],
       "saved": false
     },
     {
-      "id": "987ed8a5aa3103ceda41349f9872cf7a4f4db419fdb0a93862b44eef53e99d63",
+      "id": "764e7d5d7a7f3318d2a26f1c7365d9394aed20b18d7da9260adc1e1e219ca7c9",
       "category": "Technology",
       "source": "Currents API",
-      "title": "The Best Gaming Monitors: Late 2026 Update",
-      "hook": "The Best Gaming Monitors: Late 2026 Update",
+      "title": "Quantum: 'Five years, that's all we got…'",
+      "hook": "Quantum: 'Five years, that's all we got…'",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.techspot.com/articles-info/3166/images/2026-09-03-image-41.jpg",
-      "full_article_url": "https://www.techspot.com/bestof/gaming-monitors-26-27/",
-      "published_at": "2026-11-27 10:05:00 +0000",
+      "image_url": "https://image.theregister.com/5312040.jpg?imageId=5312040&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "full_article_url": "https://www.theregister.com/hpc/2026/11/28/quantum-five-years-thats-all-we-got/5312034",
+      "published_at": "2026-11-28 09:24:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "aba66d6fdb98e8d290a3aebd012c7fd782adb54c11e1084946c9200849df8e53",
+      "id": "7e63089e45dd84cf9394e16cf36df820e1cdf7f00509091f8b207c26503a8164",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "The Black Friday Bargains Worth Bagging",
+      "hook": "The Black Friday Bargains Worth Bagging",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://media.wired.com/photos/6b089bf933af9bd86d9db0c5/191:100/w_1280,c_limit/Black-Friday-Deals.jpg",
+      "full_article_url": "https://www.wired.com/story/best-black-friday-deals-11-28-2026/",
+      "published_at": "2026-11-28 09:08:13 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "078652761fe7db6cd56a6f9f17eae6c966cc4d7f191c8f701e522dae8bb7f4bb",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Deal: the Apple AirPods Pro 3 are 32% off for Amazon Germany's Black Friday week",
+      "hook": "Deal: the Apple AirPods Pro 3 are 32% off for Amazon Germany's Black Friday week",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/deals-de-airpods-pro-3/-952x498w6/gsmarena_000.jpg",
+      "full_article_url": "https://www.gsmarena.com/deal_the_apple_airpods_pro_3_are_32_off_for_amazon_germanys_black_friday_week-news-75668.php",
+      "published_at": "2026-11-28 09:06:03 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "0163ca432e97b901a73e884b7f3fd51ef65b37010a360d96857237610cbc6afb",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Amazon kicks off Cyber Monday early with these Apple deals",
+      "hook": "Amazon kicks off Cyber Monday early with these Apple deals",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://media.appleinsider.com/gallery/70046-147639-apple-cyber-monday-deals-2026-xl.jpg",
+      "full_article_url": "https://appleinsider.com/articles/26/11/28/amazon-extends-its-best-black-friday-apple-deals-into-cyber-monday",
+      "published_at": "2026-11-28 09:04:51 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "a384712c787d9120a117d6a8cbe471d4775c673874997b43c7ab6cde907cfed0",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "DJI's successor to one of its most popular affordable 4K camera drones is already £100 cheaper this Black Friday, and that includes two extra batteries",
+      "hook": "DJI's successor to one of its most popular affordable 4K camera drones is already £100 cheaper this Black Friday, and that includes two extra batteries",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.mos.cms.futurecdn.net/wHAyvCMxA2Fztwb4AArEfm-1920-80.jpg",
+      "full_article_url": "https://www.t3.com/tech/drones/dji-lito-1-black-friday-deal-1126",
+      "published_at": "2026-11-28 09:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "6145ec683aabd71110f2072d2984093741bc4e4835a57cf03b0a40c54ba93568",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "The Mercedes-Benz CLA Shooting Brake could be the best all-round EV for me, and here’s why",
+      "hook": "The Mercedes-Benz CLA Shooting Brake could be the best all-round EV for me, and here’s why",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.mos.cms.futurecdn.net/mWvpLjRnRXJ3bzZT34PxFT-1920-80.jpg",
+      "full_article_url": "https://www.t3.com/auto/electric-vehicles/mercedes-benz-cla-shooting-brake-long-term-review",
+      "published_at": "2026-11-28 09:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "3f5fd007eccd63864b15dca7b07fadc16eda62bbcbb2480634e89e1bae59d3e9",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "At 100, Dick Van Dyke Credits His Longevity to One Habit, And Science Supports It",
+      "hook": "At 100, Dick Van Dyke Credits His Longevity to One Habit, And Science Supports It",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.sciencealert.com/images/2026/11/DickVanDykeIn2024LookingSuperPositive-1200x675.png",
+      "full_article_url": "https://www.sciencealert.com/?p=230335",
+      "published_at": "2026-11-28 09:00:00 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "92226d11fe53c719fa580f1495fb4cc3cf66505d363077c49f8a4ffdfc5ba4bf",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Our Favorite Espresso Machines Are on Sale for Black Friday",
+      "hook": "Our Favorite Espresso Machines Are on Sale for Black Friday",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://media.wired.com/photos/6b013ceaf081739979ed6edd/191:100/w_1280,c_limit/The-Best-Early-Black-Friday-Espresso-Machine-Deals-for-National-Espresso-Day.jpg",
+      "full_article_url": "https://www.wired.com/story/black-friday-coffee-espresso-deals-11-28-2026/",
+      "published_at": "2026-11-28 08:58:38 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "ca846f7644f8f8ab05c772ccd609cefff7932ba07fdb87db997c0a6293ddcd9b",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "Best Cyber Monday UK streaming deals LIVE: Apple TV, Disney+, HBO Max, Paramount+, NOW and more",
+      "hook": "Best Cyber Monday UK streaming deals LIVE: Apple TV, Disney+, HBO Max, Paramount+, NOW and more",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://cdn.mos.cms.futurecdn.net/XJkHqXa5VGRExQNotttQFF-1000-80.jpg",
+      "full_article_url": "https://www.t3.com/live/news/best-cyber-monday-uk-streaming-deals-28-11-2026",
+      "published_at": "2026-11-28 08:54:58 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "712880ce6896b52bd93c8ec5d04ecccd01ec9f76b6fb275f1fa7ef7a51d8c888",
+      "category": "Technology",
+      "source": "Currents API",
+      "title": "House passes stronger anti-piracy bill, raising fines to P1 million » YugaTech | Philippines Tech News & Reviews",
+      "hook": "House passes stronger anti-piracy bill, raising fines to P1 million » YugaTech | Philippines Tech News & Reviews",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://www.yugatech.com/wp-content/uploads/2026/11/amazon-prime-home-screen-tablet-fi.webp",
+      "full_article_url": "https://www.yugatech.com/?p=457989",
+      "published_at": "2026-11-28 08:49:37 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "3b2827f86e7ac6cf78f771634b76418c1ce86887d84e1ea020e2ca1b316acb63",
       "category": "Technology",
       "source": "Currents API",
       "title": "The Best Black Friday Streaming Deals on Apple TV, Disney Plus, and More",
@@ -315,143 +309,143 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": "https://media.wired.com/photos/6b078f7e4def77197aa9f485/191:100/w_1280,c_limit/The-Best-Black-Friday-Streaming-Deals.jpg",
-      "full_article_url": "https://www.wired.com/story/black-friday-streaming-deals-11-27-2026/",
-      "published_at": "2026-11-27 10:04:47 +0000",
+      "full_article_url": "https://www.wired.com/story/black-friday-streaming-deals-11-28-2026/",
+      "published_at": "2026-11-28 08:49:12 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "472148517ea8c8ad9fbb4383b9da81280ac285c976989c4cee3faee99ac122ef",
+      "id": "9d53ededafd82f47759b133ea11a5013b11f3247b29a67ed16d4e30858e74bcb",
       "category": "Technology",
       "source": "Currents API",
-      "title": "This really is your last chance to buy the Lego Millennium Falcon UCS on sale before it's discontinued and gone forever",
-      "hook": "This really is your last chance to buy the Lego Millennium Falcon UCS on sale before it's discontinued and gone forever",
+      "title": "I can't believe you can get Nike's top-tier Vaporfly 4 running shoes for less than £90 with this Black Friday discount code",
+      "hook": "I can't believe you can get Nike's top-tier Vaporfly 4 running shoes for less than £90 with this Black Friday discount code",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/Jy2dcLUtCz2jSFZrbmmDLC-1920-80.jpg",
-      "full_article_url": "https://www.t3.com/entertainment/lego/last-chance-for-lego-star-wars-millennium-falcon-deal-before-discontinued",
-      "published_at": "2026-11-27 10:01:53 +0000",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/TVTuwgNRbT8SVkEagFVQGX-1600-80.jpg",
+      "full_article_url": "https://www.t3.com/active/running/nike-vaporfly-4-black-friday-deal-1126",
+      "published_at": "2026-11-28 08:45:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "bf5ddfa743ec7a1e1614e4086d2ff42720d0c1f24eb3a9ca4ffc983273206b68",
+      "id": "772a2b50562efd3dcd97d166f5fe6b49fc66505b415e56e9827ff8360869749d",
       "category": "Technology",
       "source": "Currents API",
-      "title": "The single worst mistake to avoid with your email account",
-      "hook": "The single worst mistake to avoid with your email account",
+      "title": "Best Apple Cyber Monday UK deals LIVE: iPads, AirPods, MacBooks and more",
+      "hook": "Best Apple Cyber Monday UK deals LIVE: iPads, AirPods, MacBooks and more",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.washingtonpost.com/technology/2026/11/27/single-worst-mistake-make-with-your-email-account/",
-      "published_at": "2026-11-27 10:00:00 +0000",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/hxvXY2faB3QmSs9UTy2QAS-1920-80.jpg",
+      "full_article_url": "https://www.t3.com/live/news/best-apple-cyber-deals-uk-28-11-2026",
+      "published_at": "2026-11-28 08:43:57 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "d0758f45c2ced28d2584a7d0b9c9a9529fe2ba50cf1c95f520667a5ba16fa6a5",
+      "id": "067e05663f0ac003f1a657c34a1e9ad66ac421d19b4219d78ea38c7971e42982",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Proton VPN vs ExpressVPN – which secure VPN should you pick this Black Friday?",
-      "hook": "Proton VPN vs ExpressVPN – which secure VPN should you pick this Black Friday?",
+      "title": "Save Up to 57% on the Best Black Friday Headphone Deals",
+      "hook": "Save Up to 57% on the Best Black Friday Headphone Deals",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/RNvscCvCYH8yFFsXvappbn-2000-80.jpg",
-      "full_article_url": "https://www.techradar.com/vpn/vpn-services/proton-vpn-vs-express-vpn",
-      "published_at": "2026-11-27 10:00:00 +0000",
+      "image_url": "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/191:100/w_1280,c_limit/The-Best-Early-Black-Friday-Headphone-Deals.jpg",
+      "full_article_url": "https://www.wired.com/story/black-friday-headphone-deals-11-28-26/",
+      "published_at": "2026-11-28 08:43:46 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "25669981f291d995bd7ca130ff4b13ac94cc7199caeafce9b863ace9c049fa8b",
+      "id": "0728e228be78d291579e1ff7c3568435e6a4de7eb2c0e503abf64d2ea3ac0c85",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Engineering antibiotics could expand the pool of new drug candidates",
-      "hook": "Engineering antibiotics could expand the pool of new drug candidates",
+      "title": "Telesin kit for lensmaxxing iPhone 18 Pro and Pro Max on sale",
+      "hook": "Telesin kit for lensmaxxing iPhone 18 Pro and Pro Max on sale",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://news.mit.edu/sites/default/files/images/202611/MIT-Antibiotic-Safety-01-press.jpg",
-      "full_article_url": "https://news.mit.edu/2026/engineering-antibiotics-could-expand-new-drug-candidates-pool-1127",
-      "published_at": "2026-11-27 10:00:00 +0000",
+      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Telesin-kit-for-lensmaxxing-iPhone-18-Pro-and-Pro-Max-phones-on-sale.jpg",
+      "full_article_url": "https://www.notebookcheck.net/Telesin-kit-for-lensmaxxing-iPhone-18-Pro-and-Pro-Max-on-sale.1462161.0.html",
+      "published_at": "2026-11-28 08:39:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "26fa65f59cac52591e73787ad740a92571689eabbbe6211cbae4b50034cfdc6e",
+      "id": "9c19f143a0e7485787b9d0023bf2c31cd04cbc065dd5a31d17176872383595b2",
       "category": "Technology",
       "source": "Currents API",
-      "title": "What Jensen Huang does next could shape the global race for AI dominance",
-      "hook": "What Jensen Huang does next could shape the global race for AI dominance",
+      "title": "Gemini 'Threatens' User Over KFC Question: 'I'm Going To Find You, Lock You In A Room'",
+      "hook": "Gemini 'Threatens' User Over KFC Question: 'I'm Going To Find You, Lock You In A Room'",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.washingtonpost.com/technology/2026/11/27/what-jensen-huang-does-next-could-shape-global-race-ai-dominance/",
-      "published_at": "2026-11-27 10:00:00 +0000",
+      "image_url": "https://sm.mashable.com/mashable_in/seo/default/00-aa-banner-1200-x-675-2026-11-27t193707511-1-1-1_d39m.jpg",
+      "full_article_url": "https://in.mashable.com/tech/116692/gemini-threatens-user-over-kfc-question-im-going-to-find-you-lock-you-in-a-room",
+      "published_at": "2026-11-28 08:32:01 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "efc5aacbd3cf48be967a02842dd968ba036fc142eb33e1955d8c256883ab1726",
+      "id": "ad360423f60f7a05c2207c3e5ed749a6e88042c20ac957713192e7c809d1c6f0",
       "category": "Technology",
       "source": "Currents API",
-      "title": "IKEA is giving shoppers £10 off their next order for three days – here's how to claim yours",
-      "hook": "IKEA is giving shoppers £10 off their next order for three days – here's how to claim yours",
+      "title": "Best Cyber Monday deals on CD players, 4K Blu-ray players and turntables",
+      "hook": "Best Cyber Monday deals on CD players, 4K Blu-ray players and turntables",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/Ho5n7Rw8YejMfwJVpPZBDE-1469-80.jpg",
-      "full_article_url": "https://www.t3.com/home-living/ikea-is-giving-shoppers-gbp10-off-their-next-order-for-three-days-heres-how-to-claim-yours",
-      "published_at": "2026-11-27 10:00:00 +0000",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/LiioxwBtTL9H5wjMcGujE5-2560-80.jpg",
+      "full_article_url": "https://www.t3.com/live/news/best-cyber-monday-deals-cd-and-4k-blu-ray-players-28-november-2026",
+      "published_at": "2026-11-28 08:30:22 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "eb39b1703fb3e872bd6f810fe9f88e8efbaad1194e290b7d013214af35b369e4",
+      "id": "43ee81c065a8fb585c70187e3cfdba58fc5b53f5ba2e8c8b9052ea5fe4f7b7f0",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Review: 2028 Volvo's XC60/90 PHEVs get 80 miles of EV range, changing the game",
-      "hook": "Review: 2028 Volvo's XC60/90 PHEVs get 80 miles of EV range, changing the game",
+      "title": "Our reviewers pick UK Black Friday deals still available this weekend and actually worth buying — Amazon, Apple, Lego, Argos, Currys and more",
+      "hook": "Our reviewers pick UK Black Friday deals still available this weekend and actually worth buying — Amazon, Apple, Lego, Argos, Currys and more",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://electrek.co/wp-content/uploads/sites/3/2026/11/image_657793.png",
-      "full_article_url": "https://electrek.co/2026/11/27/review-2028-volvos-xc60-90-phevs-get-80-miles-of-ev-range-changing-the-game/",
-      "published_at": "2026-11-27 09:57:17 +0000",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/HFmvqk7CrZibLihj2giTGK-1920-80.jpg",
+      "full_article_url": "https://www.techradar.com/live/news/black-friday-deals-uk-2026-november-28",
+      "published_at": "2026-11-28 08:30:05 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "329e368912765385edc2324b5051e6fcad4f8633ae4721530db7c3862c7ecb94",
+      "id": "b8afe09faa7c92db41c0a5515cd69ca6dc5eabc329a9c955169bf1d6310f8001",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Save Up to 53% Off On the Best Black Friday TV Deals",
-      "hook": "Save Up to 53% Off On the Best Black Friday TV Deals",
+      "title": "The Best Black Friday TV Deals: Up to 60% Off",
+      "hook": "The Best Black Friday TV Deals: Up to 60% Off",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -459,125 +453,251 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": "https://media.wired.com/photos/6af63561cf6e4fa5fe151274/191:100/w_1280,c_limit/The-Best-Early-Black-Friday-TV-Deals.jpg",
-      "full_article_url": "https://www.wired.com/story/early-black-friday-tv-deals-11-27-2026/",
-      "published_at": "2026-11-27 09:55:09 +0000",
+      "full_article_url": "https://www.wired.com/story/best-black-friday-tv-deals-11-28-2026/",
+      "published_at": "2026-11-28 08:29:25 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "8f940d9c2c882b59a76fa04b65b466ba89bba4febaad2ac97b2e602f34373f74",
+      "id": "e47b0f5f456ac66aef24611b9454913cb45ffc4bedfdeb191adb077d6e29fd44",
       "category": "Technology",
       "source": "Currents API",
-      "title": "Honor Magic10 Pro Max could have three 200MP cameras",
-      "hook": "Honor Magic10 Pro Max could have three 200MP cameras",
+      "title": "Reading brain signals requires bulky gear. This dye turns your hair into electrodes and gets the job done.",
+      "hook": "Reading brain signals requires bulky gear. This dye turns your hair into electrodes and gets the job done.",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-magic10-pro-max-cameras/-952x498w6/gsmarena_000.jpg",
-      "full_article_url": "https://www.gsmarena.com/honor_magic10_pro_max_could_have_three_200mp_cameras-news-75663.php",
-      "published_at": "2026-11-27 09:55:02 +0000",
+      "image_url": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/ehair.jpg?resize=1200%2C630&ssl=1",
+      "full_article_url": "https://www.digitaltrends.com/cool-tech/reading-brain-signals-requires-bulky-gear-this-dye-turns-your-hair-into-electrodes-and-gets-the-job-done/",
+      "published_at": "2026-11-28 08:26:33 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "83c9639ad1ad679805d55877467006126c611f340154e41e153e560e6b89d61e",
-      "category": "Technology",
+      "id": "1a3dbc8f8da9deaf0843b025752d1c0a3306d627e17b5762373785bb5c1ebdd5",
+      "category": "Business",
       "source": "Currents API",
-      "title": "These Are the Best Tech Deals to Shop This Black Friday",
-      "hook": "These Are the Best Tech Deals to Shop This Black Friday",
+      "title": "Superior Group of Companies Is Still A Good Fit After Its Run Higher",
+      "hook": "Superior Group of Companies Is Still A Good Fit After Its Run Higher",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://media.wired.com/photos/6b0784832e9a38bd4c1cef5d/191:100/w_1280,c_limit/The-Best-Black-Friday-Tech-Deals.jpg",
-      "full_article_url": "https://www.wired.com/story/black-friday-tech-deals-11-27-2026/",
-      "published_at": "2026-11-27 09:53:31 +0000",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2303109521/image_2303109521.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4972732-superior-group-of-companies-is-still-a-good-fit-after-its-run-higher",
+      "published_at": "2026-11-28 09:31:28 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "fb4dacb5868f81a1748b6048226f02bd2ced5d143d9d67ba2a1de3b12a7ae6a6",
-      "category": "Technology",
+      "id": "99845c19519e93158c6613d4718407f0f30f5441c82d77c71631718c6a7a6c54",
+      "category": "Business",
       "source": "Currents API",
-      "title": "I'm an Apple expert, and these MacBook Air Black Friday deals should not be missed",
-      "hook": "I'm an Apple expert, and these MacBook Air Black Friday deals should not be missed",
+      "title": "Julius Baer: Recovering From Credit Setbacks, Yet Still Tied To Market Direction",
+      "hook": "Julius Baer: Recovering From Credit Setbacks, Yet Still Tied To Market Direction",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/6usVa3gPBztnHzEuJWK8rD-1920-80.png",
-      "full_article_url": "https://www.techradar.com/seasonal-sales/best-black-friday-macbook-air-deals-nov-27",
-      "published_at": "2026-11-27 09:49:47 +0000",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1088663312/image_1088663312.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4972730-julius-baer-recovering-from-credit-setbacks-yet-still-tied-to-market-direction",
+      "published_at": "2026-11-28 09:23:53 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "f1637695976db60810ec235b39bfebb7b468d40ca76564f35520e2cc3f7398ca",
-      "category": "Technology",
+      "id": "d40a1dd63e783f00fb6d6a9a94e2378daff7ec365bc4c2fba39619abd94bb62d",
+      "category": "Business",
       "source": "Currents API",
-      "title": "The Motorola signature 27 is an excellent return to flagship form - but price isn't on its side | Stuff",
-      "hook": "The Motorola signature 27 is an excellent return to flagship form - but price isn't on its side | Stuff",
+      "title": "Women's reservation bills to be passed by two-thirds majority in Parliament: Suvendu Adhikari",
+      "hook": "Women's reservation bills to be passed by two-thirds majority in Parliament: Suvendu Adhikari",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.stuff.tv/wp-content/uploads/sites/2/2026/11/Motorola-Signature-27-review-lead.jpg",
-      "full_article_url": "https://www.stuff.tv/review/motorola-signature-27-review/",
-      "published_at": "2026-11-27 09:48:11 +0000",
+      "image_url": "https://img.etimg.com/thumb/msid-136243140,width-1200,height-900,imgsize-70698,overlay-economictimes/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/politics-and-nation/womens-reservation-bills-to-be-passed-by-two-thirds-majority-in-parliament-suvendu-adhikari/articleshow/136243099.cms",
+      "published_at": "2026-11-28 09:20:56 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "42a7e42255e3c099fc7b379f5934ee295eff861e80a9ac358bb8f1801abd2f4c",
-      "category": "Technology",
+      "id": "9de65edc7fd393fe5da958464d09b5cf427a343bccca527af748b5b6cc5c2c59",
+      "category": "Business",
       "source": "Currents API",
-      "title": "AI's most dangerous answers are the ones that are 95% right",
-      "hook": "AI's most dangerous answers are the ones that are 95% right",
+      "title": "Four killed, 10 injured as UP Roadways bus collides with trolley amid dense fog in Moradabad",
+      "hook": "Four killed, 10 injured as UP Roadways bus collides with trolley amid dense fog in Moradabad",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn.mos.cms.futurecdn.net/PAztEScphfxGJfYno5NjrL-2560-80.jpg",
-      "full_article_url": "https://www.techradar.com/pro/ais-most-dangerous-answers-are-the-ones-that-are-95-percent-right",
-      "published_at": "2026-11-27 09:47:38 +0000",
+      "image_url": "https://img.etimg.com/thumb/msid-136243125,width-1200,height-900,imgsize-105602,overlay-economictimes/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/india/four-killed-10-injured-as-up-roadways-bus-collides-with-trolley-amid-dense-fog-in-moradabad/articleshow/136243103.cms",
+      "published_at": "2026-11-28 09:19:30 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "48b1a5bff960f148446cf179901840658e41b09ffb997d4180896f8e5554036a",
-      "category": "Technology",
+      "id": "801b60560150dfc574d0ea527ffbc04bb409d3ef0539e6cc8cc1a588dcf90f23",
+      "category": "Business",
       "source": "Currents API",
-      "title": "PSA: Don’t take your Pixel 11 Pro to a concert without changing this setting",
-      "hook": "PSA: Don’t take your Pixel 11 Pro to a concert without changing this setting",
+      "title": "Liftoff Mobile: Exceptional Growth At A Reasonable Price",
+      "hook": "Liftoff Mobile: Exceptional Growth At A Reasonable Price",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.techadvisor.com/wp-content/uploads/2026/11/3298895-0-70362500-1795772799-google-pixel-11-pro-concert-photo.jpg?quality=50&strip=all&w=1024",
-      "full_article_url": "https://www.techadvisor.com/article/3298895/google-pixel-11-pro-magic-capture-video-boost.html",
-      "published_at": "2026-11-27 09:46:36 +0000",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2221348702/image_2221348702.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4972729-liftoff-mobile-exceptional-growth-at-a-reasonable-price",
+      "published_at": "2026-11-28 09:18:47 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "7954fc8574b05cbcf76f7e72a6a8918ea18c45cd24f597940a5c1276023b9210",
-      "category": "Technology",
+      "id": "7deb8999cd79e1161635e59ae52bc5ec8e58906ab40eeda229708ff9d6be14e4",
+      "category": "Business",
       "source": "Currents API",
-      "title": "CVE-2026-80479",
-      "hook": "CVE-2026-80479",
+      "title": "D K Shivakumar threatens 'Delhi Chalo' protest over delay in Karnataka drought relief",
+      "hook": "D K Shivakumar threatens 'Delhi Chalo' protest over delay in Karnataka drought relief",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://img.etimg.com/thumb/msid-136243072,width-1200,height-900,imgsize-167714,overlay-economictimes/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/politics-and-nation/d-k-shivakumar-threatens-delhi-chalo-protest-over-delay-in-karnataka-drought-relief/articleshow/136243031.cms",
+      "published_at": "2026-11-28 09:15:41 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "103eef9591af0cc4c74ab66b070f0f1725c1c0657c51801ef539ef5e194b9fc7",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Arundhati Roy, Ashok Vajpeyi among others flag 'growing assault on constitutional values'",
+      "hook": "Arundhati Roy, Ashok Vajpeyi among others flag 'growing assault on constitutional values'",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://img.etimg.com/thumb/msid-136243041,width-1200,height-900,imgsize-133044,overlay-economictimes/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/politics-and-nation/arundhati-roy-ashok-vajpeyi-among-others-flag-growing-assault-on-constitutional-values/articleshow/136243001.cms",
+      "published_at": "2026-11-28 09:14:01 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "bb8988b488468ba93345e4d4e8657ab38c2a0a3723a48265df80491af5f64a94",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Bond market to stay cautious ahead of RBI policy: Equirus",
+      "hook": "Bond market to stay cautious ahead of RBI policy: Equirus",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://bl-i.thgim.com/public/incoming/vvja7g/article71754033.ece/alternates/LANDSCAPE_1200/iStock-1332829323.jpg",
+      "full_article_url": "https://www.thehindubusinessline.com/markets/bond-market-to-stay-cautious-ahead-of-rbi-policy-equirus/article71753946.ece",
+      "published_at": "2026-11-28 09:12:33 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "58171061cfc08aff9c815cfda45a328f03710196cc42eaaec5bb7c1ae495c786",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "All parties should support this historic initiative: Amit Shah on delimitation bill",
+      "hook": "All parties should support this historic initiative: Amit Shah on delimitation bill",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://img.etimg.com/thumb/msid-136242969,width-1200,height-900,imgsize-50106,overlay-economictimes/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/politics-and-nation/all-parties-should-support-this-historic-initiative-amit-shah-on-delimitation-bill/articleshow/136242941.cms",
+      "published_at": "2026-11-28 09:09:47 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "0a2956967329341b85687c61628c71f802a3f333d36deb8ef803b0a40fdccb94",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "KT Rama Rao backs delimitation proposal, says Telangana's interests paramount; BRS MPs to support move",
+      "hook": "KT Rama Rao backs delimitation proposal, says Telangana's interests paramount; BRS MPs to support move",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://img.etimg.com/thumb/msid-136242897,width-1200,height-900,imgsize-60064,overlay-economictimes/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/politics-and-nation/kt-rama-rao-backs-delimitation-proposal-says-telanganas-interests-paramount-brs-mps-to-support-move/articleshow/136242898.cms",
+      "published_at": "2026-11-28 09:07:46 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "d2807e96bd58a42ac9c172bc5cc5e5fee3a2fc83fcf68fbeb514f968d097dfb0",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Vestas: The Winds Of Change Aren't Blowing Strong Enough",
+      "hook": "Vestas: The Winds Of Change Aren't Blowing Strong Enough",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2299662592/image_2299662592.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4972728-vestas-winds-of-change-not-blowing-strong-enough",
+      "published_at": "2026-11-28 09:07:35 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "54d7c810d6c28afa76bd9b2536b73bd7bddc06db3ccf0678c464160b4a990e8b",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "Compass Pathways: World-Class Psilocybin Pure Play, Dirt-Cheap Stock",
+      "hook": "Compass Pathways: World-Class Psilocybin Pure Play, Dirt-Cheap Stock",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1207285277/image_1207285277.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4972727-compass-pathways-world-class-psilocybin-pure-play-dirt-cheap-stock",
+      "published_at": "2026-11-28 09:01:07 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "523fc5b2141babf629c5c97aafc6a5281a719ee1b871958539c00b022e7681ec",
+      "category": "Business",
+      "source": "Currents API",
+      "title": "John Hancock Disciplined Value Fund Q3 2026 Commentary",
+      "hook": "John Hancock Disciplined Value Fund Q3 2026 Commentary",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -585,359 +705,179 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": null,
-      "full_article_url": "https://vulners.com/cvelist/CVELIST:CVE-2026-80479",
-      "published_at": "2026-11-27 09:43:52 +0000",
+      "full_article_url": "https://seekingalpha.com/article/4972738-john-hancock-disciplined-value-fund-q3-2026-commentary",
+      "published_at": "2026-11-28 09:00:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "e56d2eedff9f43c21f9bd41631e9cc93a3d55ca4b046102dcc95dfe0aad0ae45",
+      "id": "a33ed378bc3c0b789f142a6a980fd3148b4fa75a6688608ebc04673705b05e72",
       "category": "Business",
       "source": "Currents API",
-      "title": "U.S. Restrictions Against China Flood Market with Nvidia B300 Chips",
-      "hook": "U.S. Restrictions Against China Flood Market with Nvidia B300 Chips",
+      "title": "Mutual Funds Sold Rs 32,740 Cr. Worth Of Equities So Far In November",
+      "hook": "Mutual Funds Sold Rs 32,740 Cr. Worth Of Equities So Far In November",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://www.businesskorea.co.kr/news/thumbnail/202611/282408_290406_314_v150.jpg",
-      "full_article_url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=282408",
-      "published_at": "2026-11-27 10:28:26 +0000",
+      "image_url": "https://i.ndtvimg.com/i/2016-06/mutual-funds_650x400_71465817108.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+      "full_article_url": "https://www.ndtvprofit.com/markets/mutual-funds-sold-rs-32-740-cr-worth-of-equities-so-far-in-november-12388475",
+      "published_at": "2026-11-28 08:50:08 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "76800be5dc39814f5c5f11a334c1b3f4628b8005df24e544392e2ccfe7335e6c",
+      "id": "6d478bad5de02941b8366088293de3faa297af2ae9687c709ebefe4e0518ed87",
       "category": "Business",
       "source": "Currents API",
-      "title": "Fervo Energy Company Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FRVO",
-      "hook": "Fervo Energy Company Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FRVO",
+      "title": "‘Modi govt aiming for 800 paar’: Kharge opposes Delimitation Bill, alleges bid to retain power",
+      "hook": "‘Modi govt aiming for 800 paar’: Kharge opposes Delimitation Bill, alleges bid to retain power",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.prnewswire.com/news-releases/fervo-energy-company-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights---frvo-302951591.html",
-      "published_at": "2026-11-27 10:28:00 +0000",
+      "image_url": "https://img.etimg.com/thumb/msid-136242717,width-1200,height-900,overlay-economictimes/news/india/modi-govt-aiming-for-800-paar-kharge-opposes-delimitation-bill-alleges-bid-to-retain-power.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/india/modi-govt-aiming-for-800-paar-kharge-opposes-delimitation-bill-alleges-bid-to-retain-power/videoshow/136242717.cms",
+      "published_at": "2026-11-28 08:47:45 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "be7e78a1cac2d27be7e63bb8bda7bbd993ee232b76eba6440eefd576879c99b5",
+      "id": "8f322a96ef9cf00f4cc068d33961c940638da9c18a9cb5fc6a533fdd26d33a04",
       "category": "Business",
       "source": "Currents API",
-      "title": "Biggest stock movers Friday: SPCX, PHAR, VRTX, ALVO, and more",
-      "hook": "Biggest stock movers Friday: SPCX, PHAR, VRTX, ALVO, and more",
+      "title": "Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
+      "hook": "Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4676966-biggest-stock-movers-friday-spcx-phar-vrtx-alvo-and-more",
-      "published_at": "2026-11-27 10:27:41 +0000",
+      "image_url": "https://www.businessday.co.za/resizer/v2/6UBBU7Y2YJFCHDULPPESD3OFJI.JPG?smart=true&auth=5324febeb4ccafd1c3dab9fe174baa05cde0d60590796a585325d0991011f0b4&width=1200&height=630",
+      "full_article_url": "https://www.businessday.co.za/world/2026-11-28-russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-on-november-22-sources-say/",
+      "published_at": "2026-11-28 08:46:54 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "acec8cd294a708414073f85062f1362b8fc11f637a1d96d6069a7cbaea410533",
+      "id": "dfaa30503d1414288bd8847942721550859f1edf657b1de9ae6d1dfa1bb6c0bb",
       "category": "Business",
       "source": "Currents API",
-      "title": "Zara, H&M shift garment orders from Bangladesh to India amid unrest - report",
-      "hook": "Zara, H&M shift garment orders from Bangladesh to India amid unrest - report",
+      "title": "India inflation may rise in coming months on weather, supply risks: Govt report",
+      "hook": "India inflation may rise in coming months on weather, supply risks: Govt report",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4676976-zara-hm-shift-garment-orders-from-bangladesh-to-india-amid-unrest---report",
-      "published_at": "2026-11-27 10:27:23 +0000",
+      "image_url": "https://img.etimg.com/thumb/msid-136242659,width-1200,height-900,imgsize-200332,overlay-economictimes/articleshow.jpg",
+      "full_article_url": "https://economictimes.indiatimes.com/news/economy/indicators/india-inflation-may-rise-in-coming-months-on-weather-supply-risks-govt-report/articleshow/136242640.cms",
+      "published_at": "2026-11-28 08:45:20 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "1bc9faaf75a885abe182f9dcd926120f4206cab852d9e07c8cd3e225ed902923",
+      "id": "37df98f2f2bdee1aaef71d027ae345d73ecf2cc6acfebadbd75fa1f45387e2fc",
       "category": "Business",
       "source": "Currents API",
-      "title": "BBW Investors Have Opportunity to Lead Build-A-Bear Workshop, Inc. Securities Fraud Lawsuit with SBS Law",
-      "hook": "BBW Investors Have Opportunity to Lead Build-A-Bear Workshop, Inc. Securities Fraud Lawsuit with SBS Law",
+      "title": "'Just Want To Return Home': 23-year-old Indian Student In US Gives Up PhD Dream; Find Out Why",
+      "hook": "'Just Want To Return Home': 23-year-old Indian Student In US Gives Up PhD Dream; Find Out Why",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.prnewswire.com/news-releases/bbw-investors-have-opportunity-to-lead-build-a-bear-workshop-inc-securities-fraud-lawsuit-with-sbs-law-302951589.html",
-      "published_at": "2026-11-27 10:21:00 +0000",
+      "image_url": "https://c.ndtvimg.com/2026-10/1vldbe1_reditt-it-job-loss_625x300_21_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+      "full_article_url": "https://www.ndtvprofit.com/education/just-want-to-return-home-23-year-old-indian-student-in-us-gives-up-phd-dream-find-out-why-12388437",
+      "published_at": "2026-11-28 08:40:39 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "a0a2af4b94ecbaa5a859c4f55e0f2a8d3ae709ce094c8a8fe9cef8b9d5ca6d7f",
+      "id": "056aa3986fab6c56045a38bcc9f5b82036d6ec8da37b1712936a3d9439835749",
       "category": "Business",
       "source": "Currents API",
-      "title": "French Economy Sinks Deeper Into Gloom",
-      "hook": "French Economy Sinks Deeper Into Gloom",
+      "title": "SC refuses to entertain plea to reduce minimum age for contesting elections",
+      "hook": "SC refuses to entertain plea to reduce minimum age for contesting elections",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/article/4972492-french-economy-sinks-deeper-into-gloom",
-      "published_at": "2026-11-27 10:20:00 +0000",
+      "image_url": "https://bl-i.thgim.com/public/incoming/ytukmq/article71745668.ece/alternates/LANDSCAPE_1200/TH23-KDR-Why-noG0VGRCQSR.4.jpg.jpg",
+      "full_article_url": "https://www.thehindubusinessline.com/news/sc-refuses-to-entertain-plea-to-reduce-minimum-age-for-contesting-elections/article71753947.ece",
+      "published_at": "2026-11-28 08:38:55 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "12d5196ff53abe9cb8e7d46e8f8132cab7c3312ac466e379aa0c69d28299be65",
+      "id": "b935e70cdf8feb27445af008c26c316f1ad4720f580b5003279aa927ccf76640",
       "category": "Business",
       "source": "Currents API",
-      "title": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit with SBS Law",
-      "hook": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit with SBS Law",
+      "title": "SpaceX After Its First Profit: 20x Ebitda And A 41% Cost Edge",
+      "hook": "SpaceX After Its First Profit: 20x Ebitda And A 41% Cost Edge",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.prnewswire.com/news-releases/duol-investors-have-opportunity-to-lead-duolingo-inc-securities-fraud-lawsuit-with-sbs-law-302951588.html",
-      "published_at": "2026-11-27 10:17:00 +0000",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2280401026/image_2280401026.jpg?io=getty-c-og",
+      "full_article_url": "https://seekingalpha.com/article/4972724-spacex-after-its-first-profit-20x-ebitda-and-a-41-percent-cost-edge",
+      "published_at": "2026-11-28 08:36:11 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "bfe817e8dbf3da6f6b0b979e1bcc3273b31c82c5c78c42da170c0c35598bf605",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Cyprus looks to turn Indian shipping ties into investment",
-      "hook": "Cyprus looks to turn Indian shipping ties into investment",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cyprus-mail.com/wp-content/uploads/2026/11/Press-Conference-Cyprus-India-Maritime-Business-Forum.jpg",
-      "full_article_url": "https://cyprus-mail.com/2026/11/27/cyprus-looks-to-turn-indian-shipping-ties-into-investment",
-      "published_at": "2026-11-27 10:16:32 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "6c94195325c9387f71c7ba75634d0cd28fe73aa2aaa8da8daee34097a85bf82e",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Fluence Energy, Inc Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FLNC",
-      "hook": "Fluence Energy, Inc Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FLNC",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.prnewswire.com/news-releases/fluence-energy-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--flnc-302951584.html",
-      "published_at": "2026-11-27 10:15:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "84c32e284e89cec24af7cf79fbebc83cb8df0ed60bac8bff9eb18ce152a863d3",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Private-hire drivers, delivery workers spur growth in Singapore’s platform workforce in 2026",
-      "hook": "Private-hire drivers, delivery workers spur growth in Singapore’s platform workforce in 2026",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.businesstimes.com.sg/singapore/private-hire-drivers-delivery-workers-spur-growth-singapores-platform-workforce-2026",
-      "published_at": "2026-11-27 10:14:24 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "c7d76d0965b14021d0895aa3f29d24c671bf520b65f565197be585c734827ec8",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Why Kinetik Shares Are Trading Higher By Over 7%; Here Are 20 Stocks Moving Premarket - Kinetik Holdings",
-      "hook": "Why Kinetik Shares Are Trading Higher By Over 7%; Here Are 20 Stocks Moving Premarket - Kinetik Holdings",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/27/The-Real-Villains-No-Longer-Hide.jpg",
-      "full_article_url": "https://www.benzinga.com/trading-ideas/movers/26/11/63666678/why-kinetik-shares-are-trading-higher-by-over-7-here-are-20-stocks-moving-premarket",
-      "published_at": "2026-11-27 10:13:49 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "84f55ce2fe4aac044af6c6c4f45e862f35283bbf529b0de95f2cf987e4024256",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Hedge Funds Like Gilts, But Not The Risks",
-      "hook": "Hedge Funds Like Gilts, But Not The Risks",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/article/4972489-hedge-funds-like-gilts-not-risks",
-      "published_at": "2026-11-27 10:10:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "2f77c82a65506ec6f2ea06fc343ea3337846109492fbed9df2238a28f064ac2e",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "DAVA Investors Have Opportunity to Lead Endava plc Securities Fraud Lawsuit with SBS Law",
-      "hook": "DAVA Investors Have Opportunity to Lead Endava plc Securities Fraud Lawsuit with SBS Law",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.prnewswire.com/news-releases/dava-investors-have-opportunity-to-lead-endava-plc-securities-fraud-lawsuit-with-sbs-law-302951580.html",
-      "published_at": "2026-11-27 10:10:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "82c34082933a0d1075013b6f89a6d3aaf71c6df11e3c382278e8a8d605c3ca89",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "27 Years of Mobile Expertise: TCL P80 Ultra Named a CES Innovation Awards 2027 Honoree",
-      "hook": "27 Years of Mobile Expertise: TCL P80 Ultra Named a CES Innovation Awards 2027 Honoree",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.prnewswire.com/news-releases/27-years-of-mobile-expertise-tcl-p80-ultra-named-a-ces-innovation-awards-2027-honoree-302951675.html",
-      "published_at": "2026-11-27 10:10:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "bd9a40ee981fe5efc0ac3e487d4cea3d199aaee367b5aa0619304820f2862a7a",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "The Long March, 90 Years On: An Epic Journey Driven by Ideals and Unwavering Faith",
-      "hook": "The Long March, 90 Years On: An Epic Journey Driven by Ideals and Unwavering Faith",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://i.ytimg.com/vi/0A2qmmWL0yg/hqdefault.jpg",
-      "full_article_url": "https://www.prnewswire.com/news-releases/the-long-march-90-years-on-an-epic-journey-driven-by-ideals-and-unwavering-faith-302951674.html",
-      "published_at": "2026-11-27 10:08:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "4a8a51aa5f1d9f22507021c933d8fa69ae1825bafc8c267b938cf08187b9df70",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Fifth Yan'an Forum on Rural Development Explores AI's Role in Agriculture and Rural Industries",
-      "hook": "Fifth Yan'an Forum on Rural Development Explores AI's Role in Agriculture and Rural Industries",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://mmx.prnewswire.com/media/MS2043780/20261127035422EST_image_1.jpg?id=OA3103158&p=facebook",
-      "full_article_url": "https://www.prnewswire.com/news-releases/fifth-yanan-forum-on-rural-development-explores-ais-role-in-agriculture-and-rural-industries-302951673.html",
-      "published_at": "2026-11-27 10:06:00 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "170d676ea23de67403ee22088545051219ec78a3944b99b64afc9bb00f1ba69b",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Maritana Minerals on track to commission Black Swan plant in H2",
-      "hook": "Maritana Minerals on track to commission Black Swan plant in H2",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn.creamermedia.com/assets/articles/images/resized/0001315014_resized_maritanametalsblackswanprocessinghub1022.jpeg",
-      "full_article_url": "https://www.miningweekly.com/article/maritana-minerals-on-track-to-commission-black-swan-plant-in-h2-2026-11-27",
-      "published_at": "2026-11-27 10:05:04 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "ca4c98bda71f2060744dd6ab6c7eee3e49154a60ba9a437f7f5808acd8f441d1",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Holiday Deals Are Tempting. Here’s How to Avoid Buyer’s Remorse.",
-      "hook": "Holiday Deals Are Tempting. Here’s How to Avoid Buyer’s Remorse.",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.nytimes.com/2026/11/27/business/holiday-shopping-deals-spending.html",
-      "published_at": "2026-11-27 10:03:51 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "4b8f78a98a7344ae154b282264528ef7cda0f45228014d896b13a14c14a783e5",
-      "category": "Business",
-      "source": "Currents API",
-      "title": "Amadeus secures multi-year distribution agreement with Türkiye's Pegasus Airlines",
-      "hook": "Amadeus secures multi-year distribution agreement with Türkiye's Pegasus Airlines",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://seekingalpha.com/news/4676977-amadeus-secures-multi-year-distribution-agreement-with-turkiyes-pegasus-airlines",
-      "published_at": "2026-11-27 10:03:34 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "a8a07859af32358fd32b48c6bdf09402f8a7de22b1abe52815429b6578aaac4a",
+      "id": "bf4d9005f1f262177d074b3dc0ba195e098c7079c927c5d513eeb02d51961422",
       "category": "World",
       "source": "Currents API",
-      "title": "Russia reveals plans to commission 1st unit of Akkuyu NPP in Turkey next month",
-      "hook": "Russia reveals plans to commission 1st unit of Akkuyu NPP in Turkey next month",
+      "title": "Gold Coast flooding, man rescued in Scenic Rim as hundreds call for help amid downpours",
+      "hook": "Gold Coast flooding, man rescued in Scenic Rim as hundreds call for help amid downpours",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.ffx.io/images/$zoom_1.1618%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_64%2C$y_0/t_crop_custom/q_86%2Ce_sharpen:60%2Cf_auto/72000fdab378c9a99621946c4674ad7824966943cef1b09affe68ebd0ea3ff9e",
+      "full_article_url": "https://www.smh.com.au/national/queensland/gold-coast-flooding-man-rescued-in-scenic-rim-as-hundreds-call-for-help-amid-downpours-20261128-p61i4o.html",
+      "published_at": "2026-11-28 09:28:54 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "d5b70d314b0757f9ececeacc35d4348053bfdf37d76333a8dbb28b994ac18648",
+      "category": "World",
+      "source": "Currents API",
+      "title": "What Jess Wilson’s election victory means for you",
+      "hook": "What Jess Wilson’s election victory means for you",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_27/t_crop_custom/q_86%2Cf_auto/927a347a1b3f1753085cd434b3f143a3660cf99c",
+      "full_article_url": "https://www.smh.com.au/national/victoria/what-jess-wilson-s-election-victory-means-for-you-20261128-p61i0v.html",
+      "published_at": "2026-11-28 09:23:53 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "567a3c126c9a0a5d1a8f760672d07fd956dc37ba711d7df401d1886f61f94efe",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Meloni warns Zelensky aid will be harder to provide after Libya raid",
+      "hook": "Meloni warns Zelensky aid will be harder to provide after Libya raid",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -945,125 +885,71 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/economy/2225823",
-      "published_at": "2026-11-27 10:20:42 +0000",
+      "full_article_url": "https://tass.com/world/2226361",
+      "published_at": "2026-11-28 09:12:35 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "9bcdc10c0bedfdc1cb72554c0c0d6db988251af2783e89c36e0680ce6874a08a",
+      "id": "f924969acae0fd1e2913bc4febdd7d9469df7f51f38096fb962ff8401ce878ea",
       "category": "World",
       "source": "Currents API",
-      "title": "Perth man dies following alleged playground attack",
-      "hook": "Perth man dies following alleged playground attack",
+      "title": "How conflict and foreign aid has left South Sudan unable to stand on its own",
+      "hook": "How conflict and foreign aid has left South Sudan unable to stand on its own",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.smh.com.au/national/perth-man-dies-following-alleged-playground-attack-20261127-p61i0t.html",
-      "published_at": "2026-11-27 10:19:06 +0000",
+      "image_url": "https://cdn.ex.co/transformations-account/production/99589e92-e6b5-4a6b-8db4-bb0120ace3e1/954507b1-72dd-47c6-b56d-65853a7f3ccd/thumbnail-1080.webp",
+      "full_article_url": "https://www.independent.co.uk/tv/news/south-sudan-conflict-foreign-aid-video-b3092872.html",
+      "published_at": "2026-11-28 09:12:05 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "780f8390eb7efa16c98259c8c1eaba2e6ab8b3d23733b975d29ccefb9a1a37e6",
+      "id": "780895f3585985aae801ea55234755b3a28c5887d2342d4cf0be14af8f0454ec",
       "category": "World",
       "source": "Currents API",
-      "title": "Labour backs bill to stop lawsuits used to silence journalists and whistleblowers",
-      "hook": "Labour backs bill to stop lawsuits used to silence journalists and whistleblowers",
+      "title": "South Sudan should be rich. So, why are millions on the brink of starvation?",
+      "hook": "South Sudan should be rich. So, why are millions on the brink of starvation?",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/831_0_4169_3335/master/4169.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c028c4719135a524b8031d13926561fc",
-      "full_article_url": "https://www.theguardian.com/media/2026/nov/27/labour-backs-bill-lawsuits-journalists-whistleblowers-slapps",
-      "published_at": "2026-11-27 10:14:03 +0000",
+      "image_url": "https://static.independent.co.uk/2026/09/23/7/04/IMG_5797-e69ee709.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+      "full_article_url": "https://www.independent.co.uk/news/world/africa/south-sudan-oil-wealth-aid-corruption-war-flooding-b3053646.html",
+      "published_at": "2026-11-28 09:11:29 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "7ecf32eb02e1413f771200f8a156f9123f112bb94dec8a3fcc1dc762fd9e8e99",
+      "id": "972feca3face5eb9bc3fdc491f5e6dbb0e9923f2ad014bbc2153f8f9ffc82bd0",
       "category": "World",
       "source": "Currents API",
-      "title": "England bowler cops nasty blow, gets wicket next ball",
-      "hook": "England bowler cops nasty blow, gets wicket next ball",
+      "title": "South Sudan: a country of conflict",
+      "hook": "South Sudan: a country of conflict",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.smh.com.au/national/england-bowler-cops-nasty-blow-gets-wicket-next-ball-20261127-p61i0r.html",
-      "published_at": "2026-11-27 10:13:20 +0000",
+      "image_url": "https://static.independent.co.uk/2026/11/25/16/43/South-Sudan-Addicted-to-aid-d52cfa0a.png?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+      "full_article_url": "https://www.independent.co.uk/news/world/africa/south-sudan-conflict-history-b3069256.html",
+      "published_at": "2026-11-28 09:11:08 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "b03abfd47b10964341babe6fe7cdee337ea568556fa88d358db2fc44f15b7526",
+      "id": "207a0a70cdd620b75e0a9b07d5c64cbbb84b4a9c1772b5e7bca2be667b71dbe0",
       "category": "World",
       "source": "Currents API",
-      "title": "Department for Work and Pensions takes services offline after ‘cyber incident’ – UK politics live",
-      "hook": "Department for Work and Pensions takes services offline after ‘cyber incident’ – UK politics live",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/ecca9af59662e10c267bb8178c969d23ff13ef74/994_0_5006_4004/master/5006.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=588b212b79c19d8a9f5a2c74854fd525",
-      "full_article_url": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates",
-      "published_at": "2026-11-27 10:10:57 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "f4bce4b5f0642f41610d4da8db0b862a9676415c285ef7272cafabb1a818043f",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Marquez makes shock retirement announcement",
-      "hook": "Marquez makes shock retirement announcement",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.smh.com.au/sport/motorsport/marquez-makes-shock-retirement-announcement-20261127-p61i0q.html",
-      "published_at": "2026-11-27 10:09:22 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "6945916babb01c9fef58bd2ee4fd91c33a7066f81b871285bb5c6ac29dcdeaf4",
-      "category": "World",
-      "source": "Currents API",
-      "title": "France’s Bookstores, Beloved Curators of Literature, Are in a Deep Crisis",
-      "hook": "France’s Bookstores, Beloved Curators of Literature, Are in a Deep Crisis",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.nytimes.com/2026/11/27/world/europe/france-bookstore-crisis-closures.html",
-      "published_at": "2026-11-27 10:01:47 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "019a10860c3ebf61ef26f2d704fab715f1ee9bd1875c27e3a16a7e5b9820d9b2",
-      "category": "World",
-      "source": "Currents API",
-      "title": "EU countries' positions on budget only drifted further apart since summit — Hungarian PM",
-      "hook": "EU countries' positions on budget only drifted further apart since summit — Hungarian PM",
+      "title": "Average share of Russian wines in specialty stores rises to 18.7%",
+      "hook": "Average share of Russian wines in specialty stores rises to 18.7%",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -1071,125 +957,107 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/world/2225811",
-      "published_at": "2026-11-27 10:01:09 +0000",
+      "full_article_url": "https://tass.com/economy/2226359",
+      "published_at": "2026-11-28 09:04:54 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "2e82e64cd7bbce13712f7ae6283929f7599faed62eec8bbc1cb8b470dc5c6bfd",
+      "id": "96645346caf9dd4797df013e1e4a88eb99586366c96af4b8964d86028a181cd7",
       "category": "World",
       "source": "Currents API",
-      "title": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
-      "hook": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+      "title": "Sly, subversive and surprisingly modern: why Agatha Christie is still making a killing",
+      "hook": "Sly, subversive and surprisingly modern: why Agatha Christie is still making a killing",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/b00b5e8e8d672e254701571ca7a06b5d31716990/950_531_4337_3469/master/4337.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fff8a5def0795f04309757d16035545b",
-      "full_article_url": "https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails",
-      "published_at": "2026-11-27 10:00:02 +0000",
+      "image_url": "https://i.guim.co.uk/img/media/ad5007ee9906a406649c2e1cc26b4b2d2aef75b0/5_0_4670_3736/master/4670.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=46a92f7664fa1094001c59aa7b51229c",
+      "full_article_url": "https://www.theguardian.com/books/2026/nov/28/sly-subversive-and-surprisingly-modern-why-agatha-christie-is-still-making-a-killing",
+      "published_at": "2026-11-28 09:00:35 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "aea8bdeeb0fff53f4fe4722266ce481d605a299ca1ef83b89935a6c835d7fb20",
+      "id": "449a09830aa9fcc8d56d70d100ce4211c81bf30c6c4cff2a17b8cc55e95e057a",
       "category": "World",
       "source": "Currents API",
-      "title": "Press review: Middle East considers Russia's security concept as US tariffs draw criticism",
-      "hook": "Press review: Middle East considers Russia's security concept as US tariffs draw criticism",
+      "title": "From tinned food to paper maps: Survivalism is going mainstream in Europe",
+      "hook": "From tinned food to paper maps: Survivalism is going mainstream in Europe",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261127/1494531.jpg",
-      "full_article_url": "https://tass.com/pressreview/2225697",
-      "published_at": "2026-11-27 10:00:01 +0000",
+      "image_url": "https://www.irishtimes.com/resizer/v2/CF7R5OW7KVBCHOUBHX4OYDRDFE.jpg?smart=true&auth=50542e4ad7870dc3e74f385acab431d30e441ad0d4a8915d1375f85ff0fd1e87&width=1200&height=630",
+      "full_article_url": "https://www.irishtimes.com/world/uk/2026/11/28/from-tinned-food-to-paper-maps-survivalism-is-going-mainstream-in-europe/",
+      "published_at": "2026-11-28 09:00:00 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "289b15a64fbd028767c5d4c9cdf410a25d7af7736adf8fe0d86227116ee70c43",
+      "id": "e711f412375f8538aec5b25d8eabfb15574e14ef3622642caf64b6fe7b22d686",
       "category": "World",
       "source": "Currents API",
-      "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
-      "hook": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
+      "title": "Postponed Macy's 100th Thanksgiving Day parade gets a do-over with 100 balloons and 1,000 clowns",
+      "hook": "Postponed Macy's 100th Thanksgiving Day parade gets a do-over with 100 balloons and 1,000 clowns",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://i.cbc.ca/ais/36e09950-3c14-4e21-a649-39b2b2ac843e,1795768723382/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C28%2C594%2C334%29%3BResize%3D620",
-      "full_article_url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358",
-      "published_at": "2026-11-27 09:57:50 +0000",
+      "image_url": "https://i.abcnewsfe.com/a/9e19b22e-8ca7-42e2-8178-e633a683900e/wirestory_3462aace9e773eca60dcf527afdf4a39_16x9.jpg?w=1600",
+      "full_article_url": "https://abcnews.com/US/wireStory/postponed-macys-100th-thanksgiving-day-parade-gets-100-138494330",
+      "published_at": "2026-11-28 08:55:07 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "1531b3589164a3f756b2578f8c6e5dd1c5a9391dbb2dbb7a16e5c6a90e867ae0",
+      "id": "679f7caa8a76461d8c4a978ad69750bb35ad0442dbb5433cb3adf0543994045e",
       "category": "World",
       "source": "Currents API",
-      "title": "NATO regards cyberspace as theater of war against Russia — expert",
-      "hook": "NATO regards cyberspace as theater of war against Russia — expert",
+      "title": "Manchester United v Brentford buildup, Premier League news and more – matchday live",
+      "hook": "Manchester United v Brentford buildup, Premier League news and more – matchday live",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/politics/2225803",
-      "published_at": "2026-11-27 09:56:09 +0000",
+      "image_url": "https://i.guim.co.uk/img/media/b2ba9a6e4f9982c596fa912ce97aa8df2a2fba69/353_0_3565_2852/master/3565.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=db7845fbe6e24012985a717628d43a4e",
+      "full_article_url": "https://www.theguardian.com/football/live/2026/nov/28/manchester-united-v-brentford-buildup-premier-league-news-and-more-matchday-live",
+      "published_at": "2026-11-28 08:55:05 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "d7a5446727907e74c9b266d85e29265cca29856c45c9a0a2dc53f897f841365b",
+      "id": "3da97a0727a3bad39be0ea8fba5eee86b252e44f8aa2879d8463cdf01a0d53ee",
       "category": "World",
       "source": "Currents API",
-      "title": "Pizza history: AI agent’s cardless purchase is a first for UK",
-      "hook": "Pizza history: AI agent’s cardless purchase is a first for UK",
+      "title": "Victorian election 2026: Coalition projected to win state poll, ending 12 years of Labor government",
+      "hook": "Victorian election 2026: Coalition projected to win state poll, ending 12 years of Labor government",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://i.guim.co.uk/img/media/bf6bce003fbe74cd0f36f89414dd7b2fb6f3888f/996_0_5020_4016/master/5020.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6e41aab7f165bd34c72c23b2fdf8e018",
-      "full_article_url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
-      "published_at": "2026-11-27 09:53:11 +0000",
+      "image_url": "https://i.guim.co.uk/img/media/ffde3156820fbe7fcc5d385bed07cc13e3fb9b2c/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bb1a6952fdc2e743e0a531bdaec8bf5d",
+      "full_article_url": "https://www.theguardian.com/australia-news/2026/nov/28/victoria-election-2026-winner-announced-who-won-poll-win-coalition-labor-victorian-state-results",
+      "published_at": "2026-11-28 08:49:53 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "f3658f8663a7f5d77595103a9458cba1a223507dc27729edb8a63668bf370602",
+      "id": "deb369240ba82d048b0b90e24a031fc177548c389da00578d898b3cd126a4262",
       "category": "World",
       "source": "Currents API",
-      "title": "Russia increases agricultural exports to Turkey by 17% in nine months",
-      "hook": "Russia increases agricultural exports to Turkey by 17% in nine months",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/economy/2225801",
-      "published_at": "2026-11-27 09:51:43 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "a8e33de1f33537a85bbd42e14a62a87da8152e12003fa308b3ef0adffe941eab",
-      "category": "World",
-      "source": "Currents API",
-      "title": "US F-16 alters course after air defense warning shots in southern Iran — IRGC",
-      "hook": "US F-16 alters course after air defense warning shots in southern Iran — IRGC",
+      "title": "Russia-Myanmar Marumex-2026 naval drills kick off in Myanmar",
+      "hook": "Russia-Myanmar Marumex-2026 naval drills kick off in Myanmar",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -1197,89 +1065,71 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/world/2225793",
-      "published_at": "2026-11-27 09:50:36 +0000",
+      "full_article_url": "https://tass.com/defense/2226357",
+      "published_at": "2026-11-28 08:45:50 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "a7d92bda2ef0dcef98881c7ff8a5e0a9bec360fa5338548d25ce9d455d2d1b43",
+      "id": "bf38226820d8134eaf923573e70f2a798aca8af0529c93bc6be7b3a7e779f0b3",
       "category": "World",
       "source": "Currents API",
-      "title": "What is known about FSB foiling terrorist attack targeting senior military officer in DPR",
-      "hook": "What is known about FSB foiling terrorist attack targeting senior military officer in DPR",
+      "title": "Ejected: Liberal HQ gets security to remove Age reporter",
+      "hook": "Ejected: Liberal HQ gets security to remove Age reporter",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261127/1494559.png",
-      "full_article_url": "https://tass.com/society/2225781",
-      "published_at": "2026-11-27 09:45:43 +0000",
+      "image_url": "https://static.ffx.io/images/$zoom_0.29260669191919186%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_259%2C$y_150/t_crop_custom/q_86%2Cf_auto/42fd8814d9ca32d33671c1f45ef2d34cb0ca8198",
+      "full_article_url": "https://www.smh.com.au/politics/victoria/ejected-liberal-hq-gets-security-to-remove-age-reporter-20261128-p61i47.html",
+      "published_at": "2026-11-28 08:39:13 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "a1d8332b119c8ce35f13e01d7cac3a48f69e0e5f778b024665f31ae28106b6ae",
+      "id": "608036fa291b30e250b13e86f48f38d198cebfff1442c8c0c2245a63248ec519",
       "category": "World",
       "source": "Currents API",
-      "title": "Spain's national election is Sunday. What to know about the polarized race",
-      "hook": "Spain's national election is Sunday. What to know about the polarized race",
+      "title": "Israeli strike kills two MSF staff outside Gaza medical clinic",
+      "hook": "Israeli strike kills two MSF staff outside Gaza medical clinic",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
-      "full_article_url": "https://www.npr.org/2026/11/27/nx-s1-6053057/spains-national-election-is-sunday-what-to-know-about-the-polarized-race",
-      "published_at": "2026-11-27 09:45:17 +0000",
+      "image_url": "https://www.irishtimes.com/resizer/v2/4W43F3FO2GZFD4RB6X4WM3GUKQ.jpg?smart=true&auth=5b6ba5ec887355a97a750ae60d0de4c1e673afe852f3bfe6fa42fb121deda77d&width=1200&height=630",
+      "full_article_url": "https://www.irishtimes.com/world/middle-east/2026/11/28/israeli-strike-kills-two-msf-staff-outside-gaza-medical-clinic/",
+      "published_at": "2026-11-28 08:36:59 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "c6c01bbb5851e445e264a2e848d1876613d532c3f935e839d6345eac8cab8fd1",
+      "id": "9df5d7a70080041ec0922322d130a4800557339717472d0d80a99935b90abcc3",
       "category": "World",
       "source": "Currents API",
-      "title": "Finalists clash in chaotic Supercars opener",
-      "hook": "Finalists clash in chaotic Supercars opener",
+      "title": "US military repelled drones at UK airbase this month: Report",
+      "hook": "US military repelled drones at UK airbase this month: Report",
       "bullets": [
         "See full article for details",
         "Link below"
       ],
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
-      "image_url": null,
-      "full_article_url": "https://www.smh.com.au/sport/motorsport/finalists-clash-in-chaotic-supercars-opener-20261127-p61i0o.html",
-      "published_at": "2026-11-27 09:44:04 +0000",
+      "image_url": "https://dam.mediacorp.sg/image/upload/s--rHL70NtO--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-28T052945Z_2_LYNXNPEMAR040_RTROPTP_3_BRITAIN-SECURITY.JPG?itok=7zsM2l44",
+      "full_article_url": "https://www.channelnewsasia.com/world/us-military-repelled-drones-uk-airbase-6589176",
+      "published_at": "2026-11-28 08:33:39 +0000",
       "cve_ids": [],
       "saved": false
     },
     {
-      "id": "530885bd632e0e839d462e272ed8046073ee55980ddb94c754c88cdf23c38522",
+      "id": "3a858ff301405fea2978f4ef243c71f58fb6a1780ab8af1cd57228abe4126601",
       "category": "World",
       "source": "Currents API",
-      "title": "Lavrov calls UAE Russia’s real strategic partner",
-      "hook": "Lavrov calls UAE Russia’s real strategic partner",
-      "bullets": [
-        "See full article for details",
-        "Link below"
-      ],
-      "why_it_matters": "Read the full article for context.",
-      "read_time_sec": 180,
-      "image_url": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261127/1494555.jpg",
-      "full_article_url": "https://tass.com/politics/2225789",
-      "published_at": "2026-11-27 09:43:33 +0000",
-      "cve_ids": [],
-      "saved": false
-    },
-    {
-      "id": "a2bb2018d0b512845fd6b7590b5514784136095dd15db28b27abd18396347bd0",
-      "category": "World",
-      "source": "Currents API",
-      "title": "Russia’s upper house ratifies treaty with Zimbabwe on transfer of sentenced persons",
-      "hook": "Russia’s upper house ratifies treaty with Zimbabwe on transfer of sentenced persons",
+      "title": "Meloni, Zelensky had tense conversation following attack in Libya — Bloomberg",
+      "hook": "Meloni, Zelensky had tense conversation following attack in Libya — Bloomberg",
       "bullets": [
         "See full article for details",
         "Link below"
@@ -1287,144 +1137,78 @@
       "why_it_matters": "Read the full article for context.",
       "read_time_sec": 180,
       "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-      "full_article_url": "https://tass.com/politics/2225763",
-      "published_at": "2026-11-27 09:40:10 +0000",
+      "full_article_url": "https://tass.com/world/2226355",
+      "published_at": "2026-11-28 08:30:54 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "94a584035dcf969e6776a9cec45e7e33c9acf804a93e3313b56504b49272fcee",
+      "category": "World",
+      "source": "Currents API",
+      "title": "West provides Ukraine with around $69.9 bln in financial support since start of 2026",
+      "hook": "West provides Ukraine with around $69.9 bln in financial support since start of 2026",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+      "full_article_url": "https://tass.com/world/2226353",
+      "published_at": "2026-11-28 08:23:16 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "7d4ad00ef426f6cbbcbcb679beea5fc057284c50490369adf741fd4eabb65278",
+      "category": "World",
+      "source": "Currents API",
+      "title": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+      "hook": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://dam.mediacorp.sg/image/upload/s--74nLZKnw--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-28T050918Z_1_LYNXNPEMAR03K_RTROPTP_3_INDIA-FOOD-BISLERI.JPG?itok=x7Teq4D4",
+      "full_article_url": "https://www.channelnewsasia.com/asia/india-bisleri-bottled-water-bacteria-6589171",
+      "published_at": "2026-11-28 08:21:46 +0000",
+      "cve_ids": [],
+      "saved": false
+    },
+    {
+      "id": "eab787fedc5c52fe4022842bd7b8badc0d02c1fb32d4969d05077fcb03337bd9",
+      "category": "World",
+      "source": "Currents API",
+      "title": "Russia sees prospects for exploring metal deposits in Tajikistan — Rosatom",
+      "hook": "Russia sees prospects for exploring metal deposits in Tajikistan — Rosatom",
+      "bullets": [
+        "See full article for details",
+        "Link below"
+      ],
+      "why_it_matters": "Read the full article for context.",
+      "read_time_sec": 180,
+      "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+      "full_article_url": "https://tass.com/economy/2226351",
+      "published_at": "2026-11-28 08:17:48 +0000",
       "cve_ids": [],
       "saved": false
     }
   ],
   "weekly_recap": {
-    "generated_at": "2026-11-27T10:37:28Z",
+    "generated_at": "2026-11-28T09:55:19Z",
     "title": "Weekly Intelligence & Viral Roundup",
     "period": "Last 7 Days",
     "categories": {
       "Cybersecurity": [
         {
-          "id": "cc622f5f1349b4145e7fb236f9ee16622aaede78310ff85d2b23741669c6d950",
+          "id": "a939823268298b2351a68df64d032318dd57cc22c4427a9b72b9badea2574d8a",
           "category": "Cybersecurity",
-          "source": "SecurityWeek",
-          "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
-          "hook": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.securityweek.com/wp-content/uploads/2026/11/Mitel.jpeg",
-          "full_article_url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
-          "published_at": "2026-11-26T11:35:25Z",
-          "cve_ids": [
-            "CVE-2026-133275",
-            "CVE-2026-133303",
-            "CVE-2026-133311",
-            "CVE-2026-133323",
-            "CVE-2026-133324"
-          ],
-          "saved": false,
-          "viral_badge": "🔥 CVE-2026-133275 Critical",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "fb1f1662f6eb09c6bff7a1e9c62a18d93da620947d84ef24e016986178d7ef7a",
-          "category": "Cybersecurity",
-          "source": "SecurityWeek",
-          "title": "Hex Package Manager Warns of Potential Data Breach",
-          "hook": "Hex Package Manager Warns of Potential Data Breach",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
-          "full_article_url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
-          "published_at": "2026-11-27T07:44:49Z",
-          "cve_ids": [
-            "CVE-2026-124283",
-            "CVE-2026-129514",
-            "CVE-2026-130411",
-            "CVE-2026-133555"
-          ],
-          "saved": false,
-          "viral_badge": "🔥 CVE-2026-124283 Critical",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "e5ae44210f7d499350fbf829f9775f593216bd0fcbcc61089380a95c55693ca4",
-          "category": "Cybersecurity",
-          "source": "SecurityWeek",
-          "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-          "hook": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://www.securityweek.com/wp-content/uploads/2025/01/Juniper-Networks.jpeg",
-          "full_article_url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-          "published_at": "2026-11-26T13:04:06Z",
-          "cve_ids": [
-            "CVE-2026-103406"
-          ],
-          "saved": false,
-          "viral_badge": "🔥 CVE-2026-103406 Critical",
-          "viral_rank": 3,
-          "impact_summary": "Read the full article for context."
-        }
-      ],
-      "Technology": [
-        {
-          "id": "10f46cafaeb1f4a94382f8d405ffafc24f7bf08312f85b13bee5db1c6152914f",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "Our favorite headphones and earbuds are cheaper than ever ahead of Black Friday",
-          "hook": "Our favorite headphones and earbuds are cheaper than ever ahead of Black Friday",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268739_Apple_Watch_Ultra_4_AKrales_0087.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-          "full_article_url": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
-          "published_at": "2026-11-27 10:30:00 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "🔥 Top Technology Story",
-          "viral_rank": 1,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "1bd59e2ae37ca6ea475d24463317f256b2c870e5dd89cd46488916c1c002a78c",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "China's 20-foot battery with 5 MWh capacity lasts up to 20,000 cycles",
-          "hook": "China's 20-foot battery with 5 MWh capacity lasts up to 20,000 cycles",
-          "bullets": [
-            "See full article for details",
-            "Link below"
-          ],
-          "why_it_matters": "Read the full article for context.",
-          "read_time_sec": 180,
-          "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Energy-storage-solution.jpg",
-          "full_article_url": "https://interestingengineering.com/ai-robotics/china-20-foot-battery-with-5-mwh-capacity",
-          "published_at": "2026-11-27 10:25:10 +0000",
-          "cve_ids": [],
-          "saved": false,
-          "viral_badge": "⚡ Viral Discussion",
-          "viral_rank": 2,
-          "impact_summary": "Read the full article for context."
-        },
-        {
-          "id": "13656a86589fad2cb7ca8c6b1f9a9834954c6fade2f66ee57d47c7e069343d56",
-          "category": "Technology",
-          "source": "Currents API",
-          "title": "Barty Walsh, co-founder of oral care brand Ordo, on being a geeky kid, swapping architecture for toothbrushes, AI, and the joys of cold water swimming | Stuff",
-          "hook": "Barty Walsh, co-founder of oral care brand Ordo, on being a geeky kid, swapping architecture for toothbrushes, AI, and the joys of cold water swimming | Stuff",
+          "source": "CISA Advisories",
+          "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+          "hook": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
           "bullets": [
             "See full article for details",
             "Link below"
@@ -1432,8 +1216,122 @@
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
           "image_url": null,
-          "full_article_url": "https://www.stuff.tv/features/barty-walsh-co-founder-of-oral-care-brand-ordo-on-being-a-geeky-kid-swapping-architecture-for-toothbrushes-ai-and-the-joys-of-cold-water-swimming/",
-          "published_at": "2026-11-27 10:22:05 +0000",
+          "full_article_url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "published_at": "2026-11-27T12:00:00Z",
+          "cve_ids": [
+            "CVE-2026-120705",
+            "CVE-2026-129243",
+            "CVE-2026-136716"
+          ],
+          "saved": false,
+          "viral_badge": "🔥 CVE-2026-120705 Critical",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "a061202fd8df49d87211a1c596fa9f8f4dd6f055906dcfc5c058fa876aaaf94f",
+          "category": "Cybersecurity",
+          "source": "The Hacker News",
+          "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+          "hook": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj19T-kU1dmVfKt2PtUQ2I25MGovj8kmv6lMkk6inlif4yLeezJS4kVRTvsARL5UkpTT66jYru6k2b5bmWfjjlkmG4JznSKmkmd4ldXcyxTw3xsU5nP6_jxfWMw9thW37m5usfr-eWAZBHq6bPuS613CIx9XgWxPcSVFcZVgz_9tWd5Nu8YWAxexuqcVPrN/s1600/data.jpg",
+          "full_article_url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+          "published_at": "2026-11-27T16:36:11Z",
+          "cve_ids": [
+            "CVE-2021-42235",
+            "CVE-2024-36401"
+          ],
+          "saved": false,
+          "viral_badge": "🔥 CVE-2021-42235 Critical",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "98be6a877e81694765a1c6c3c55fc93493eb2c1034fc174acba8ee529aa9ec94",
+          "category": "Cybersecurity",
+          "source": "The Hacker News",
+          "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+          "hook": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizySCkvtf5mXH_3zoxzuk-QyEdUnYmspglEsVYdqRITloUFrUDZCQJcwtQG09teFmXo2IJOknOQb7CXhUpjKjGnadD6TuOIvVWIoWmKcaxb8-1uwf-3AiXZPYCFf2RzDkHNZ06d2Q5OS6AcCV7JHjTACCJH2f5aipC8vllpOwj1dSBYQJtqJ_wDc5nXQwU/s1600/pcloud.jpg",
+          "full_article_url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+          "published_at": "2026-11-28T08:08:11Z",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "📌 High Impact",
+          "viral_rank": 3,
+          "impact_summary": "Read the full article for context."
+        }
+      ],
+      "Technology": [
+        {
+          "id": "764e7d5d7a7f3318d2a26f1c7365d9394aed20b18d7da9260adc1e1e219ca7c9",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "Quantum: 'Five years, that's all we got…'",
+          "hook": "Quantum: 'Five years, that's all we got…'",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://image.theregister.com/5312040.jpg?imageId=5312040&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+          "full_article_url": "https://www.theregister.com/hpc/2026/11/28/quantum-five-years-thats-all-we-got/5312034",
+          "published_at": "2026-11-28 09:24:00 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "🔥 Top Technology Story",
+          "viral_rank": 1,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "7e63089e45dd84cf9394e16cf36df820e1cdf7f00509091f8b207c26503a8164",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "The Black Friday Bargains Worth Bagging",
+          "hook": "The Black Friday Bargains Worth Bagging",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://media.wired.com/photos/6b089bf933af9bd86d9db0c5/191:100/w_1280,c_limit/Black-Friday-Deals.jpg",
+          "full_article_url": "https://www.wired.com/story/best-black-friday-deals-11-28-2026/",
+          "published_at": "2026-11-28 09:08:13 +0000",
+          "cve_ids": [],
+          "saved": false,
+          "viral_badge": "⚡ Viral Discussion",
+          "viral_rank": 2,
+          "impact_summary": "Read the full article for context."
+        },
+        {
+          "id": "078652761fe7db6cd56a6f9f17eae6c966cc4d7f191c8f701e522dae8bb7f4bb",
+          "category": "Technology",
+          "source": "Currents API",
+          "title": "Deal: the Apple AirPods Pro 3 are 32% off for Amazon Germany's Black Friday week",
+          "hook": "Deal: the Apple AirPods Pro 3 are 32% off for Amazon Germany's Black Friday week",
+          "bullets": [
+            "See full article for details",
+            "Link below"
+          ],
+          "why_it_matters": "Read the full article for context.",
+          "read_time_sec": 180,
+          "image_url": "https://fdn.gsmarena.com/imgroot/news/26/11/deals-de-airpods-pro-3/-952x498w6/gsmarena_000.jpg",
+          "full_article_url": "https://www.gsmarena.com/deal_the_apple_airpods_pro_3_are_32_off_for_amazon_germanys_black_friday_week-news-75668.php",
+          "published_at": "2026-11-28 09:06:03 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1443,20 +1341,20 @@
       ],
       "Business": [
         {
-          "id": "e56d2eedff9f43c21f9bd41631e9cc93a3d55ca4b046102dcc95dfe0aad0ae45",
+          "id": "1a3dbc8f8da9deaf0843b025752d1c0a3306d627e17b5762373785bb5c1ebdd5",
           "category": "Business",
           "source": "Currents API",
-          "title": "U.S. Restrictions Against China Flood Market with Nvidia B300 Chips",
-          "hook": "U.S. Restrictions Against China Flood Market with Nvidia B300 Chips",
+          "title": "Superior Group of Companies Is Still A Good Fit After Its Run Higher",
+          "hook": "Superior Group of Companies Is Still A Good Fit After Its Run Higher",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://www.businesskorea.co.kr/news/thumbnail/202611/282408_290406_314_v150.jpg",
-          "full_article_url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=282408",
-          "published_at": "2026-11-27 10:28:26 +0000",
+          "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2303109521/image_2303109521.jpg?io=getty-c-og",
+          "full_article_url": "https://seekingalpha.com/article/4972732-superior-group-of-companies-is-still-a-good-fit-after-its-run-higher",
+          "published_at": "2026-11-28 09:31:28 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top Business Story",
@@ -1464,20 +1362,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "76800be5dc39814f5c5f11a334c1b3f4628b8005df24e544392e2ccfe7335e6c",
+          "id": "99845c19519e93158c6613d4718407f0f30f5441c82d77c71631718c6a7a6c54",
           "category": "Business",
           "source": "Currents API",
-          "title": "Fervo Energy Company Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FRVO",
-          "hook": "Fervo Energy Company Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FRVO",
+          "title": "Julius Baer: Recovering From Credit Setbacks, Yet Still Tied To Market Direction",
+          "hook": "Julius Baer: Recovering From Credit Setbacks, Yet Still Tied To Market Direction",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://www.prnewswire.com/news-releases/fervo-energy-company-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights---frvo-302951591.html",
-          "published_at": "2026-11-27 10:28:00 +0000",
+          "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1088663312/image_1088663312.jpg?io=getty-c-og",
+          "full_article_url": "https://seekingalpha.com/article/4972730-julius-baer-recovering-from-credit-setbacks-yet-still-tied-to-market-direction",
+          "published_at": "2026-11-28 09:23:53 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1485,20 +1383,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "be7e78a1cac2d27be7e63bb8bda7bbd993ee232b76eba6440eefd576879c99b5",
+          "id": "d40a1dd63e783f00fb6d6a9a94e2378daff7ec365bc4c2fba39619abd94bb62d",
           "category": "Business",
           "source": "Currents API",
-          "title": "Biggest stock movers Friday: SPCX, PHAR, VRTX, ALVO, and more",
-          "hook": "Biggest stock movers Friday: SPCX, PHAR, VRTX, ALVO, and more",
+          "title": "Women's reservation bills to be passed by two-thirds majority in Parliament: Suvendu Adhikari",
+          "hook": "Women's reservation bills to be passed by two-thirds majority in Parliament: Suvendu Adhikari",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://seekingalpha.com/news/4676966-biggest-stock-movers-friday-spcx-phar-vrtx-alvo-and-more",
-          "published_at": "2026-11-27 10:27:41 +0000",
+          "image_url": "https://img.etimg.com/thumb/msid-136243140,width-1200,height-900,imgsize-70698,overlay-economictimes/articleshow.jpg",
+          "full_article_url": "https://economictimes.indiatimes.com/news/politics-and-nation/womens-reservation-bills-to-be-passed-by-two-thirds-majority-in-parliament-suvendu-adhikari/articleshow/136243099.cms",
+          "published_at": "2026-11-28 09:20:56 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
@@ -1508,20 +1406,20 @@
       ],
       "World": [
         {
-          "id": "a8a07859af32358fd32b48c6bdf09402f8a7de22b1abe52815429b6578aaac4a",
+          "id": "bf4d9005f1f262177d074b3dc0ba195e098c7079c927c5d513eeb02d51961422",
           "category": "World",
           "source": "Currents API",
-          "title": "Russia reveals plans to commission 1st unit of Akkuyu NPP in Turkey next month",
-          "hook": "Russia reveals plans to commission 1st unit of Akkuyu NPP in Turkey next month",
+          "title": "Gold Coast flooding, man rescued in Scenic Rim as hundreds call for help amid downpours",
+          "hook": "Gold Coast flooding, man rescued in Scenic Rim as hundreds call for help amid downpours",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-          "full_article_url": "https://tass.com/economy/2225823",
-          "published_at": "2026-11-27 10:20:42 +0000",
+          "image_url": "https://static.ffx.io/images/$zoom_1.1618%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_64%2C$y_0/t_crop_custom/q_86%2Ce_sharpen:60%2Cf_auto/72000fdab378c9a99621946c4674ad7824966943cef1b09affe68ebd0ea3ff9e",
+          "full_article_url": "https://www.smh.com.au/national/queensland/gold-coast-flooding-man-rescued-in-scenic-rim-as-hundreds-call-for-help-amid-downpours-20261128-p61i4o.html",
+          "published_at": "2026-11-28 09:28:54 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "🔥 Top World Story",
@@ -1529,20 +1427,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "9bcdc10c0bedfdc1cb72554c0c0d6db988251af2783e89c36e0680ce6874a08a",
+          "id": "d5b70d314b0757f9ececeacc35d4348053bfdf37d76333a8dbb28b994ac18648",
           "category": "World",
           "source": "Currents API",
-          "title": "Perth man dies following alleged playground attack",
-          "hook": "Perth man dies following alleged playground attack",
+          "title": "What Jess Wilson’s election victory means for you",
+          "hook": "What Jess Wilson’s election victory means for you",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": null,
-          "full_article_url": "https://www.smh.com.au/national/perth-man-dies-following-alleged-playground-attack-20261127-p61i0t.html",
-          "published_at": "2026-11-27 10:19:06 +0000",
+          "image_url": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_27/t_crop_custom/q_86%2Cf_auto/927a347a1b3f1753085cd434b3f143a3660cf99c",
+          "full_article_url": "https://www.smh.com.au/national/victoria/what-jess-wilson-s-election-victory-means-for-you-20261128-p61i0v.html",
+          "published_at": "2026-11-28 09:23:53 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "⚡ Viral Discussion",
@@ -1550,20 +1448,20 @@
           "impact_summary": "Read the full article for context."
         },
         {
-          "id": "780f8390eb7efa16c98259c8c1eaba2e6ab8b3d23733b975d29ccefb9a1a37e6",
+          "id": "567a3c126c9a0a5d1a8f760672d07fd956dc37ba711d7df401d1886f61f94efe",
           "category": "World",
           "source": "Currents API",
-          "title": "Labour backs bill to stop lawsuits used to silence journalists and whistleblowers",
-          "hook": "Labour backs bill to stop lawsuits used to silence journalists and whistleblowers",
+          "title": "Meloni warns Zelensky aid will be harder to provide after Libya raid",
+          "hook": "Meloni warns Zelensky aid will be harder to provide after Libya raid",
           "bullets": [
             "See full article for details",
             "Link below"
           ],
           "why_it_matters": "Read the full article for context.",
           "read_time_sec": 180,
-          "image_url": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/831_0_4169_3335/master/4169.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c028c4719135a524b8031d13926561fc",
-          "full_article_url": "https://www.theguardian.com/media/2026/nov/27/labour-backs-bill-lawsuits-journalists-whistleblowers-slapps",
-          "published_at": "2026-11-27 10:14:03 +0000",
+          "image_url": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+          "full_article_url": "https://tass.com/world/2226361",
+          "published_at": "2026-11-28 09:12:35 +0000",
           "cve_ids": [],
           "saved": false,
           "viral_badge": "📌 High Impact",
